@@ -1,0 +1,25 @@
+services:
+  golang:
+    build:
+      context: ./golang #Source dir of the Dockerfile
+    ports:
+      - "127.0.0.1:42:80" #Bind the ipaddress:port of the host with the port ([host]:port)
+    networks:
+      - golang-network #Used to specify rules for the network (here only the name)
+    container_name: golang
+    hostname: golang
+  bun:
+    build:
+      context: ./bun #Source dir of the Dockerfile
+    ports:
+      - "127.0.0.1:80:80" #Bind the ipaddress:port of the host with the port ([host]:port)
+    networks:
+      - bun-network #Used to specify rules for the network (here only the name)
+    container_name: bun
+    hostname: bun
+
+networks:
+  golang-network:
+    name: golang-network
+  bun-network:
+    name: bun-network
