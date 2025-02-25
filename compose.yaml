@@ -17,9 +17,21 @@ services:
       - bun-network #Used to specify rules for the network (here only the name)
     container_name: bun
     hostname: bun
+  neo4j:
+    build:
+      context: ./neo4j #Source dir of the Dockerfile
+    ports:
+      - "127.0.0.1:7474:7474" #Bind the ipaddress:port of the host with the port ([host]:port)
+      - "127.0.0.1:7687:7687" #Bind the ipaddress:port of the host with the port ([host]:port)
+    networks:
+      - neo4j-network #Used to specify rules for the network (here only the name)
+    container_name: neo4j
+    hostname: neo4j
 
 networks:
   golang-network:
     name: golang-network
   bun-network:
     name: bun-network
+  neo4j-network:
+    name: neo4j-network
