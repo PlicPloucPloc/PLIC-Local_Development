@@ -1,3 +1,6 @@
+# Get the code
+git clone --depth 1 https://github.com/supabase/supabase
+
 # Go to the docker folder
 cd supabase/docker
 
