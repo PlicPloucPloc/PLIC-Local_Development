@@ -1,6 +1,8 @@
  How to run PLIC locally
 ==============
-Launch the deploy.sh file
+Use `./deploy.sh` to start the local environment
+Use `./stop.sh` to stop the local environment
+
 
 ## Endpoints
 
@@ -9,7 +11,7 @@ Launch the deploy.sh file
 * jaeger: localhost:16686
 * supabase: localhost:8000
 * neo4j: localhost:7474, localhost:7687
-> To see the logs from bun you need to use the docker logs command to get the url
+> To see the logs from bun you need to use the `docker logs` command to get the url
 
 ## Credentials
 
