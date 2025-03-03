@@ -1,6 +1,6 @@
-export default {
-  port: 80,
-  fetch(request) {
-    return new Response("Hello world");
+Bun.serve({
+  fetch(req) {
+    console.log(req.url);
+    return new Response("Bun!");
   },
-};
+});
