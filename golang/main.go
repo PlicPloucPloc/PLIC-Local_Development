@@ -1,15 +1,17 @@
 package main
 
 import (
-    "fmt"
+    "context"
     "net/http"
+    "github.com/gofiber/fiber/v2/log"
 )
 
 func main() {
+    tp,err := initTracer()
+    if err != nil {log.Fatal("Something went wrong")}
+    defer func () {
+        _ = tp.Shutdown(context.Background())
+    }()
     http.HandleFunc("/", HelloServer)
-    http.ListenAndServe(":80", nil)
-}
-
-func HelloServer(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, "Hello, %s!", r.URL.Path[1:])
+    http.ListenAndServe(":8080", nil)
 }
