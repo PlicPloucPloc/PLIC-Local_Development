@@ -3,23 +3,55 @@ services:
     build:
       context: ./golang #Source dir of the Dockerfile
     ports:
-      - "127.0.0.1:42:80" #Bind the ipaddress:port of the host with the port ([host]:port)
+      - "127.0.0.1:8080:8080" #Bind the ipaddress:port of the host with the port ([host]:port)
     networks:
-      - golang-network #Used to specify rules for the network (here only the name)
+      - golang-network
     container_name: golang
     hostname: golang
   bun:
     build:
-      context: ./bun #Source dir of the Dockerfile
+        context: ./bun #Source dir of the Dockerfile
     ports:
-      - "127.0.0.1:80:80" #Bind the ipaddress:port of the host with the port ([host]:port)
+      - "127.0.0.1:3000:3000" #Bind the ipaddress:port of the host with the port ([host]:port)
+      - "127.0.0.1:6449:6449" #Bind the ipaddress:port of the host with the port ([host]:port)
     networks:
       - bun-network #Used to specify rules for the network (here only the name)
     container_name: bun
     hostname: bun
+  neo4j:
+    build:
+      context: ./neo4j #Source dir of the Dockerfile
+    ports:
+      - "127.0.0.1:7474:7474" #Bind the ipaddress:port of the host with the port ([host]:port)
+      - "127.0.0.1:7687:7687" #Bind the ipaddress:port of the host with the port ([host]:port)
+    networks:
+      - neo4j-network #Used to specify rules for the network (here only the name)
+    container_name: neo4j
+    hostname: neo4j
+  jaeger:
+    image: jaegertracing/all-in-one:1.66.0
+    container_name: jaeger
+    environment:
+      - COLLECTOR_OTLP_ENABLED=true
+    ports:
+      - 6831:6831/udp
+      - 6832:6832/udp
+      - 5778:5778
+      - 16686:16686
+      - "127.0.0.1:4317:4317"
+      - "127.0.0.1:4318:4318"
+      - 14250:14250
+      - 14268:14268
+      - 14269:14269
+      - 9411:9411
+    networks:
+      - golang-network
 
 networks:
   golang-network:
     name: golang-network
   bun-network:
     name: bun-network
+  neo4j-network:
+    name: neo4j-network
+
