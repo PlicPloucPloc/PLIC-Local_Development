@@ -1,8 +1,7 @@
  How to run PLIC locally
 ==============
-Use `./deploy.sh` to start the local environment
-Use `./stop.sh` to stop the local environment
-
+* Use `./deploy.sh` to start the local environment.
+* Use `./stop.sh` to stop the local environment.
 
 ## Endpoints
 
