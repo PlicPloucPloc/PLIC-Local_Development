@@ -2,6 +2,7 @@ services:
   golang:
     build:
       context: ./golang #Source dir of the Dockerfile
+    restart: always
     ports:
       - "127.0.0.1:8080:8080" #Bind the ipaddress:port of the host with the port ([host]:port)
     networks:
@@ -11,6 +12,7 @@ services:
   bun:
     build:
         context: ./bun #Source dir of the Dockerfile
+    restart: always
     ports:
       - "127.0.0.1:3000:3000" #Bind the ipaddress:port of the host with the port ([host]:port)
       - "127.0.0.1:6449:6449" #Bind the ipaddress:port of the host with the port ([host]:port)
@@ -21,6 +23,13 @@ services:
   neo4j:
     build:
       context: ./neo4j #Source dir of the Dockerfile
+    restart: always
+    environment:
+      - NEO4J_initial_dbms_default__database=likes
+      - NEO4J_dbms_security_auth__enabled=false
+    volumes:
+      - ./neo4j/data:/data
+      - ./neo4j/logs:/logs
     ports:
       - "127.0.0.1:7474:7474" #Bind the ipaddress:port of the host with the port ([host]:port)
       - "127.0.0.1:7687:7687" #Bind the ipaddress:port of the host with the port ([host]:port)
@@ -30,6 +39,7 @@ services:
     hostname: neo4j
   jaeger:
     image: jaegertracing/all-in-one:1.66.0
+    restart: always
     container_name: jaeger
     environment:
       - COLLECTOR_OTLP_ENABLED=true
