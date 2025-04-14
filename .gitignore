@@ -100,7 +100,6 @@ web_modules/
 
 # dotenv environment variable files
 
-.env
 .env.development.local
 .env.test.local
 .env.production.local
@@ -254,7 +253,6 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
 # excempt the apps/www .env
 !apps/www/.env
 .env.tmp
