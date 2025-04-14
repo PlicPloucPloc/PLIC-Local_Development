@@ -290,6 +290,7 @@ typings/
 
 #include template .env file for docker-compose
 !docker/.env
+!supabase/docker/.env
 !docker/supabase/.env
 !docker/supabase-traefik/.env
 
