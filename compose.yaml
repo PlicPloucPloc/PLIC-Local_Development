@@ -18,6 +18,15 @@ services:
       - bun-network #Used to specify rules for the network (here only the name)
     container_name: bun
     hostname: bun
+  user_service:
+    build:
+        context: ../PLIC-UserService/
+    ports:
+      - "127.0.0.1:3001:3000" #Bind the ipaddress:port of the host with the port ([host]:port)
+    networks:
+      - bun-network #Used to specify rules for the network (here only the name)
+    container_name: user-service
+    hostname: user-service
   neo4j:
     build:
       context: ./neo4j #Source dir of the Dockerfile
