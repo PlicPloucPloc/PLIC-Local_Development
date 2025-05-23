@@ -30,6 +30,9 @@ services:
       - bun-network #Used to specify rules for the network (here only the name)
     container_name: user-service
     hostname: user-service
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
   neo4j:
     build:
       context: ./neo4j #Source dir of the Dockerfile
