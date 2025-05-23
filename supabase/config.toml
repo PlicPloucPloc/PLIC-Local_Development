@@ -165,14 +165,14 @@ otp_length = 6
 otp_expiry = 3600
 
 # Use a production-ready SMTP server
- [auth.email.smtp]
- enabled = true
- host = "smtp.resend.com"
- port = 465
- user = "resend"
- pass = "replace_with_key"
- admin_email = "noreply@swappart"
- sender_name = "SwAppart"
+[auth.email.smtp]
+enabled = true
+host = "smtp.resend.com"
+port = 465
+user = "resend"
+pass = "replace_with_key"
+admin_email = "noreply@swappart"
+sender_name = "SwAppart"
 
 # Uncomment to customize email template
 # [auth.email.template.invite]
