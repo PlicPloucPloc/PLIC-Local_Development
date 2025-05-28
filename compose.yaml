@@ -9,17 +9,6 @@ services:
       - golang-network
     container_name: golang
     hostname: golang
-  bun:
-    build:
-        context: ./bun #Source dir of the Dockerfile
-    restart: always
-    ports:
-      - "127.0.0.1:3000:3000" #Bind the ipaddress:port of the host with the port ([host]:port)
-      - "127.0.0.1:6449:6449" #Bind the ipaddress:port of the host with the port ([host]:port)
-    networks:
-      - bun-network #Used to specify rules for the network (here only the name)
-    container_name: bun
-    hostname: bun
   user_service:
     build:
         context: ../PLIC-UserService/
@@ -30,6 +19,18 @@ services:
       - bun-network #Used to specify rules for the network (here only the name)
     container_name: user-service
     hostname: user-service
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+  like_service:
+    build:
+        context: ../PLIC-LikeService/
+    restart: always
+    ports:
+      - "127.0.0.1:3002:3000" #Bind the ipaddress:port of the host with the port ([host]:port)
+    networks:
+      - bun-network #Used to specify rules for the network (here only the name)
+    container_name: like-service
+    hostname: like-service
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
