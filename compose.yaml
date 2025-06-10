@@ -21,6 +21,10 @@ services:
     hostname: user-service
     extra_hosts:
       - "host.docker.internal:host-gateway"
+    environment:
+      - supabase_url=${SUPABASE_URL}
+      - supabase_key=${SERVICE_ROLE_KEY}
+      - NODE_ENV=${NODE_ENV}
   like_service:
     build:
         context: ../PLIC-LikeService/
@@ -33,6 +37,37 @@ services:
     hostname: like-service
     extra_hosts:
       - "host.docker.internal:host-gateway"
+    depends_on: 
+      - user_service
+      - apt_service
+    environment:
+      - supabase_url=${SUPABASE_URL}
+      - supabase_key=${SERVICE_ROLE_KEY}
+      - NODE_ENV=${NODE_ENV}
+      - USER_URL=${USER_URL}
+      - APT_URL=${APT_URL}
+      - NEO4J_URL=${NEO4J_URL}
+      - NEO4J_USER=${NEO4J_USER}
+      - NEO4J_PASSWORD=${NEO4J_PASSWORD}
+  apt_service:
+    build:
+        context: ../PLIC-ApartmentService/
+    restart: always
+    ports:
+      - "127.0.0.1:3003:3000" #Bind the ipaddress:port of the host with the port ([host]:port)
+    networks:
+      - bun-network #Used to specify rules for the network (here only the name)
+    container_name: apt-service
+    hostname: apt-service
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on: 
+      - user_service
+    environment:
+      - supabase_url=${SUPABASE_URL}
+      - supabase_key=${SERVICE_ROLE_KEY}
+      - NODE_ENV=${NODE_ENV}
+      - USER_URL=${USER_URL}
 
   neo4j:
     build:
