@@ -1,6 +1,6 @@
  How to run PLIC locally
 ==============
-* Use `./deploy.sh` to start the local environment.
+* Use `./deploy.sh` to start the local environment. -> You will be prompted to enter the API key for resend.
 * Use `./stop.sh` to stop the local environment.
 
 ## Endpoints
