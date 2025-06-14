@@ -168,9 +168,9 @@ otp_expiry = 3600
 [auth.email.smtp]
 enabled = true
 host = "smtp.resend.com"
-port = 465
+port = 587
 user = "resend"
-pass = "resend_api_key"
+pass = "re_V37AxdXV_2KYXUDyJ8KRycb935bdicxmB"
 admin_email = "noreply@swappart.studio"
 sender_name = "SwAppart"
 
