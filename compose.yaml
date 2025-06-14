@@ -25,6 +25,7 @@ services:
       - supabase_url=${SUPABASE_URL}
       - supabase_key=${SERVICE_ROLE_KEY}
       - NODE_ENV=${NODE_ENV}
+      - JAEGER_URL=${JAEGER_URL}
   like_service:
     build:
         context: ../PLIC-LikeService/
@@ -32,7 +33,7 @@ services:
     ports:
       - "127.0.0.1:3002:3000" #Bind the ipaddress:port of the host with the port ([host]:port)
     networks:
-      - bun-network #Used to specify rules for the network (here only the name)
+      - bun-network
     container_name: like-service
     hostname: like-service
     extra_hosts:
@@ -40,6 +41,7 @@ services:
     depends_on: 
       - user_service
       - apt_service
+      - neo4j
     environment:
       - supabase_url=${SUPABASE_URL}
       - supabase_key=${SERVICE_ROLE_KEY}
@@ -74,10 +76,10 @@ services:
       context: ./neo4j #Source dir of the Dockerfile
     restart: always
     ports:
-      - "127.0.0.1:7474:7474" #Bind the ipaddress:port of the host with the port ([host]:port)
-      - "127.0.0.1:7687:7687" #Bind the ipaddress:port of the host with the port ([host]:port)
+      - "7474:7474" #Bind the ipaddress:port of the host with the port ([host]:port)
+      - "7687:7687" #Bind the ipaddress:port of the host with the port ([host]:port)
     networks:
-      - neo4j-network #Used to specify rules for the network (here only the name)
+      - bun-network
     container_name: neo4j
     hostname: neo4j
   jaeger:
@@ -98,13 +100,14 @@ services:
       - 14269:14269
       - 9411:9411
     networks:
-      - golang-network
+      - bun-network
 
 networks:
   golang-network:
     name: golang-network
   bun-network:
     name: bun-network
+    driver: bridge
   neo4j-network:
     name: neo4j-network
 
