@@ -70,6 +70,22 @@ services:
       - supabase_key=${SERVICE_ROLE_KEY}
       - NODE_ENV=${NODE_ENV}
       - USER_URL=${USER_URL}
+  gateway:
+    build:
+      context: ../PLIC-DevelopmentGateway
+    restart: always
+    ports:
+      - "4242:4242"
+    networks:
+      - bun-network
+    container_name: gateway
+    hostname: gateway
+    depends_on:
+      - user_service
+      - like_service
+      - apt_service
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
 
   neo4j:
     build:
