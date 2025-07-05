@@ -98,6 +98,8 @@ services:
       - bun-network
     container_name: neo4j
     hostname: neo4j
+    environment:
+      - NEO4J_AUTH=${NEO4J_AUTH}
   jaeger:
     image: jaegertracing/all-in-one:1.66.0
     restart: always
@@ -124,6 +126,3 @@ networks:
   bun-network:
     name: bun-network
     driver: bridge
-  neo4j-network:
-    name: neo4j-network
-
