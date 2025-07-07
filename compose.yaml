@@ -70,6 +70,7 @@ services:
       - supabase_key=${SERVICE_ROLE_KEY}
       - NODE_ENV=${NODE_ENV}
       - USER_URL=${USER_URL}
+      - LIKE_URL=${LIKE_URL}
   gateway:
     build:
       context: ../PLIC-DevelopmentGateway
@@ -99,6 +100,10 @@ services:
     container_name: neo4j
     hostname: neo4j
     environment:
+      - NEO4J_apoc_export_file_enabled=true
+      - NEO4J_apoc_import_file_enabled=true
+      - NEO4J_apoc_import_file_use__neo4j__config=true
+      - NEO4J_PLUGINS=["apoc"]
       - NEO4J_AUTH=${NEO4J_AUTH}
   jaeger:
     image: jaegertracing/all-in-one:1.66.0
