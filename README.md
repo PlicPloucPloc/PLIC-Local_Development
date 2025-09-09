@@ -1,5 +1,8 @@
  How to run PLIC locally
 ==============
+## Deployment
+
+> First you need to clone every PLIC repository at the same level (ex: /home/jhondoe/Documents)
 * Use `./deploy.sh` to start the local environment. -> You will be prompted to enter the API key for resend.
 * Use `./stop.sh` to stop the local environment.
 
