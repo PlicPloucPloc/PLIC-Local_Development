@@ -103,7 +103,7 @@ services:
       - NEO4J_apoc_export_file_enabled=true
       - NEO4J_apoc_import_file_enabled=true
       - NEO4J_apoc_import_file_use__neo4j__config=true
-      - NEO4J_PLUGINS=["apoc"]
+      - NEO4J_PLUGINS=["apoc","graph-data-science"]
       - NEO4J_AUTH=${NEO4J_AUTH}
   jaeger:
     image: jaegertracing/all-in-one:1.66.0
@@ -124,6 +124,12 @@ services:
       - 9411:9411
     networks:
       - bun-network
+  redis:
+    image: redis:7.0.11
+    restart: always
+    container_name: redis
+    ports:
+      - "6379:6379"
 
 networks:
   golang-network:
