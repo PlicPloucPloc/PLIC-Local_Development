@@ -26,6 +26,7 @@ services:
       - supabase_key=${SERVICE_ROLE_KEY}
       - NODE_ENV=${NODE_ENV}
       - JAEGER_URL=${JAEGER_URL}
+      - LIKE_URL=${LIKE_URL}
   like_service:
     build:
         context: ../PLIC-LikeService/
@@ -42,7 +43,9 @@ services:
       - user_service
       - apt_service
       - neo4j
+      - redis
     environment:
+      - redis_url=${REDIS_URL}
       - supabase_url=${SUPABASE_URL}
       - supabase_key=${SERVICE_ROLE_KEY}
       - NODE_ENV=${NODE_ENV}
@@ -130,6 +133,8 @@ services:
     container_name: redis
     ports:
       - "6379:6379"
+    networks:
+      - bun-network
 
 networks:
   golang-network:
