@@ -3,6 +3,7 @@ CREATE TABLE public.users (
   firstName text NOT null,
   lastName text NOT null,
   birthdate date NOT null,
+  isColloc boolean default false,
   created_at timestamp with time zone default now()
 );
 
