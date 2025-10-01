@@ -29,6 +29,7 @@ CREATE TABLE IF NOT EXISTS public.apartment_info (
     energy_class text,
     available_from date,
     rent integer,
+    estimated_price float,
     type text,
     ges text,
     description text,
