@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS public.apartment_info (
     parking_spaces integer,
     number_of_bathrooms integer,
     heating_type text,
-    heating_mod text,
+    heating_mode text,
     construction_year integer,
     number_of_floors integer,
     orientation text
