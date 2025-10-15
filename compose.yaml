@@ -108,6 +108,9 @@ services:
       - NEO4J_apoc_import_file_use__neo4j__config=true
       - NEO4J_PLUGINS=["apoc","graph-data-science"]
       - NEO4J_AUTH=${NEO4J_AUTH}
+    volumes:
+      - neo4j-data:/data
+
   jaeger:
     image: jaegertracing/all-in-one:1.66.0
     restart: always
@@ -142,3 +145,6 @@ networks:
   bun-network:
     name: bun-network
     driver: bridge
+
+volumes:
+  neo4j-data:
