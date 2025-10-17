@@ -87,10 +87,10 @@ services:
       - LIKE_URL=${LIKE_URL}
   gateway:
     build:
-      context: ../PLIC-DevelopmentGateway//
+      context: ../PLIC-DevelopmentGateway/
     restart: always
     ports:
-      - "4242:3000"
+      - "4242:4242"
     networks:
       - bun-network
     container_name: gateway
