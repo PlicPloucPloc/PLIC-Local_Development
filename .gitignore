@@ -309,3 +309,5 @@ gcloud.json
 # apps/docs/public/*.xml
 
 .vscode
+
+.env
