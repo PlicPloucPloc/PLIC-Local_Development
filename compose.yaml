@@ -56,7 +56,7 @@ services:
       - neo4j
       - redis
     environment:
-      - redis_url=${REDIS_URL}
+      - REDIS_URL=${REDIS_URL}
       - supabase_url=${SUPABASE_URL}
       - supabase_key=${SERVICE_ROLE_KEY}
       - NODE_ENV=${NODE_ENV}
