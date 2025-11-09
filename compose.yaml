@@ -20,6 +20,8 @@ services:
       - bun-network
     container_name: chat
     hostname: chat
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
   user_service:
     build:
         context: ../PLIC-UserService/
