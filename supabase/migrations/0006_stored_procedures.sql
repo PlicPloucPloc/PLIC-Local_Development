@@ -71,7 +71,7 @@ BEGIN
       ) as dist_meters
     FROM apartment_info a
     JOIN apartment_coordinates ac ON ac.apartment_id=a.apartment_id
-    JOIN apartment apt ON apt.id=a.apartment_id
+    JOIN apartments apt ON apt.id=a.apartment_id
     WHERE 
       NOT (a.apartment_id = ANY(p_excluded_ids))
       AND (p_max_price IS NULL OR a.rent <= p_max_price)
