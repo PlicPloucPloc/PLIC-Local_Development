@@ -13,6 +13,7 @@ CREATE OR REPLACE FUNCTION public.get_apartment_recommendations(
 )
 RETURNS TABLE (
     "apartment_id" bigint,
+    "owner_id" "uuid",
     "name" character varying,
     "is_furnished" boolean,
     "surface" integer,
@@ -65,6 +66,7 @@ BEGIN
       a.estimated_price,
       ac.lat,
       ac.lon,
+      apt.owner_id,
       ST_Distance(
         ST_SetSRID(ST_MakePoint(ac.lon, ac.lat), 4326)::geography,
         ST_SetSRID(ST_MakePoint(p_lon, p_lat), 4326)::geography
