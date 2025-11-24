@@ -15,7 +15,7 @@ services:
       SUPABASE_SERVICE_ROLE_KEY: ${SERVICE_ROLE_KEY}
       SUPABASE_ENDPOINT: ${SUPABASE_URL}
     ports:
-      - "127.0.0.1:3030:3030" #Bind the ipaddress:port of the host with the port ([host]:port)
+      - "3030:3030" #Bind the ipaddress:port of the host with the port ([host]:port)
     networks:
       - bun-network
     container_name: chat
