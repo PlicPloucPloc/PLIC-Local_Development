@@ -1,13 +1,10 @@
-INSERT INTO "public"."apartment_info" ("apartment_id", "name", "location", "is_furnished", "surface", "energy_class", "available_from", "rent", "type", "ges", "description", "number_of_rooms", "floor", "parking_spaces", "number_of_bedrooms", "has_elevator", "number_of_bathrooms", "heating_type", "heating_mode", "construction_year", "number_of_floors", "orientation", "estimated_price") VALUES
-(741, $$Location Appartement T3$$, $$Toulouse 31000 Matabiau$$, false, 85, $$c$$, $$2025-08-31T22:00:00.000Z$$, 1, $$Appartment$$, $$a$$, $$Appartement T3, agréable, climatisation réversible; disponible immédiatement.$$, 3, 3, null, 2, false, 2, $$individual$$, $$electric$$, null, 3, null, null),
-(742, $$MAGNIFIQUE Appartement à Neydens$$, $$Neydens 74160$$, true, 112, $$e$$, $$2025-08-31T22:00:00.000Z$$, 3, $$Appartment$$, $$b$$, $$Chaleureux appartement à Neydens 112 m² (meublé) en rez-de-jardin - POUR FAMILLE.
+INSERT INTO "public"."apartment_info" ("apartment_id", "name", "is_furnished", "surface", "energy_class", "available_from", "rent", "type", "ges", "description", "number_of_rooms", "location", "number_of_bedrooms", "has_elevator", "floor", "parking_spaces", "number_of_bathrooms", "heating_type", "heating_mode", "construction_year", "number_of_floors", "orientation", "estimated_price") VALUES ('741', 'Location Appartement T3', 'false', '85', 'c', '2025-08-31T22:00:00.000Z', '1', 'Appartment', 'a', 'Appartement T3, agréable, climatisation réversible; disponible immédiatement.', '3', 'Toulouse 31000 Matabiau', '2', 'false', '3', null, '2', 'individual', 'electric', null, '3', null, '233.2512'), ('742', 'MAGNIFIQUE Appartement à Neydens', 'true', '112', 'e', '2025-08-31T22:00:00.000Z', '3', 'Appartment', 'b', 'Chaleureux appartement à Neydens 112 m² (meublé) en rez-de-jardin - POUR FAMILLE.
 Le bien est situé au clos du hameau des Sources. Cet appartement est constitué d'une entrée, de quatre chambres (12 m² chacune), dont trois sont aménagées pour les enfants et/ ou les adolescents, d'une GRANDE salle de bains, d'une salle de douches, d'une cuisine totalement équipée, ouverte sur un salon séjour (de 43m²) donnant sur une terrasse de 16m² et un jardin privatif clos d’env. 120 m². 
 De plus, pour votre confort, vous aurez à votre disposition : un garage (box fermé), deux caves et une place de parking privative extérieure. 
 Chauffage individuel électrique au sol, dispositif de sécurité et adoucisseur d'eau.
 Le loyer est composé de 2'500 CHF et de 580 € de charges (électricité, charge locative, alarme et adoucisseur d’eau).
 Proche de la frontière suisse, Genève (5 minutes) : Douanes de Bardonnex et de Croix-de-Rozon.
-Disponibilité : septembre 2025.$$, 6, 0, 2, 4, true, 2, $$individual$$, $$electric$$, 2011, 2, $$south_west$$, null),
-(743, $$Loue Très beau T3 Quai St Antoine Lyon 2ème$$, $$Lyon 69002 Cordeliers$$, false, 115, $$d$$, $$2025-09-30T22:00:00.000Z$$, 2, $$Appartment$$, $$d$$, $$Je propose à la location un T3 de 115 m2 situé Quai St Antoine, 69002 Lyon juste en face de la colline de Fouvrière, au bord des quais de Saône, restaurés.
+Disponibilité : septembre 2025.', '6', 'Neydens 74160', '4', 'true', '0', '2', '2', 'individual', 'electric', '2011', '2', 'south_west', '639.9792'), ('743', 'Loue Très beau T3 Quai St Antoine Lyon 2ème', 'false', '115', 'd', '2025-09-30T22:00:00.000Z', '2', 'Appartment', 'd', 'Je propose à la location un T3 de 115 m2 situé Quai St Antoine, 69002 Lyon juste en face de la colline de Fouvrière, au bord des quais de Saône, restaurés.
 
 Parfaitement restauré. Disponible immédiatement.
 
@@ -28,8 +25,7 @@ Loyer : 2100 euros hors charges + Provision pour charges de 100 euros = 2200 eur
 Contact : messagerie LBC initialement
 Ensuite : le dossier de candidature devra m’être adressé et validé préalablement à toute visite: 6600 euros de revenus minimum,  3 fiches de salaire et 2 avis d’imposition des locataires (ou garants) requis.
 
-Merci$$, 3, 5, 0, 2, true, 2, $$communal$$, $$gas$$, 1970, 8, $$west$$, null),
-(744, $$Appartement 3 pièces 51 m²$$, $$Bormes-les-Mimosas 83230 Centre-ville - Le Pin$$, false, 51, $$a$$, $$2025-07-01T22:00:00.000Z$$, 1, $$Appartment$$, $$a$$, $$T3 NEUF avec terrasse, piscine et 2 parkings sécurisés  à BORMES-LES-MIMOSAS
+Merci', '3', 'Lyon 69002 Cordeliers', '2', 'true', '5', '0', '2', 'communal', 'gas', '1970', '8', 'west', '19.0512'), ('744', 'Appartement 3 pièces 51 m²', 'false', '51', 'a', '2025-07-01T22:00:00.000Z', '1', 'Appartment', 'a', 'T3 NEUF avec terrasse, piscine et 2 parkings sécurisés  à BORMES-LES-MIMOSAS
 
 Référence annonce à communiquer : 25227
         LES PINS PARASOLS
@@ -47,12 +43,10 @@ Emission de gaz à effet de serre : 1 CO2/m²/an
 Honoraires à la charge du locataire : 569 € TTC dont 155 € pour l’état des lieux
 Dépôt de garantie : 993 €
 Montant des charges : 100 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 3, 1, 2, 2, true, null, $$individual$$, $$electric$$, null, null, null, null),
-(745, $$Location d un appartement f3$$, $$Écully 69130 Les Serres - Vivier$$, false, 53, $$b$$, $$2025-08-31T22:00:00.000Z$$, 1, $$Appartment$$, $$b$$, $$L'appartement se situe au dessus d'une société.
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '3', 'Bormes-les-Mimosas 83230 Centre-ville - Le Pin', '2', 'true', '1', '2', null, 'individual', 'electric', null, null, null, '61.8912'), ('745', 'Location d un appartement f3', 'false', '53', 'b', '2025-08-31T22:00:00.000Z', '1', 'Appartment', 'b', 'L'appartement se situe au dessus d'une société.
 Il est proche du centre ville et à proximité des bus.
 Vous bénéficiez d'une place de parking avec barrière électrique.
-Il n'y a ni balcon ni terrasse.$$, 3, 1, 1, 2, false, 1, $$individual$$, $$electric$$, 1988, 1, null, null),
-(746, $$F4 en Duplex avec Cuisine équipée$$, $$Sarreguemines 57200 Centre-ville$$, false, 87, $$d$$, $$2025-07-31T22:00:00.000Z$$, 602, $$Appartment$$, $$d$$, $$Situé dans un bâtiment calme à proximité des commerces, ce bien sera disponible à la location à compter du 31/07/2025.
+Il n'y a ni balcon ni terrasse.', '3', 'Écully 69130 Les Serres - Vivier', '2', 'false', '1', '1', '1', 'individual', 'electric', '1988', '1', null, '99.1872'), ('746', 'F4 en Duplex avec Cuisine équipée', 'false', '87', 'd', '2025-07-31T22:00:00.000Z', '602', 'Appartment', 'd', 'Situé dans un bâtiment calme à proximité des commerces, ce bien sera disponible à la location à compter du 31/07/2025.
 
 L'appartement se compose : Au RDC : d'un séjour, d'une cuisine équipée, de 2 chambres, d'une salle de bains avec baignoire, d'un wc séparé et d'une buanderie.
 A l'étage : une mezzanine et une chambre.
@@ -71,12 +65,10 @@ frais de réalisation des états des lieux: 3.00€ TTC/ m2 soit 261.30 €
 
 soit au total 522.60 € TTC
 
-Les visites ne sont pas payantes.$$, 4, 2, 0, 3, false, 1, $$individual$$, $$gas$$, null, 2, null, null),
-(747, $$Appartement disponible au 1er novembre$$, $$Saumur 49400 Centre-ville$$, false, 40, $$d$$, $$2025-10-31T23:00:00.000Z$$, 530, $$Appartment$$, null, $$Dans immeuble de caractère, au 4ème étage sans ascenseur,
+Les visites ne sont pas payantes.', '4', 'Sarreguemines 57200 Centre-ville', '3', 'false', '2', '0', '1', 'individual', 'gas', null, '2', null, '202.4762'), ('747', 'Appartement disponible au 1er novembre', 'false', '40', 'd', '2025-10-31T23:00:00.000Z', '530', 'Appartment', null, 'Dans immeuble de caractère, au 4ème étage sans ascenseur,
 
 Appartement comprenant 1 pièce de vie avec clic clac, cuisine aménagée avec appareil électrique. 1 chambre avec rangement et lit, une salle d’eau et wc indépendant.
-Très lumineux$$, 2, 4, 0, 1, false, 1, $$individual$$, $$electric$$, 1949, 4, $$south$$, null),
-(748, $$Appartement 2 pièces 26 m²$$, $$Nancy 54000 Mon Désert - Jeanne d'Arc - Saurupt - Clémenceau$$, true, 26, $$f$$, $$2025-07-01T22:00:00.000Z$$, 515, $$Appartment$$, $$f$$, $$Rue mon désert , agréable F1bis rénové et meublé -NANCY
+Très lumineux', '2', 'Saumur 49400 Centre-ville', '1', 'false', '4', '0', '1', 'individual', 'electric', '1949', '4', 'south', '173.6112'), ('748', 'Appartement 2 pièces 26 m²', 'true', '26', 'f', '2025-07-01T22:00:00.000Z', '515', 'Appartment', 'f', 'Rue mon désert , agréable F1bis rénové et meublé -NANCY
 
 Quartier Mon Désert, à 10mn à pied de la gare et toutes commodités (transports divers, commerces…) l'agence Triplex vous propose de découvrir cet agréable F1Bis de 26.95m² meublé, idéal pour étudiant.
 
@@ -104,8 +96,7 @@ Montant des charges : 20 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 120 € et 1 560 € sur les années 2021, 2022 et 2023 (abonnements compris).
-Logement à consommation énergétique excessive : classe F$$, 2, 0, null, 1, false, null, $$individual$$, $$gas$$, 1947, 1, null, null),
-(749, $$Duplex meuble - quartier des carmes - rue des filatiers - disponible de suite$$, $$Toulouse 31500 Jean Chaubet$$, true, 49, $$e$$, $$2025-08-31T22:00:00.000Z$$, 880, $$Appartment$$, $$b$$, $$Le cabinet Falgarde Gestion SA a le plaisir de vous proposer à la location ce joli T2 duplex meublé de 43 m², situé au 3eme et dernier étage d'un immeuble typiquement toulousain de la rue des Filatiers. Il se compose d'un séjour ouvert sur un coin cuisine aménagé et équipé (plaques électriques 2 deux, hotte, petit lave-vaisselle, lave-linge et 1frigo top, 1congélateur top, un micro-ondes), un escalier permet d'accéder à l'étage où se trouve une salle de bains avec WC et une grande mezzanine faisant office de chambre mansardée avec un grand placard. Le petit plus : la jouissance exclusive du palier devant la porte d'entrée faisant office de terrasse d'une surface de 9m² environ.
+Logement à consommation énergétique excessive : classe F', '2', 'Nancy 54000 Mon Désert - Jeanne d'Arc - Saurupt - Clémenceau', '1', 'false', '0', null, null, 'individual', 'gas', '1947', '1', null, '126.3012'), ('749', 'Duplex meuble - quartier des carmes - rue des filatiers - disponible de suite', 'true', '49', 'e', '2025-08-31T22:00:00.000Z', '880', 'Appartment', 'b', 'Le cabinet Falgarde Gestion SA a le plaisir de vous proposer à la location ce joli T2 duplex meublé de 43 m², situé au 3eme et dernier étage d'un immeuble typiquement toulousain de la rue des Filatiers. Il se compose d'un séjour ouvert sur un coin cuisine aménagé et équipé (plaques électriques 2 deux, hotte, petit lave-vaisselle, lave-linge et 1frigo top, 1congélateur top, un micro-ondes), un escalier permet d'accéder à l'étage où se trouve une salle de bains avec WC et une grande mezzanine faisant office de chambre mansardée avec un grand placard. Le petit plus : la jouissance exclusive du palier devant la porte d'entrée faisant office de terrasse d'une surface de 9m² environ.
 Nombreux commerces et transports en commun à proximité. 
 
 Equipements :
@@ -123,8 +114,7 @@ HONORAIRES DE LOCATION (DONT FRAIS ETABLISSEMENT ETAT DES LIEUX) : 559.00 € TT
 
 Afin de venir découvrir ce bien immobilier idéalement situé, nous vous proposons de contacter Mme MASMEJEAN Claire du Cabinet FALGARDE GESTION SA, 41, Rue de la découverte, CS37621, 31 676 LABEGE Cedex. N° siren 819 602 962. Titulaire de la carte professionnelle TG N°CPI31012016 000009 281 délivrée par la Chambre de Commerce et d'Industrie de Toulouse, le 03/05/2025.
 
-Besoin d'un garant, faites certifier votre dossier locataire avec Garantme ou sur [URL masquée pour votre sécurité]. Protégez vos données en déposant votre dossier sur la plateforme gouvernementale [URL masquée pour votre sécurité]$$, 2, 3, null, 1, false, 1, $$individual$$, $$electric$$, null, 3, null, null),
-(750, $$F2 + Meublé A louer a Suresnes$$, $$Suresnes 92150 Centre-ville$$, true, 44, $$c$$, $$2025-09-30T22:00:00.000Z$$, 1, $$Appartment$$, $$a$$, $$Appartement traversant type F2/3 orienté Sud Est
+Besoin d'un garant, faites certifier votre dossier locataire avec Garantme ou sur [URL masquée pour votre sécurité]. Protégez vos données en déposant votre dossier sur la plateforme gouvernementale [URL masquée pour votre sécurité]', '2', 'Toulouse 31500 Jean Chaubet', '1', 'false', '3', null, '1', 'individual', 'electric', null, '3', null, '290.7072'), ('750', 'F2 + Meublé A louer a Suresnes', 'true', '44', 'c', '2025-09-30T22:00:00.000Z', '1', 'Appartment', 'a', 'Appartement traversant type F2/3 orienté Sud Est
 Suresnes, 3 min du tram T2 Belvedere, 
 commerces à proximité, 
 10 min à pied centre ville Suresnes, 15 min à pied centre ville Puteaux
@@ -143,8 +133,7 @@ Lit 160 * 190
 1 Canapé convertible
 Cave en sous sol
 Pieces a fournir pour le depot de dossier :
-3 dernieres feuilles de salaires, carte d'identite, contrat de travail, 3 dernieres quittances de loyer si locataire sinon acte de propriété , 2 derniers avis d'imposition, RIB, caution$$, 3, 3, null, 1, false, 1, $$individual$$, $$other$$, null, 4, $$south_west$$, null),
-(751, $$Apt f3 harfleur beaulieu$$, $$Harfleur 76700$$, false, 65, $$d$$, $$2025-08-31T22:00:00.000Z$$, 785, $$Appartment$$, $$b$$, $$Beau F3 Harfleur Beaulieu environ 65m² au 2° et dernier étage d'un petit immeuble.
+3 dernieres feuilles de salaires, carte d'identite, contrat de travail, 3 dernieres quittances de loyer si locataire sinon acte de propriété , 2 derniers avis d'imposition, RIB, caution', '3', 'Suresnes 92150 Centre-ville', '1', 'false', '3', null, '1', 'individual', 'other', null, '4', 'south_west', '79.5512'), ('751', 'Apt f3 harfleur beaulieu', 'false', '65', 'd', '2025-08-31T22:00:00.000Z', '785', 'Appartment', 'b', 'Beau F3 Harfleur Beaulieu environ 65m² au 2° et dernier étage d'un petit immeuble.
 Apt comprenant un couloir d'entrée desservant une cuisine, une salle de douche, wc séparé, 2 chambre et un bel espace séjour et un pièce salon.
 Apt comprenant une cave individuelle, et un garage individuel fermé.
 Une petite partie privative jardin en bas de l'immeuble.
@@ -152,8 +141,7 @@ Chauffage individuel électrique Montant estimé des dépenses annuelles d'éner
 Loyer : 750€ + 35€ charges (eau froide)
 Dépôt de garantie : 750e
 Honoraires de location : 700€ dont 195€ pour l'état des lieux
-ETUDE R NOWAK$$, 3, 2, 1, 2, false, 1, $$individual$$, $$electric$$, null, 2, null, null),
-(752, $$T3 avec jardin République, Parc Lebas, Sciences Po$$, $$Lille 59000 Jean-Baptiste Lebas$$, true, 80, $$d$$, $$2025-08-31T22:00:00.000Z$$, 1, $$Appartment$$, $$d$$, $$T3  traversant RdC maison de caractère face au Parc Lebas.
+ETUDE R NOWAK', '3', 'Harfleur 76700', '2', 'false', '2', '1', '1', 'individual', 'electric', null, '2', null, '270.2112'), ('752', 'T3 avec jardin République, Parc Lebas, Sciences Po', 'true', '80', 'd', '2025-08-31T22:00:00.000Z', '1', 'Appartment', 'd', 'T3  traversant RdC maison de caractère face au Parc Lebas.
 Trois pièces séparées par des portes vitrées avec véranda et jardin au sud-ouest.
 Sans vis à vis. L’UNIQUE chambre se situe du côté rue avec doubles fenêtres.
 Le salon possède deux armoires vitrine autour d'une cheminée en marbre. 
@@ -163,8 +151,7 @@ Ne convient ni à la colocation ni à la sous location.
 Servitude de passage par le couloir pour accéder de la cuisine aux 3 autres pièces. 
 La cuisine est toute équipée et accessible par le couloir. SdB au fond de la cuisine. 
 Le loyer du logement comprend toutes les charges (eau, chauffage, électricité, WiFi)
-L'appartement est disponible dès maintenant$$, 3, 0, null, 1, false, 1, $$communal$$, $$gas$$, 1900, 3, $$south$$, null),
-(753, $$Appartement 3 pièces 52 m²$$, $$Tourcoing 59200 Blanche Porte - Flocon$$, true, 52, $$d$$, $$2022-01-16T23:00:00.000Z$$, 822, $$Appartment$$, $$b$$, $$Bel appartement 3 pièces meublé quartier Flocon
+L'appartement est disponible dès maintenant', '3', 'Lille 59000 Jean-Baptiste Lebas', '1', 'false', '0', null, '1', 'communal', 'gas', '1900', '3', 'south', '19.0512'), ('753', 'Appartement 3 pièces 52 m²', 'true', '52', 'd', '2022-01-16T23:00:00.000Z', '822', 'Appartment', 'b', 'Bel appartement 3 pièces meublé quartier Flocon
 
 Situé rue de Dunkerque, à proximité des grands axes, des commerces, et 700 mètres de l'arrêt de Tramway Victoire, cet appartement entièrement rénové et meublé se situe au rez-de-chaussée d'un petit immeuble.
 
@@ -187,8 +174,7 @@ Référence annonce : Dunkerque0
 Date de réalisation du diagnostic : 27/09/2021
 Honoraires à la charge du locataire : 625 € TTC
 Dépôt de garantie : 782 €
-Montant des charges : 40 € / mois$$, 3, null, null, 2, false, 1, $$individual$$, $$electric$$, null, null, null, null),
-(754, $$Appartement 4 pièces 127 m²$$, $$Bordeaux 33200$$, false, 127, $$d$$, $$2025-11-21T23:00:00.000Z$$, 1, $$Appartment$$, $$d$$, $$T4 BORDEAUX
+Montant des charges : 40 € / mois', '3', 'Tourcoing 59200 Blanche Porte - Flocon', '2', 'false', null, null, '1', 'individual', 'electric', null, null, null, '219.9792'), ('754', 'Appartement 4 pièces 127 m²', 'false', '127', 'd', '2025-11-21T23:00:00.000Z', '1', 'Appartment', 'd', 'T4 BORDEAUX
 
 T4 rénové dans une résidence de standing avec gardien comprenant une entrée avec placard, un grand double séjour donnant sur un balcon, une cuisine aménagé avec un cellier attenant, deux chambres, une salle d'eau et des WC séparés.
 Une cave au sous-sol, une place de parking couverte et une pièce au rez-de chaussée viennent compléter le tout.
@@ -201,15 +187,13 @@ Dépôt de garantie : 1316 €
 Montant des charges : 375 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 450 € et 2 140 € par an. Prix moyens des énergies indexés sur l'année 2023 (abonnements compris)$$, 4, 7, null, 3, true, null, $$individual$$, null, null, null, null, null),
-(755, $$Appartement 1 pièce 49 m²$$, $$Châtillon 92320 Savoie - Brossolette$$, false, 49, null, $$2025-08-31T22:00:00.000Z$$, 1, $$Appartment$$, null, $$Appartement Chatillon 2 pièce(s) 49,67 m2
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 450 € et 2 140 € par an. Prix moyens des énergies indexés sur l'année 2023 (abonnements compris)', '4', 'Bordeaux 33200', '3', 'true', '7', null, null, 'individual', null, null, null, null, '286.809533333333'), ('755', 'Appartement 1 pièce 49 m²', 'false', '49', null, '2025-08-31T22:00:00.000Z', '1', 'Appartment', null, 'Appartement Chatillon 2 pièce(s) 49,67 m2
 
 CHATILLON, Proche centre ville et au pied du Tramway. Villa des Paroseaux,  Au 2ème étage sans ascenseur. Dans immeuble récent, 2 Pièces de 49,67 m², comprenant: Entrée avec placards, cuisine américaine aménagée et équipée, séjour avec balcon, une chambre, salle d'eau, wc, cave. Chauffage et eau chaude individuels électriques. Disponible immédiatement   GLI (Garantie Loyer Impayé)
 Référence annonce : 42O1-Y5M-31D
 Honoraires à la charge du locataire : 745 € TTC dont 149 € pour l’état des lieux
 Dépôt de garantie : 1065 €
-Montant des charges : 35 € / mois$$, 1, 2, null, 1, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(756, $$Appartement 2 pièces 42 m²$$, $$Bordeaux 33000 Saint-Augustin$$, true, 42, $$e$$, null, 849, $$Appartment$$, $$e$$, $$A louer grand t1 bis meublé de 42 m2 avec balcon de 10 m2
+Montant des charges : 35 € / mois', '1', 'Châtillon 92320 Savoie - Brossolette', '1', 'false', '2', null, null, 'individual', 'electric', null, null, null, '290.7072'), ('756', 'Appartement 2 pièces 42 m²', 'true', '42', 'e', null, '849', 'Appartment', 'e', 'A louer grand t1 bis meublé de 42 m2 avec balcon de 10 m2
 
 BORDEAUX - PELLEGRIN
 A louer grand T1 bis de 42 m2 avec balcon orienté Ouest de 10 m2 environ.; Il est entièrement équipé et meublé . Il. est composé d'une entrée avec wc séparés, une cuisine séparée avec accès sur le balcon et un cellier (séche linge) .
@@ -228,8 +212,7 @@ Dépôt de garantie : 1598 €
 A propos de la copropriété :
 Nombre de lots : 20
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 324 € et 1 792 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 1, null, 1, true, 1, $$individual$$, $$gas$$, 1970, 5, $$west$$, null),
-(757, $$Appartement 2 pièces 52 m²$$, $$Roanne 42300 Centre-ville - Varenne$$, false, 52, $$c$$, $$2025-11-21T23:00:00.000Z$$, 565, $$Appartment$$, $$c$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 324 € et 1 792 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Bordeaux 33000 Saint-Augustin', '1', 'true', '1', null, '1', 'individual', 'gas', '1970', '5', 'west', '146.1012'), ('757', 'Appartement 2 pièces 52 m²', 'false', '52', 'c', '2025-11-21T23:00:00.000Z', '565', 'Appartment', 'c', 'APPARTEMENT
 
 ROANNE : Joli appartement de type 2, au 5ème étage d'un immeuble récent et sécurisé, comprenant une chambre, une cuisine équipée ouverte sur le séjour et d'une salle d'eau avec WC. Le bien est complété par une place de parking.Foncia vous propose le 3x sans frais**
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
@@ -240,8 +223,7 @@ Dépôt de garantie : 520 €
 Montant des charges : 45 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 660 € et 950 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 5, null, 1, false, null, $$individual$$, $$gas$$, 2019, null, null, null),
-(758, $$Appartement 2 pièces 50 m²$$, $$Grenoble 38000 Hyper-centre$$, false, 50, $$f$$, $$2025-04-06T22:00:00.000Z$$, 793, $$Appartment$$, $$c$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 660 € et 950 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Roanne 42300 Centre-ville - Varenne', '1', 'false', '5', null, null, 'individual', 'gas', '2019', null, null, '90.5512'), ('758', 'Appartement 2 pièces 50 m²', 'false', '50', 'f', '2025-04-06T22:00:00.000Z', '793', 'Appartment', 'c', 'APPARTEMENT
 
 GRENOBLE - Secteur Championnet - Dans un immeuble de caractère, venez découvrir ce bel ppartement lumineux de 2 pièces d'une surface de 50,80 m2 situé au 3ème étage comprenant une entrée, une cuisine équipée avec meubles et électroménagers (plaques de cuisson, hotte aspirante et micro ondes) donnant sur une cour intérieure, un séjour avec une belle cheminée ornementale, ses plafonds hauts ainsi que son beau parquet, une chambre spacieuse qui donne accès à une seconde pièce pouvant servir de bureau ou de dressing et une salle d'eau avec wc.L'appartement est entièrement équipé du double vitrage et de volets roulants électrique.Le chauffage et l'eau sont individuels électrique.
 
@@ -256,16 +238,14 @@ Montant des charges : 20 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 390 € et 1 930 € sur les années 2021, 2022 et 2023 (abonnements compris).
-Logement à consommation énergétique excessive : classe F$$, 2, 3, null, null, false, null, null, null, 1921, null, null, null),
-(759, $$Appartement 2 pièces 46 m²$$, $$Saint-Louis 68300$$, false, 46, null, $$2025-12-30T23:00:00.000Z$$, 710, $$Appartment$$, null, $$Appartement T2
+Logement à consommation énergétique excessive : classe F', '2', 'Grenoble 38000 Hyper-centre', null, 'false', '3', null, null, null, null, '1921', null, null, '225.3012'), ('759', 'Appartement 2 pièces 46 m²', 'false', '46', null, '2025-12-30T23:00:00.000Z', '710', 'Appartment', null, 'Appartement T2
 
 A SAINT-LOUIS - Dans la résidence neuve "L'IMPERIAL", nous vous proposons un appartement T2 N°15 de 46.68m² situé au 1er étage. Il se compose d'une entrée de 5.82m² avec placard, d'un séjour de 21.78m² avec cuisine ouverte et donnant sur une terrasse de 13.80m², d'une chambre de 12.83m² et d'une salle d'eau avec WC. Cet appartement dispose d'un garage N°14. Entretien des parties communes et espaces verts communs, compris dans les provisions sur charges mensuelles et donnant lieu à une régularisation annuelle. Les honoraires de location TTC (à la charge du locataire) incluent le montant de rédaction des états des lieux facturé pour 140 euros TTC, après réalisation lors de l'entrée dans les lieux. Disponibilité prévisionnelle courant Juin 2025. Plus de détails sur notre site AFEDIM. Logement neuf en cours de construction - DPE à venir
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr
 Référence annonce : 0062634_GL
 Honoraires à la charge du locataire : 513 € TTC
 Dépôt de garantie : 600 €
-Montant des charges : 110 € / mois$$, 2, null, null, 1, false, null, $$communal$$, $$gas$$, null, null, null, null),
-(760, $$Chambre 1 pièce 34 m²$$, $$Lille 59000 Euralille$$, true, 34, $$b$$, $$2025-09-16T22:00:00.000Z$$, 710, $$Appartment$$, $$b$$, $$Co-location à Lille (59000)
+Montant des charges : 110 € / mois', '2', 'Saint-Louis 68300', '1', 'false', null, null, null, 'communal', 'gas', null, null, null, '19.0512'), ('760', 'Chambre 1 pièce 34 m²', 'true', '34', 'b', '2025-09-16T22:00:00.000Z', '710', 'Appartment', 'b', 'Co-location à Lille (59000)
 
 CO-LOCATION COLOCATION COLIVING
 Cooloc vous propose 1 chambre à la colocation dans ce bien.
@@ -285,15 +265,13 @@ PAS DE FRAIS D'AGENCE
 Référence annonce : 17758
 Dépôt de garantie : 1120 €
 Montant des charges : 133 € / mois
-Modalité de récupération des charges locatives : forfait$$, 1, null, null, 1, true, 1, null, $$electric$$, null, null, null, null),
-(761, $$Appartement 3 pièces 64 m²$$, $$Floirac 33270$$, false, 64, null, null, 882, $$Appartment$$, null, $$Appartement / 3 pièces / 64.30 m2
+Modalité de récupération des charges locatives : forfait', '1', 'Lille 59000 Euralille', '1', 'true', null, null, '1', null, 'electric', null, null, null, '70.4592'), ('761', 'Appartement 3 pièces 64 m²', 'false', '64', null, null, '882', 'Appartment', null, 'Appartement / 3 pièces / 64.30 m2
 
 Dans résidence neuve au sein d'un nouveau quartier à Floirac offrant un cadre privilégié, arboré, proche commerces de proximité, bus (lignes 28 et 16) et accès rapide au Pont Simone Veil,      Appartement T3 de 63.30 m2 au 3ème étage avec balcon, entrée avec placard, cuisine aménagée et semi équipée ouverte sur le séjour, 2 chambres, salle d'eau et Wc séparé. place de parking en sus. Eau chaude +chauffage inclus dans les provisions de charges. Exclusivement réservé aux salariés du secteur privé.Plan et photos non contractuels.
 Référence annonce : IAO_124458-FLOIRAC
 Dépôt de garantie : 777 €
 Montant des charges : 104 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 3, 5, null, 2, false, null, $$communal$$, null, null, 5, null, null),
-(762, $$Appartement 2 pièces 39 m²$$, $$Roubaix 59100 Centre-ville - Crouy$$, false, 39, $$d$$, null, 740, $$Appartment$$, $$b$$, $$Appartement 2 pièces 39 m²
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '3', 'Floirac 33270', '2', 'false', '5', null, null, 'communal', null, null, '5', null, '19.0512'), ('762', 'Appartement 2 pièces 39 m²', 'false', '39', 'd', null, '740', 'Appartment', 'b', 'Appartement 2 pièces 39 m²
 
 L'agence Grimonprez Immo vous présente cet appartement, situé au rez-de-chaussée d'un immeuble calme à deux pas du centre de Roubaix.
  Vient tout juste d'être rénové, il offre de beaux volumes et une luminosité exceptionnelle.
@@ -310,8 +288,7 @@ Loyer : 740 € / mois (charges comprises)
 Date de réalisation du diagnostic énergétique : 25/12/2023
 
 Consommation énergie primaire : 237 kWh/m²/an
-Consommation énergie finale : 0 kWh/m²/an$$, 2, null, 1, 1, false, null, null, $$electric$$, 1948, 2, $$south_east$$, null),
-(763, $$Appartement 2 pièces 46 m²$$, $$Tours 37100 Saint-Symphorien - Coty$$, false, 46, $$d$$, null, 600, $$Appartment$$, $$b$$, $$Appartement 2 pièces 46 m²
+Consommation énergie finale : 0 kWh/m²/an', '2', 'Roubaix 59100 Centre-ville - Crouy', '1', 'false', null, '1', null, null, 'electric', '1948', '2', 'south_east', '169.7472'), ('763', 'Appartement 2 pièces 46 m²', 'false', '46', 'd', null, '600', 'Appartment', 'b', 'Appartement 2 pièces 46 m²
 
 REFERENCE ANNONCE : 37007-L409 - TOURS - Quartier Coty - Dans résidence récente au rez-de-chaussée
 Appartement composé de : entrée avec placard, wc, séjour avec terrasse, cuisine aménagée et équipée (four électrique, lave-vaisselle, plaque de cuisson induction, hotte aspirante, meubles), une chambre avec placard, salle de bains (baignoire), wc.
@@ -331,8 +308,7 @@ Consommation énergie finale : Non communiqué
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 697 € et 943 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 2, 0, null, 1, false, null, null, null, null, null, null, null),
-(764, $$Appartement 2 pièces 46 m²$$, $$Aussonne 31840$$, false, 46, $$c$$, $$2025-09-30T22:00:00.000Z$$, 550, $$Appartment$$, $$c$$, $$Appartement 2 pièces 46 m²
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '2', 'Tours 37100 Saint-Symphorien - Coty', '1', 'false', '0', null, null, null, null, null, null, null, '116.034533333333'), ('764', 'Appartement 2 pièces 46 m²', 'false', '46', 'c', '2025-09-30T22:00:00.000Z', '550', 'Appartment', 'c', 'Appartement 2 pièces 46 m²
 
 QUIETIS GESTION // RESIDENCE VILANOVA // DISPOSITIF PINEL 
 
@@ -361,8 +337,7 @@ Consommation énergie finale : Non communiqué
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 336 € et 454 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 2, 1, 1, 1, true, null, $$individual$$, $$gas$$, 2020, null, $$west$$, null),
-(765, $$Appartement 3 pièces 63 m²$$, $$Chambéry 73000 Centre-ville$$, false, 63, $$d$$, $$2025-09-04T22:00:00.000Z$$, 758, $$Appartment$$, $$c$$, $$APPARTEMENT
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '2', 'Aussonne 31840', '1', 'true', '1', '1', null, 'individual', 'gas', '2020', null, 'west', '82.3012'), ('765', 'Appartement 3 pièces 63 m²', 'false', '63', 'd', '2025-09-04T22:00:00.000Z', '758', 'Appartment', 'c', 'APPARTEMENT
 
 trés bel appartement avec vue panoramic sur chambéry, de type 3 cuisine et salle de bains, le bien est situé en plein coeur de chambery proche voie rapide et desservi par les transports en communs
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
@@ -373,8 +348,7 @@ Dépôt de garantie : 648 €
 Montant des charges : 110 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 020 € et 1 430 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 14, null, null, true, null, null, null, 1968, null, null, null),
-(766, $$Appartement 1 pièce 34 m²$$, $$Leers 59115$$, false, 34, $$e$$, null, 480, $$Appartment$$, $$b$$, $$Appartement 1 pièce 34 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 020 € et 1 430 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Chambéry 73000 Centre-ville', null, 'true', '14', null, null, null, null, '1968', null, null, '151.8762'), ('766', 'Appartement 1 pièce 34 m²', 'false', '34', 'e', null, '480', 'Appartment', 'b', 'Appartement 1 pièce 34 m²
 
 Secteur LEERS - Au coeur du centre ville - T1 bis de 32.86 m2 de surface habitable situié au rdc avec petite terrasse privative - Belle pièce de vie avec espace cuisine ouvert - Espace nuit pouvant être séparé - Salle de bains avec baignoire - Double vitrage - Chauffage individuel électrique - A 2 pas des commerces et des commodités - Dispo de suite - Loyer mensuel 488.17 EUR charges comprises dont 30 EUR de provision pour charges avec régularisation annuelle   Dépôt de garantie 458.17 EUR   Honoraires charges locataire (Visite   Dossier   Bail   Etat des Lieux 427.18 EUR TTC dont 98.58 EUR TTC pour Etat des Lieux   [URL masquée pour votre sécurité]   [Coordonnées masquées] - Montant des dépenses annuelles d'énergie pour un usage standard : 593 EUR à 803 EUR - Date de référence des prix de l'énergie pour établir cette estimation : 08/12/2023
 
@@ -389,8 +363,7 @@ Date de réalisation du diagnostic énergétique : 12/01/2024
 Consommation énergie primaire : 265 kWh/m²/an
 Consommation énergie finale : 0 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 593 € et 803 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 1, null, null, null, false, 1, $$individual$$, $$electric$$, 1990, 2, $$west$$, null),
-(767, $$Appartement 7 pièces 10 m²$$, $$Brest 29200 Saint-Michel$$, true, 10, $$c$$, null, 430, $$Appartment$$, $$a$$, $$Appartement 7 pièces 10 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 593 € et 803 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '1', 'Leers 59115', null, 'false', null, null, '1', 'individual', 'electric', '1990', '2', 'west', '207.5472'), ('767', 'Appartement 7 pièces 10 m²', 'true', '10', 'c', null, '430', 'Appartment', 'a', 'Appartement 7 pièces 10 m²
 
 Secteur ST-MICHEL
 Proche des commodités et des transports en commun. 
@@ -412,8 +385,7 @@ Date de réalisation du diagnostic énergétique : 26/08/2022
 Consommation énergie primaire : 119 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 910 € et 1 280 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 7, 0, null, 1, false, 6, $$individual$$, $$electric$$, 1948, null, $$south_west$$, null),
-(768, $$Appartement 2 pièces 35 m²$$, $$Cholet 49300 Notre Dame$$, false, 35, $$d$$, $$2025-08-31T22:00:00.000Z$$, 560, $$Appartment$$, $$b$$, $$Appartement 2 pièces 35 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 910 € et 1 280 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '7', 'Brest 29200 Saint-Michel', '1', 'false', '0', null, '6', 'individual', 'electric', '1948', null, 'south_west', '44.2512'), ('768', 'Appartement 2 pièces 35 m²', 'false', '35', 'd', '2025-08-31T22:00:00.000Z', '560', 'Appartment', 'b', 'Appartement 2 pièces 35 m²
 
 ? À louer – Charmant T2 au coeur de Cholet
 Situé en plein centre-ville de Cholet, ce bel appartement T2 lumineux au 1? étage vous séduira par sa fonctionnalité, sa situation idéale et son agencement bien pensé.
@@ -443,13 +415,11 @@ Consommation énergie finale : 103.00 kWh/m²/an
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 560 € et 790 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 2, 2, null, 1, false, null, $$individual$$, $$electric$$, 1949, null, null, null),
-(769, $$Appartement 2 pièces 33 m²$$, $$Marseille 13003$$, false, 33, $$v$$, null, 600, $$Appartment$$, $$v$$, $$13003 Villette MARSEILLE T2.3 33m2 habitable, Cuisine  ouverte. ,Chambre 9 m2 ,Petite Chambre ,salle d'eau  et wc à l'intérieur, eau inclus, Rénové.
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '2', 'Cholet 49300 Notre Dame', '1', 'false', '2', null, null, 'individual', 'electric', '1949', null, null, '154.2912'), ('769', 'Appartement 2 pièces 33 m²', 'false', '33', 'v', null, '600', 'Appartment', 'v', '13003 Villette MARSEILLE T2.3 33m2 habitable, Cuisine  ouverte. ,Chambre 9 m2 ,Petite Chambre ,salle d'eau  et wc à l'intérieur, eau inclus, Rénové.
 tout repeint a neuf Loyer: 600 €  + 30 € de provisions de charges  Frais bail: 150 €  - Toutes nos annonces sur gitimmo - merci de mettre votre n°de téléphone afin d'être contacté au plus vite - Vous pouvez passer directectement au 3 Rue Dragon 13006 Marseille du Lundi au vendredi de 9h30 à 12h30 et de 14h à 18h30 et le samedi de 10h à 13h.. Forfait: 350€
  - DPE en cours -
 Référence annonce : B32609
-Dépôt de garantie : 600 €$$, 2, 2, null, null, false, null, $$individual$$, null, null, null, null, null),
-(770, $$Appartement 2 pièces 52 m²$$, $$Courbevoie 92400 Gambetta - La Défense$$, false, 52, $$d$$, null, 1, $$Appartment$$, $$a$$, $$Cœur Défense
+Dépôt de garantie : 600 €', '2', 'Marseille 13003', null, 'false', '2', null, null, 'individual', null, null, null, null, '118.8762'), ('770', 'Appartement 2 pièces 52 m²', 'false', '52', 'd', null, '1', 'Appartment', 'a', 'Cœur Défense
 A louer, appartement 2 pièces de 52m², en parfait état, avec vue panoramique sur la Défense. Il se compose d'une entrée avec dressing, cuisine indépendante A/E, grand séjour, une chambre avec placard, salle d'eau et wc séparés. Nombreux rangements.
 Un emplacement de parking en sous-sol.
 Résidence sécurisée avec gardien.
@@ -465,8 +435,7 @@ Emission de gaz à effet de serre : 4 CO2/m²/an
 Honoraires à la charge du locataire : 527 € TTC
 Dépôt de garantie : 1370 €
 Montant des charges : 230 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 2, 22, null, 1, false, null, null, null, 1975, null, null, null),
-(771, $$Appartement 2 pièces 33 m²$$, $$Carcassonne 11000 Montlegun$$, false, 33, $$d$$, $$2025-08-31T22:00:00.000Z$$, 550, $$Appartment$$, $$b$$, $$Appartement 2 pièces 33 m²
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '2', 'Courbevoie 92400 Gambetta - La Défense', '1', 'false', '22', null, null, null, null, '1975', null, null, '128.684533333333'), ('771', 'Appartement 2 pièces 33 m²', 'false', '33', 'd', '2025-08-31T22:00:00.000Z', '550', 'Appartment', 'b', 'Appartement 2 pièces 33 m²
 
 DISPONIBLE IMMÉDIATEMENT. 3C Immobilier à le plaisir de vous proposer à la location ce bel appartement T2 de 33m2, situé au rez-de-chaussé d'une petite copropriété de 3 appartements située à Montlegun. 
  Ce charmant appartement se compose d'un séjour, d'une cuisine ouverte , d'une chambre, une salle d'eau et WC.Chauffage électrique. Proximité des commerces et autoroute. 
@@ -482,8 +451,7 @@ Date de réalisation du diagnostic énergétique : 26/07/2021
 Consommation énergie primaire : 238 kWh/m²/an
 Consommation énergie finale : 0 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 210 € et 1 700 € par an. Prix moyens des énergies indexés sur l'année 2000 (abonnements compris)$$, 2, null, 1, 1, false, null, $$individual$$, $$electric$$, 2000, null, $$south$$, null),
-(772, $$Studio 1 pièce 40 m²$$, $$Avignon 84000 Barbière$$, false, 40, $$c$$, $$2025-08-31T22:00:00.000Z$$, 408, $$Appartment$$, $$c$$, $$STUDIO - A LOUER AVIGNON
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 210 € et 1 700 € par an. Prix moyens des énergies indexés sur l'année 2000 (abonnements compris)', '2', 'Carcassonne 11000 Montlegun', '1', 'false', null, '1', null, 'individual', 'electric', '2000', null, 'south', '146.5632'), ('772', 'Studio 1 pièce 40 m²', 'false', '40', 'c', '2025-08-31T22:00:00.000Z', '408', 'Appartment', 'c', 'STUDIO - A LOUER AVIGNON
 
 À AVIGNON (84000) - dans la résidence " LA BARBIERE" situé avenue Richelieu
 
@@ -498,8 +466,7 @@ Merci de fournir impérativement le numéro unique d'enregistrement en réponse 
 Référence annonce : JG-5218-0154
 Date de réalisation du diagnostic : 16/01/2025
 Dépôt de garantie : 341 €
-Montant des charges : 67 € / mois$$, 1, 5, null, null, false, null, null, null, null, null, null, null),
-(773, $$Appartement 3 pièces 80 m²$$, $$Machault 08310$$, false, 80, $$e$$, null, 470, $$Appartment$$, $$f$$, $$Appartement 3 pièces 80 m²
+Montant des charges : 67 € / mois', '1', 'Avignon 84000 Barbière', null, 'false', '5', null, null, null, null, null, null, null, '74.0512'), ('773', 'Appartement 3 pièces 80 m²', 'false', '80', 'e', null, '470', 'Appartment', 'f', 'Appartement 3 pièces 80 m²
 
 Immobilier.notaires® et l’office notarial CALMET, notaire associé, SELARL vous proposent :
 Appartement à louer - MACHAULT (08310)
@@ -517,8 +484,7 @@ Annonce de l’étude CALMET, notaire associé, SELARL - Notaires à  Vouziers -
 Immobilier.notaires® : Evaluer, acheter & vendre avec les notaires partout en France. 12 000 notaires, experts et négociateurs vous accompagnent dans vos projets immobiliers en toute confiance.
 
 Surface : 80 m²
-Loyer : 470 € / mois (charges comprises)$$, 3, null, null, 2, false, 1, null, null, null, 1, null, null),
-(774, $$Appartement 3 pièces 63 m²$$, $$Blagnac 31700 Grand-Noble - Pinot - Brassens$$, true, 63, $$c$$, null, 900, $$Appartment$$, $$a$$, $$Appartement 3 pièces 63 m²
+Loyer : 470 € / mois (charges comprises)', '3', 'Machault 08310', '2', 'false', null, null, '1', null, null, null, '1', null, '261.0512'), ('774', 'Appartement 3 pièces 63 m²', 'true', '63', 'c', null, '900', 'Appartment', 'a', 'Appartement 3 pièces 63 m²
 
 Au sein d'une copropriété calme et sécurisée. Ce logement entièrement meublé vous propose un cadre de vie plaisant et cosy. 
 Il comprend deux chambres avec placard de rangement et une des deux est équipée d'une sortie de climatisation. L'emplacement de l'appartement est privilégié, offrant un accès rapide au centre-ville tout en profitant de la proximité du périphérique et des transports en commun. 
@@ -548,8 +514,7 @@ Date de réalisation du diagnostic énergétique : 11/10/2023
 Consommation énergie primaire : 137 kWh/m²/an
 Consommation énergie finale : 0 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 570 € et 820 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 3, 2, 1, 2, false, null, null, null, 1990, 3, null, null),
-(775, $$Appartement 2 pièces 44 m²$$, $$Abbeville 80100 Faubourg de la Porte au Bois - Saint-Gil$$, false, 44, $$e$$, $$2025-09-10T22:00:00.000Z$$, 515, $$Appartment$$, $$c$$, $$Appartement type 2
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 570 € et 820 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '3', 'Blagnac 31700 Grand-Noble - Pinot - Brassens', '2', 'false', '2', '1', null, null, null, '1990', '3', null, '105.6762'), ('775', 'Appartement 2 pièces 44 m²', 'false', '44', 'e', '2025-09-10T22:00:00.000Z', '515', 'Appartment', 'c', 'Appartement type 2
 
 Dans une résidence récente avec un accès sécurisés, cet appartement lumineux et complétement refait vous offre: une entrée avec placard, un séjour avec un coin cuisine, un dégagement, une chambre et une salle de bains. L'appartement dispose également d'un emplacement de parking. Le chauffage est individuel électrique. Ce logement est soumis à un plafonds de ressources. Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisque : ***
 Référence annonce : 25_[Coordonnées masquées]
@@ -560,8 +525,7 @@ Dépôt de garantie : 500 €
 Montant des charges : 15 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 2, null, 1, 1, false, 1, $$individual$$, $$electric$$, 2008, null, null, null),
-(776, $$Appartement 3 pièces 66 m²$$, $$Saint-Fons 69190 Centre-ville - Chassagnon$$, true, 66, $$e$$, null, 990, $$Appartment$$, $$g$$, $$T3 meublé vue dégagée - 69190 SAINT-FONS
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '2', 'Abbeville 80100 Faubourg de la Porte au Bois - Saint-Gil', '1', 'false', null, '1', '1', 'individual', 'electric', '2008', null, null, '262.9872'), ('776', 'Appartement 3 pièces 66 m²', 'true', '66', 'e', null, '990', 'Appartment', 'g', 'T3 meublé vue dégagée - 69190 SAINT-FONS
 
 5 rue François Vincent Raspail, 69190 Saint-Fons.
 
@@ -582,8 +546,7 @@ Référence annonce : OSFU-2RP-67H
 Date de réalisation du diagnostic : 08/02/2019
 Honoraires à la charge du locataire : 860 € TTC
 Dépôt de garantie : 1480 €
-Montant des charges : 250 € / mois$$, 3, 5, 1, 2, true, 1, $$communal$$, null, null, null, null, null),
-(777, $$Appartement 1 pièce 38 m²$$, $$Ludes 51500$$, true, 38, $$f$$, null, 500, $$Appartment$$, $$f$$, $$Appartement 1 pièce 38 m²
+Montant des charges : 250 € / mois', '3', 'Saint-Fons 69190 Centre-ville - Chassagnon', '2', 'true', '5', '1', '1', 'communal', null, null, null, null, '19.0512'), ('777', 'Appartement 1 pièce 38 m²', 'true', '38', 'f', null, '500', 'Appartment', 'f', 'Appartement 1 pièce 38 m²
 
 Appartement type 1 meublé situé à Ludes.
 Il se compose d'une cuisine équipée, d'une pièce de vie avec canapé lit et d'une salle de bains.
@@ -600,20 +563,16 @@ Consommation énergie primaire : 370 kWh/m²/an
 Consommation énergie finale : 370 kWh/m²/an
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 915 € et 1 239 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)
-Logement à consommation énergétique excessive : classe F$$, 1, 0, null, null, false, null, $$communal$$, $$gas$$, null, null, null, null),
-(778, $$Location T2 Villemur$$, $$Villemur-sur-Tarn 31340$$, false, 52, $$d$$, null, 670, $$Appartment$$, $$b$$, $$Appartement ancien T2 ,  rénové loué meublé , 1er étage sur 2 , terrasse 24 m2 , vue 180° , équipé brique apparente séjour et cuisine . Parquet , 3 grands placards , interphone , calme , au pied des commerces .$$, 2, 1, null, 1, false, 1, $$individual$$, $$electric$$, 1930, 2, $$south$$, null),
-(779, $$3 pièces de 47 m2 à Poissy Bethemont$$, $$Poissy 78300 Béthemont - Bidonnière$$, false, 47, $$e$$, $$2025-08-31T22:00:00.000Z$$, 900, $$Appartment$$, $$b$$, $$3 pièces en duplex de 47 m2 loi carrez et 62 m2 au sol à POISSY bethemont comprenant
+Logement à consommation énergétique excessive : classe F', '1', 'Ludes 51500', null, 'false', '0', null, null, 'communal', 'gas', null, null, null, '19.0512'), ('778', 'Location T2 Villemur', 'false', '52', 'd', null, '670', 'Appartment', 'b', 'Appartement ancien T2 ,  rénové loué meublé , 1er étage sur 2 , terrasse 24 m2 , vue 180° , équipé brique apparente séjour et cuisine . Parquet , 3 grands placards , interphone , calme , au pied des commerces .', '2', 'Villemur-sur-Tarn 31340', '1', 'false', '1', null, '1', 'individual', 'electric', '1930', '2', 'south', '219.9792'), ('779', '3 pièces de 47 m2 à Poissy Bethemont', 'false', '47', 'e', '2025-08-31T22:00:00.000Z', '900', 'Appartment', 'b', '3 pièces en duplex de 47 m2 loi carrez et 62 m2 au sol à POISSY bethemont comprenant
 salon ,cuisine US , 2  chambres , salle de bains , wc , parking
-loyers 900 euros garantie visale demandé$$, 3, 0, 1, 2, false, 1, $$individual$$, $$electric$$, 1995, 1, null, null),
-(815, $$Nancy Centre FACS loue studios équipés$$, $$Nancy 54000 Ville vieille - Léopold$$, true, 18, $$f$$, $$2025-08-31T22:00:00.000Z$$, 380, $$Appartment$$, $$d$$, $$Nancy proche Centre, Facs Droit- lettres
+loyers 900 euros garantie visale demandé', '3', 'Poissy 78300 Béthemont - Bidonnière', '2', 'false', '0', '1', '1', 'individual', 'electric', '1995', '1', null, '279.6192'), ('815', 'Nancy Centre FACS loue studios équipés', 'true', '18', 'f', '2025-08-31T22:00:00.000Z', '380', 'Appartment', 'd', 'Nancy proche Centre, Facs Droit- lettres
 Loue studios tout équipés et disponibles
 à partir de 360 €+20 à 450+20€ d'avances/charges
 éligibles Allocations CAF
 Rue Jeanne d'Arc
 Faubourg des 3-Maisons
 Place des Vosges
-de 15 à 25 m²$$, 1, null, null, null, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(816, $$T3 Neuf Meublé 59m² + Jardin 126m² + Parking – Bail mobilité ou étudiant (colocation possible)$$, $$Saint-Gilles-Croix-de-Vie 85800$$, true, 59, $$c$$, $$2025-08-31T22:00:00.000Z$$, 950, $$Appartment$$, $$c$$, $$🏡 Description
+de 15 à 25 m²', '1', 'Nancy 54000 Ville vieille - Léopold', null, 'false', null, null, null, 'individual', 'electric', null, null, null, '155.1312'), ('816', 'T3 Neuf Meublé 59m² + Jardin 126m² + Parking – Bail mobilité ou étudiant (colocation possible)', 'true', '59', 'c', '2025-08-31T22:00:00.000Z', '950', 'Appartment', 'c', '🏡 Description
 Appartement neuf (livré en 2025), entièrement meublé et équipé, situé dans une résidence calme et récente à Saint-Gilles-Croix-de-Vie.
 
 Superficie : 59 m² habitables
@@ -660,16 +619,14 @@ Place de parking privative incluse
 DPE : C
 GES : C
 
-📞 Contactez-moi pour plus d’informations ou pour organiser une visite.$$, 3, 0, 1, 2, false, 1, $$individual$$, $$electric$$, 2025, 1, $$south_west$$, null),
-(817, $$Studio 1 pièce 27 m²$$, $$Saint-Girons 09200$$, false, 27, $$d$$, null, 386, $$Appartment$$, $$b$$, $$Studio rénové avec ascenseur
+📞 Contactez-moi pour plus d’informations ou pour organiser une visite.', '3', 'Saint-Gilles-Croix-de-Vie 85800', '2', 'false', '0', '1', '1', 'individual', 'electric', '2025', '1', 'south_west', '167.7312'), ('817', 'Studio 1 pièce 27 m²', 'false', '27', 'd', null, '386', 'Appartment', 'b', 'Studio rénové avec ascenseur
 
 Studio rénové, situé au 1er étage avec ascenseur. Kitchenette équipée, hotte et plaque vitro. Salle de bains avec wc et sèche serviette. Dressing intérieur. Au calme, proche place Pasteur. Libre le 7 octobre
 Référence annonce : S1-09200-003_A11
 Date de réalisation du diagnostic : 10/09/2025
 Honoraires à la charge du locataire : 301 € TTC dont 82 € pour l’état des lieux
 Dépôt de garantie : 330 €
-Montant des charges : 56 € / mois$$, 1, null, null, null, false, null, null, null, null, null, null, null),
-(818, $$Appartement 3 pièces 45 m²$$, $$Orbais-l'Abbaye 51270$$, false, 45, $$d$$, $$2025-10-30T23:00:00.000Z$$, 370, $$Appartment$$, $$b$$, $$Appartement 3 pièces
+Montant des charges : 56 € / mois', '1', 'Saint-Girons 09200', null, 'false', null, null, null, null, null, null, null, null, '75.9762'), ('818', 'Appartement 3 pièces 45 m²', 'false', '45', 'd', '2025-10-30T23:00:00.000Z', '370', 'Appartment', 'b', 'Appartement 3 pièces
 
 Réf 2494: ORBAIS L'ABBAYE
 Appartement comprenant: entrée, cuisine ouverte sur séjour, salle d'eau wc, 2 chambres en enfilade.
@@ -684,8 +641,7 @@ Dépôt de garantie : 350 €
 Montant des charges : 20 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 380 € et 560 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 3, 0, null, 2, false, null, null, null, null, null, null, null),
-(819, $$Appartement 4 pièces 102 m²$$, $$Wasquehal 59290 Grand Cottignies$$, false, 102, $$d$$, $$2025-06-30T22:00:00.000Z$$, 1, $$Appartment$$, $$b$$, $$Appartement 4 pièces 102 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 380 € et 560 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '3', 'Orbais-l'Abbaye 51270', '2', 'false', '0', null, null, null, null, null, null, null, '113.9262'), ('819', 'Appartement 4 pièces 102 m²', 'false', '102', 'd', '2025-06-30T22:00:00.000Z', '1', 'Appartment', 'b', 'Appartement 4 pièces 102 m²
 
 Wasquehal - Appartement 4 pièces de 102m² - A Wasquehal, rue Konrad Adenauer. 
 
@@ -709,8 +665,7 @@ Date de réalisation du diagnostic énergétique : 10/09/2025
 Consommation énergie primaire : 242 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 912 € et 2 586 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 4, 3, 1, null, true, 1, $$individual$$, $$electric$$, 2009, null, $$south_west$$, null),
-(820, $$Appartement 2 pièces 53 m²$$, $$Agen 47000 Scaliger$$, false, 53, $$d$$, $$2025-10-05T22:00:00.000Z$$, 510, $$Appartment$$, $$d$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 912 € et 2 586 € sur les années 2021, 2022 et 2023 (abonnements compris).', '4', 'Wasquehal 59290 Grand Cottignies', null, 'true', '3', '1', '1', 'individual', 'electric', '2009', null, 'south_west', '413.1792'), ('820', 'Appartement 2 pièces 53 m²', 'false', '53', 'd', '2025-10-05T22:00:00.000Z', '510', 'Appartment', 'd', 'APPARTEMENT
 
 Cet appartement T2 est situé en hyper centre d'Agen, dans une résidence calme avec ascenseur. Il comprend une cuisine aménagée, un séjour, une chambre avec placard, une salle de bains et des WC.LES + : une place de parking et une cave. Le chauffage est individuel au gaz. L'eau est comprise dans les provisions sur charges. DEPOSEZ VOTRE DOSSIER SUR LE SITE DE L AGENCE
 
@@ -724,8 +679,7 @@ Dépôt de garantie : 415 €
 Montant des charges : 95 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 680 € et 980 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, 2, null, 1, true, 1, $$individual$$, $$gas$$, 1989, 5, null, null),
-(821, $$Appartement 1 pièce 35 m²$$, $$Bordeaux 33000$$, false, 35, $$d$$, $$2025-08-19T22:00:00.000Z$$, 731, $$Appartment$$, $$b$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 680 € et 980 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Agen 47000 Scaliger', '1', 'true', '2', null, '1', 'individual', 'gas', '1989', '5', null, '130.792866666667'), ('821', 'Appartement 1 pièce 35 m²', 'false', '35', 'd', '2025-08-19T22:00:00.000Z', '731', 'Appartment', 'b', 'APPARTEMENT
 
 Idéalement placé à proximité des quais et du tram C, cet appartement offre un cadre de vie agréable et pratique. L'entrée dessert un séjour spacieux et lumineux, et une cuisine séparée et aménagée. La chambre bénéficie d'une belle clarté. Une salle d'eau ainsi qu'un cellier complètent ce bien.
 
@@ -743,8 +697,7 @@ Montant estimé des dépenses annuelles d'énergie pour un usage standard : entr
 
 Zone soumise à encadrement des loyers.
 Loyer de base : 700 €.
-Loyer de référence majoré (loyer de base à ne pas dépasser) : 731.50 €.$$, 1, 3, null, null, false, null, $$individual$$, $$electric$$, 1921, null, null, null),
-(822, $$Appartement 3 pièces 77 m²$$, $$Angers 49100 Monplaisir$$, false, 77, $$e$$, $$2025-04-22T22:00:00.000Z$$, 1, $$Appartment$$, $$e$$, $$Appartement
+Loyer de référence majoré (loyer de base à ne pas dépasser) : 731.50 €.', '1', 'Bordeaux 33000', null, 'false', '3', null, null, 'individual', 'electric', '1921', null, null, '154.2912'), ('822', 'Appartement 3 pièces 77 m²', 'false', '77', 'e', '2025-04-22T22:00:00.000Z', '1', 'Appartment', 'e', 'Appartement
 
 HYPER-CENTRE, rue Voltaire, Beau Type IV dans immeuble Haussmannien avec ascenseur, disponible de suite. Comprenant: Grand séjour, 2 chambres avec Placards et possibilité 3ème Chambre ou Bureau, Salle de bains avec Placard, Cuisine aménagée de Placards, wc séparé.
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 2 160 et 2 970 euros.
@@ -754,8 +707,7 @@ Honoraires à la charge du locataire : 852 € TTC dont 232 € pour l’état d
 Dépôt de garantie : 965 €
 Montant des charges : 135 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 2 160 € et 2 970 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 3, null, 2, true, 1, $$individual$$, $$gas$$, null, null, null, null),
-(823, $$Appartement 3 pièces 63 m²$$, $$Épinay-sur-Orge 91360$$, false, 63, $$c$$, $$2025-09-14T22:00:00.000Z$$, 1, $$Appartment$$, $$c$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 2 160 € et 2 970 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Angers 49100 Monplaisir', '2', 'true', '3', null, '1', 'individual', 'gas', null, null, null, '251.9762'), ('823', 'Appartement 3 pièces 63 m²', 'false', '63', 'c', '2025-09-14T22:00:00.000Z', '1', 'Appartment', 'c', 'APPARTEMENT
 
 À louer : bel appartement neuf de type F3 situé dans un quartier calme, à seulement 5 minutes à pied de la gare d?Épinay-sur-Orge. Il se compose d?une entrée, d?un salon lumineux, d?une cuisine, de deux chambres confortables ainsi que d?une salle de bain et les WC sont séparée. Idéal pour un couple ou une petite famille, ce logement offre un cadre de vie agréable et pratique grâce à sa proximité des transports et commodités.
 
@@ -769,8 +721,7 @@ Dépôt de garantie : 934 €
 Montant des charges : 110 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 479 € et 648 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 4, null, 2, false, 1, null, null, 2021, null, null, null),
-(824, $$Appartement 1 pièce 20 m²$$, $$Salon-de-Provence 13300 Les Hautes Viougues$$, false, 20, null, null, 450, $$Appartment$$, null, $$À Louer : Studio Refait à Neuf en Centre-Ville de Salon-de-Provence
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 479 € et 648 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Épinay-sur-Orge 91360', '2', 'false', '4', null, '1', null, null, '2021', null, null, '105.6762'), ('824', 'Appartement 1 pièce 20 m²', 'false', '20', null, null, '450', 'Appartment', null, 'À Louer : Studio Refait à Neuf en Centre-Ville de Salon-de-Provence
 
 A Louer : Studio Refait à Neuf en Centre-Ville de Salon-de-Provence
 
@@ -803,8 +754,7 @@ Mandat réf : 420556 - Le professionnel garantit et sécurise votre projet immob
  Pascaline AVRIL (EI) Agent Commercial - Numéro RSAC :  - .
 Référence annonce : 420556KPAVR
 Non soumis au DPE
-Honoraires à la charge du locataire : 262 € TTC dont 60 € pour l’état des lieux$$, 1, 1, null, null, false, null, null, null, null, 4, null, null),
-(825, $$Appartement 2 pièces 50 m²$$, $$Saint-Étienne 42100 Saint-Roch - Vivaraize - Valbenoite - Centre Deux$$, false, 50, $$d$$, null, 490, $$Appartment$$, $$b$$, $$PROXIMITE TREFLERIE / VALBENOITE
+Honoraires à la charge du locataire : 262 € TTC dont 60 € pour l’état des lieux', '1', 'Salon-de-Provence 13300 Les Hautes Viougues', null, 'false', '1', null, null, null, null, null, '4', null, '79.5512'), ('825', 'Appartement 2 pièces 50 m²', 'false', '50', 'd', null, '490', 'Appartment', 'b', 'PROXIMITE TREFLERIE / VALBENOITE
 
 Appartement de type 2 d'environ 50 m² entièrement rénové, dans un immeuble calme et sécurisée.
 
@@ -823,8 +773,7 @@ Référence annonce : 2805
 Consommation énergétique : 247 kWh/m²/an
 Emission de gaz à effet de serre : 9 CO2/m²/an
 Honoraires à la charge du locataire : 490 € TTC dont 150 € pour l’état des lieux
-Dépôt de garantie : 490 €$$, 2, 3, null, 1, false, 1, null, null, null, null, null, null),
-(826, $$Appartement 3 pièces 54 m²$$, $$Saint-Étienne 42100 Méons - Le Soleil - Châteaucreux - Saint-François$$, false, 54, $$d$$, null, 466, $$Appartment$$, $$b$$, $$PROXIMITE CHATEAUCREUX / RUE DES ALLIES:
+Dépôt de garantie : 490 €', '2', 'Saint-Étienne 42100 Saint-Roch - Vivaraize - Valbenoite - Centre Deux', '1', 'false', '3', null, '1', null, null, null, null, null, '124.467866666667'), ('826', 'Appartement 3 pièces 54 m²', 'false', '54', 'd', null, '466', 'Appartment', 'b', 'PROXIMITE CHATEAUCREUX / RUE DES ALLIES:
 
 Appartement de type 3 de 55m² au dernier étage d'une petite copropriété.
 
@@ -845,8 +794,7 @@ Emission de gaz à effet de serre : 7 CO2/m²/an
 Honoraires à la charge du locataire : 466 € TTC dont 164 € pour l’état des lieux
 Dépôt de garantie : 410 €
 Montant des charges : 56 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 3, 3, null, 2, false, 1, null, null, null, null, null, null),
-(827, $$Appartement 4 pièces 81 m²$$, $$Lingolsheim 67380 Centre-ville$$, false, 81, $$d$$, null, 1, $$Appartment$$, $$b$$, $$Appartement 4 pièces 81 m²
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '3', 'Saint-Étienne 42100 Méons - Le Soleil - Châteaucreux - Saint-François', '2', 'false', '3', null, '1', null, null, null, null, null, '132.9012'), ('827', 'Appartement 4 pièces 81 m²', 'false', '81', 'd', null, '1', 'Appartment', 'b', 'Appartement 4 pièces 81 m²
 
 'sans frais d'agence' , biens conventionnés et réservé aux salariés.
 
@@ -873,8 +821,7 @@ Consommation énergie finale : Non communiqué
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 352 € et 1 828 € sur les années 2021, 2022 et 2023 (abonnements compris).
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 4, 2, null, 3, false, 1, $$individual$$, $$electric$$, null, 2, null, null),
-(828, $$Appartement 1 pièce 17 m²$$, $$Grenoble 38000 Hyper-centre$$, true, 17, $$d$$, $$2025-09-25T22:00:00.000Z$$, 579, $$Appartment$$, $$b$$, $$APPARTEMENT_MEUBLE
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '4', 'Lingolsheim 67380 Centre-ville', '3', 'false', '2', null, '1', 'individual', 'electric', null, '2', null, '332.0352'), ('828', 'Appartement 1 pièce 17 m²', 'true', '17', 'd', '2025-09-25T22:00:00.000Z', '579', 'Appartment', 'b', 'APPARTEMENT_MEUBLE
 
 Grenoble Village Championnet, dans quartier très prisé et commerçant, en dernier étage, charmant appartement à la décoration contemporaine avec vue dégagée, très lumineux, une cuisine entièrement équipée avec coin repas et incluant machine à laver, un coin bureau et pièce de vie, une salle d'eau/wc avec meuble vasque, coin couchage en mezzanine en sus.N'attendez plus pour le visiter.
 
@@ -892,8 +839,7 @@ Montant estimé des dépenses annuelles d'énergie pour un usage standard : entr
 Zone soumise à encadrement des loyers.
 Loyer de base : 364 €.
 Loyer de référence majoré (loyer de base à ne pas dépasser) : 365.50 €.
-Complément de loyer : 215 €.$$, 1, 5, null, null, false, null, null, null, 1945, null, null, null),
-(829, $$Appartement 1 pièce 37 m²$$, $$Poitiers 86000$$, false, 37, $$d$$, $$2025-11-18T23:00:00.000Z$$, 440, $$Appartment$$, $$c$$, $$Appartement
+Complément de loyer : 215 €.', '1', 'Grenoble 38000 Hyper-centre', null, 'false', '5', null, null, null, null, '1945', null, null, '54.8928666666667'), ('829', 'Appartement 1 pièce 37 m²', 'false', '37', 'd', '2025-11-18T23:00:00.000Z', '440', 'Appartment', 'c', 'Appartement
 
 PROCHE CHU A LOUER APPARTEMENT TYPE 1 AVEC BALCON ET PARKING - Proche CHU à louer appartement type 1 de 37,32 M2 comprenant : une entrée, une pièce principale, une kitchenette, une salle de bains avec WC. Balcon. Parking. Chauffage individuel gaz.
 Libre le 19/11/2025.
@@ -908,22 +854,19 @@ Honoraires à la charge du locataire : 410 € TTC dont 111 € pour l’état d
 Dépôt de garantie : 400 €
 Montant des charges : 40 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 774 € et 1 046 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 1, 1, null, null, false, 1, $$individual$$, $$gas$$, null, null, null, null),
-(830, $$Appartement 2 pièces 42 m²$$, $$Marseille 13013 Saint-Jérome$$, true, 42, $$v$$, null, 850, $$Appartment$$, $$v$$, $$13013 Saint Jérôme MARSEILLE T2 40m2 habitable.
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 774 € et 1 046 € sur les années 2021, 2022 et 2023 (abonnements compris).', '1', 'Poitiers 86000', null, 'false', '1', null, '1', 'individual', 'gas', null, null, null, '97.0595333333333'), ('830', 'Appartement 2 pièces 42 m²', 'true', '42', 'v', null, '850', 'Appartment', 'v', '13013 Saint Jérôme MARSEILLE T2 40m2 habitable.
 Sejour, Cuisine aménagée et équip, Chambre, salle d'eau avec wc, Terrasse de 23 m2.
 Appartement en très bon état au dernière étage d'un petit immeuble. Loyer: 850 €  + 30 € de provisions de charges  - Toutes nos annonces sur gitimmo - merci de mettre votre n°de téléphone afin d'être contacté au plus vite - Vous pouvez passer directectement au 3 Rue Dragon 13006 Marseille du Lundi au vendredi de 9h30 à 12h30 et de 14h à 18h30 et le samedi de 10h à 13h.. Forfait: 410€
  - DPE en cours -
 Référence annonce : B64676
-Dépôt de garantie : 1700 €$$, 2, 3, null, null, false, null, $$individual$$, null, null, null, null, null),
-(831, $$Appartement 5 pièces 101 m²$$, $$Floirac 33270 Belle Croix - Rebédech$$, false, 101, $$a$$, null, 1, $$Appartment$$, $$a$$, $$Appartement / 5 pièces / 101.00 m2
+Dépôt de garantie : 1700 €', '2', 'Marseille 13013 Saint-Jérome', null, 'false', '3', null, null, 'individual', null, null, null, null, '146.1012'), ('831', 'Appartement 5 pièces 101 m²', 'false', '101', 'a', null, '1', 'Appartment', 'a', 'Appartement / 5 pièces / 101.00 m2
 
 Dans résidence neuve de 6 étages proche Mairie de Floirac, commerces de proximité, bus (lignes 6, 28 et 54) et accès rapide au Pont Simone Veil,      appartement T5, 101 m 2, au 4ème étage, 4 chambres (dont 1 suite parentale et 1 avec placard), séjour - cuisine ouverte aménagée et semi-équipée (plaque chauffante, hotte aspirante), salle de bain+ salle d'eau, grande terrasse (31 m2), 1 place de parking couverte et sécurisée double (15 euros en sus du loyer), chauffage inclus dans les charges, cellier, 2 WC.Pas de frais d'agence.Soumis à plafonds de ressources LLI.Exclusivement réservé aux salariés du privé.Plan et photos non contractuels. 
 Référence annonce : IAO_124091-FLOIRAC
 Date de réalisation du diagnostic : 14/10/2024
 Dépôt de garantie : 1084 €
 Montant des charges : 165 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 5, 4, null, 4, true, null, $$communal$$, null, null, null, null, null),
-(832, $$Studio 1 pièce 17 m²$$, $$Fréjus 83600 Valescure$$, true, 17, $$d$$, null, 595, $$Appartment$$, $$b$$, $$Studio 1 pièce 17 m²
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '5', 'Floirac 33270 Belle Croix - Rebédech', '4', 'true', '4', null, null, 'communal', null, null, null, null, '19.0512'), ('832', 'Studio 1 pièce 17 m²', 'true', '17', 'd', null, '595', 'Appartment', 'b', 'Studio 1 pièce 17 m²
 
 FREJUS - Résidence Les Galaxies - Dans une résidence de bonne tenue, sécurisée et fermée, avec un parc, nous vous proposons la location de ce bel appartement au 2ème étage, de type studio meublé avec gout de 20m². Le logement est composé d'un coin cuisine équipée et aménagée ouvert sur une belle pièce de vie et d'une salle d'eau avec cabine de douche et WC. L'appartement dispose également d'une cave privée et d'un stationnement réservé dans l'enceinte de la copropriété. Proche des commerces, des transports et offrant un accès rapide au centre-ville de Fréjus et de Saint Raphael.
 
@@ -939,8 +882,7 @@ Consommation énergie finale : Non communiqué
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 470 € et 680 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 1, 2, 1, null, true, null, $$individual$$, $$electric$$, 1980, 4, null, null),
-(833, $$Appartement 3 pièces 72 m²$$, $$Digoin 71160$$, false, 72, $$e$$, null, 805, $$Appartment$$, $$b$$, $$Appartement 3 pièces 72 m²
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '1', 'Fréjus 83600 Valescure', null, 'true', '2', '1', null, 'individual', 'electric', '1980', '4', null, '84.7392'), ('833', 'Appartement 3 pièces 72 m²', 'false', '72', 'e', null, '805', 'Appartment', 'b', 'Appartement 3 pièces 72 m²
 
 Digoin, proche du centre commercial, au 2ème étage d'une résidence avec ascenseur, appartement F3 d'environ 72 m2 comprenant : 
  Entrée/dégagement avec rangement, grand séjour avec accès loggia fermée, cuisine aménagée, deux chambres, salle de bains, wc
@@ -962,8 +904,7 @@ Date de réalisation du diagnostic énergétique : 08/01/2025
 Consommation énergie primaire : 304 kWh/m²/an
 Consommation énergie finale : 132 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 740 € et 2 390 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 2, 1, 2, true, 1, $$communal$$, $$electric$$, 1971, 5, null, null),
-(834, $$Appartement 3 pièces 60 m²$$, $$Vorey 43800$$, false, 60, $$f$$, $$2025-09-27T22:00:00.000Z$$, 320, $$Appartment$$, $$c$$, $$11 rue LOUIS JOUVET -F3 au 2ème étage
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 740 € et 2 390 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Digoin 71160', '2', 'true', '2', '1', '1', 'communal', 'electric', '1971', '5', null, '19.0512'), ('834', 'Appartement 3 pièces 60 m²', 'false', '60', 'f', '2025-09-27T22:00:00.000Z', '320', 'Appartment', 'c', '11 rue LOUIS JOUVET -F3 au 2ème étage
 
 REF 11321 - 11 RUE LOUIS JOUVET 43800 VOREY - F3 au 2ème étage comprenant un hall d'entrée, une cuisine meublée, un séjour,  deux chambres , une salle d'eau et un WC.
 Chauffage individuel électrique.
@@ -974,8 +915,7 @@ Honoraires à la charge du locataire : 320 € TTC dont 182 € pour l’état d
 Dépôt de garantie : 320 €
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 450 € et 2 000 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)
-Logement à consommation énergétique excessive : classe F$$, 3, 2, null, 2, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(835, $$Appartement 2 pièces 44 m²$$, $$Bordeaux 33300 Chartrons$$, true, 44, $$c$$, null, 984, $$Appartment$$, $$a$$, $$Appartement Bordeaux 2 pièce(s) 44.29 m2
+Logement à consommation énergétique excessive : classe F', '3', 'Vorey 43800', '2', 'false', '2', null, null, 'individual', 'electric', null, null, null, '472.6512'), ('835', 'Appartement 2 pièces 44 m²', 'true', '44', 'c', null, '984', 'Appartment', 'a', 'Appartement Bordeaux 2 pièce(s) 44.29 m2
 
 BORDEAUX-CHARTRONS Dans une résidence sécurisée et calme, un appartement de type 2 meublé comprenant un séjour donnant sur un balcon, une chambre avec placard, une salle de bain avec WC et une cuisine aménagée et équipée. Une place de parking à l'intérieur de la résidence complète ce bien.
 Référence annonce : HXND-VUW-H67
@@ -984,8 +924,7 @@ Honoraires à la charge du locataire : 575 € TTC
 Dépôt de garantie : 1760 €
 Montant des charges : 50 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 540 € et 780 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, null, 1, 1, true, 1, $$individual$$, $$electric$$, null, null, null, null),
-(836, $$Appartement 3 pièces 56 m²$$, $$Dreux 28100 Sainte-Eve$$, false, 56, $$d$$, null, 780, $$Appartment$$, $$d$$, $$Appartement 3 pièces 56 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 540 € et 780 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Bordeaux 33300 Chartrons', '1', 'true', null, '1', '1', 'individual', 'electric', null, null, null, '129.9312'), ('836', 'Appartement 3 pièces 56 m²', 'false', '56', 'd', null, '780', 'Appartment', 'd', 'Appartement 3 pièces 56 m²
 
 Dernier étage pour cet appartement  loué meublé de 3 pièces comprenant entrée, séjour , 2 chambres,  salle de douche, toilettes, balcon et nombreux rangements.
 
@@ -1003,8 +942,7 @@ Date de réalisation du diagnostic énergétique : 02/09/2025
 Consommation énergie primaire : 197 kWh/m²/an
 Consommation énergie finale : 190 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 110 € et 1 550 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 6, null, 2, false, null, null, null, null, 6, null, null),
-(837, $$Appartement 2 pièces 45 m²$$, $$Carcassonne 11000 Grazailles - Fleming - La Reille$$, false, 45, $$c$$, $$2025-08-29T22:00:00.000Z$$, 595, $$Appartment$$, $$a$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 110 € et 1 550 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Dreux 28100 Sainte-Eve', '2', 'false', '6', null, null, null, null, null, '6', null, '137.117866666667'), ('837', 'Appartement 2 pièces 45 m²', 'false', '45', 'c', '2025-08-29T22:00:00.000Z', '595', 'Appartment', 'a', 'APPARTEMENT
 
 Grazailles, proche des transports en communs et commerces de la ville, dans résidence agréable avec stationnement au pied de l'immeuble.Charmant T2 au 4e étage avec ascenseur: entrée, séjour, coin cuisine équipée, chambre avec placard, SDE, wc séparés. disponible immediatement.
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
@@ -1015,8 +953,7 @@ Dépôt de garantie : 558 €
 Montant des charges : 37 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 480 € et 680 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, 0, null, null, false, null, null, null, 1985, null, null, null),
-(838, $$Appartement 3 pièces 55 m²$$, $$Poitiers 86000 Saint-Eloi - Breuil - Mingot$$, false, 55, $$c$$, $$2024-11-02T23:00:00.000Z$$, 603, $$Appartment$$, $$a$$, $$Appartement
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 480 € et 680 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Carcassonne 11000 Grazailles - Fleming - La Reille', null, 'false', '0', null, null, null, null, '1985', null, null, '80.9262'), ('838', 'Appartement 3 pièces 55 m²', 'false', '55', 'c', '2024-11-02T23:00:00.000Z', '603', 'Appartment', 'a', 'Appartement
 
 À LOUER : Appartement 3 pièces situé à Poitiers dans le quartier de St Eloi à proximité du campus, ce bien immobilier offre une superficie de 55,07 m², idéal pour un couple ou une petite famille.
 
@@ -1042,8 +979,7 @@ Honoraires à la charge du locataire : 605 € TTC dont 165 € pour l’état d
 Dépôt de garantie : 545 €
 Montant des charges : 58 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 621 € et 841 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 1, 1, 2, true, 1, $$individual$$, $$electric$$, null, null, null, null),
-(839, $$Appartement 1 pièce 25 m²$$, $$Périgueux 24000 Centre-ville - La Gare - Saint-Martin$$, true, 25, $$d$$, $$2025-09-25T22:00:00.000Z$$, 420, $$Appartment$$, $$a$$, $$LOCATION d'un appartement T1 meublé à PERIGUEUX
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 621 € et 841 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Poitiers 86000 Saint-Eloi - Breuil - Mingot', '2', 'true', '1', '1', '1', 'individual', 'electric', null, null, null, '157.6512'), ('839', 'Appartement 1 pièce 25 m²', 'true', '25', 'd', '2025-09-25T22:00:00.000Z', '420', 'Appartment', 'a', 'LOCATION d'un appartement T1 meublé à PERIGUEUX
 
 **À LOUER : Studio Meublé à Périgueux**
 
@@ -1063,8 +999,7 @@ Honoraires à la charge du locataire : 297 € TTC dont 81 € pour l’état de
 Dépôt de garantie : 770 €
 Montant des charges : 35 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 350 € et 530 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 1, null, 1, null, false, 1, $$individual$$, $$electric$$, null, null, null, null),
-(840, $$Appartement 2 pièces 39 m²$$, $$Metz 57000 Sablon$$, true, 39, $$e$$, null, 840, $$Appartment$$, $$e$$, $$METZ GARE,
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 350 € et 530 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '1', 'Périgueux 24000 Centre-ville - La Gare - Saint-Martin', null, 'false', null, '1', '1', 'individual', 'electric', null, null, null, '115.6512'), ('840', 'Appartement 2 pièces 39 m²', 'true', '39', 'e', null, '840', 'Appartment', 'e', 'METZ GARE,
 
 A deux pas de la gare, 5 rue Marie Anne de Bovet, venez découvrir ce coquet appartement F2 meublé idéalement situé.
 
@@ -1083,8 +1018,7 @@ Emission de gaz à effet de serre : 60 CO2/m²/an
 Honoraires à la charge du locataire : 386 € TTC dont 105 € pour l’état des lieux
 Dépôt de garantie : 1250 €
 Montant des charges : 215 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 2, 2, null, 1, false, null, null, null, 1965, null, null, null),
-(841, $$Appartement 1 pièce 20 m²$$, $$Saint-Denis 97400 Centre-ville$$, false, 20, null, null, 626, $$Appartment$$, null, $$À LOUER T1 MEUBLE 27,82M²- RESIDENCE LES MARQUISES- SAINT DENIS- BAS DE LA RIVIERE
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '2', 'Metz 57000 Sablon', '1', 'false', '2', null, null, null, null, '1965', null, null, '137.0262'), ('841', 'Appartement 1 pièce 20 m²', 'false', '20', null, null, '626', 'Appartment', null, 'À LOUER T1 MEUBLE 27,82M²- RESIDENCE LES MARQUISES- SAINT DENIS- BAS DE LA RIVIERE
 
 À louer studio meublé situé au 1er étage dans la Résidence Les Marquises situé au bas de la rivière à Saint-Denis. Cet appartement comprend une pièce à vivre climatisée de 20,67 m², une terrasse de 7,15 m², un coin cuisine avec plaque 2 feux, meuble sous évier + bar, une salle d'eau avec douche avec wc.
 
@@ -1111,8 +1045,7 @@ Complément de loyer : 53 € / mois (inclus dans le loyer CC)
 Zone soumise à encadrement des loyers.
 Loyer de base : 543 €.
 Loyer de référence majoré (loyer de base à ne pas dépasser) : Non communiqué.
-Complément de loyer : 53 €.$$, 1, 1, 1, null, true, null, $$individual$$, null, 2006, 5, null, null),
-(842, $$Appartement 2 pièces 30 m²$$, $$Saint-Quentin 02100$$, true, 30, null, null, 570, $$Appartment$$, null, $$Appartement 2 pièces 30 m²
+Complément de loyer : 53 €.', '1', 'Saint-Denis 97400 Centre-ville', null, 'true', '1', '1', null, 'individual', null, '2006', '5', null, '79.5512'), ('842', 'Appartement 2 pièces 30 m²', 'true', '30', null, null, '570', 'Appartment', null, 'Appartement 2 pièces 30 m²
 
 Un très bel appartement de type T2 entièrement neuf meublé avec goût comprenant: une cuisine équipée ouverte sur une pièce à vivre, une chambre, salle de bains équipée d'une machine à laver et un WC. 
   
@@ -1134,8 +1067,7 @@ Dépôt de garantie : 550 €
 Date de réalisation du diagnostic énergétique : 25/07/2025
 
 Consommation énergie primaire : Non communiqué
-Consommation énergie finale : Non communiqué$$, 2, 0, null, 1, false, 1, null, null, null, null, null, null),
-(843, $$Appartement 3 pièces 74 m²$$, $$Le Mans 72000 Centre-ville - République - Jacobins$$, false, 74, $$d$$, null, 795, $$Appartment$$, $$b$$, $$Appartement 3 pièces 74 m²
+Consommation énergie finale : Non communiqué', '2', 'Saint-Quentin 02100', '1', 'false', '0', null, '1', null, null, null, null, null, '109.8012'), ('843', 'Appartement 3 pièces 74 m²', 'false', '74', 'd', null, '795', 'Appartment', 'b', 'Appartement 3 pièces 74 m²
 
 Situé place de la Sirène au calme à deux pas de la place des Jacobins et du TRAM, ce joli T3 lumineux est au 2ème étage sans ascenseur d’une petite résidence sécurisée.
   
@@ -1156,8 +1088,7 @@ Consommation énergie finale : Non communiqué
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 160 € et 1 620 € sur les années 2021, 2022 et 2023 (abonnements compris).
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 3, 2, null, 2, false, null, $$individual$$, $$electric$$, 1890, 3, null, null),
-(844, $$Appartement 2 pièces 66 m²$$, $$Bourges 18000 Auron - Vauvert - Haeglen$$, false, 66, null, null, 610, $$Appartment$$, $$a$$, $$Appartement 2 pièces 66 m²
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '3', 'Le Mans 72000 Centre-ville - République - Jacobins', '2', 'false', '2', null, null, 'individual', 'electric', '1890', '3', null, '304.9872'), ('844', 'Appartement 2 pièces 66 m²', 'false', '66', null, null, '610', 'Appartment', 'a', 'Appartement 2 pièces 66 m²
 
 BOURGES - QUARTIER LOUIS MALLET / PROCHE GEORGES SAND
  Dans résidence avec ascenseur, appartement T2 bis, lumineux, comprenant : une entrée, une cuisine aménagée, un cellier, un séjour-salon, une chambre, un dressing, une salle de bains et un WC.
@@ -1182,8 +1113,7 @@ Honoraires à la charge du locataire : 526.64 € dont 197.49 € pour l’état
 Dépôt de garantie : 510 €
 
 Consommation énergie primaire : Non communiqué
-Consommation énergie finale : Non communiqué$$, 2, 1, null, 1, true, null, $$individual$$, $$gas$$, null, null, null, null),
-(845, $$Appartement 2 pièces 47 m²$$, $$Limoges 87000 Centre-ville$$, false, 47, $$d$$, $$2025-10-10T22:00:00.000Z$$, 525, $$Appartment$$, $$b$$, $$APPARTEMENT
+Consommation énergie finale : Non communiqué', '2', 'Bourges 18000 Auron - Vauvert - Haeglen', '1', 'true', '1', null, null, 'individual', 'gas', null, null, null, '218.7012'), ('845', 'Appartement 2 pièces 47 m²', 'false', '47', 'd', '2025-10-10T22:00:00.000Z', '525', 'Appartment', 'b', 'APPARTEMENT
 
 Venez découvrir dans le secteur Renoir, dans petit immeuble proche des lignes de bus et toutes commodités, un appartement de type 2 au dernier étage comprenant, une entrée, une cuisine, un séjour, une chambre, une salle de bain et WC. N'hésitez plus, contactez-nous.
 
@@ -1197,8 +1127,7 @@ Dépôt de garantie : 490 €
 Montant des charges : 35 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 660 € et 930 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, 2, null, 1, false, 1, $$individual$$, $$electric$$, 1921, null, null, null),
-(846, $$Appartement 3 pièces 88 m²$$, $$Perpignan 66000 Saint-Matthieu$$, false, 88, $$c$$, $$2025-08-19T22:00:00.000Z$$, 680, $$Appartment$$, $$a$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 660 € et 930 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Limoges 87000 Centre-ville', '1', 'false', '2', null, '1', 'individual', 'electric', '1921', null, null, '200.6592'), ('846', 'Appartement 3 pièces 88 m²', 'false', '88', 'c', '2025-08-19T22:00:00.000Z', '680', 'Appartment', 'a', 'APPARTEMENT
 
 À louer, spacieux appartement de 3 pièces d?une superficie de 88 m², situé au 4? étage sans ascenseur d?un immeuble calme. Situé sur le Boulevard Mercader, à deux pas du centre-ville  ce bien lumineux et traversant se compose d?une entrée, d?un double séjour offrant un bel espace de vie avec fausse cheminée, d?une cuisine indépendante aménagée et équipée donnant sur un balcon avec vue sur le palais des Rois de Majorque, d?une salle d?eau rénovée, d?un WC séparé indépendante, de deux chambres confortables avec rangements, d?un bureau pouvant également servir de chambre d?appoint ou de dressing, ainsi que d?une buanderie privative située juste au-dessus de l?appartement, équipée d?un branchement pour machine à laver. L?appartement bénéficie d'une climatisation réversible dans tout le logement, d?un agencement fonctionnel et de beaux volumes, idéal pour une famille ou un couple souhaitant un cadre de vie agréable à proximité immédiate des commerces, écoles, transports et du cœur de ville. Disponible à partir du 1er septembre.
 
@@ -1212,8 +1141,7 @@ Dépôt de garantie : 620 €
 Montant des charges : 60 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 044 € et 1 412 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 4, null, null, false, null, $$individual$$, $$gas$$, 1952, 4, null, null),
-(847, $$Appartement 1 pièce 50 m²$$, $$Limoges 87000 Centre-ville$$, false, 50, $$f$$, $$2025-11-06T23:00:00.000Z$$, 690, $$Appartment$$, $$f$$, $$Appartement T2 avec garage
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 044 € et 1 412 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Perpignan 66000 Saint-Matthieu', null, 'false', '4', null, null, 'individual', 'gas', '1952', '4', null, '140.0512'), ('847', 'Appartement 1 pièce 50 m²', 'false', '50', 'f', '2025-11-06T23:00:00.000Z', '690', 'Appartment', 'f', 'Appartement T2 avec garage
 
 EXCLUSIVITÉ - APPARTEMENT   En location : découvrez cet appartement de 2 pièces à quelques pas de la place Denis Dussoub. Il propose une cuisine entièrement équipée et ouverte sur le salon ainsi qu'une chambre avec dressing, une salle d'eau et des toilettes séparés. Une cave et un garage sont associés à l'appartement.  Cet appartement se situe au 7e et dernier étage avec ascenseur.  Venez vite le découvrir !!
 Référence annonce : UAJA-KAG-1Y4
@@ -1223,8 +1151,7 @@ Dépôt de garantie : 530 €
 Montant des charges : 160 € / mois
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 000 € et 1 400 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)
-Logement à consommation énergétique excessive : classe F$$, 1, 7, 1, 1, true, null, $$communal$$, $$gas$$, null, 1, null, null),
-(848, $$Appartement 4 pièces 75 m²$$, $$Rennes 35000 Villejean$$, true, 75, $$d$$, null, 1, $$Appartment$$, $$b$$, $$Appartement 4 pièces 75 m²
+Logement à consommation énergétique excessive : classe F', '1', 'Limoges 87000 Centre-ville', '1', 'true', '7', '1', null, 'communal', 'gas', null, '1', null, '19.0512'), ('848', 'Appartement 4 pièces 75 m²', 'true', '75', 'd', null, '1', 'Appartment', 'b', 'Appartement 4 pièces 75 m²
 
 REFERENCE ANNONCE : LA2067-APNOTAIRES - RENNES - VILLEJEAN / TYPE 4 MEUBLÉ - 3 CHAMBRES - 75 M2 - A LOUER - IDÉAL COLOCATION : rue du Nivernais, à proximité immédiate de la faculté, des transports et des commerces, au 3ème étage, très bel appartement de 75m², MEUBLÉ de type 4, comprenant une entrée, trois chambres, un séjour, une cuisine aménagée et équipée , une salle d'eau et des WC séparés. LIBRE 
 
@@ -1240,8 +1167,7 @@ Date de réalisation du diagnostic énergétique : 02/05/2022
 Consommation énergie primaire : 222.0 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 110 € et 1 550 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 4, 0, null, 3, false, null, null, null, null, null, null, null),
-(849, $$Appartement 4 pièces 84 m²$$, $$Annecy 74000$$, true, 84, $$f$$, $$2025-06-20T22:00:00.000Z$$, 1, $$Appartment$$, $$f$$, $$ANNECY BAIL ETUDIANT EXCLUSIVEMENT (9 mois), proche Galerie Lafayette appartement de 4 pièces  meublé au 1er étage, comprenant un hall d'entrée, une cuisine séparée équipée, un séjour, trois chambres, une salle d'eau avec WC. Chauffage collectif et eau chaude individuelle. Une cave . Disponible de suite.
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 110 € et 1 550 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '4', 'Rennes 35000 Villejean', '3', 'false', '0', null, null, null, null, null, null, null, '177.1762'), ('849', 'Appartement 4 pièces 84 m²', 'true', '84', 'f', '2025-06-20T22:00:00.000Z', '1', 'Appartment', 'f', 'ANNECY BAIL ETUDIANT EXCLUSIVEMENT (9 mois), proche Galerie Lafayette appartement de 4 pièces  meublé au 1er étage, comprenant un hall d'entrée, une cuisine séparée équipée, un séjour, trois chambres, une salle d'eau avec WC. Chauffage collectif et eau chaude individuelle. Une cave . Disponible de suite.
 
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
 Référence annonce : SQH73.26788
@@ -1252,8 +1178,7 @@ Montant des charges : 143 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 2 660 € et 3 670 € sur les années 2021, 2022 et 2023 (abonnements compris).
-Logement à consommation énergétique excessive : classe F$$, 4, 1, null, 3, true, null, $$communal$$, $$gas$$, 1959, null, null, null),
-(850, $$Studio 1 pièce 27 m²$$, $$Fameck 57290$$, false, 27, $$f$$, null, 450, $$Appartment$$, $$c$$, $$Studio 1 pièce 27 m²
+Logement à consommation énergétique excessive : classe F', '4', 'Annecy 74000', '3', 'true', '1', null, null, 'communal', 'gas', '1959', null, null, '19.0512'), ('850', 'Studio 1 pièce 27 m²', 'false', '27', 'f', null, '450', 'Appartment', 'c', 'Studio 1 pièce 27 m²
 
 L'AGENCE by Duho vous propose en exclusivité ce charmant studio sans copropriété, offrant une entrée individuelle pour une totale tranquillité. Idéalement agencé, il se compose d'une cuisine ouverte, d'une pièce de vie, et d'une salle d'eau avec WC intégré. Disponible immédiatement. N'hésitez pas à nous contacter pour plus d'informations ou pour organiser une visite !
 
@@ -1269,8 +1194,7 @@ Consommation énergie primaire : 443 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 950 € et 1 330 € sur les années 2021, 2022 et 2023 (abonnements compris).
-Logement à consommation énergétique excessive : classe F$$, 1, 0, null, null, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(851, $$Appartement 3 pièces 73 m²$$, $$Kaysersberg Vignoble 68240$$, false, 73, $$d$$, null, 668, $$Appartment$$, $$d$$, $$Appartement 3 pièces 73 m²
+Logement à consommation énergétique excessive : classe F', '1', 'Fameck 57290', null, 'false', '0', null, null, 'individual', 'electric', null, null, null, '223.1712'), ('851', 'Appartement 3 pièces 73 m²', 'false', '73', 'd', null, '668', 'Appartment', 'd', 'Appartement 3 pièces 73 m²
 
 Votre agence l'Adresse vous propose à la location, au centre historique de Kaysersberg ce bel appartement de type F3 de 46m² loi Carrez (73m² au sol) au 3ème étage sans ascenseur d'une charmante bâtisse Alsacienne.
 
@@ -1308,8 +1232,7 @@ Consommation énergie finale : Non communiqué
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 720 € et 1 010 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 3, 3, null, 2, false, 1, $$individual$$, $$gas$$, null, 4, null, null),
-(852, $$Sous-location bureaux Paris Bastille$$, $$Paris 75004 Arsenal - Bastille$$, false, 149, $$c$$, $$2025-09-30T22:00:00.000Z$$, 8, $$Appartment$$, $$a$$, $$Bonjour,
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '3', 'Kaysersberg Vignoble 68240', '2', 'false', '3', null, '1', 'individual', 'gas', null, '4', null, '172.959533333333'), ('852', 'Sous-location bureaux Paris Bastille', 'false', '149', 'c', '2025-09-30T22:00:00.000Z', '8', 'Appartment', 'a', 'Bonjour,
 
 Nous sommes Galadrim, agence de Développement web, mobile et IA.
 Nous proposons à la sous-location une partie de notre 6ᵉ étage, lumineux et entièrement rénové, situé à deux pas de Bastille et de la place des Vosges.
@@ -1335,8 +1258,7 @@ Environnement calme, créatif et propice aux échanges – idéal pour start-ups
 
 📍 Adresse : rue Neuve Saint-Pierre (Paris 04)
 
-📅 Disponibilité  : 1ᵉʳ octobre 2025$$, 3, 6, null, null, false, null, null, null, null, 6, null, null),
-(853, $$Appartement meublé T4$$, $$Saint-Herblain 44800 Est$$, true, 72, $$e$$, $$2025-08-31T22:00:00.000Z$$, 1, $$Appartment$$, $$e$$, $$📍 Saint-Herblain / Proche périphérique – Parking gratuit
+📅 Disponibilité  : 1ᵉʳ octobre 2025', '3', 'Paris 75004 Arsenal - Bastille', null, 'false', '6', null, null, null, null, null, '6', null, '223.9262'), ('853', 'Appartement meublé T4', 'true', '72', 'e', '2025-08-31T22:00:00.000Z', '1', 'Appartment', 'e', '📍 Saint-Herblain / Proche périphérique – Parking gratuit
 
 À louer beau T4 lumineux de 72 m², entièrement meublé, situé au 4ᵉ étage (sans ascenseur) dans une copropriété calme avec parking gratuit au pied de l’immeuble.
 🏡 Description du bien :
@@ -1371,8 +1293,7 @@ Copie de pièce d’identité, 3 derniers bulletins de salaire (et ceux du garan
 📩 Si vous êtes intéressé.e, merci de me transmettre un dossier complet accompagné d'une courte présentation (profil, situation, motivation).
 Un dossier complet peut permettre une validation rapide.
 
-📞 Pour les visites, me contacter directement via la messagerie ou le portable.$$, 4, 4, null, 3, false, 1, $$communal$$, $$gas$$, 1969, 4, null, null),
-(854, $$Appartement 3 pièces 66 m²$$, $$Clamart 92140 Centre-ville$$, false, 66, $$e$$, null, 1, $$Appartment$$, $$e$$, $$Appartement 3 pièces 66 m²
+📞 Pour les visites, me contacter directement via la messagerie ou le portable.', '4', 'Saint-Herblain 44800 Est', '3', 'false', '4', null, '1', 'communal', 'gas', '1969', '4', null, '19.0512'), ('854', 'Appartement 3 pièces 66 m²', 'false', '66', 'e', null, '1', 'Appartment', 'e', 'Appartement 3 pièces 66 m²
 
 Au centre de Clamart, à proximité de toutes commodités, charme de l'ancien rénové pour ce bel appartement 3 pièces environ 66 m² comprenant entrée, un séjour, une cuisine aménagée, une salle de bain, 2 chambres. Parquet en chêne, cheminées, belle hauteur sous plafond ! Chauffage individuel au gaz, double vitrage. Une cave. Il y a un local vélo/poussette dans l'entrée de l'immeuble. 
 
@@ -1388,8 +1309,7 @@ Date de réalisation du diagnostic énergétique : 12/08/2025
 Consommation énergie primaire : 340 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 200 € et 1 500 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 2, null, 2, false, 1, $$individual$$, $$gas$$, 1920, 5, null, null),
-(855, $$Appartement 1 pièce 36 m²$$, $$Saint-Omer 62500 Centre historique$$, false, 36, $$d$$, $$2025-10-31T23:00:00.000Z$$, 427, $$Appartment$$, $$c$$, $$Appartement 1 pièce 36 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 200 € et 1 500 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Clamart 92140 Centre-ville', '2', 'false', '2', null, '1', 'individual', 'gas', '1920', '5', null, '218.7012'), ('855', 'Appartement 1 pièce 36 m²', 'false', '36', 'd', '2025-10-31T23:00:00.000Z', '427', 'Appartment', 'c', 'Appartement 1 pièce 36 m²
 
 SNG // RESIDENCE EVE // ST OMER
 
@@ -1414,8 +1334,7 @@ Date de réalisation du diagnostic énergétique : 13/06/2007
 Consommation énergie primaire : 230 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 1, 0, 1, null, false, null, null, null, null, null, null, null),
-(856, $$Appartement 1 pièce 29 m²$$, $$Béziers 34500 Pompiers$$, true, 29, $$c$$, $$2025-08-18T22:00:00.000Z$$, 495, $$Appartment$$, $$a$$, $$APPARTEMENT_MEUBLE
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '1', 'Saint-Omer 62500 Centre historique', null, 'false', '0', '1', null, null, null, null, null, null, '94.9512'), ('856', 'Appartement 1 pièce 29 m²', 'true', '29', 'c', '2025-08-18T22:00:00.000Z', '495', 'Appartment', 'a', 'APPARTEMENT_MEUBLE
 
 Situé au premier étage d'une petite résidence, appartement T1bis meublé entièrement refait à neuf et meublé. Il se compose d?une entrée avec escalier desservant la pièce à vivre avec coin salon et salle à manger ouvert sur la cuisine équipée. Se trouve également une pièce servant de chambre avec rangements donnant l'accès à une salle d'eau avec WC.
 
@@ -1429,8 +1348,7 @@ Dépôt de garantie : 465 €
 Montant des charges : 30 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 411 € et 555 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 1, 1, null, null, false, null, null, null, 1900, null, null, null),
-(857, $$Appartement 2 pièces 34 m²$$, $$Paris 75020 Père Lachaise - Réunion$$, false, 34, $$e$$, $$2025-09-20T22:00:00.000Z$$, 1, $$Appartment$$, $$d$$, $$Appartement 2 p à PARIS 20ème
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 411 € et 555 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '1', 'Béziers 34500 Pompiers', null, 'false', '1', null, null, null, null, '1900', null, null, '58.9262'), ('857', 'Appartement 2 pièces 34 m²', 'false', '34', 'e', '2025-09-20T22:00:00.000Z', '1', 'Appartment', 'd', 'Appartement 2 p à PARIS 20ème
 
 Rue d' Avron dans un immeuble des année 30, un deux pièces comprenant : une entrée , un séjour , une chambre avec rangements intégrés, une cuisine séparée , une salle de bains avec wc. Une cave. Appartement agréable belle hauteur sous plafond, parquet au sol.Commerce et transport au pied de l' immeuble .
 Référence annonce : L-96-1011-9466
@@ -1440,8 +1358,7 @@ Dépôt de garantie : 920 €
 Montant des charges : 155 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 669 € et 905 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)$$, 2, 2, null, 1, false, 1, $$individual$$, $$electric$$, 1920, null, null, null),
-(858, $$Appartement 4 pièces 82 m²$$, $$Saint-Denis 97400 Centre-ville$$, false, 82, null, null, 1, $$Appartment$$, null, $$À LOUER T4 DE 82.61M²- RESIDENCE HENRIETTE- SAINT DENIS CENTRE VILLE
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 669 € et 905 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)', '2', 'Paris 75020 Père Lachaise - Réunion', '1', 'false', '2', null, '1', 'individual', 'electric', '1920', null, null, '207.5472'), ('858', 'Appartement 4 pièces 82 m²', 'false', '82', null, null, '1', 'Appartment', null, 'À LOUER T4 DE 82.61M²- RESIDENCE HENRIETTE- SAINT DENIS CENTRE VILLE
 
 À louer grand T4 spacieux de 82.61m² au coeur du centre-ville de Saint-Denis, à la résidence Henriette, comprenant un séjour lumineux avec varangue, un coin cuisine, trois chambres climatisées, une salle de bain et un wc.
 
@@ -1461,12 +1378,10 @@ Non soumis au DPE
 Honoraires à la charge du locataire : 989 € TTC
 Dépôt de garantie : 1273 €
 Montant des charges : 75 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 4, 2, null, 3, false, 1, $$individual$$, null, null, null, null, null),
-(859, $$Studio 1 pièce 28 m²$$, $$Saint-Étienne 42000$$, true, 28, $$c$$, null, 420, $$Appartment$$, null, $$Studio meublé – 420 € CC
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '4', 'Saint-Denis 97400 Centre-ville', '3', 'false', '2', null, '1', 'individual', null, null, null, null, '267.1012'), ('859', 'Studio 1 pièce 28 m²', 'true', '28', 'c', null, '420', 'Appartment', null, 'Studio meublé – 420 € CC
 
 Studio meublé – 420 € À louer : studio meublé au 2e étage sans ascenseur, situé au 24 rue Denis [URL masquée pour votre sécurité] très bien équipé et prêt à vivre, idéal pour étudiant(e) ou jeune actif(ve).Situé dans un immeuble calme, il offre un bon confort de vie avec climatisation réversible et mobilier complet.Loyer : 420 € charges comprisesCaution : 840 € – Honoraires : 180 € Attention : Absente du 9 au 18 août – Tous les messages seront traités à partir du 18 août.
-Référence annonce : 6721$$, 1, null, null, null, false, null, null, null, null, null, null, null),
-(860, $$Appartement 4 pièces 87 m²$$, $$Toulouse 31000 Matabiau$$, false, 87, $$c$$, null, 1, $$Appartment$$, $$c$$, $$Appartement 4 pièces 87 m²
+Référence annonce : 6721', '1', 'Saint-Étienne 42000', null, 'false', null, null, null, null, null, null, null, null, '57.5512'), ('860', 'Appartement 4 pièces 87 m²', 'false', '87', 'c', null, '1', 'Appartment', 'c', 'Appartement 4 pièces 87 m²
 
 Notre agence Grand Sud Immobilier à la plaisir de vous proposer à la location, ce joli appartement T4 d'une surface de 96,56m² localisé : 6 rue Lafon 31000 TOULOUSE.
 
@@ -1497,14 +1412,12 @@ Date de réalisation du diagnostic énergétique : 04/10/2023
 Consommation énergie primaire : 130 kWh/m²/an
 Consommation énergie finale : 0.00 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 926 € et 1 254 € par an. Prix moyens des énergies indexés sur l'année 2023 (abonnements compris)$$, 4, 0, null, 3, false, 1, null, null, null, null, null, null),
-(861, $$Appartement 2 pièces 40 m²$$, $$Cassis 13260$$, false, 40, $$c$$, null, 1, $$Appartment$$, $$a$$, $$13260 CASSIS T2 40m2 habitable.
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 926 € et 1 254 € par an. Prix moyens des énergies indexés sur l'année 2023 (abonnements compris)', '4', 'Toulouse 31000 Matabiau', '3', 'false', '0', null, '1', null, null, null, null, null, '138.6762'), ('861', 'Appartement 2 pièces 40 m²', 'false', '40', 'c', null, '1', 'Appartment', 'a', '13260 CASSIS T2 40m2 habitable.
 Hall ,Sejour ,Cuisine  aménagée. et équip. ,Chambre ,salle d'eau avec wc. Loyer: 1200 €  + 50 € de provisions de charges  - Toutes nos annonces sur gitimmo - merci de mettre votre n°de téléphone afin d'être contacté au plus vite - Vous pouvez passer directectement au 3 Rue Dragon 13006 Marseille du Lundi au vendredi de 9h30 à 12h30 et de 14h à 18h30 et le samedi de 10h à 13h..  FA: 520€
 Référence annonce : B70073PV
 Date de réalisation du diagnostic : 05/11/2024
 Dépôt de garantie : 1200 €
-Montant des charges : 50 € / mois$$, 2, 2, null, null, false, null, $$individual$$, null, null, null, null, null),
-(862, $$Appartement 2 pièces 40 m²$$, $$Béziers 34500$$, false, 40, $$c$$, null, 500, $$Appartment$$, $$a$$, $$APPART. T2
+Montant des charges : 50 € / mois', '2', 'Cassis 13260', null, 'false', '2', null, null, 'individual', null, null, null, null, '74.0512'), ('862', 'Appartement 2 pièces 40 m²', 'false', '40', 'c', null, '500', 'Appartment', 'a', 'APPART. T2
 
 Appartement T2 au 1er étage d'une résidence sécurisée, Quartier Hôpital.
 Il se compose d'un séjour avec coin cuisine aménagée et climatisation, une chambre, Salle d'eau avec WC.
@@ -1515,8 +1428,7 @@ Référence annonce : DT010035712
 Date de réalisation du diagnostic : 26/12/2024
 Honoraires à la charge du locataire : 437 € TTC dont 119 € pour l’état des lieux
 Dépôt de garantie : 420 €
-Montant des charges : 80 € / mois$$, 2, 1, null, 1, false, null, null, null, 2009, null, null, null),
-(863, $$Appartement 2 pièces 46 m²$$, $$Béziers 34500 Gare$$, false, 46, $$d$$, $$2025-04-30T22:00:00.000Z$$, 720, $$Appartment$$, $$b$$, $$Appartement 2 pièces 46 m²
+Montant des charges : 80 € / mois', '2', 'Béziers 34500', '1', 'false', '1', null, null, null, null, '2009', null, null, '74.0512'), ('863', 'Appartement 2 pièces 46 m²', 'false', '46', 'd', '2025-04-30T22:00:00.000Z', '720', 'Appartment', 'b', 'Appartement 2 pièces 46 m²
 
 Situé au cinquième et dernier étage d'une résidence récente avec ascenseur, cet appartement de type T2 de 45 m2 bénéficie d'un cadre de vie agréable, au sein d'une copropriété sécurisée. Vous profiterez d'une localisation idéale, à proximité immédiate de la gare, du Polygone et du nouvel accès passerelle, facilitant vos déplacements quotidiens.
 L'appartement se compose d'une entrée avec rangements, d'un séjour lumineux avec cuisine ouverte, donnant accès à une belle terrasse de 14 m2, idéale pour vos moments de détente ou repas en extérieur.
@@ -1548,8 +1460,7 @@ Dépôt de garantie : 1260 €
 Date de réalisation du diagnostic énergétique : 20/05/2013
 
 Consommation énergie primaire : 208 kWh/m²/an
-Consommation énergie finale : 0 kWh/m²/an$$, 2, 5, null, 1, true, 1, $$individual$$, $$electric$$, 1990, 5, null, null),
-(864, $$Duplex 3 pièces 71 m²$$, $$Choisy-le-Roi 94600 Centre-ville - Parc Prairie - Hautes Bornes$$, false, 71, $$c$$, $$2025-07-12T22:00:00.000Z$$, 1, $$Appartment$$, $$a$$, $$APPARTEMENT
+Consommation énergie finale : 0 kWh/m²/an', '2', 'Béziers 34500 Gare', '1', 'true', '5', null, '1', 'individual', 'electric', '1990', '5', null, '196.7952'), ('864', 'Duplex 3 pièces 71 m²', 'false', '71', 'c', '2025-07-12T22:00:00.000Z', '1', 'Appartment', 'a', 'APPARTEMENT
 
 zac port-immeuble de 2000 beau duplex en rez-de-jardin comprenant entrée, séjour, cuisine américaine aménagée, wc, terrasse, deux chambres, salle de bains, wc séparés, dressing deux emplacements de parking en sous-sol
 
@@ -1563,8 +1474,7 @@ Dépôt de garantie : 1072 €
 Montant des charges : 125 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 700 € et 990 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 3, 1, null, 2, true, null, $$individual$$, $$electric$$, 2006, null, null, null),
-(865, $$Appartement 3 pièces 60 m²$$, $$Beauvais 60000 Voisinlieu$$, false, 60, $$d$$, $$2025-08-13T22:00:00.000Z$$, 750, $$Appartment$$, $$d$$, $$Appartement À Louer
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 700 € et 990 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '3', 'Choisy-le-Roi 94600 Centre-ville - Parc Prairie - Hautes Bornes', '2', 'true', '1', null, null, 'individual', 'electric', '2006', null, null, '197.9712'), ('865', 'Appartement 3 pièces 60 m²', 'false', '60', 'd', '2025-08-13T22:00:00.000Z', '750', 'Appartment', 'd', 'Appartement À Louer
 
 BEAUVAIS - VOISINLIEU. Appartement Type 3 À Louer.
 
@@ -1583,8 +1493,7 @@ Honoraires à la charge du locataire : 363 € TTC dont 181 € pour l’état d
 Dépôt de garantie : 650 €
 Montant des charges : 100 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 240 € et 1 720 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 3, 1, 2, false, null, $$communal$$, $$gas$$, null, null, null, null),
-(866, $$Appartement 3 pièces 62 m²$$, $$Saint-Orens-de-Gameville 31650$$, false, 62, $$b$$, null, 810, $$Appartment$$, $$b$$, $$Appartement 3 pièces 62 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 240 € et 1 720 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Beauvais 60000 Voisinlieu', '2', 'false', '3', '1', null, 'communal', 'gas', null, null, null, '19.0512'), ('866', 'Appartement 3 pièces 62 m²', 'false', '62', 'b', null, '810', 'Appartment', 'b', 'Appartement 3 pièces 62 m²
 
 SECTEUR SAINT ORENS DE GAMEVILLE - APPARTEMENT T3 DE 61 M² BENEFICIANT D'UN BALCON - UNE PLACE DE PARKING EN SOUS-SOL :
 
@@ -1607,8 +1516,7 @@ Dépôt de garantie : 740 €
 Date de réalisation du diagnostic énergétique : 31/03/2022
 
 Consommation énergie primaire : 53 kWh/m²/an
-Consommation énergie finale : Non communiqué$$, 3, 1, 1, 2, false, 1, $$individual$$, $$gas$$, null, 4, null, null),
-(867, $$Appartement 5 pièces 129 m²$$, $$Lyon 69003 Part-Dieu$$, true, 129, $$c$$, $$2025-09-21T22:00:00.000Z$$, 2, $$Appartment$$, $$d$$, $$LOCATION MEUBLEE LODGIS (Référence : 5L326145) : Spacieux appartement meublé avec terrasse – Calme, sans vis-à-vis – Proche Part-Dieu
+Consommation énergie finale : Non communiqué', '3', 'Saint-Orens-de-Gameville 31650', '2', 'false', '1', '1', '1', 'individual', 'gas', null, '4', null, '70.2012'), ('867', 'Appartement 5 pièces 129 m²', 'true', '129', 'c', '2025-09-21T22:00:00.000Z', '2', 'Appartment', 'd', 'LOCATION MEUBLEE LODGIS (Référence : 5L326145) : Spacieux appartement meublé avec terrasse – Calme, sans vis-à-vis – Proche Part-Dieu
 Idéalement situé Rue Étienne Richerand, Lyon 3e, à deux pas de la gare Part-Dieu et parfaitement desservi par les transports en commun (T3 - Part-Dieu Auditorium), cet appartement meublé de 129 m² allie confort, espace et tranquillité.
 Situé au 1er étage avec ascenseur d'une résidence bien entretenue, il se compose de 5 pièces, dont 4 chambres, 2 salles de bains et peut accueillir confortablement plusieurs occupants. Le grand séjour lumineux ansi que la cuisine américaine s'ouvrent sur une belle terrasse sans vis-à-vis, donnant sur un jardin arboré, offrant un cadre verdoyant et paisible en pleine ville.
 Entièrement équipé pour un emménagement immédiat, cet appartement offre tout le nécessaire pour se sentir  comme chez soi .
@@ -1618,8 +1526,7 @@ Référence annonce : 5L326145
 Date de réalisation du diagnostic : 20/06/2017
 Honoraires à la charge du locataire : 1678 € TTC
 Dépôt de garantie : 4630 €
-Montant des charges : 175 € / mois$$, 5, 1, 1, 4, true, 1, null, $$gas$$, 2000, 1, null, null),
-(868, $$Appartement 3 pièces 52 m²$$, $$Roanne 42300 Mulsant$$, false, 52, $$e$$, null, 450, $$Appartment$$, $$e$$, $$Appartement 3 pièces 52 m²
+Montant des charges : 175 € / mois', '5', 'Lyon 69003 Part-Dieu', '4', 'true', '1', '1', '1', null, 'gas', '2000', '1', null, '196.4262'), ('868', 'Appartement 3 pièces 52 m²', 'false', '52', 'e', null, '450', 'Appartment', 'e', 'Appartement 3 pièces 52 m²
 
 Appartement T3 proche de la gare à Roanne.
 
@@ -1642,8 +1549,7 @@ Dépôt de garantie : 430 €
 Consommation énergie primaire : 252 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 150 € et 1 610 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 3, 0, null, 2, false, null, null, null, null, null, null, null),
-(869, $$Appartement 2 pièces 42 m²$$, $$Brest 29200$$, false, 42, $$c$$, $$2025-08-04T22:00:00.000Z$$, 610, $$Appartment$$, $$a$$, $$BREST - LESVEN.
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 150 € et 1 610 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '3', 'Roanne 42300 Mulsant', '2', 'false', '0', null, null, null, null, null, null, null, '176.3512'), ('869', 'Appartement 2 pièces 42 m²', 'false', '42', 'c', '2025-08-04T22:00:00.000Z', '610', 'Appartment', 'a', 'BREST - LESVEN.
 Idéalement placé, proche du lycée Lesven et de la N12, au sein d'une résidence récente dans un environnement calme, joli T2 de 42 m². Il se compose d'une entrée, pièce de vie avec cuisine aménagée et équipée, donnant sur un balcon, une chambre, une salle d'eau, et des rangements.
 La résidence dispose d'un ascenseur et d'une place de parking privative. Le chauffage est individuel au electrique. L'appartement sera disponible à partir du 5 août 2025.
 Loyer : 610 EUR par mois charges comprises (dont 25 EUR de provision pour charges mensuelles, régularisation annuelle).
@@ -1659,14 +1565,12 @@ Dépôt de garantie : 585 €
 Montant des charges : 25 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 450 € et 650 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, 1, null, 1, true, null, $$individual$$, $$electric$$, null, null, null, null),
-(870, $$Appartement 5 pièces 97 m²$$, $$Clamart 92140 Percy - Schneider$$, true, 97, $$e$$, null, 2, $$Appartment$$, $$e$$, $$LOCATION MEUBLEE LODGIS (Référence : 59224090) : Cet appartement meublé de 97 m² est situé quartier Boigues, dans un quartier résidentiel boisé de Clamart dans le département des Hauts-de-Seine, 92. Composé de 5 pièces dont 2 chambres et 1 bureau (avec un secrétaire) pouvant être transformé en chambre. Les 2 SDB (salle d'eau et salle de bain) ont été complètement rénovées tout récemment. Cet appartement très lumineux et très calme au 2e étage (1/2 en réalité) sans ascenseur, bénéficie d'une pièce de vie de 33m² donnant sur une terrasse de 18 m² et de l'équipement nécessaire pour un séjour réussi (Lave linge & sèche linge, Aspirateur, Fer à repasser, Linge de lit, Linge de table / torchons). Parfaitement desservi par les transports en commun (Tramway ligne 6, Clamart/SNCF, et nombreux bus), vous trouverez à proximité de nombreux commerces et services (Garderie, Club de gym, Pressing, Brasserie, Théâtre, Bois, Cinéma, Boulangerie, Boucherie Charcuterie, Supermarché, Restaurants, Pharmacie, Epicerie, Marché 2 fois par semaine, Tennis à proximité, Soins de beauté).  Animaux non autorisés
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 450 € et 650 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Brest 29200', '1', 'true', '1', null, null, 'individual', 'electric', null, null, null, '124.8912'), ('870', 'Appartement 5 pièces 97 m²', 'true', '97', 'e', null, '2', 'Appartment', 'e', 'LOCATION MEUBLEE LODGIS (Référence : 59224090) : Cet appartement meublé de 97 m² est situé quartier Boigues, dans un quartier résidentiel boisé de Clamart dans le département des Hauts-de-Seine, 92. Composé de 5 pièces dont 2 chambres et 1 bureau (avec un secrétaire) pouvant être transformé en chambre. Les 2 SDB (salle d'eau et salle de bain) ont été complètement rénovées tout récemment. Cet appartement très lumineux et très calme au 2e étage (1/2 en réalité) sans ascenseur, bénéficie d'une pièce de vie de 33m² donnant sur une terrasse de 18 m² et de l'équipement nécessaire pour un séjour réussi (Lave linge & sèche linge, Aspirateur, Fer à repasser, Linge de lit, Linge de table / torchons). Parfaitement desservi par les transports en commun (Tramway ligne 6, Clamart/SNCF, et nombreux bus), vous trouverez à proximité de nombreux commerces et services (Garderie, Club de gym, Pressing, Brasserie, Théâtre, Bois, Cinéma, Boulangerie, Boucherie Charcuterie, Supermarché, Restaurants, Pharmacie, Epicerie, Marché 2 fois par semaine, Tennis à proximité, Soins de beauté).  Animaux non autorisés
 Référence annonce : 59224090
 Date de réalisation du diagnostic : 25/04/2022
 Honoraires à la charge du locataire : 1455 € TTC
 Dépôt de garantie : 3960 €
-Montant des charges : 270 € / mois$$, 5, 2, 1, 2, false, 2, $$communal$$, null, 1973, null, null, null),
-(871, $$Appartement 2 pièces 44 m²$$, $$La Seyne-sur-Mer 83500 Est$$, true, 44, $$d$$, null, 644, $$Appartment$$, $$b$$, $$Appartement 2 pièces 44 m²
+Montant des charges : 270 € / mois', '5', 'Clamart 92140 Percy - Schneider', '2', 'false', '2', '1', '2', 'communal', null, '1973', null, null, '19.0512'), ('871', 'Appartement 2 pièces 44 m²', 'true', '44', 'd', null, '644', 'Appartment', 'b', 'Appartement 2 pièces 44 m²
 
 LA SEYNE SUR MER : A louer T2 meublé situé au calme. Il se compose d'une entrée, d'un séjour avec cuisine ouverte, aménagée et équipée, d'une salle de bains avec WC, ainsi que d'une chambre en mezzanine
  Superficie:43.50 m2
@@ -1690,8 +1594,7 @@ Date de réalisation du diagnostic énergétique : 23/07/2025
 Consommation énergie primaire : 223 kWh/m²/an
 Consommation énergie finale : 4967 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 590 € et 840 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 1, null, 1, false, 1, $$individual$$, $$electric$$, 1880, 1, null, null),
-(872, $$Appartement 3 pièces 66 m²$$, $$Chartres-de-Bretagne 35131$$, false, 66, $$b$$, $$2025-09-16T22:00:00.000Z$$, 870, $$Appartment$$, $$b$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 590 € et 840 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'La Seyne-sur-Mer 83500 Est', '1', 'false', '1', null, '1', 'individual', 'electric', '1880', '1', null, '189.0672'), ('872', 'Appartement 3 pièces 66 m²', 'false', '66', 'b', '2025-09-16T22:00:00.000Z', '870', 'Appartment', 'b', 'APPARTEMENT
 
 Dans un immeuble récent. Grand t3 avec balcon, parking et garage. Appartement comprenant une entrée, un séjour avec cuisine aménagée , 2 chambres, salle de bains, rangement extérieur sur balcon. chauffage et eau chaude collectifs, eau froide individuelle
 
@@ -1705,8 +1608,7 @@ Dépôt de garantie : 686 €
 Montant des charges : 184 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 400 € et 590 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 2, null, 2, true, null, null, $$gas$$, 2017, null, null, null),
-(873, $$Appartement 2 pièces 48 m²$$, $$Aix-en-Provence 13100 La Torse - Val Saint-André$$, true, 48, $$d$$, null, 1, $$Appartment$$, $$d$$, $$Appartement 2 pièces 48 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 400 € et 590 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Chartres-de-Bretagne 35131', '2', 'true', '2', null, null, null, 'gas', '2017', null, null, '73.5012'), ('873', 'Appartement 2 pièces 48 m²', 'true', '48', 'd', null, '1', 'Appartment', 'd', 'Appartement 2 pièces 48 m²
 
 TEL : [Coordonnées masquées] 
 L'agence du Comté d'AIX, vous propose à la location ce grand 2 pièces entièrement meublé en deuxième étage avec ascenseur, vue dégagée, exposition sud-ouest, secteur la torse. 
@@ -1722,8 +1624,7 @@ Modalité de récupération des charges locatives : Prévisionnelles mensuelles 
 Date de réalisation du diagnostic énergétique : 14/02/2025
 
 Consommation énergie primaire : 136 kWh/m²/an
-Consommation énergie finale : Non communiqué$$, 2, 2, null, 1, true, 1, null, $$gas$$, null, 4, $$south_west$$, null),
-(874, $$Appartement 3 pièces 64 m²$$, $$Cugnaux 31270 Casque - Glassière$$, false, 64, $$a$$, $$2025-07-31T22:00:00.000Z$$, 710, $$Appartment$$, $$c$$, $$Appartement 3 pièces 64 m²
+Consommation énergie finale : Non communiqué', '2', 'Aix-en-Provence 13100 La Torse - Val Saint-André', '1', 'true', '2', null, '1', null, 'gas', null, '4', 'south_west', '120.2512'), ('874', 'Appartement 3 pièces 64 m²', 'false', '64', 'a', '2025-07-31T22:00:00.000Z', '710', 'Appartment', 'c', 'Appartement 3 pièces 64 m²
 
 QUIETIS GESTION  – RESIDENCE LE CLOS CELESTINE - DISPOSITIF PINEL
 
@@ -1750,8 +1651,7 @@ Date de réalisation du diagnostic énergétique : 07/08/2018
 Consommation énergie primaire : 50 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 3, 1, 2, 2, false, 1, $$individual$$, $$gas$$, null, null, $$north_west$$, null),
-(875, $$Appartement 2 pièces 39 m²$$, $$Senlis 60300 Centre-ville$$, false, 39, $$d$$, null, 770, $$Appartment$$, $$b$$, $$Appartement F2 de 39m²
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '3', 'Cugnaux 31270 Casque - Glassière', '2', 'false', '1', '2', '1', 'individual', 'gas', null, null, 'north_west', '48.3845333333333'), ('875', 'Appartement 2 pièces 39 m²', 'false', '39', 'd', null, '770', 'Appartment', 'b', 'Appartement F2 de 39m²
 
 En centre-ville, au 1er étage, charmant F2 : entrée sur séjour lumineux avec cuisine ouverte semi-équipée, une chambre spacieuse et salle de bains. Libre au 11 octobre 2025.
 Référence annonce : WECT-SRD-YL0
@@ -1763,8 +1663,7 @@ Montant des charges : 60 € / mois
 A propos de la copropriété :
 Nombre de lots : 30
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 570 € et 800 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, 1, null, 1, false, 1, $$individual$$, $$electric$$, null, 2, null, null),
-(876, $$Appartement 4 pièces 124 m²$$, $$Nans-les-Pins 83860$$, true, 124, $$c$$, null, 1, $$Appartment$$, $$a$$, $$Appartement 4 pièces 124 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 570 € et 800 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Senlis 60300 Centre-ville', '1', 'false', '1', null, '1', 'individual', 'electric', null, '2', null, '169.7472'), ('876', 'Appartement 4 pièces 124 m²', 'true', '124', 'c', null, '1', 'Appartment', 'a', 'Appartement 4 pièces 124 m²
 
 iad France - Sandrine Jullian vous propose: Situé sur la commune prisée de Nans-les-Pins, au cOEur d’un environnement boisé et paisible, venez découvrir ce magnifique appartement traversant entièrement meublé, T4 de 124,26 m² habitables et 120,99 m² en loi Boutin, qui occupe tout l’étage d’une maison individuelle.
 
@@ -1816,8 +1715,7 @@ Date de réalisation du diagnostic énergétique : 09/07/2025
 Consommation énergie primaire : 142 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 340 € et 1 850 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 4, 1, 1, 3, false, null, $$individual$$, $$electric$$, null, 1, null, null),
-(877, $$Appartement 2 pièces 45 m²$$, $$Tulle 19000$$, true, 45, $$d$$, $$2025-06-30T22:00:00.000Z$$, 550, $$Appartment$$, $$d$$, $$À LOUER : Appartement rénové T2 bis situé à Tulle, dans le département de la Corrèze (19000). Ce bien immobilier offre une surface habitable de 45 m², idéal pour un couple ou une personne seule à la recherche d'un cadre de vie agréable et fonctionnel.
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 340 € et 1 850 € sur les années 2021, 2022 et 2023 (abonnements compris).', '4', 'Nans-les-Pins 83860', '3', 'false', '1', '1', null, 'individual', 'electric', null, '1', null, '331.5312'), ('877', 'Appartement 2 pièces 45 m²', 'true', '45', 'd', '2025-06-30T22:00:00.000Z', '550', 'Appartment', 'd', 'À LOUER : Appartement rénové T2 bis situé à Tulle, dans le département de la Corrèze (19000). Ce bien immobilier offre une surface habitable de 45 m², idéal pour un couple ou une personne seule à la recherche d'un cadre de vie agréable et fonctionnel.
 
 L'appartement se compose de deux pièces, dont une chambre spacieuse, parfaite pour se reposer après une longue journée. La salle d'eau , offrant tout le confort nécessaire. La cuisine, aménagée et équipée, est un atout majeur de ce bien, permettant de préparer vos repas dans un espace convivial et pratique.
 
@@ -1839,8 +1737,7 @@ Honoraires à la charge du locataire : 495 € TTC dont 135 € pour l’état d
 Dépôt de garantie : 450 €
 Montant des charges : 100 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 500 € et 710 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, null, null, 1, false, null, $$communal$$, $$gas$$, null, null, null, null),
-(878, $$Studio 1 pièce 24 m²$$, $$Bréviandes 10450$$, true, 24, null, null, 400, $$Appartment$$, $$a$$, $$Studio 1 pièce 24 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 500 € et 710 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Tulle 19000', '1', 'false', null, null, null, 'communal', 'gas', null, null, null, '19.0512'), ('878', 'Studio 1 pièce 24 m²', 'true', '24', null, null, '400', 'Appartment', 'a', 'Studio 1 pièce 24 m²
 
  Votre agence CDJ IMMO vous propose à la location ce studio meublé situé à seulement quelques minutes de Troyes (sur la commune de Bréviandes), le bien dispose d'une entrée, d'une cuisine séparée aménagée et équipée, d'une pièce de vie et d'une salle d'eau.
  Stationnement facile devant la copropriété.
@@ -1864,8 +1761,7 @@ Dépôt de garantie : 320 €
 Date de réalisation du diagnostic énergétique : 10/01/2023
 
 Consommation énergie primaire : Non communiqué
-Consommation énergie finale : 0 kWh/m²/an$$, 1, 2, null, null, false, null, $$communal$$, $$gas$$, 1970, 2, null, null),
-(879, $$Appartement 2 pièces 43 m²$$, $$Bully-les-Mines 62160$$, true, 43, null, null, 580, $$Appartment$$, null, $$Appartement de 2 pièces meublé dans Bully-les-Mines
+Consommation énergie finale : 0 kWh/m²/an', '1', 'Bréviandes 10450', null, 'false', '2', null, null, 'communal', 'gas', '1970', '2', null, '19.0512'), ('879', 'Appartement 2 pièces 43 m²', 'true', '43', null, null, '580', 'Appartment', null, 'Appartement de 2 pièces meublé dans Bully-les-Mines
 
 Ref : 1108
 
@@ -1889,8 +1785,7 @@ Référence annonce : 1108
 Honoraires à la charge du locataire : 473 € TTC dont 129 € pour l’état des lieux
 Dépôt de garantie : 560 €
 Montant des charges : 20 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 2, null, null, 1, false, null, null, null, null, null, null, null),
-(880, $$Studio 1 pièce 57 m²$$, $$Paris 75001 Châtelet - Les Halles$$, true, 57, $$c$$, null, 1, $$Appartment$$, $$a$$, $$Studio 1 pièce 57 m²
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '2', 'Bully-les-Mines 62160', '1', 'false', null, null, null, null, null, null, null, null, '149.1262'), ('880', 'Studio 1 pièce 57 m²', 'true', '57', 'c', null, '1', 'Appartment', 'a', 'Studio 1 pièce 57 m²
 
 iad France - Fatiha El Idrissi vous propose : 10/16 RUE DE LA COSSONNERIE.  
 LOCATION MEUBLÉE.
@@ -1915,8 +1810,7 @@ Date de réalisation du diagnostic énergétique : 16/11/2022
 Consommation énergie primaire : 142 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 540 € et 770 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 1, 2, null, null, false, null, $$individual$$, $$electric$$, 1900, 4, null, null),
-(881, $$Appartement 2 pièces 50 m²$$, $$Roanne 42300 Faubourg Paris$$, false, 50, $$d$$, $$2025-08-31T22:00:00.000Z$$, 494, $$Appartment$$, $$d$$, $$Appartement T2 à louer à Roanne - Avenue de Paris :
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 540 € et 770 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '1', 'Paris 75001 Châtelet - Les Halles', null, 'false', '2', null, null, 'individual', 'electric', '1900', '4', null, '162.6912'), ('881', 'Appartement 2 pièces 50 m²', 'false', '50', 'd', '2025-08-31T22:00:00.000Z', '494', 'Appartment', 'd', 'Appartement T2 à louer à Roanne - Avenue de Paris :
 
 Situé en rez-de-chaussée d'un petit immeuble calme, ce bel appartement T2 en très bon état allie confort moderne et fonctionnalité.
 
@@ -1934,8 +1828,7 @@ Dépôt de garantie : 415 €
 Montant des charges : 79 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 030 € et 1 440 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 0, null, 1, false, null, $$communal$$, null, null, null, null, null),
-(882, $$Appartement 3 pièces 64 m²$$, $$Les Herbiers 85500 Centre-ville - Le Grand Fief$$, false, 64, null, null, 800, $$Appartment$$, $$v$$, $$Appartement 3 pièces 64 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 030 € et 1 440 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Roanne 42300 Faubourg Paris', '1', 'false', '0', null, null, 'communal', null, null, null, null, '19.0512'), ('882', 'Appartement 3 pièces 64 m²', 'false', '64', null, null, '800', 'Appartment', 'v', 'Appartement 3 pièces 64 m²
 
 Aux HERBIERS, dans la résidence neuve JARDIN DES ARTS, dans l'hypercentre, proches de toutes les commodités. Venez découvrir cet appartement T3  de 63,57m² avec un balcon 8,19m², situé au 2ème du bâtiment B, avec ascenseur. Il comprend un séjour/cuisine de 24,04m², de deux chambres de 12,13m² et 10,16m², d'une salle d'eau et WC séparés. Vous disposerez de deux places de parkings n°13 et n°18. Chauffage et eau chaude individuels au gaz. Entretien parties communes, ascenseur et espaces verts communs, compris dans les provisions sur charges mensuelles et donnant lieu à une régularisation annuelle. Logement neuf en cours de construction - DPE à venir Sols de la salle de bains, salle d'eau et WC carrelés. Volets roulants compatibles motorisation dans le séjour et les chambres;
 
@@ -1951,8 +1844,7 @@ Dépôt de garantie : 745 €
 Consommation énergie primaire : Non communiqué
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 459 € et 621 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)$$, 3, 2, null, 2, false, null, null, null, null, 3, null, null),
-(883, $$Appartement 5 pièces 127 m²$$, $$Avignon 84000 Palais des Papes - Zone Piétonne$$, false, 127, $$d$$, $$2025-06-05T22:00:00.000Z$$, 1, $$Appartment$$, $$d$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 459 € et 621 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)', '3', 'Les Herbiers 85500 Centre-ville - Le Grand Fief', '2', 'false', '2', null, null, null, null, null, '3', null, '212.6512'), ('883', 'Appartement 5 pièces 127 m²', 'false', '127', 'd', '2025-06-05T22:00:00.000Z', '1', 'Appartment', 'd', 'APPARTEMENT
 
 Dans un bel immeuble calme à proximité de la rue de la République, écoles, gare, bel appartement spacieux rénové et lumineux avec une cuisine équipée, une séjour, 4 chambres, une salle de bains, une salle d'eau,un wc, une cave.
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
@@ -1963,8 +1855,7 @@ Dépôt de garantie : 1200 €
 Montant des charges : 20 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 960 € et 2 710 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 5, 2, null, null, false, null, $$individual$$, $$gas$$, 1921, null, null, null),
-(884, $$Appartement 2 pièces 40 m²$$, $$Ris-Orangis 91130 Le Village$$, false, 40, $$d$$, $$2025-09-07T22:00:00.000Z$$, 790, $$Appartment$$, $$a$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 960 € et 2 710 € sur les années 2021, 2022 et 2023 (abonnements compris).', '5', 'Avignon 84000 Palais des Papes - Zone Piétonne', null, 'false', '2', null, null, 'individual', 'gas', '1921', null, null, '286.809533333333'), ('884', 'Appartement 2 pièces 40 m²', 'false', '40', 'd', '2025-09-07T22:00:00.000Z', '790', 'Appartment', 'a', 'APPARTEMENT
 
 PROCHE COMMERCES - Au rez-de-chaussée, un appartement 2 pièces comprenant, entrée, séjour avec balcon, cuisine ouverte aménagée et équipée, une chambre avec grand placard, salle d'eau, WC [URL masquée pour votre sécurité] sous-sol, 2 emplacements de stationnement privatifs.Le chauffage est electrique.Envie de visiter ? Déposez votre dossier sur notre site *** pour une prise en charge rapide de votre dossier !
 
@@ -1978,8 +1869,7 @@ Dépôt de garantie : 695 €
 Montant des charges : 95 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 660 € et 950 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 0, null, 1, true, null, $$individual$$, $$electric$$, 2007, null, null, null),
-(885, $$Appartement 3 pièces 70 m²$$, $$Longeville-lès-Saint-Avold 57740$$, false, 70, $$d$$, null, 690, $$Appartment$$, $$e$$, $$Appartement 3 pièces 70 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 660 € et 950 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Ris-Orangis 91130 Le Village', '1', 'true', '0', null, null, 'individual', 'electric', '2007', null, null, '173.6112'), ('885', 'Appartement 3 pièces 70 m²', 'false', '70', 'd', null, '690', 'Appartment', 'e', 'Appartement 3 pièces 70 m²
 
 Benedic  Immobilier vous propose un charmant appartement de type F3 d'une surface d'environ 69 m2 avec balcon, parking intérieur et extérieur !
 
@@ -2008,8 +1898,7 @@ Date de réalisation du diagnostic énergétique : 08/08/2019
 Consommation énergie primaire : 170 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : 924 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)$$, 3, 0, null, 2, false, null, null, null, null, null, null, null),
-(886, $$Appartement 2 pièces 71 m²$$, $$Chancenay 52100$$, false, 71, $$e$$, $$2021-11-16T23:00:00.000Z$$, 570, $$Appartment$$, $$e$$, $$T3 lumineux
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : 924 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)', '3', 'Longeville-lès-Saint-Avold 57740', '2', 'false', '0', null, null, null, null, null, null, null, '166.634533333333'), ('886', 'Appartement 2 pièces 71 m²', 'false', '71', 'e', '2021-11-16T23:00:00.000Z', '570', 'Appartment', 'e', 'T3 lumineux
 
 Dans un joli immeuble de 6 lots avec parking privatif, spacieux T3 de 71m2 au 2e et dernier étage offrant une spacieuse et lumineuse pièce de vie avec coin cuisine, deux chambres, salle de bain, WC et grand placard.  Parking privatif à l'immeuble  Libre de suite fin Juillet.
 Référence annonce : VQGU-77H-W7U
@@ -2018,8 +1907,7 @@ Honoraires à la charge du locataire : 486 € TTC
 Dépôt de garantie : 550 €
 Montant des charges : 20 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 090 € et 1 550 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, null, 1, 2, false, 1, $$individual$$, $$gas$$, null, null, null, null),
-(887, $$Studio 1 pièce 30 m²$$, $$Château-Thierry 02400 Centre-ville$$, false, 30, $$d$$, $$2025-06-30T22:00:00.000Z$$, 420, $$Appartment$$, $$a$$, $$Studio centre ville de Château-Thierry
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 090 € et 1 550 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Chancenay 52100', '2', 'false', null, '1', '1', 'individual', 'gas', null, null, null, '233.8262'), ('887', 'Studio 1 pièce 30 m²', 'false', '30', 'd', '2025-06-30T22:00:00.000Z', '420', 'Appartment', 'a', 'Studio centre ville de Château-Thierry
 
 En centre ville de Château-Thierry, T1 dans bel immeuble dans un état irréprochable avec de belles prestations comprenant ; une pièce de vie très lumineuse (avec nombreuses ouvertures) et une cuisine aménagée et équipée ouverte ainsi qu' une salle d'eau avec WC.
 Loyer: 395€
@@ -2036,8 +1924,7 @@ Montant des charges : 25 € / mois
 A propos de la copropriété :
 Nombre de lots : 8
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 580 € et 820 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 1, 2, null, null, false, null, $$individual$$, $$electric$$, null, 3, null, null),
-(888, $$Appartement 1 pièce 35 m²$$, $$Saint-Étienne 42100 Saint-Roch - Vivaraize - Valbenoite - Centre Deux$$, false, 35, $$d$$, null, 450, $$Appartment$$, $$d$$, $$Joli F1 avec Balcon vers FAC
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 580 € et 820 € sur les années 2021, 2022 et 2023 (abonnements compris).', '1', 'Château-Thierry 02400 Centre-ville', null, 'false', '2', null, null, 'individual', 'electric', null, '3', null, '134.9712'), ('888', 'Appartement 1 pièce 35 m²', 'false', '35', 'd', null, '450', 'Appartment', 'd', 'Joli F1 avec Balcon vers FAC
 
 SAINT ETIENNE -  TREFILERIE - PROCHE FACULTE -- 7 RUE CHEVREUL -  F1 de 35.65 m² situé au 3ème étage avec ascenseur dans une Résidence de bon standing. comprenant : une Entrée sur pièce à vivre avec balcon, cuisine fermée et équipée (plaques et frigo), salle de bains (baignoire et rangements), WC, Double vitrage. Cave,  Chauffage, eau chaude et eau froide coll gaz - forfait gaz cuisine - Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr
 Référence annonce : 10062
@@ -2047,8 +1934,7 @@ Dépôt de garantie : 382 €
 Montant des charges : 68 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 470 € et 700 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 1, 3, 1, null, true, 1, $$communal$$, $$gas$$, null, null, null, null),
-(889, $$Location et Colocation - Sanguinet$$, $$Sanguinet 40460$$, false, 35, $$a$$, $$2025-08-31T22:00:00.000Z$$, 900, $$Appartment$$, $$a$$, $$Location & Colocation au mois (1 mois de location minimum).
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 470 € et 700 € sur les années 2021, 2022 et 2023 (abonnements compris).', '1', 'Saint-Étienne 42100 Saint-Roch - Vivaraize - Valbenoite - Centre Deux', null, 'true', '3', '1', '1', 'communal', 'gas', null, null, null, '19.0512'), ('889', 'Location et Colocation - Sanguinet', 'false', '35', 'a', '2025-08-31T22:00:00.000Z', '900', 'Appartment', 'a', 'Location & Colocation au mois (1 mois de location minimum).
 - Location au mois possible, du 1 septembre 2025 jusqu'au 31 mars 2026.
 - Location longue durée jusqu'au 30 juin 2026 possible uniquement pour ceux qui débuteront leur location en septembre (1er septembre 2025 ---> 30 juin 2026).
 
@@ -2097,8 +1983,7 @@ Ces tarifs ne comprennent pas : l’électricité
 
 Pour toute location, nous vous demanderons une caution équivalente à 1 mois de loyer et une caution ménage d’un montant de 100 €.
 
-Visites possibles sur place.$$, 3, 0, 1, 2, false, 2, $$individual$$, $$electric$$, 2022, null, null, null),
-(890, $$F2 non meublé excellent etat 38 m2 epinal$$, $$Épinal 88000 Rive droite$$, false, 38, $$d$$, $$2025-08-31T22:00:00.000Z$$, 470, $$Appartment$$, $$c$$, $$27, rue de la Préfecture Epinal 88000 1ER ÉTAGE
+Visites possibles sur place.', '3', 'Sanguinet 40460', '2', 'false', '0', '1', '2', 'individual', 'electric', '2022', null, null, '48.4512'), ('890', 'F2 non meublé excellent etat 38 m2 epinal', 'false', '38', 'd', '2025-08-31T22:00:00.000Z', '470', 'Appartment', 'c', '27, rue de la Préfecture Epinal 88000 1ER ÉTAGE
 Quartier résidentiel. Orientation sud ouest.
 Appartement en L, très lumineux, 1 grande fenêtre dans chaque pièce. Cuisine toute équipée, nombreux placards, double vitrages...
 A 5 minutes des commerces et du marché couvert
@@ -2106,8 +1991,7 @@ Centre Ville, proche IUT, lycées, Ecole de l'Image
 Loyer mensuel : 435 €
 Provision sur charges /mois : 35 €
 (eau, ordures ménagères, entretien cage escalier et cour) 
-CONTACT : Mme Franchini$$, 2, 1, null, 1, false, 1, $$individual$$, $$electric$$, 1950, 3, $$west$$, null),
-(891, $$Appartement 3 pièces 69 m²$$, $$Nevers 58000 Centre-ville$$, false, 69, $$e$$, null, 635, $$Appartment$$, $$e$$, $$Appartement Nevers 3 pièce(s) 69.64 m2
+CONTACT : Mme Franchini', '2', 'Épinal 88000 Rive droite', '1', 'false', '1', null, '1', 'individual', 'electric', '1950', '3', 'west', '165.8832'), ('891', 'Appartement 3 pièces 69 m²', 'false', '69', 'e', null, '635', 'Appartment', 'e', 'Appartement Nevers 3 pièce(s) 69.64 m2
 
 Un appartement en plein centre-ville de 3 pièces en rez-de-chaussée comprenant une pièce à vivre avec coin cuisine aménagée et équipée (four, réfrigérateur, lave-vaisselle, hotte, plaques gaz), deux chambres avec placard, salle d'eau avec wc.
 Une terrasse avec un cabanon
@@ -2122,15 +2006,13 @@ Montant des charges : 15 € / mois
 A propos de la copropriété :
 Pas de procédure en cours
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre Non communiqué € et 1 823 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 0, null, 2, false, null, $$individual$$, $$gas$$, null, null, null, null),
-(892, $$Studio 1 pièce 40 m²$$, $$Paris 75015 Montparnasse$$, false, 40, $$f$$, null, 1, $$Appartment$$, $$f$$, $$GRAND STUDIO de 40m2 avec balcon à Montparnasse
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre Non communiqué € et 1 823 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Nevers 58000 Centre-ville', '2', 'false', '0', null, null, 'individual', 'gas', null, null, null, '227.7762'), ('892', 'Studio 1 pièce 40 m²', 'false', '40', 'f', null, '1', 'Appartment', 'f', 'GRAND STUDIO de 40m2 avec balcon à Montparnasse
 
 Appartement, Grand Studio Vide (F1 BIS) de 40m², Clair, Calme, Bon état. Comprenant: Pièce principale avec coin nuit, Salle de bain, WC, Balcon 7m², Chauffage : collectif. Placard. Situé au 2ème étage avec ascenseur. Dans un immeuble avec Digicode. Proche transports et commerces. cuisine non équipé
 Référence annonce : 241029-144837
 Consommation énergétique : 339 kWh/m²/an
 Emission de gaz à effet de serre : 70 CO2/m²/an
-Logement à consommation énergétique excessive : classe F$$, 1, 2, null, null, true, 1, $$communal$$, null, null, null, null, null),
-(893, $$Appartement 3 pièces 46 m²$$, $$Périgueux 24000$$, false, 46, $$e$$, null, 495, $$Appartment$$, $$b$$, $$Appartement À Louer
+Logement à consommation énergétique excessive : classe F', '1', 'Paris 75015 Montparnasse', null, 'true', '2', null, '1', 'communal', null, null, null, null, '19.0512'), ('893', 'Appartement 3 pièces 46 m²', 'false', '46', 'e', null, '495', 'Appartment', 'b', 'Appartement À Louer
 
 Appartement de type 3, situé au dernier étage. Entièrement rénové, cet appartement est composé d'un séjour, avec cuisine ouverte, deux chambres, une salle de bain et un WC séparé.
 Disponible de suite
@@ -2140,8 +2022,7 @@ Date de réalisation du diagnostic : 22/04/2024
 Honoraires à la charge du locataire : 495 € TTC dont 138 € pour l’état des lieux
 Dépôt de garantie : 495 €
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 900 € et 1 240 € par an. Prix moyens des énergies indexés sur l'année 2020 (abonnements compris)$$, 3, null, null, 2, false, 1, $$individual$$, $$electric$$, null, null, null, null),
-(894, $$Appartement 4 pièces 106 m²$$, $$Saint-Pierre-des-Corps 37700$$, false, 106, $$a$$, $$2025-03-13T23:00:00.000Z$$, 982, $$Appartment$$, $$c$$, $$Appartement À Louer
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 900 € et 1 240 € par an. Prix moyens des énergies indexés sur l'année 2020 (abonnements compris)', '3', 'Périgueux 24000', '2', 'false', null, null, '1', 'individual', 'electric', null, null, null, '274.0752'), ('894', 'Appartement 4 pièces 106 m²', 'false', '106', 'a', '2025-03-13T23:00:00.000Z', '982', 'Appartment', 'c', 'Appartement À Louer
 
 Appartement T4 lumineux se composant d'une entrée avec dégagement, un séjour spacieux, une cuisine équipée, une chambre parentale avec salle d'eau privative, 2 autres chambres, salle de bain, wc.
 A visiter rapidement !
@@ -2150,8 +2031,7 @@ Date de réalisation du diagnostic : 13/07/2011
 Dépôt de garantie : 749 €
 Montant des charges : 233 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 300 € et 500 € par an. Prix moyens des énergies indexés sur l'année 2010 (abonnements compris)$$, 4, 1, 1, 3, false, null, null, null, null, null, null, null),
-(895, $$Studio 1 pièce 16 m²$$, $$Troyes 10000 Centre-ville$$, true, 16, $$c$$, $$2025-02-07T23:00:00.000Z$$, 380, $$Appartment$$, $$c$$, $$Votre Agence DAMONTE Immobilier vous propose la location de ce studio meublé d'une superficie habitable de 16,18 m2 en centre ville de TROYES. Idéalement situé au rez-de-chaussée d'une résidence de standing calme et sécurisée, ce dernier comprend une entrée avec placard, un séjour avec cuisine ouverte aménagée et équipée (réfrigérateur, plaques électriques, lave-linge) et une salle d'eau avec WC.
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 300 € et 500 € par an. Prix moyens des énergies indexés sur l'année 2010 (abonnements compris)', '4', 'Saint-Pierre-des-Corps 37700', '3', 'false', '1', '1', null, null, null, null, null, null, '67.6345333333333'), ('895', 'Studio 1 pièce 16 m²', 'true', '16', 'c', '2025-02-07T23:00:00.000Z', '380', 'Appartment', 'c', 'Votre Agence DAMONTE Immobilier vous propose la location de ce studio meublé d'une superficie habitable de 16,18 m2 en centre ville de TROYES. Idéalement situé au rez-de-chaussée d'une résidence de standing calme et sécurisée, ce dernier comprend une entrée avec placard, un séjour avec cuisine ouverte aménagée et équipée (réfrigérateur, plaques électriques, lave-linge) et une salle d'eau avec WC.
 Chauffage et eau chaude collectifs.
 Un emplacement de parking complète ce bien.REF 6969
 
@@ -2163,8 +2043,7 @@ Dépôt de garantie : 330 €
 Montant des charges : 50 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 140 € et 240 € par an. Prix moyens des énergies indexés sur l'année 2023 (abonnements compris)$$, 1, 0, null, 1, false, null, $$communal$$, null, null, null, null, null),
-(896, $$Appartement 3 pièces 52 m²$$, $$Bron 69500 7 Chemins$$, false, 52, $$d$$, null, 897, $$Appartment$$, $$c$$, $$Appartement 3 pièces 52 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 140 € et 240 € par an. Prix moyens des énergies indexés sur l'année 2023 (abonnements compris)', '1', 'Troyes 10000 Centre-ville', '1', 'false', '0', null, null, 'communal', null, null, null, null, '19.0512'), ('896', 'Appartement 3 pièces 52 m²', 'false', '52', 'd', null, '897', 'Appartment', 'c', 'Appartement 3 pièces 52 m²
 
 TOUTES LES DEMANDES SONT ÉTUDIÉES MAIS LES DOSSIERS DOIVENT D'ABORD ÊTRE DÉPOSÉS SUR LA PLATEFORME GARANT ME. 
 
@@ -2200,8 +2079,7 @@ Consommation énergie finale : Non communiqué
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 750 € et 1 060 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 3, 0, null, 2, false, null, $$communal$$, $$gas$$, 1970, 4, null, null),
-(897, $$T3 meublé 70m2 - Jules Verne$$, $$Nantes 44300 Croissant$$, true, 70, $$d$$, $$2025-09-30T22:00:00.000Z$$, 1, $$Appartment$$, null, $$Disponible à la location : T3 meublé de 70m² situé au 1er étage avec ascenseur, quartier Jules Verne à Nantes.
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '3', 'Bron 69500 7 Chemins', '2', 'false', '0', null, null, 'communal', 'gas', '1970', '4', null, '19.0512'), ('897', 'T3 meublé 70m2 - Jules Verne', 'true', '70', 'd', '2025-09-30T22:00:00.000Z', '1', 'Appartment', null, 'Disponible à la location : T3 meublé de 70m² situé au 1er étage avec ascenseur, quartier Jules Verne à Nantes.
 📍 Bus C1 à 200 m, tram Haluchère à 15 min à pied, commerces et commodités immédiates.
 
 L’appartement se compose de :
@@ -2219,8 +2097,7 @@ Atouts supplémentaires :
 (les charges comprennent l’entretien des parties communes, eau froide et gestion des déchets).
 🔒 Dépôt de garantie : 2000 € (2 mois de loyer hors charges).
 
-📞 Contactez-moi pour plus d’informations ou organiser une visite.$$, 3, null, null, 2, true, 1, $$individual$$, $$gas$$, 1970, null, null, null),
-(898, $$Appartement 3 pièces 52 m²$$, $$Bron 69500 Eglise$$, true, 52, $$e$$, null, 950, $$Appartment$$, $$b$$, $$Appartement 3 pièces 52 m²
+📞 Contactez-moi pour plus d’informations ou organiser une visite.', '3', 'Nantes 44300 Croissant', '2', 'true', null, null, '1', 'individual', 'gas', '1970', null, null, '166.634533333333'), ('898', 'Appartement 3 pièces 52 m²', 'true', '52', 'e', null, '950', 'Appartment', 'b', 'Appartement 3 pièces 52 m²
 
 TOUTES LES DEMANDES SONT ÉTUDIÉES MAIS LES DOSSIERS DOIVENT D'ABORD ÊTRE DÉPOSÉS SUR LA PLATEFORME GARANT ME.
 
@@ -2235,8 +2112,7 @@ Consommation énergie finale : Non communiqué
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 900 € et 1 250 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 3, 4, null, 2, false, null, $$individual$$, $$electric$$, 1967, 4, null, null),
-(899, $$Louer – Appartement 3 pièces$$, $$Voisins-le-Bretonneux 78960 La Bretonnière$$, false, 65, $$d$$, $$2025-09-30T22:00:00.000Z$$, 1, $$Appartment$$, $$d$$, $$louer – Appartement 3 pièces en très bon état
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '3', 'Bron 69500 Eglise', '2', 'false', '4', null, null, 'individual', 'electric', '1967', '4', null, '307.3392'), ('899', 'Louer – Appartement 3 pièces', 'false', '65', 'd', '2025-09-30T22:00:00.000Z', '1', 'Appartment', 'd', 'louer – Appartement 3 pièces en très bon état
 Disponible à partir de mi-octobre, cet Appartement lumineux et bien entretenu se compose de :
 • 2 chambres spacieuses
 • 1 salon confortable
@@ -2251,8 +2127,7 @@ LES TEMPLES DU LAC Voisins-le-Bretonneux
 
 Loyer 1190€ et 60€ de charges 
 
-Pour plus d’informations ou pour organiser une visite, merci de me contacter$$, 4, 1, 2, 2, false, 2, $$individual$$, $$electric$$, null, 2, $$east$$, null),
-(900, $$Loue T1/T2 à Oraison dans les hauteurs$$, $$Oraison 04700$$, true, 28, $$c$$, $$2025-08-31T22:00:00.000Z$$, 516, $$Appartment$$, $$b$$, $$Loue T1/T2 à Oraison dans les hauteurs
+Pour plus d’informations ou pour organiser une visite, merci de me contacter', '4', 'Voisins-le-Bretonneux 78960 La Bretonnière', '2', 'false', '1', '2', '2', 'individual', 'electric', null, '2', 'east', '270.2112'), ('900', 'Loue T1/T2 à Oraison dans les hauteurs', 'true', '28', 'c', '2025-08-31T22:00:00.000Z', '516', 'Appartment', 'b', 'Loue T1/T2 à Oraison dans les hauteurs
 Calme
 Lumineux
 Salle de bain indépendante
@@ -2273,8 +2148,7 @@ L’appartement sera équipé de :
 • 1 télévision
 • 1 frigo
 
-Ce logement  est dimensionné, aussi bien en surface qu’en équipement,  plutôt pour une personne vivant seul. En conséquence pour un couple, cet appartement risque à ne pas  correspondre à votre attente.$$, 2, 0, null, 1, false, 1, $$individual$$, $$electric$$, null, 2, null, null),
-(901, $$T2 meublé – Terrasse & jardin commun$$, $$Limoges 87100$$, true, 38, $$c$$, $$2025-09-30T22:00:00.000Z$$, 700, $$Appartment$$, $$b$$, $$DISPONIBLE A PARTIR DU 1ER OCTOBRE
+Ce logement  est dimensionné, aussi bien en surface qu’en équipement,  plutôt pour une personne vivant seul. En conséquence pour un couple, cet appartement risque à ne pas  correspondre à votre attente.', '2', 'Oraison 04700', '1', 'false', '0', null, '1', 'individual', 'electric', null, '2', null, '89.6112'), ('901', 'T2 meublé – Terrasse & jardin commun', 'true', '38', 'c', '2025-09-30T22:00:00.000Z', '700', 'Appartment', 'b', 'DISPONIBLE A PARTIR DU 1ER OCTOBRE
 
 PAS DE FRAIS D’AGENCE !
 
@@ -2301,16 +2175,13 @@ Disponible à la location le 1er octobre 2025.
 
 Pour plus d’informations ou pour planifier une visite, contactez-nous sans attendre !
 
-PRIORITÉ DONNÉE AUX DOSSIERS AVEC GARANTIE VISALE$$, 2, 2, 1, 1, false, 1, $$communal$$, $$gas$$, null, 3, $$east$$, null),
-(902, $$Location appartement duplex$$, $$Tours 37000 Centre-ville$$, false, 70, $$c$$, $$2025-08-31T22:00:00.000Z$$, 1, $$Appartment$$, null, $$Appartement ancien refait à neuf
+PRIORITÉ DONNÉE AUX DOSSIERS AVEC GARANTIE VISALE', '2', 'Limoges 87100', '1', 'false', '2', '1', '1', 'communal', 'gas', null, '3', 'east', '19.0512'), ('902', 'Location appartement duplex', 'false', '70', 'c', '2025-08-31T22:00:00.000Z', '1', 'Appartment', null, 'Appartement ancien refait à neuf
 Une grande pièce à vivre. Une cuisine équipée. Une chambre avec salle de bain( douche). 
-A l’étage supérieur : une chambre avec une salle de douche lavabo$$, 4, 1, null, 2, false, 2, $$individual$$, $$electric$$, null, 1, $$south$$, null),
-(903, $$F3 meublé en duplex$$, $$Guémené-sur-Scorff 56160$$, true, 82, $$e$$, null, 690, $$Appartment$$, $$b$$, $$Appartement lumineux avec de beaux volumes sur 2 niveaux :
+A l’étage supérieur : une chambre avec une salle de douche lavabo', '4', 'Tours 37000 Centre-ville', '2', 'false', '1', null, '2', 'individual', 'electric', null, '1', 'south', '195.4512'), ('903', 'F3 meublé en duplex', 'true', '82', 'e', null, '690', 'Appartment', 'b', 'Appartement lumineux avec de beaux volumes sur 2 niveaux :
 1er niveau : une entrée, une chambre avec salle de douche, wc, une cuisine ouverte et équipée, un grand salon.
 2ème niveau : grand palier, un grenier, une chambre, une salle de bain avec baignoire.
 Nombreux rangements
-Commerces et supermarché accessibles à pieds.$$, 3, 1, null, 2, false, 2, $$individual$$, $$electric$$, null, 2, $$south_east$$, null),
-(904, $$T1 meublé, 1mn Gare Lyon Part-Dieu$$, $$Lyon 69003 Villette$$, false, null, null, null, 650, $$Appartment$$, null, $$Bonjour,
+Commerces et supermarché accessibles à pieds.', '3', 'Guémené-sur-Scorff 56160', '2', 'false', '1', null, '2', 'individual', 'electric', null, '2', 'south_east', '473.6592'), ('904', 'T1 meublé, 1mn Gare Lyon Part-Dieu', 'false', null, null, null, '650', 'Appartment', null, 'Bonjour,
 Je loue mon appartement T1 27m² en rez de chaussée, entièrement meublé pour courte durée (max 3 mois).
 Quartier part dieu à 1 mn de la gare.
 -1 entrée vestibule
@@ -2322,15 +2193,13 @@ Merci d'envoyer mail si intéressé(e)
 650€ le mois,
 électricité en plus.
 Caution 700 €.
-Non éligible aux apl.$$, null, null, null, null, false, null, null, null, null, null, null, null),
-(905, $$T3 de 60 m² SIN LE NOBLE proche Hôpital$$, $$Sin-le-Noble 59450 Les Épis$$, false, 60, $$c$$, $$2025-10-31T23:00:00.000Z$$, 720, $$Appartment$$, $$d$$, $$Loue appartement 60 m² Sin Le Noble, Proche hôpital comprenant :
+Non éligible aux apl.', null, 'Lyon 69003 Villette', null, 'false', null, null, null, null, null, null, null, null, '19.0512'), ('905', 'T3 de 60 m² SIN LE NOBLE proche Hôpital', 'false', '60', 'c', '2025-10-31T23:00:00.000Z', '720', 'Appartment', 'd', 'Loue appartement 60 m² Sin Le Noble, Proche hôpital comprenant :
 2 chambres, cuisine équipée, Salle de Bain avec Douche, WC, Séjour, Menuiserie double vitrage, Chauffage Gaz
 1 Place de Parking+ cave au sous-sol
 Résidence privative avec portail électrique sécurisé.
 
 Loyer : 540 € - Charges : 180 € (chauffage + eau chaude/froide, parties communes)
-Conditions : 2200 € minimum de revenus$$, 3, 2, 1, 2, true, 1, $$communal$$, $$gas$$, 2009, 3, null, null),
-(906, $$Appartement 2 pièces tout confort à l'année$$, $$Fréjus 83600 Plage$$, false, 27, $$c$$, $$2025-10-31T23:00:00.000Z$$, 765, $$Appartment$$, $$d$$, $$Appartement, a visiter a partir du Dimanche 20 octobre 2025, et libre au 1er novembre 2025. 
+Conditions : 2200 € minimum de revenus', '3', 'Sin-le-Noble 59450 Les Épis', '2', 'true', '2', '1', '1', 'communal', 'gas', '2009', '3', null, '19.0512'), ('906', 'Appartement 2 pièces tout confort à l'année', 'false', '27', 'c', '2025-10-31T23:00:00.000Z', '765', 'Appartment', 'd', 'Appartement, a visiter a partir du Dimanche 20 octobre 2025, et libre au 1er novembre 2025. 
 Appart en RDC, 2 pièces  27 m² avec terrasse privative de 12 m², situé sur la commune de Fréjus, à 500m de la mer et 800 m du centre ville (mairie St Raphaël) à pieds, tous les commerces de proximités.
 En retrait de la route, villa de 6 appartements de 2 pièces, loués à l'année, calme, avec parking intérieur, 1 place par appartement, sécurisé, terrain de boules, terrasse commune pour invités avec barbecue.  
 Appartement en rez-de-chaussée.     
@@ -2344,8 +2213,7 @@ Charge :   148 €uros. Comprenant : Eau froide, Eau chaude, Electricité, Gaz n
 Soit un total T.T.C toutes charges comprises de 765 €uros.
 Références exigées. Caution demandée.
 Contrat de travail CDI ou Retraité.
-CONVIENT A UNE PERSONNE SEULE.$$, 2, 0, 1, 1, false, 1, $$communal$$, $$gas$$, 1960, 1, null, null),
-(907, $$F3 60 m² - Proche Jaude / Lecoq$$, $$Clermont-Ferrand 63000 Vallières - Sallins - Poncillon$$, false, 60, $$c$$, null, 890, $$Appartment$$, $$d$$, $$Nous vous proposons à la location un F3 de 60m² au sein de la Résidence du Parc, calme et sécurisée avec services à disposition (technique et gardiennage).
+CONVIENT A UNE PERSONNE SEULE.', '2', 'Fréjus 83600 Plage', '1', 'false', '0', '1', '1', 'communal', 'gas', '1960', '1', null, '19.0512'), ('907', 'F3 60 m² - Proche Jaude / Lecoq', 'false', '60', 'c', null, '890', 'Appartment', 'd', 'Nous vous proposons à la location un F3 de 60m² au sein de la Résidence du Parc, calme et sécurisée avec services à disposition (technique et gardiennage).
 
 Situé entre la Place de Jaude et le Jardin Lecoq, proche des universités mais également des commerces et des transports (tramway et bus).
 
@@ -2360,10 +2228,8 @@ Les provisions sur charges sont à ajouter au montant du loyer. Elles comprennen
 - Entretien ascenseur 
 - Entretien des parties communes et des espaces verts
 - Taxe d’ordures ménagères
-- Service technique et gardiennage$$, 3, null, null, 2, true, null, null, null, 1972, null, null, null),
-(908, $$T4 busca jardin des plantes$$, $$Toulouse 31400 Le Busca$$, false, 109, $$c$$, $$2025-08-31T22:00:00.000Z$$, 1, $$Appartment$$, $$a$$, $$Au coeur du Busca, proche au Jardin des plantes, rue Demouilles, au calme, dans un petit immeuble 1930, au 2ème et dernier étage, T4 de 109m2 (96m2 carrez) en très bon état, (TRAVAUX DE PEINTURE EN COURS) comprenant : une entrée, un vaste séjour de 47m2 avec cuisine US aménagée et équipée (plaques, four, hotte), très beau volume, hauteur sous faitière 3,6 mètres, 3 chambres (14,65 m2 ; 14,42 m2 ; 14,10 m2) une salle de bains avec baignoire et douche. nombreux rangements équipés. L'appartement est très clair et ensoleillé, chauffage et climatisation par pompe à chaleur,
-loyer mensuel 1510 €  +  prov charges 90 €$$, 4, 2, null, 3, false, 1, $$individual$$, $$electric$$, 1930, 2, null, null),
-(909, $$Superbe T3 très récent, de 86,63 m², 19 rue Montmailler à LIMOGES - 800 e hors charges$$, $$Limoges 87000 Centre-ville$$, false, 86, $$c$$, null, 830, $$Appartment$$, $$a$$, $$Superbe et grand T3 (rénovation totale très récente) de 86,63 m², se trouvant 19, rue Montmailler à LIMOGES, au 1er étage dans cet immeuble de 2 étages (pas d’ascenseur / 1 occupant par étage).
+- Service technique et gardiennage', '3', 'Clermont-Ferrand 63000 Vallières - Sallins - Poncillon', '2', 'true', null, null, null, null, null, '1972', null, null, '101.5512'), ('908', 'T4 busca jardin des plantes', 'false', '109', 'c', '2025-08-31T22:00:00.000Z', '1', 'Appartment', 'a', 'Au coeur du Busca, proche au Jardin des plantes, rue Demouilles, au calme, dans un petit immeuble 1930, au 2ème et dernier étage, T4 de 109m2 (96m2 carrez) en très bon état, (TRAVAUX DE PEINTURE EN COURS) comprenant : une entrée, un vaste séjour de 47m2 avec cuisine US aménagée et équipée (plaques, four, hotte), très beau volume, hauteur sous faitière 3,6 mètres, 3 chambres (14,65 m2 ; 14,42 m2 ; 14,10 m2) une salle de bains avec baignoire et douche. nombreux rangements équipés. L'appartement est très clair et ensoleillé, chauffage et climatisation par pompe à chaleur,
+loyer mensuel 1510 €  +  prov charges 90 €', '4', 'Toulouse 31400 Le Busca', '3', 'false', '2', null, '1', 'individual', 'electric', '1930', '2', null, '293.7312'), ('909', 'Superbe T3 très récent, de 86,63 m², 19 rue Montmailler à LIMOGES - 800 e hors charges', 'false', '86', 'c', null, '830', 'Appartment', 'a', 'Superbe et grand T3 (rénovation totale très récente) de 86,63 m², se trouvant 19, rue Montmailler à LIMOGES, au 1er étage dans cet immeuble de 2 étages (pas d’ascenseur / 1 occupant par étage).
 
 Ce logement situé à 100 mètres de la place Denis Dussoubs, et disposant d’un emplacement idéal, est constitué de la façon suivante : 
 
@@ -2384,8 +2250,7 @@ Possibilité de louer (50 €) un emplacement de stationnement dans un petit par
 
 Le dépôt de garantie est d’un mois de loyer sans les charges ; les honoraires à la charge du locataire sont limités à 240 € (constitution du dossier, rédaction du bail…) et à 180 € au titre de l’état des lieux ; aucuns autres frais.
 
-Contact : Mr FANANAS ou Mme DESBORDES$$, 3, 1, 1, 2, false, 1, $$individual$$, $$electric$$, null, 2, null, null),
-(910, $$Appartement neuf terrasse parking tout compris$$, $$Montbéliard 25200 Faubourg - Mont-Chevis - Chiffogne - Citadelle$$, false, 35, null, $$2025-09-30T22:00:00.000Z$$, 650, $$Appartment$$, null, $$Appartement neuf - 35 m2 - chambre séparée -
+Contact : Mr FANANAS ou Mme DESBORDES', '3', 'Limoges 87000 Centre-ville', '2', 'false', '1', '1', '1', 'individual', 'electric', null, '2', null, '235.7712'), ('910', 'Appartement neuf terrasse parking tout compris', 'false', '35', null, '2025-09-30T22:00:00.000Z', '650', 'Appartment', null, 'Appartement neuf - 35 m2 - chambre séparée -
 Situé dans une résidence neuve, au cœur de Montbéliard - Rue Charles Contejean 
 
 RARE DANS MONTBÉLIARD
@@ -2403,16 +2268,14 @@ Loyer 550€ + 120€ de charges (eau chaude et froide, chauffage gaz au sol, é
 Dépôt de garantie 1 mois soit 550 euros - Préavis 3 mois -
 
 Appartement disponible le 1er octobre 
-Revenus fixes et CDI exigés - Merci de vous présenter pour une demande de visite.$$, 2, 2, 1, 1, false, 1, $$communal$$, $$gas$$, 2019, 2, $$west$$, null),
-(911, $$Appartement 4 pièces 80 m²$$, $$Grenoble 38000 Europole - Gare$$, false, 80, $$c$$, $$2025-09-21T22:00:00.000Z$$, 1, $$Appartment$$, $$c$$, $$Appartement T4
+Revenus fixes et CDI exigés - Merci de vous présenter pour une demande de visite.', '2', 'Montbéliard 25200 Faubourg - Mont-Chevis - Chiffogne - Citadelle', '1', 'false', '2', '1', '1', 'communal', 'gas', '2019', '2', 'west', '19.0512'), ('911', 'Appartement 4 pièces 80 m²', 'false', '80', 'c', '2025-09-21T22:00:00.000Z', '1', 'Appartment', 'c', 'Appartement T4
 
 SANS HONORAIRES. GRENOBLE, 8 rue Henri Duffourd, quartier Europole, dans résidence de 2012, sécurisée, loue T4 duplex de 80m2 au 9ème et 10ème étage (10 sur 10). Cet appartement se compose d'une entrée avec placard, d'un séjour/cuisine (non aménagée) de 25m2, 3 chambres dont une à l'étage, de 9.5, 11.7 et 11.8m2, 2 salle de bain, dont une à l'étage, 2 WC dont un à l'étage. 2 grandes terrasses de 30 et 25m2 ainsi qu'un garage en sous col complètent ce bien. L'eau chaude l'eau froide, le chauffage et la taxe d'enlèvement des ordures ménagères sont inclus dans les charges. Gare SNCF à proximité. SANS HONORAIRES. A SAISIR RAPIDEMENT. Référence à rappeler lors de nos échanges : 5844 - 254803 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr Droit Commun Non réservé Date disponibilité : 22/09/2025
 Référence annonce : SNI_0000_254803
 Consommation énergétique : 105 kWh/m²/an
 Emission de gaz à effet de serre : 21 CO2/m²/an
 Dépôt de garantie : 969 €
-Montant des charges : 189 € / mois$$, 4, 9, null, 3, true, 2, $$communal$$, $$gas$$, 2012, null, $$north_west$$, null),
-(912, $$Studio 1 pièce 26 m²$$, $$Strasbourg 67000 Petite France$$, false, 26, $$e$$, null, 700, $$Appartment$$, $$b$$, $$Studio 1 pièce 26 m²
+Montant des charges : 189 € / mois', '4', 'Grenoble 38000 Europole - Gare', '3', 'true', '9', null, '2', 'communal', 'gas', '2012', null, 'north_west', '19.0512'), ('912', 'Studio 1 pièce 26 m²', 'false', '26', 'e', null, '700', 'Appartment', 'b', 'Studio 1 pièce 26 m²
 
 Immoval vous propose, à Strasbourg, Quai Finkwiller, au RDC, un grand studio neuf de 26.43m². Première occupation. Il se compose d'une pièce de vie avec coin cuisine équipée et machine à laver et d'une salle d'eau avec WC. Une terrasse de 11m² complète ce bien. Chauffage et eau chaude individuels électrique. Disponible de suite.
 
@@ -2427,8 +2290,7 @@ Date de réalisation du diagnostic énergétique : 19/09/2025
 Consommation énergie primaire : 321 kWh/m²/an
 Consommation énergie finale : 139.00 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 710 € et 1 010 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 1, 0, null, null, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(913, $$Appartement 2 pièces 34 m²$$, $$Reims 51100 Barbâtre - Gambetta$$, false, 34, $$f$$, null, 500, $$Appartment$$, $$f$$, $$Appartement 2 pièces 34 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 710 € et 1 010 € sur les années 2021, 2022 et 2023 (abonnements compris).', '1', 'Strasbourg 67000 Petite France', null, 'false', '0', null, null, 'individual', 'electric', null, null, null, '163.1952'), ('913', 'Appartement 2 pièces 34 m²', 'false', '34', 'f', null, '500', 'Appartment', 'f', 'Appartement 2 pièces 34 m²
 
 REFERENCE 566 - RUE SAINT SIXTE - DISPONIBLE DE SUITE
  Dans le secteur Saint Rémy,  au rez de chaussée sur cour, appartement T2 refait à neuf de 34,41 m2, comprenant une entrée sur la cuisine, séjour, chambre, pièce de rangement, salle de bain avec WC.
@@ -2447,8 +2309,7 @@ Consommation énergie primaire : 401 kWh/m²/an
 Consommation énergie finale : 0 kWh/m²/an
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 323 € et 1 791 € sur les années 2021, 2022 et 2023 (abonnements compris).
-Logement à consommation énergétique excessive : classe F$$, 2, null, null, 1, false, 1, $$individual$$, $$gas$$, 1970, 3, null, null),
-(914, $$Appartement 3 pièces 67 m²$$, $$Strasbourg 67100 Cronenbourg$$, false, 67, null, null, 1, $$Appartment$$, null, $$Appartement 3 pièces 67 m²
+Logement à consommation énergétique excessive : classe F', '2', 'Reims 51100 Barbâtre - Gambetta', '1', 'false', null, null, '1', 'individual', 'gas', '1970', '3', null, '159.3012'), ('914', 'Appartement 3 pièces 67 m²', 'false', '67', null, null, '1', 'Appartment', null, 'Appartement 3 pièces 67 m²
 
 DISPOSITIF PINEL – SOUMIS À CONDITION DE RESSOURCES
 
@@ -2479,8 +2340,7 @@ Dépôt de garantie : 963 €
 Consommation énergie primaire : Non communiqué
 Consommation énergie finale : Non communiqué
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 3, 2, null, 2, false, 1, $$communal$$, $$gas$$, 2022, null, null, null),
-(915, $$Appartement 2 pièces 41 m²$$, $$Bozouls 12340$$, false, 41, null, null, 504, $$Appartment$$, $$a$$, $$Appartement 2 pièces 41 m²
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '3', 'Strasbourg 67100 Cronenbourg', '2', 'false', '2', null, '1', 'communal', 'gas', '2022', null, null, '19.0512'), ('915', 'Appartement 2 pièces 41 m²', 'false', '41', null, null, '504', 'Appartment', 'a', 'Appartement 2 pièces 41 m²
 
 A LOUER bel appartement T2 dans une Résidence securisée de Bozouls.
  Ce bien de 41 m2 comprend : une entrée, un séjour, un coin cuisine, une chambre, une salle d'eau et Wc.
@@ -2494,8 +2354,7 @@ Montant des charges : 30 € / mois
 Dépôt de garantie : 436 €
 
 Consommation énergie primaire : Non communiqué
-Consommation énergie finale : Non communiqué$$, 2, null, null, 1, false, null, null, null, null, null, null, null),
-(916, $$Appartement 3 pièces 57 m²$$, $$Nantes 44000 Saint-Donatien - Tortière$$, false, 57, $$e$$, $$2025-09-30T22:00:00.000Z$$, 883, $$Appartment$$, $$e$$, $$Appartement 3 pièces 57 m²
+Consommation énergie finale : Non communiqué', '2', 'Bozouls 12340', '1', 'false', null, null, null, null, null, null, null, null, '143.0762'), ('916', 'Appartement 3 pièces 57 m²', 'false', '57', 'e', '2025-09-30T22:00:00.000Z', '883', 'Appartment', 'e', 'Appartement 3 pièces 57 m²
 
 Appartement meublé de type 3 de 57m2, au 2ème étage d'une résidence située 51 rue du Port Boyer à Nantes. Le bien se compose d'une entrée, d'un séjour, d'une cuisine, de deux chambres et une salle d'eau avec WC.
 
@@ -2523,8 +2382,7 @@ Date de réalisation du diagnostic énergétique : 04/01/2022
 Consommation énergie primaire : 240 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 984 € et 1 332 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)$$, 3, 2, null, 2, false, null, $$individual$$, $$gas$$, null, null, null, null),
-(917, $$Appartement 2 pièces 37 m²$$, $$Arras 62000 Saint-Michel$$, false, 37, $$d$$, $$2025-10-15T22:00:00.000Z$$, 610, $$Appartment$$, $$a$$, $$Appartement type 2
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 984 € et 1 332 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)', '3', 'Nantes 44000 Saint-Donatien - Tortière', '2', 'false', '2', null, null, 'individual', 'gas', null, null, null, '191.4762'), ('917', 'Appartement 2 pièces 37 m²', 'false', '37', 'd', '2025-10-15T22:00:00.000Z', '610', 'Appartment', 'a', 'Appartement type 2
 
 Sergic Arras vous propose dans une résidence de standing à deux pas de la Grand Place et des grands axes, cet appartement rénové en rez-de-chaussée se composant d'une entrée avec placard de rangement, une cuisine équipée d'une plaque de cuisson et d'un réfrigérateur, ouverte sur le séjour lumineux avec une belle terrasse, une chambre, une salle de douche. Vous disposerez également d'une place de parking privé. A saisir rapidement! Le chauffage est électrique. Vous souhaitez être le premier à le visiter ? Cliquez sur “ce bien m'intéresse” sur *** et transmettez nous votre dossier “candidat locataire” Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisque : ***
 Référence annonce : 17_1180_03_0002
@@ -2536,8 +2394,7 @@ Modalité de récupération des charges locatives : provision avec régularisati
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 488 € et 660 € par an. Prix moyens des énergies indexés sur l'année 2023 (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 2, null, null, 1, true, null, $$individual$$, $$electric$$, 2008, 4, null, null),
-(918, $$Duplex 4 pièces 88 m²$$, $$Niederentzen 68127$$, false, 88, $$c$$, $$2025-09-17T22:00:00.000Z$$, 1, $$Appartment$$, $$c$$, $$Appartement duplex avec garage et parking à louerDans une résidence récente située dans le bâtiment A, appartement en duplex comprenant au rez de chaussée une entrée, un espace séjour avec coin cuisine, une salle d?eau avec WC et deux gaines techniques pour un total de 47 m² au sol. L?espace de vie s?ouvre sur deux terrasses, une pergola de 7 m² et une terrasse paysagère de 11 m².À l'étage, trois pièces, une salle de bain et un dégagement pour une surface de 43 m². Un jardin privatif de 74 m² complète ce bien, accessible directement depuis le rez de chaussée par escalier.Garage de 15 m² et place de stationnement privative de 11 m² inclus dans la location.
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '2', 'Arras 62000 Saint-Michel', '1', 'true', null, null, null, 'individual', 'electric', '2008', '4', null, '162.0192'), ('918', 'Duplex 4 pièces 88 m²', 'false', '88', 'c', '2025-09-17T22:00:00.000Z', '1', 'Appartment', 'c', 'Appartement duplex avec garage et parking à louerDans une résidence récente située dans le bâtiment A, appartement en duplex comprenant au rez de chaussée une entrée, un espace séjour avec coin cuisine, une salle d?eau avec WC et deux gaines techniques pour un total de 47 m² au sol. L?espace de vie s?ouvre sur deux terrasses, une pergola de 7 m² et une terrasse paysagère de 11 m².À l'étage, trois pièces, une salle de bain et un dégagement pour une surface de 43 m². Un jardin privatif de 74 m² complète ce bien, accessible directement depuis le rez de chaussée par escalier.Garage de 15 m² et place de stationnement privative de 11 m² inclus dans la location.
 
 Assurance Multirisques Privilège *: 20.5 € / mois
 *Services facultatifs, voir conditions en agences
@@ -2549,8 +2406,7 @@ Dépôt de garantie : 1100 €
 Montant des charges : 100 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 646 € et 874 € par an. Prix moyens des énergies indexés sur l'année 2023 (abonnements compris)$$, 4, 0, null, null, false, 1, null, null, 2023, null, null, null),
-(919, $$Appartement 2 pièces 46 m²$$, $$Orléans 45000$$, false, 46, $$e$$, $$2025-10-25T22:00:00.000Z$$, 708, $$Appartment$$, $$c$$, $$ORLEANS HYPER CENTRE, appartement d'exception Face à la Cathédrale, F2 neuf entièrement rénové et isolé. Matériaux de qualité, pointe de hongrie pour les parquets, tomettes de ciment à l'ancienne, une magnifique cuisine aménagée et équipée séparée d'une verrière à l'ancienne.
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 646 € et 874 € par an. Prix moyens des énergies indexés sur l'année 2023 (abonnements compris)', '4', 'Niederentzen 68127', null, 'false', '0', null, '1', null, null, '2023', null, null, '140.0512'), ('919', 'Appartement 2 pièces 46 m²', 'false', '46', 'e', '2025-10-25T22:00:00.000Z', '708', 'Appartment', 'c', 'ORLEANS HYPER CENTRE, appartement d'exception Face à la Cathédrale, F2 neuf entièrement rénové et isolé. Matériaux de qualité, pointe de hongrie pour les parquets, tomettes de ciment à l'ancienne, une magnifique cuisine aménagée et équipée séparée d'une verrière à l'ancienne.
 1 chambre avec placard
 Emplacement de parking.
 
@@ -2560,8 +2416,7 @@ Date de réalisation du diagnostic : 17/09/2025
 Honoraires à la charge du locataire : 605 € TTC dont 139 € pour l’état des lieux
 Dépôt de garantie : 680 €
 Montant des charges : 28 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 2, 3, 1, 1, false, null, $$individual$$, $$electric$$, 2017, null, $$east$$, null),
-(920, $$Appartement 3 pièces 64 m²$$, $$Saint-Max 54130$$, false, 64, $$c$$, $$2025-07-28T22:00:00.000Z$$, 880, $$Appartment$$, $$c$$, $$C C  DISPOSITIF SCELLIER INTERMEDIAIRE
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '2', 'Orléans 45000', '1', 'false', '3', '1', null, 'individual', 'electric', '2017', null, 'east', '274.0752'), ('920', 'Appartement 3 pièces 64 m²', 'false', '64', 'c', '2025-07-28T22:00:00.000Z', '880', 'Appartment', 'c', 'C C  DISPOSITIF SCELLIER INTERMEDIAIRE
 - 13 RUE DE MAINVAUX - LE DOMAINE 1854 - Dans Résidence récente labélisée BBC - BATIMENT  A - Au 2ème étage avec Ascenseur, Appartement comprenant une Entrée, une Cuisine Aménagée et Equipée ouverte sur le Séjour, 2 Chambres, une Salle de bains et des WC séparés, BALCON (7,92m2),
 En annexe : vous disposerez d'un Parking (lot 48 en sous-sol),
 Eau Chaude + Chauffage Collectifs Gaz,
@@ -2574,8 +2429,7 @@ Dépôt de garantie : 690 €
 Montant des charges : 190 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 470 € et 680 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 2, null, 2, true, 1, $$communal$$, null, null, null, null, null),
-(921, $$Appartement 2 pièces 42 m²$$, $$Nîmes 30900 Ecusson - Arènes$$, false, 42, $$b$$, null, 621, $$Appartment$$, $$b$$, $$Appartement 2 pièces 42 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 470 € et 680 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Saint-Max 54130', '2', 'true', '2', null, '1', 'communal', null, null, null, null, '19.0512'), ('921', 'Appartement 2 pièces 42 m²', 'false', '42', 'b', null, '621', 'Appartment', 'b', 'Appartement 2 pièces 42 m²
 
 Appartement neuf 2 pièces avec terrasse et stationnement aux portes du centre-ville de Nîmes.
   Appartement idéalement situé à 5 minutes à pied de l'avenue Jean Jaurès, à 8 minutes en voiture de l'autoroute et à 10 minutes de la gare, arrêt de bus au pied de la résidence.
@@ -2598,8 +2452,7 @@ Date de réalisation du diagnostic énergétique : 02/12/2024
 Consommation énergie primaire : 47 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 170 € et 280 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 1, 1, 1, true, null, $$individual$$, $$gas$$, 2022, 3, null, null),
-(922, $$Appartement 3 pièces 66 m²$$, $$Avignon 84140 Montfavet$$, false, 66, $$d$$, null, 820, $$Appartment$$, $$b$$, $$Appartement 3 pièces
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 170 € et 280 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Nîmes 30900 Ecusson - Arènes', '1', 'true', '1', '1', null, 'individual', 'gas', '2022', '3', null, '53.7012'), ('922', 'Appartement 3 pièces 66 m²', 'false', '66', 'd', null, '820', 'Appartment', 'b', 'Appartement 3 pièces
 
 À louer - T3 avec terrasse & 2 parkings à Montfavet
 
@@ -2635,8 +2488,7 @@ Modalité de récupération des charges locatives : provision avec régularisati
 A propos de la copropriété :
 Pas de procédure en cours
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 813 € et 1 099 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 3, 1, 2, 2, false, 1, null, $$other$$, 2011, 1, null, null),
-(923, $$Appartement 3 pièces 65 m²$$, $$Nancy 54000 Centre-ville - Charles III$$, false, 65, null, null, 640, $$Appartment$$, $$v$$, $$Appartement 3 pièces 65 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 813 € et 1 099 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '3', 'Avignon 84140 Montfavet', '2', 'false', '1', '2', '1', null, 'other', '2011', '1', null, '158.2012'), ('923', 'Appartement 3 pièces 65 m²', 'false', '65', null, null, '640', 'Appartment', 'v', 'Appartement 3 pièces 65 m²
 
 NANCY RUE GILBERT, au centre ville 
 
@@ -2654,8 +2506,7 @@ Surface : 65 m²
 Non soumis au DPE
 
 Consommation énergie primaire : Non communiqué
-Consommation énergie finale : Non communiqué$$, 3, 2, null, 2, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(924, $$Appartement 2 pièces 42 m²$$, $$Saint-Étienne 42000 Terrenoire$$, false, 42, null, $$2024-05-31T22:00:00.000Z$$, 487, $$Appartment$$, null, $$Appartement 2 pièces 42 m²
+Consommation énergie finale : Non communiqué', '3', 'Nancy 54000 Centre-ville - Charles III', '2', 'false', '2', null, null, 'individual', 'electric', null, null, null, '379.4112'), ('924', 'Appartement 2 pièces 42 m²', 'false', '42', null, '2024-05-31T22:00:00.000Z', '487', 'Appartment', null, 'Appartement 2 pièces 42 m²
 
 Emplacement idéal - 6 Rue Philippe BlancDans copropriété sécurisée, bel appartement de type T2 composé d'un coin cuisine ouvert sur salon / séjour, une belle chambre avec placard, salle d'eau, WC séparé.Parking privatifA visiter sans tarder !!
 
@@ -2667,8 +2518,7 @@ Honoraires à la charge du locataire : 360 € dont 126 € pour l’état des l
 Dépôt de garantie : 449 €
 
 Consommation énergie primaire : 218 kWh/m²/an
-Consommation énergie finale : Non communiqué$$, 2, 3, null, 1, false, 1, $$individual$$, $$electric$$, 2012, null, null, null),
-(925, $$Appartement 3 pièces 64 m²$$, $$Nantes 44000$$, false, 64, $$b$$, null, 1, $$Appartment$$, $$a$$, $$Appartement 3 pièces 64 m²
+Consommation énergie finale : Non communiqué', '2', 'Saint-Étienne 42000 Terrenoire', '1', 'false', '3', null, '1', 'individual', 'electric', '2012', null, null, '251.8992'), ('925', 'Appartement 3 pièces 64 m²', 'false', '64', 'b', null, '1', 'Appartment', 'a', 'Appartement 3 pièces 64 m²
 
 Idéalement situé quartier Saint Felix, à proximité de toutes commodités, magnifique appartement T3, entièrement neuf avec des finitions d’exception et des prestations de très haut standing.
   Il se compose d’une entrée, d’un séjour ouvrant sur une loggia de 5 m², d’une cuisine ouverte moderne, aménagée et équipée, de deux chambres, d’une salle d’eau moderne et de WC séparés.
@@ -2689,9 +2539,7 @@ Dépôt de garantie : 1315 €
 Date de réalisation du diagnostic énergétique : 17/09/2025
 
 Consommation énergie primaire : 71 kWh/m²/an
-Consommation énergie finale : Non communiqué$$, 3, 1, null, 2, true, null, null, $$electric$$, null, 4, null, null),
-(969, $$Appartement T1 bis 40 mètres carrés$$, $$Lannion 22300 Rive Gauche - Loguivy-lès-Lannion$$, true, 40, $$a$$, $$2025-09-30T22:00:00.000Z$$, 400, $$Appartment$$, $$a$$, $$Bonjour je mets en location mon T1 bis de 40 mètres carrés meublée avec une cuisine équipée au prix de 400 euros charges comprises$$, 2, 1, null, 1, false, 1, $$communal$$, $$electric$$, 2005, 3, null, null),
-(970, $$Studio 1 pièce 32 m²$$, $$Bastia 20600 Montesoro$$, true, 32, null, null, 560, $$Appartment$$, $$a$$, $$Studio 1 pièce 32 m²
+Consommation énergie finale : Non communiqué', '3', 'Nantes 44000', '2', 'true', '1', null, null, null, 'electric', null, '4', null, '115.8192'), ('969', 'Appartement T1 bis 40 mètres carrés', 'true', '40', 'a', '2025-09-30T22:00:00.000Z', '400', 'Appartment', 'a', 'Bonjour je mets en location mon T1 bis de 40 mètres carrés meublée avec une cuisine équipée au prix de 400 euros charges comprises', '2', 'Lannion 22300 Rive Gauche - Loguivy-lès-Lannion', '1', 'false', '1', null, '1', 'communal', 'electric', '2005', '3', null, '19.0512'), ('970', 'Studio 1 pièce 32 m²', 'true', '32', null, null, '560', 'Appartment', 'a', 'Studio 1 pièce 32 m²
 
 A louer dans votre agence DESA IMMOBILIER studio de 32m2 entierement meublé, situé dans une résidence 'Les Vallons du Macchione' composé d'une belle pièce à vivre avec cuisine ouverte et coin nuit avec lit escamotable, une salle d'eau avec WC ;
  Terrasse spacieuse de 15m2 , Climatisation, Une place de parking privée !
@@ -2701,8 +2549,7 @@ Surface : 32 m²
 Modalité de récupération des charges locatives : Prévisionnelles mensuelles avec régularisation annuelle
 
 Consommation énergie primaire : Non communiqué
-Consommation énergie finale : Non communiqué$$, 1, 2, null, null, false, null, null, null, null, null, null, null),
-(971, $$Location appartement F3$$, $$Lille 59160 Lomme$$, false, 53, $$d$$, $$2025-10-31T23:00:00.000Z$$, 1, $$Appartment$$, $$d$$, $$À louer – Bel appartement F3 de 53 m² à Lomme (59160) Situé dans un quartier recherché, proche Euratechnologie, métro, commerces et écoles, cet appartement lumineux de 53 m² en rez-de-chaussée )offre un excellent standing.
+Consommation énergie finale : Non communiqué', '1', 'Bastia 20600 Montesoro', null, 'false', '2', null, null, null, null, null, null, null, '115.8512'), ('971', 'Location appartement F3', 'false', '53', 'd', '2025-10-31T23:00:00.000Z', '1', 'Appartment', 'd', 'À louer – Bel appartement F3 de 53 m² à Lomme (59160) Situé dans un quartier recherché, proche Euratechnologie, métro, commerces et écoles, cet appartement lumineux de 53 m² en rez-de-chaussée )offre un excellent standing.
 Caractéristiques :
 * 2 chambres avec placards intégrés
 * Belle pièce à vivre avec hauteur sous plafond et poutres apparentes, apportant caractère et charme
@@ -2721,8 +2568,7 @@ Dépôt de garantie : 975€
 Possible co location
 Garants exigés
 Pièces à fournir: Avis d'imposition, 3 derniers fiches de paie, piece identité
-Disponible immédiatement$$, 3, 1, null, 2, false, 1, $$individual$$, $$electric$$, 1930, 1, null, null),
-(972, $$Studio 1 pièce 19 m²$$, $$Lizy-sur-Ourcq 77440$$, false, 19, $$e$$, null, 440, $$Appartment$$, $$b$$, $$Studio 1 pièce 19 m²
+Disponible immédiatement', '3', 'Lille 59160 Lomme', '2', 'false', '1', null, '1', 'individual', 'electric', '1930', '1', null, '223.8432'), ('972', 'Studio 1 pièce 19 m²', 'false', '19', 'e', null, '440', 'Appartment', 'b', 'Studio 1 pièce 19 m²
 
 Nouvelle location à TANCROU, Studio vous offrant une pièce de vie / cuisine, salle d'eau, wc. 1 place de parking.
   Loyer : 430euros / mois.
@@ -2738,8 +2584,7 @@ Date de réalisation du diagnostic énergétique : 31/07/2024
 Consommation énergie primaire : 354 kWh/m²/an
 Consommation énergie finale : 153 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 598 € et 810 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 1, null, null, null, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(973, $$Appartement 2 pièces 30 m²$$, $$Lizy-sur-Ourcq 77440$$, false, 30, $$e$$, null, 620, $$Appartment$$, $$b$$, $$Appartement 2 pièces 30 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 598 € et 810 € sur les années 2021, 2022 et 2023 (abonnements compris).', '1', 'Lizy-sur-Ourcq 77440', null, 'false', null, null, null, 'individual', 'electric', null, null, null, '124.3872'), ('973', 'Appartement 2 pièces 30 m²', 'false', '30', 'e', null, '620', 'Appartment', 'b', 'Appartement 2 pièces 30 m²
 
 Nouvelle location à TANCROU, F2 vous offrant : entrée, séjour, cuisine, 1 chambre, salle d'eau, wc. 1 place de parking.
   Loyer : 600euros / mois.
@@ -2757,10 +2602,8 @@ Consommation énergie finale : 127 kWh/m²/an
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 771 € et 1 045 € sur les années 2021, 2022 et 2023 (abonnements compris).
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 2, null, null, null, false, null, null, $$electric$$, null, null, null, null),
-(974, $$Studio avec VUE$$, $$La Grande-Motte 34280 Centre-ville - Port$$, true, 25, $$d$$, $$2025-10-31T23:00:00.000Z$$, 590, $$Appartment$$, $$d$$, $$Studio 7° étage Vue splendide jusqu'a Port Camargue Soleil en matinée Centre Ville Meublé avec gout cuisine intégrée avec frigo, Salle d'eau et WC.
-Dossier avant RDV.$$, 1, 7, null, null, false, 1, $$communal$$, $$gas$$, 1969, 8, null, null),
-(975, $$Studio 1 pièce 15 m²$$, $$Avignon 84000 Palais des Papes - Zone Piétonne$$, true, 15, $$e$$, null, 340, $$Appartment$$, $$b$$, $$Studio 1 pièce 15 m²
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '2', 'Lizy-sur-Ourcq 77440', null, 'false', null, null, null, null, 'electric', null, null, null, '185.3712'), ('974', 'Studio avec VUE', 'true', '25', 'd', '2025-10-31T23:00:00.000Z', '590', 'Appartment', 'd', 'Studio 7° étage Vue splendide jusqu'a Port Camargue Soleil en matinée Centre Ville Meublé avec gout cuisine intégrée avec frigo, Salle d'eau et WC.
+Dossier avant RDV.', '1', 'La Grande-Motte 34280 Centre-ville - Port', null, 'false', '7', null, '1', 'communal', 'gas', '1969', '8', null, '19.0512'), ('975', 'Studio 1 pièce 15 m²', 'true', '15', 'e', null, '340', 'Appartment', 'b', 'Studio 1 pièce 15 m²
 
 Situé dans les petites rue marchandes, venez voir ce joli studio meublé et équipé.
  Composé d'une chambre,cuisine équipée et salle d'eau/wc.
@@ -2775,8 +2618,7 @@ Date de réalisation du diagnostic énergétique : 26/02/2024
 Consommation énergie primaire : 411 kWh/m²/an
 Consommation énergie finale : 0 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 440 € et 640 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 1, 2, null, null, false, null, null, null, 1948, null, null, null),
-(976, $$Appartement 2 pièces 45 m²$$, $$Tarascon 13150 Saint-Gabriel - Route d'Avignon - Route de Boulbon$$, false, 45, $$e$$, $$2024-06-30T22:00:00.000Z$$, 620, $$Appartment$$, $$b$$, $$Appartement 2 pièces 45 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 440 € et 640 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '1', 'Avignon 84000 Palais des Papes - Zone Piétonne', null, 'false', '2', null, null, null, null, '1948', null, null, '64.4262'), ('976', 'Appartement 2 pièces 45 m²', 'false', '45', 'e', '2024-06-30T22:00:00.000Z', '620', 'Appartment', 'b', 'Appartement 2 pièces 45 m²
 
 Dans un cadre paisible, vous trouverez un bel appartement lumineux, rénové avec de belles hauteurs sous plafond proposant une cuisine, une pièce à vivre, une chambre et une salle d'eau.
  Vous pourrez bénéficier d'un agréable jardin commun exposé plein sud et une place de stationnement.
@@ -2785,8 +2627,7 @@ Dans un cadre paisible, vous trouverez un bel appartement lumineux, rénové ave
 Surface : 45 m²
 
 Consommation énergie primaire : 241 kWh/m²/an
-Consommation énergie finale : Non communiqué$$, 2, null, null, 1, false, null, null, null, null, null, null, null),
-(977, $$Très joli appartement$$, $$Sète 34200 Centre-ville$$, false, 35, $$n$$, null, 580, $$Appartment$$, null, $$Petit appartement de 35m2 au cœur de la.jolie ville de Sete tres coquet 
+Consommation énergie finale : Non communiqué', '2', 'Tarascon 13150 Saint-Gabriel - Route d'Avignon - Route de Boulbon', '1', 'false', null, null, null, null, null, null, null, null, '155.1762'), ('977', 'Très joli appartement', 'false', '35', 'n', null, '580', 'Appartment', null, 'Petit appartement de 35m2 au cœur de la.jolie ville de Sete tres coquet 
 Avec mezzanine 
 Immeuble ancien 
 
@@ -2799,8 +2640,7 @@ Avis d imposition
 carte identité 
 TRES IMPORTANT : DEMANDE VISALE 
 
-Me contacter si vraiment intéressé.$$, 1, 2, null, null, false, 1, $$individual$$, $$electric$$, 1900, 3, null, null),
-(978, $$Duplex T2 39 m2$$, $$Châlons-en-Champagne 51000 Nord$$, false, 39, $$c$$, $$2025-10-31T23:00:00.000Z$$, 480, $$Appartment$$, $$a$$, $$📢 À louer – T2 39 m² avec chambre en mezzanine et cuisine équipée, refait à neuf en mars 2024.
+Me contacter si vraiment intéressé.', '1', 'Sète 34200 Centre-ville', null, 'false', '2', null, '1', 'individual', 'electric', '1900', '3', null, '213.0912'), ('978', 'Duplex T2 39 m2', 'false', '39', 'c', '2025-10-31T23:00:00.000Z', '480', 'Appartment', 'a', '📢 À louer – T2 39 m² avec chambre en mezzanine et cuisine équipée, refait à neuf en mars 2024.
 
 Situé dans un quartier calme et pratique, ce duplex de 39 m² offre un cadre de vie agréable et optimisé.
 
@@ -2831,18 +2671,13 @@ Garantie Visale acceptée.
 
 📞 Pour toute question ou pour organiser une visite, n'hésitez pas à me contacter par messagerie Le Bon Coin.
 
-Plus de photos sur demande.$$, 2, 2, null, 1, false, 1, $$individual$$, $$electric$$, null, 2, null, null),
-(979, $$Loue f.3$$, $$Le Verdon-sur-Mer 33123$$, false, 67, $$c$$, null, 630, $$Appartment$$, $$b$$, $$LOUE BEAU F.3 DE 67 M2. Au 2 éme étage avec ascenseur, DANS UNE RESIDENCE TRANQUILLE, AU CALME, TRES LUMINEUX, AUCUN VIS A VIS (Salon / S.a.m et cuisine: vue sur cours de tennis et les 2 chambres vue sur les pins ! ).
+Plus de photos sur demande.', '2', 'Châlons-en-Champagne 51000 Nord', '1', 'false', '2', null, '1', 'individual', 'electric', null, '2', null, '117.3312'), ('979', 'Loue f.3', 'false', '67', 'c', null, '630', 'Appartment', 'b', 'LOUE BEAU F.3 DE 67 M2. Au 2 éme étage avec ascenseur, DANS UNE RESIDENCE TRANQUILLE, AU CALME, TRES LUMINEUX, AUCUN VIS A VIS (Salon / S.a.m et cuisine: vue sur cours de tennis et les 2 chambres vue sur les pins ! ).
 DEPUIS LES PHOTOS PRESENTEES, A ETE EQUIPE ENTIEREMENT EN DOUBLE VITRAGE ET TOUTES LES FENETRES SONT OSCILO.BASCULANTES, STORES COULISSANTS DANS TOUTES LES PIECES ET REPEINT.
 Petit balcon et place de parking privative avec stop-park. ( AUTRES PHOTOS ACTUELLES SUR DEMANDE, libre en novembre)
-Loyer: 630 euros/Ms. Charges comprises. (chèque de caution 630e / Non encaissé)                                                * * * SERIEUSES REFERENCES EXIGEES * * *$$, 3, 2, null, 2, false, 1, $$individual$$, $$electric$$, null, 6, null, null),
-(980, $$Appartement 2 pièces 57 m²$$, $$Bordeaux 33000$$, true, 57, $$c$$, null, 790, $$Appartment$$, $$c$$, $$BORDEAUX, 790  Euros charges comprises Appartement T2 Tres bon etat 57 m 2. Avec Balcon + parking + garage et Cellier.  Comprenant entree, salon, cuisine Amenagee equipee,  1 chambre,  1 salle de bain,  1 wc. Proche transports et commerces. Caution : 2 mois HC. Nous contacter dl [Coordonnées masquées] fd 210 Euros  - mis a jour le 24/10/25
-Référence annonce : 29-0622-25$$, 2, null, null, 1, false, 1, null, null, null, null, null, null),
-(981, $$STUDIO NEUF A FAMARS université MONT HOUY$$, $$Famars 59300$$, true, 23, $$c$$, $$2025-09-30T22:00:00.000Z$$, 430, $$Appartment$$, $$c$$, $$À louer studio meublé de 20 m² situé à Famars (59300) proche des axes autoroutiers, Carrefour, mairie, Pizzeria, Friterie, Tram way Famars université. Le logement se compose d'une pièce principale meublée, d'une cuisine de type kitchenette (frigo avec congélateur, plaques à induction, ustensiles de cuisine, four à micro-onde) et d'une salle d'eau avec wc), couchage grand lit et rangements, connexion internet gratuite. Le tout étant en état neuf. Niveau transports, plusieurs arrêts de bus et deux lignes de tramway sont présents dans le quartier, les charges comprennent l'eau froide et l’entretien des parties communes. Loyer de 430,00 euros par mois charges comprises. Pour plus de facilités, merci de me contacter par appel ou par sms ou mail .$$, 1, 1, null, 1, false, 1, $$individual$$, $$electric$$, 2025, 2, null, null),
-(982, $$2P Apt Eco BBC à Vitry sur Seine$$, $$Vitry-sur-Seine 94400 Stalingrad$$, false, 45, $$b$$, $$2025-10-31T23:00:00.000Z$$, 1, $$Appartment$$, $$c$$, $$Appartement Éco BBC de deux pièces (2P) à Vitry-sur-Seine (94400) situé à 1ᵉʳ étage, avec une entrée, une salle de séjour/cuisine, une chambre, un balcon, une salle de bain, un placard et un emplacement de stationnement (parking) situé sous-sol. Une porte sortie blindée, un interphone avec écran, une toilette et une baignoire avec le système complet et un évier de cuisine dans la cuisine.
+Loyer: 630 euros/Ms. Charges comprises. (chèque de caution 630e / Non encaissé)                                                * * * SERIEUSES REFERENCES EXIGEES * * *', '3', 'Le Verdon-sur-Mer 33123', '2', 'false', '2', null, '1', 'individual', 'electric', null, '6', null, '187.8912'), ('980', 'Appartement 2 pièces 57 m²', 'true', '57', 'c', null, '790', 'Appartment', 'c', 'BORDEAUX, 790  Euros charges comprises Appartement T2 Tres bon etat 57 m 2. Avec Balcon + parking + garage et Cellier.  Comprenant entree, salon, cuisine Amenagee equipee,  1 chambre,  1 salle de bain,  1 wc. Proche transports et commerces. Caution : 2 mois HC. Nous contacter dl [Coordonnées masquées] fd 210 Euros  - mis a jour le 24/10/25
+Référence annonce : 29-0622-25', '2', 'Bordeaux 33000', '1', 'false', null, null, '1', null, null, null, null, null, '97.4262'), ('981', 'STUDIO NEUF A FAMARS université MONT HOUY', 'true', '23', 'c', '2025-09-30T22:00:00.000Z', '430', 'Appartment', 'c', 'À louer studio meublé de 20 m² situé à Famars (59300) proche des axes autoroutiers, Carrefour, mairie, Pizzeria, Friterie, Tram way Famars université. Le logement se compose d'une pièce principale meublée, d'une cuisine de type kitchenette (frigo avec congélateur, plaques à induction, ustensiles de cuisine, four à micro-onde) et d'une salle d'eau avec wc), couchage grand lit et rangements, connexion internet gratuite. Le tout étant en état neuf. Niveau transports, plusieurs arrêts de bus et deux lignes de tramway sont présents dans le quartier, les charges comprennent l'eau froide et l’entretien des parties communes. Loyer de 430,00 euros par mois charges comprises. Pour plus de facilités, merci de me contacter par appel ou par sms ou mail .', '1', 'Famars 59300', '1', 'false', '1', null, '1', 'individual', 'electric', '2025', '2', null, '77.0112'), ('982', '2P Apt Eco BBC à Vitry sur Seine', 'false', '45', 'b', '2025-10-31T23:00:00.000Z', '1', 'Appartment', 'c', 'Appartement Éco BBC de deux pièces (2P) à Vitry-sur-Seine (94400) situé à 1ᵉʳ étage, avec une entrée, une salle de séjour/cuisine, une chambre, un balcon, une salle de bain, un placard et un emplacement de stationnement (parking) situé sous-sol. Une porte sortie blindée, un interphone avec écran, une toilette et une baignoire avec le système complet et un évier de cuisine dans la cuisine.
 Paris Porte de Choisy à 10 minutes par Tramway T9, et pas loin de futur métro ligne 15.
-Proche de centre commerciale et banques.$$, 2, 1, null, 1, true, 1, $$communal$$, $$gas$$, 2014, 6, null, null),
-(983, $$Appartement 3 pièces 63 m²$$, $$Bègles 33130 Birambits$$, false, 63, $$c$$, $$2025-10-18T22:00:00.000Z$$, 842, $$Appartment$$, $$c$$, $$BEGLES - Dans résidence située à proximité de la route de Toulouse et proche du lycée Vaclav Havel, dans le nouvel Eco-Quartier desservi par la ligne de Tram C.
+Proche de centre commerciale et banques.', '2', 'Vitry-sur-Seine 94400 Stalingrad', '1', 'true', '1', null, '1', 'communal', 'gas', '2014', '6', null, '19.0512'), ('983', 'Appartement 3 pièces 63 m²', 'false', '63', 'c', '2025-10-18T22:00:00.000Z', '842', 'Appartment', 'c', 'BEGLES - Dans résidence située à proximité de la route de Toulouse et proche du lycée Vaclav Havel, dans le nouvel Eco-Quartier desservi par la ligne de Tram C.
 
 Appartement de type 3 composé d'une entrée avec placard, un séjour, une cuisine aménagée, deux chambres avec placard, une salle de bains et WC.
 Terrasse avec rangement vélo, et une place de parking.
@@ -2861,8 +2696,7 @@ Dépôt de garantie : 789 €
 Montant des charges : 53 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 590 € et 850 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 4, null, 2, true, 1, $$individual$$, null, null, 5, null, null),
-(984, $$À louer – Bel appartement rénové et meublé – Centre de Luxeuil-les-Bains$$, $$Luxeuil-les-Bains 70300$$, true, 50, $$d$$, $$2025-09-30T22:00:00.000Z$$, 560, $$Appartment$$, $$d$$, $$Vous recherchez un appartement tout confort, lumineux et prêt à vivre ?
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 590 € et 850 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Bègles 33130 Birambits', '2', 'true', '4', null, '1', 'individual', null, null, '5', null, '105.6762'), ('984', 'À louer – Bel appartement rénové et meublé – Centre de Luxeuil-les-Bains', 'true', '50', 'd', '2025-09-30T22:00:00.000Z', '560', 'Appartment', 'd', 'Vous recherchez un appartement tout confort, lumineux et prêt à vivre ?
 Ne cherchez plus ! Ce beau 2 pièces entièrement rénové et meublé n’attend plus que vous 🏡
 
 📍 Idéalement situé au cœur de Luxeuil-les-Bains, à deux pas du lycée, des commerces et de la gare, dans une petite copropriété calme de 6 logements.
@@ -2891,14 +2725,12 @@ Ne cherchez plus ! Ce beau 2 pièces entièrement rénové et meublé n’attend
 🔒 Un garant est demandé
 🚫 Pas d’agences, pas sérieux s’abstenir
 
-📸 Autres photos disponibles sur simple demande.$$, 2, 1, null, 1, false, 1, $$individual$$, $$gas$$, 1949, 2, null, null),
-(985, $$Loue appartement proche Luxembourg$$, $$Fontoy 57650$$, false, 90, $$c$$, $$2025-10-31T23:00:00.000Z$$, 700, $$Appartment$$, null, $$Loue appartement de 90m2, dans petite copropriété, avec 1 place de parking.
+📸 Autres photos disponibles sur simple demande.', '2', 'Luxeuil-les-Bains 70300', '1', 'false', '1', null, '1', 'individual', 'gas', '1949', '2', null, '124.467866666667'), ('985', 'Loue appartement proche Luxembourg', 'false', '90', 'c', '2025-10-31T23:00:00.000Z', '700', 'Appartment', null, 'Loue appartement de 90m2, dans petite copropriété, avec 1 place de parking.
 Cuisine meublée.
 Placard à l'entrée. 
 Très bien exposé.
 Proche de toutes commodités. 
-Disponible de suite.$$, 3, 1, null, 2, false, 1, $$individual$$, $$gas$$, null, 2, null, null),
-(986, $$T3 rue Foch Pompe à chaleur réversible$$, $$Le Creusot 71200 Sud Est$$, false, 61, $$c$$, null, 580, $$Appartment$$, $$b$$, $$Vous recherchez un T3 avec du charme et bien situé au Creusot ?
+Disponible de suite.', '3', 'Fontoy 57650', '2', 'false', '1', null, '1', 'individual', 'gas', null, '2', null, '142.8012'), ('986', 'T3 rue Foch Pompe à chaleur réversible', 'false', '61', 'c', null, '580', 'Appartment', 'b', 'Vous recherchez un T3 avec du charme et bien situé au Creusot ?
 
 Ce T3 rue Foch est idéalement situé ! Tous les commerces et commodités à proximités. Les pôles étudiants et la gare sont à 20 minutes à pied. La rue est également desservie par 2 lignes de bus. Alstom et Areva sont à 5 minutes en voiture.
 
@@ -2922,9 +2754,7 @@ Un garant sera nécessaire (VISALE acceptée)
 
 Location en direct, pas de frais supplémentaire.
 
-Premier contact par message en précisant brièvement votre situation svp.$$, 3, 1, null, 2, true, 1, $$individual$$, null, null, 3, null, null),
-(987, $$T2 meuble dupnex dans propriété$$, $$Éguilles 13510$$, true, 36, $$c$$, $$2025-11-30T23:00:00.000Z$$, 850, $$Appartment$$, $$c$$, $$Aix en provence, nord-ouest, Eguilles, à louer du 15 decembre au 30 juin 2026, pour une personne, une locataire de préférence travaillant et recherchant un logement calme temporaire, minimum 4 mois, ds quartier calme et residentiel,mitoyen à ma maison, joli petit appartement duplex meublé et climatisé, 36 m2 avec son entrée et sa terrasse indépendante, rdc salon, coin cuisine US équipée avec lave linge, au 1er étage 1 chambre lit 140, placard, 1 salle d'eau. Vue sur jardin et piscine. Parking public gratuit à 200m. Loyer 730€ + 120 €  charges comprenant eau,électricité, chauffage, internet. References exigées$$, 2, null, null, 1, false, 1, $$individual$$, $$electric$$, 1995, null, null, null),
-(988, $$T2 Meublé Neuf - Centre ville$$, $$Castres 81100 Le Mail - Soult$$, true, 43, $$c$$, $$2025-10-31T23:00:00.000Z$$, 650, $$Appartment$$, $$a$$, $$Charmant T2 meublé entièrement neuf, idéalement situé en coeur de ville ! Dans un petit immeuble rénové de seulement 3 étages.
+Premier contact par message en précisant brièvement votre situation svp.', '3', 'Le Creusot 71200 Sud Est', '2', 'true', '1', null, '1', 'individual', null, null, '3', null, '102.9262'), ('987', 'T2 meuble dupnex dans propriété', 'true', '36', 'c', '2025-11-30T23:00:00.000Z', '850', 'Appartment', 'c', 'Aix en provence, nord-ouest, Eguilles, à louer du 15 decembre au 30 juin 2026, pour une personne, une locataire de préférence travaillant et recherchant un logement calme temporaire, minimum 4 mois, ds quartier calme et residentiel,mitoyen à ma maison, joli petit appartement duplex meublé et climatisé, 36 m2 avec son entrée et sa terrasse indépendante, rdc salon, coin cuisine US équipée avec lave linge, au 1er étage 1 chambre lit 140, placard, 1 salle d'eau. Vue sur jardin et piscine. Parking public gratuit à 200m. Loyer 730€ + 120 €  charges comprenant eau,électricité, chauffage, internet. References exigées', '2', 'Éguilles 13510', '1', 'false', null, null, '1', 'individual', 'electric', '1995', null, null, '109.7712'), ('988', 'T2 Meublé Neuf - Centre ville', 'true', '43', 'c', '2025-10-31T23:00:00.000Z', '650', 'Appartment', 'a', 'Charmant T2 meublé entièrement neuf, idéalement situé en coeur de ville ! Dans un petit immeuble rénové de seulement 3 étages.
 Il offre une pièce de vie lumineuse avec balcon, une cuisine aménagée et équipée (four, plaque de cuisson induction , lave vaisselle, hotte aspirante, frigo/congélateur), 1 chambre avec lit en 140x200 avec couette , oreillers et rangement, une salle d'eau moderne avec wc, un lave linge (classé A+).
 Situé au 2e étage d'un immeuble sécurisé par badge et vidéo, il bénéficie d'un environnement calme tout en étant proche des commodités. Gare arrêt de bus de Ville à moins de 100 mètres. Parking automobile gratuit à proximité.
 Disponible à partir du 20/10/2025
@@ -2940,8 +2770,7 @@ Conditions : Revenus fixes mini 3 fois le montant du loyer
 Visite uniquement après réception d’une fiche de renseignements locataire dûment complétée. (dossier locataire du Boncoin)
 1er contact par mail
 
-Agence s'abstenir, Merci$$, 2, 2, null, 1, false, 1, $$individual$$, $$electric$$, 2025, 3, null, null),
-(989, $$T3 d’exception à Lyon 8e$$, $$Lyon 69008 8e Arrondissement$$, true, 75, $$d$$, null, 1, $$Appartment$$, $$d$$, $$Situé dans une résidence calme et agréable du 8e arrondissement de Lyon, ce bel appartement T3 meublé et traversant de 75 m² offre un cadre de vie par son parc privatif et sa situation à proximité immédiate des commerces et services du centre de Lyon.
+Agence s'abstenir, Merci', '2', 'Castres 81100 Le Mail - Soult', '1', 'false', '2', null, '1', 'individual', 'electric', '2025', '3', null, '127.4112'), ('989', 'T3 d’exception à Lyon 8e', 'true', '75', 'd', null, '1', 'Appartment', 'd', 'Situé dans une résidence calme et agréable du 8e arrondissement de Lyon, ce bel appartement T3 meublé et traversant de 75 m² offre un cadre de vie par son parc privatif et sa situation à proximité immédiate des commerces et services du centre de Lyon.
 
 Il se compose de :
     •    Un séjour lumineux exposé plein sud, ouvrant sur un balcon avec vue sur le parc;
@@ -2961,8 +2790,7 @@ Loyer hors charges : 1 155 € / mois
 Charges : 153 € / mois (soit 1 308 € CC)
 Dépôt de garantie : 2 310 €
 
-Disponible immédiatement$$, 3, null, null, 2, true, 1, $$individual$$, $$gas$$, 1982, 2, null, null),
-(990, $$Appartement p3 2 chambres parking balcon. 7 collines$$, $$Nîmes 30000 7 collines$$, true, 65, $$c$$, $$2025-11-30T23:00:00.000Z$$, 860, $$Appartment$$, $$b$$, $$Appartement meublé de 3 pieces superficie 65 m2 comprenant: 
+Disponible immédiatement', '3', 'Lyon 69008 8e Arrondissement', '2', 'true', null, null, '1', 'individual', 'gas', '1982', '2', null, '177.1762'), ('990', 'Appartement p3 2 chambres parking balcon. 7 collines', 'true', '65', 'c', '2025-11-30T23:00:00.000Z', '860', 'Appartment', 'b', 'Appartement meublé de 3 pieces superficie 65 m2 comprenant: 
 
 deux chambres 
 un salon 
@@ -2985,8 +2813,7 @@ Climatisation reversible.   Dpe en C classe énergétique.
 
 MERCI de décrire votre recherche ainsi que votre situation (emploi et garant) .
 
-  Pas d’agence. Pas de frais d’agence.   « Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 600 et 900 par an indexées aux années 2021 (abonnements compris).$$, 3, 1, null, 2, false, 1, $$individual$$, $$electric$$, 1950, 4, null, null),
-(991, $$T2 meublé et équipé en résidence étudiante$$, $$Grenoble 38000 Hyper-centre$$, true, 26, $$c$$, $$2025-09-30T22:00:00.000Z$$, 769, $$Appartment$$, $$c$$, $$Artémisia gestion vous propose de louer un logement d'une surface comprises de 26m², disposant d'un ameublement de qualité et également d'un équipement complet : kit vaisselle, kit linge de literie et de toilette, kit d'entretien. 
+  Pas d’agence. Pas de frais d’agence.   « Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 600 et 900 par an indexées aux années 2021 (abonnements compris).', '3', 'Nîmes 30000 7 collines', '2', 'false', '1', null, '1', 'individual', 'electric', '1950', '4', null, '182.8512'), ('991', 'T2 meublé et équipé en résidence étudiante', 'true', '26', 'c', '2025-09-30T22:00:00.000Z', '769', 'Appartment', 'c', 'Artémisia gestion vous propose de louer un logement d'une surface comprises de 26m², disposant d'un ameublement de qualité et également d'un équipement complet : kit vaisselle, kit linge de literie et de toilette, kit d'entretien. 
 La résidence dispose également de prestations annexes (laverie, salle de sport, gestionnaire sur place, petit déjeuner, ménage)
 
 Idéalement située à moins de 15 min du centre-ville en transport en commun.
@@ -2995,8 +2822,7 @@ Ecoles et universités à proximité : UGA, IUT1, POLYTECH, SCIENCE PO, FAC DE M
 Tarif à partir de 769,00 € charges comprises (eau froide, eau chaude, entretien parties communes, accès internet illimité) 
 Dépôt de garantie à partir de 729,00 €, soit un mois de loyer hors charges
 Frais de dossier à partir de 350,00 € TTC 
-Pour plus d'informations, contactez Mme DURAND Elodie - [Coordonnées masquées]$$, 2, 6, null, 1, true, 1, $$individual$$, $$electric$$, 2010, 6, null, null),
-(992, $$✅ Ultra meublé cosy d’exception à deux pas de la mer$$, $$Nice 06200 Arenas$$, true, 45, $$d$$, null, 1, $$Appartment$$, $$d$$, $$Sublime et grand 2 pièces entièrement climatisé et très lumineux, doté d’un grand balcon aménagé d’environ 10m2, au 4ème étage avec ascenseur dans un immeuble de standing.
+Pour plus d'informations, contactez Mme DURAND Elodie - [Coordonnées masquées]', '2', 'Grenoble 38000 Hyper-centre', '1', 'true', '6', null, '1', 'individual', 'electric', '2010', '6', null, '84.5712'), ('992', '✅ Ultra meublé cosy d’exception à deux pas de la mer', 'true', '45', 'd', null, '1', 'Appartment', 'd', 'Sublime et grand 2 pièces entièrement climatisé et très lumineux, doté d’un grand balcon aménagé d’environ 10m2, au 4ème étage avec ascenseur dans un immeuble de standing.
 
 Entièrement rénové avec grand soin dans un style scandinave. La/le locataire aura le privilège d’avoir tout l’équipement neuf et de grandes marques. Ce charmant appartement est ultra équipé et extrêmement bien aménagé.
  
@@ -3058,12 +2884,10 @@ Proche de toutes commodités et situé à deux pas de la Promenade des Anglais e
 · Fer à repasser et petite table à repasser
 · Équipements de nettoyage (aspirateur, balais, seau, etc.)
  
-ANNONCE VISIBLE = BIEN DISPONIBLE$$, 2, 4, null, 1, true, 1, $$communal$$, $$fuel$$, null, 6, null, null),
-(993, $$Location apt meublé$$, $$Saint-Corneille 72460 La Ratée$$, true, 88, $$c$$, $$2025-10-31T23:00:00.000Z$$, 780, $$Appartment$$, $$c$$, $$A louer appartement meublé lumineux au calme proche du bourg . 
+ANNONCE VISIBLE = BIEN DISPONIBLE', '2', 'Nice 06200 Arenas', '1', 'true', '4', null, '1', 'communal', 'fuel', null, '6', null, '19.0512'), ('993', 'Location apt meublé', 'true', '88', 'c', '2025-10-31T23:00:00.000Z', '780', 'Appartment', 'c', 'A louer appartement meublé lumineux au calme proche du bourg . 
 Il se compose d'une cuisine équipée et ouverte sur le salon et la salle à manger équipée d'un canapé et d'une table.
 Ainsi que 2 chambres avec armoire et lits.
-Vous n'aurez plus qu'à poser vos valises et profiter du calme de la campagne. Euble$$, 3, null, null, 2, false, 1, $$communal$$, $$gas$$, 2012, 1, null, null),
-(994, $$Appartement T2 meublé avec VUE MER – Le Moule (toutes charges comprises)$$, $$Le Moule 97160$$, false, 35, $$a$$, $$2025-10-31T23:00:00.000Z$$, 790, $$Appartment$$, null, $$Nous mettons en place des visites CE WEEK-END du 24 octobre, contactez-nous si vous souhaitez  faire une visites. 
+Vous n'aurez plus qu'à poser vos valises et profiter du calme de la campagne. Euble', '3', 'Saint-Corneille 72460 La Ratée', '2', 'false', null, null, '1', 'communal', 'gas', '2012', '1', null, '19.0512'), ('994', 'Appartement T2 meublé avec VUE MER – Le Moule (toutes charges comprises)', 'false', '35', 'a', '2025-10-31T23:00:00.000Z', '790', 'Appartment', null, 'Nous mettons en place des visites CE WEEK-END du 24 octobre, contactez-nous si vous souhaitez  faire une visites. 
 
 À louer en moyenne durée à partir de novembre (charges comprises) : charmant appartement T2 de 35m², idéalement situé sur Le Moule, dans une résidence calme et sécurisée, face à la plage de L’Autre Bord.
 
@@ -3079,8 +2903,7 @@ Localisation idéale :
 - Activités : beach volley, beach tennis, planche à voile, parcours sportif, pétanque
 - Commerces et centre-ville à 10 min à pied (boulangerie, banques, supermarchés…)
 
-- Proximité clinique, Ehpad et cabinets médicaux → parfait pour professionnels en mission, kinés, infirmiers, médecins.$$, 2, null, null, null, false, null, null, null, null, null, null, null),
-(995, $$T2 de 43m² en hypercentre de Poitiers$$, $$Poitiers 86000 Centre-ville$$, false, 43, $$d$$, null, 590, $$Appartment$$, $$d$$, $$Smart Investissement vous propose cet appartement 2 pièces loué en nu de 43m² entièrement rénové au 1er étage.
+- Proximité clinique, Ehpad et cabinets médicaux → parfait pour professionnels en mission, kinés, infirmiers, médecins.', '2', 'Le Moule 97160', null, 'false', null, null, null, null, null, null, null, null, '35.0928666666667'), ('995', 'T2 de 43m² en hypercentre de Poitiers', 'false', '43', 'd', null, '590', 'Appartment', 'd', 'Smart Investissement vous propose cet appartement 2 pièces loué en nu de 43m² entièrement rénové au 1er étage.
 
 L’appartement est composé d'une entrée, d’un grand salon-séjour avec cuisine ouverte aménagée et équipée, et d’une salle d'eau avec WC.
 L’appartement se compose de 1 chambre.
@@ -3092,8 +2915,7 @@ Surface : 43m²
 Loyer : 590 € / mois (charges comprises)
 Montant des charges : 40 € / mois
 
-Honoraires à la charge du locataire : 473 € dont 129€ pour l’état des lieux$$, 2, 1, null, 1, false, 1, null, null, null, 2, null, null),
-(996, $$Appartement 2 pièces 54 m²$$, $$Sierentz 68510$$, true, 54, $$c$$, null, 950, $$Appartment$$, $$d$$, $$Appartement 2 pièces 54 m²
+Honoraires à la charge du locataire : 473 € dont 129€ pour l’état des lieux', '2', 'Poitiers 86000 Centre-ville', '1', 'false', '1', null, '1', null, null, null, '2', null, '109.709533333333'), ('996', 'Appartement 2 pièces 54 m²', 'true', '54', 'c', null, '950', 'Appartment', 'd', 'Appartement 2 pièces 54 m²
 
 Appartement de type F2 Meublé, situé au 2ème étage (avec ascenseur) d'une agréable copropriété proche de toutes les commodités !
  Comprenant : Entrée, une pièce de vie avec une cuisine complétement équipée ouverte sur le séjour/salle à manger qui donne accès à une agréable terrasse de 10m2 (munie d'un store motorisé), une grande chambre à coucher, salle de bain avec baignoire/vasque/toilette/espace lave-linge.
@@ -3107,8 +2929,7 @@ Modalité de récupération des charges locatives : Prévisionnelles mensuelles 
 Date de réalisation du diagnostic énergétique : 05/11/2019
 
 Consommation énergie primaire : 105 kWh/m²/an
-Consommation énergie finale : 0 kWh/m²/an$$, 2, 2, null, 1, true, 1, $$individual$$, $$gas$$, 2001, 3, null, null),
-(997, $$Appartement 2 pièces 40 m²$$, $$Besançon 25000 Grette - Butte$$, false, 40, $$f$$, null, 620, $$Appartment$$, $$c$$, $$Appartement 2 pièces 40 m²
+Consommation énergie finale : 0 kWh/m²/an', '2', 'Sierentz 68510', '1', 'true', '2', null, '1', 'individual', 'gas', '2001', '3', null, '93.3012'), ('997', 'Appartement 2 pièces 40 m²', 'false', '40', 'f', null, '620', 'Appartment', 'c', 'Appartement 2 pièces 40 m²
 
 Référence : AM1137RPV. LIBRE A PARTIR DU 21 JANVIER 2026.
 Joli T2 de 39.66 m2 situé au 1er étage , quartier Butte, dans un immeuble 15 rue Pierre Vernier à BESANCON. 
@@ -3123,8 +2944,7 @@ Modalité de récupération des charges locatives : Prévisionnelles mensuelles 
 
 Consommation énergie primaire : 447 kWh/m²/an
 Consommation énergie finale : Non communiqué
-Logement à consommation énergétique excessive : classe F$$, 2, 1, null, 1, false, null, $$communal$$, $$gas$$, null, 7, null, null),
-(998, $$Appartement 3 pièces 62 m²$$, $$Arpajon 91290$$, false, 62, $$c$$, $$2025-10-09T22:00:00.000Z$$, 999, $$Appartment$$, $$a$$, $$APPARTEMENT
+Logement à consommation énergétique excessive : classe F', '2', 'Besançon 25000 Grette - Butte', '1', 'false', '1', null, null, 'communal', 'gas', null, '7', null, '19.0512'), ('998', 'Appartement 3 pièces 62 m²', 'false', '62', 'c', '2025-10-09T22:00:00.000Z', '999', 'Appartment', 'a', 'APPARTEMENT
 
 au coeur de la ville et à 5' de la gare dans résidence récente de standing bel appartement avec balcon deux emplacements de parking en sous sol cuisine ouverte sur séjour, salle de bains avec wc, chambre, balcon, parkings. Contactez Véronique Fournier au [Coordonnées masquées] pour plus d'informations ou pour organiser une visite.
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
@@ -3135,8 +2955,7 @@ Dépôt de garantie : 869 €
 Montant des charges : 130 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 850 € et 1 210 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, null, null, null, true, null, $$individual$$, $$electric$$, 2012, null, null, null),
-(999, $$Appartement 4 pièces 99 m²$$, $$Brest 29200 Centre-ville - Triangle d'Or$$, false, 99, $$d$$, $$2025-05-04T22:00:00.000Z$$, 890, $$Appartment$$, $$b$$, $$Appartement entièrement redistribué avec cuisine ouverte sur séjour, chambre avec dressing en souplex, et garage. De plus, vous bénéficiez d'une terrasse en plein centre-ville - proche chateau et cours d'ajot.
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 850 € et 1 210 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Arpajon 91290', null, 'true', null, null, null, 'individual', 'electric', '2012', null, null, '175.2912'), ('999', 'Appartement 4 pièces 99 m²', 'false', '99', 'd', '2025-05-04T22:00:00.000Z', '890', 'Appartment', 'b', 'Appartement entièrement redistribué avec cuisine ouverte sur séjour, chambre avec dressing en souplex, et garage. De plus, vous bénéficiez d'une terrasse en plein centre-ville - proche chateau et cours d'ajot.
 
 Assurance Multirisques Privilège *: 19.45 € / mois
 *Services facultatifs, voir conditions en agences
@@ -3148,8 +2967,7 @@ Dépôt de garantie : 800 €
 Montant des charges : 90 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 500 € et 2 080 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 4, null, null, null, false, null, null, null, 1970, null, null, null),
-(1000, $$Appartement 4 pièces 76 m²$$, $$Illzach 68110 Vosges - Stade$$, false, 76, $$d$$, null, 900, $$Appartment$$, $$d$$, $$Illzach - Superbe T4 de 76 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 500 € et 2 080 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '4', 'Brest 29200 Centre-ville - Triangle d'Or', null, 'false', null, null, null, null, null, '1970', null, null, '227.7762'), ('1000', 'Appartement 4 pièces 76 m²', 'false', '76', 'd', null, '900', 'Appartment', 'd', 'Illzach - Superbe T4 de 76 m²
 
 A Illzach , au 47 Rue des Vosges,
 Dans une copropriété calme et entretenue,
@@ -3177,8 +2995,7 @@ Date de réalisation du diagnostic : 15/11/2022
 Honoraires à la charge du locataire : 444 € TTC dont 121 € pour l’état des lieux
 Dépôt de garantie : 650 €
 Montant des charges : 250 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 4, null, null, 2, false, 1, $$communal$$, $$gas$$, null, null, null, null),
-(1001, $$Appartement 3 pièces 74 m²$$, $$Rueil-Malmaison 92500 Rueil sur Seine$$, true, 74, $$d$$, null, 1, $$Appartment$$, $$b$$, $$Appartement 3 pièces 74 m²
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '4', 'Illzach 68110 Vosges - Stade', '2', 'false', null, null, '1', 'communal', 'gas', null, null, null, '19.0512'), ('1001', 'Appartement 3 pièces 74 m²', 'true', '74', 'd', null, '1', 'Appartment', 'b', 'Appartement 3 pièces 74 m²
 
 Immobilier.notaires® et l’office notarial CLERMONT et associés vous proposent :
 Appartement à louer - RUEIL MALMAISON (92500)
@@ -3199,8 +3016,7 @@ Annonce de l’étude CLERMONT et associés - Notaires à  Paris 3e Arrondisseme
 Immobilier.notaires® : Evaluer, acheter & vendre avec les notaires partout en France. 12 000 notaires, experts et négociateurs vous accompagnent dans vos projets immobiliers en toute confiance.
 
 Surface : 74 m²
-Date de réalisation du diagnostic énergétique : 26/06/2022$$, 3, null, null, 2, true, 1, null, null, null, 4, null, null),
-(1002, $$Appartement 2 pièces 56 m²$$, $$Crosne 91560$$, false, 56, $$e$$, $$2025-10-08T22:00:00.000Z$$, 1, $$Appartment$$, $$d$$, $$Appartement Crosne 3 pièce(s) 56,96m²
+Date de réalisation du diagnostic énergétique : 26/06/2022', '3', 'Rueil-Malmaison 92500 Rueil sur Seine', '2', 'true', null, null, '1', null, null, null, '4', null, '175.067866666667'), ('1002', 'Appartement 2 pièces 56 m²', 'false', '56', 'e', '2025-10-08T22:00:00.000Z', '1', 'Appartment', 'd', 'Appartement Crosne 3 pièce(s) 56,96m²
 
 A CROSNE. Rue Boileau Colbert. Au 2ème étage sans ascenseur, un  3 pièces de 56,96 m² , en bon état général, comprenant: Une entrée avec placards, un dressing, deux chambres, un séjour donnant sur loggia, une cuisine indépendante aménagée, un cellier, chauffage collectif. Une cave en sous-sol et un emplacement de parking extérieur. LIBRE IMMEDIATEMENT!!!
 Référence annonce : DTB7-MFL-HMH
@@ -3209,8 +3025,7 @@ Honoraires à la charge du locataire : 739 € TTC dont 170 € pour l’état d
 Dépôt de garantie : 892 €
 Montant des charges : 120 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 250 € et 1 730 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, null, null, 2, false, 1, $$communal$$, $$electric$$, null, null, null, null),
-(1003, $$Studio 1 pièce 19 m²$$, $$Périgueux 24000 Toulon - Beaulieu$$, false, 19, $$e$$, null, 380, $$Appartment$$, $$b$$, $$Studio / RUE DU TERME SAINT SICAIRE
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 250 € et 1 730 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Crosne 91560', '2', 'false', null, null, '1', 'communal', 'electric', null, null, null, '19.0512'), ('1003', 'Studio 1 pièce 19 m²', 'false', '19', 'e', null, '380', 'Appartment', 'b', 'Studio / RUE DU TERME SAINT SICAIRE
 
 Agréable studio situé en rez-de-chaussée d'une rue calme, comprenant une cuisine aménagée, une pièce séparée et une salle d'eau avec WC. Eau froide comprise dans les charges. Chauffage individuel électrique. Disponible, à visiter !
 Référence annonce : 5HON-QTI-CXH
@@ -3219,8 +3034,7 @@ Honoraires à la charge du locataire : 210 € TTC dont 57 € pour l’état de
 Dépôt de garantie : 360 €
 Montant des charges : 20 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 631 € et 853 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 1, null, null, null, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(1004, $$Appartement 2 pièces 38 m²$$, $$La Seyne-sur-Mer 83500 Est$$, false, 38, $$c$$, null, 700, $$Appartment$$, $$a$$, $$La seyne Centre, joli T2 bis très lumineux
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 631 € et 853 € sur les années 2021, 2022 et 2023 (abonnements compris).', '1', 'Périgueux 24000 Toulon - Beaulieu', null, 'false', null, null, null, 'individual', 'electric', null, null, null, '124.3872'), ('1004', 'Appartement 2 pièces 38 m²', 'false', '38', 'c', null, '700', 'Appartment', 'a', 'La seyne Centre, joli T2 bis très lumineux
 
 Au centre de la Seyne, bel appartement en dernier étage comprenant un séjour, une cuisine aménagée, une chambre et une salle d'eau. Grand plus : un couchage supplémentaire en mezzanine !
  Double vitrage, fibre. 
@@ -3234,8 +3048,7 @@ Dépôt de garantie : 670 €
 Montant des charges : 30 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 400 € et 590 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, 3, null, 1, false, null, $$individual$$, $$electric$$, 1900, 3, null, null),
-(1005, $$Appartement 2 pièces 32 m²$$, $$Nîmes 30000$$, true, 32, $$d$$, $$2024-08-31T22:00:00.000Z$$, 590, $$Appartment$$, $$a$$, $$Appartement 2 pièces 32 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 400 € et 590 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'La Seyne-sur-Mer 83500 Est', '1', 'false', '3', null, null, 'individual', 'electric', '1900', '3', null, '114.8112'), ('1005', 'Appartement 2 pièces 32 m²', 'true', '32', 'd', '2024-08-31T22:00:00.000Z', '590', 'Appartment', 'a', 'Appartement 2 pièces 32 m²
 
 NEMAUSA IMMOBILIER vous présente à la location meublé dans le secteur du Mont du Plan cet appartement meublé de type T2 dans une petite copropriété, à proximité de la faculté de Vauban, université Hoche, et le lycée Daudet. 
  Ce bien comprend un patio privé de 13 m2, une cuisine aménagée et équipée (hotte, micro-ondes, plaque électrique, four, réfrigérateur), un salon, une chambre avec un lit (160x200) et un dressing, une salle d'eau avec douche multi-jets, et un toilette. Le logement est doté de la climatisation réversible.
@@ -3253,8 +3066,7 @@ Date de réalisation du diagnostic énergétique : 16/01/2024
 Consommation énergie primaire : 195 kWh/m²/an
 Consommation énergie finale : 85 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 440 € et 640 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, null, null, 1, false, null, $$individual$$, $$other$$, 1948, 1, null, null),
-(1006, $$Appartement 1 pièce 20 m²$$, $$Avignon 84000 Saint-Ruf$$, true, 20, $$c$$, $$2025-10-14T22:00:00.000Z$$, 390, $$Appartment$$, $$a$$, $$APPARTEMENT_MEUBLE
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 440 € et 640 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Nîmes 30000', '1', 'false', null, null, null, 'individual', 'other', '1948', '1', null, '86.5178666666667'), ('1006', 'Appartement 1 pièce 20 m²', 'true', '20', 'c', '2025-10-14T22:00:00.000Z', '390', 'Appartment', 'a', 'APPARTEMENT_MEUBLE
 
 Idéal mutation professionnelle bail mobilitéProximité gare et TRAM Disponible de septembre 2025 à Juin 2026ce studio comprend un séjour avec coin cuisine, une salle de douche avec wcimmeuble se situant dans une impasse au calmeClim réversibleEAU, EDF et accès internet inclus
 
@@ -3268,8 +3080,7 @@ Dépôt de garantie : 360 €
 Montant des charges : 30 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 380 € et 570 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 1, null, null, null, false, null, null, null, 1980, null, null, null),
-(1007, $$Appartement 2 pièces 49 m²$$, $$Hyères 83400$$, false, 49, $$c$$, null, 755, $$Appartment$$, $$a$$, $$Appartement 2 pièces 49 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 380 € et 570 € sur les années 2021, 2022 et 2023 (abonnements compris).', '1', 'Avignon 84000 Saint-Ruf', null, 'false', null, null, null, null, null, '1980', null, null, '46.5512'), ('1007', 'Appartement 2 pièces 49 m²', 'false', '49', 'c', null, '755', 'Appartment', 'a', 'Appartement 2 pièces 49 m²
 
 A louer à Hyères secteur Est, dans la résidence le Hameau du Moulin 1er, au 2ème étage sans ascenseur grand T2 d'environ 49m2 se composant d'une entrée avec placard, un séjour donnant sur un grand balcon, une cuisine séparée aménagée et équipée d'une plaque et d'une hotte, une chambre avec placard, une salle de bains et un wc. Une cave vient compléter ce bien.
  Parking collectif.
@@ -3281,8 +3092,7 @@ Date de réalisation du diagnostic énergétique : 20/08/2021
 Consommation énergie primaire : 135 kWh/m²/an
 Consommation énergie finale : 0 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 630 € et 890 € par an. Prix moyens des énergies indexés sur l'année 2000 (abonnements compris)$$, 2, 2, null, 1, false, null, null, null, null, 3, null, null),
-(1008, $$Appartement 2 pièces 40 m²$$, $$Saint-Sébastien-sur-Loire 44230 Bords de Loire$$, false, 40, $$e$$, null, 740, $$Appartment$$, $$b$$, $$Appartement 2 pièces 40 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 630 € et 890 € par an. Prix moyens des énergies indexés sur l'année 2000 (abonnements compris)', '2', 'Hyères 83400', '1', 'false', '2', null, null, null, null, null, '3', null, '86.4262'), ('1008', 'Appartement 2 pièces 40 m²', 'false', '40', 'e', null, '740', 'Appartment', 'b', 'Appartement 2 pièces 40 m²
 
 Appartement T2 non meublé - rue Maurice Daniel
 
@@ -3319,13 +3129,11 @@ Date de réalisation du diagnostic énergétique : 25/04/2025
 Consommation énergie primaire : 319 kWh/m²/an
 Consommation énergie finale : 139 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 000 € et 1 400 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, null, null, 1, false, null, $$individual$$, $$electric$$, 1980, 3, null, null),
-(1009, $$Appartement 2 pièces 57 m²$$, $$Lille 59000 Liberté$$, false, 57, $$e$$, null, 891, $$Appartment$$, $$b$$, $$Réf : 3295. Appartement à louer Lille Boulevard de la Liberté face au palais des beaux arts. Dans un bel immeuble. Appartement type 2 (57.4m²) hab comprenant: Un hall d'entrée (placards), séjour lumineux , cuisine. Une chambre avec salle de bain attenante. Une mezanine coin bureau. Emplacement TOP à deux pas du métro et du centre. Libre le 25/10/2025. Loyer 830.37€ + 60€ de provisions sur charges. Honoraires locataire visite, constitution de dossier et rédaction de bail : 10€/m². Honoraires locataire état des lieux: 3€/m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 000 € et 1 400 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Saint-Sébastien-sur-Loire 44230 Bords de Loire', '1', 'false', null, null, null, 'individual', 'electric', '1980', '3', null, '240.8112'), ('1009', 'Appartement 2 pièces 57 m²', 'false', '57', 'e', null, '891', 'Appartment', 'b', 'Réf : 3295. Appartement à louer Lille Boulevard de la Liberté face au palais des beaux arts. Dans un bel immeuble. Appartement type 2 (57.4m²) hab comprenant: Un hall d'entrée (placards), séjour lumineux , cuisine. Une chambre avec salle de bain attenante. Une mezanine coin bureau. Emplacement TOP à deux pas du métro et du centre. Libre le 25/10/2025. Loyer 830.37€ + 60€ de provisions sur charges. Honoraires locataire visite, constitution de dossier et rédaction de bail : 10€/m². Honoraires locataire état des lieux: 3€/m²
 Référence annonce : 3295
 Consommation énergétique : 280 kWh/m²/an
 Emission de gaz à effet de serre : 9 CO2/m²/an
-Montant des charges : 60 € / mois$$, 2, 3, null, 1, false, 1, null, $$electric$$, null, 3, null, null),
-(1010, $$Appartement 2 pièces 41 m²$$, $$Le Havre 76600 Coty$$, true, 41, $$e$$, null, 545, $$Appartment$$, $$b$$, $$Appartement 2 pièces 41 m²
+Montant des charges : 60 € / mois', '2', 'Lille 59000 Liberté', '1', 'false', '3', null, '1', null, 'electric', null, '3', null, '335.0592'), ('1010', 'Appartement 2 pièces 41 m²', 'true', '41', 'e', null, '545', 'Appartment', 'b', 'Appartement 2 pièces 41 m²
 
 A louer appartement meublé de type F2, d'une superficie de 40.69m² au rez-de-chaussée.
  Appartement comprenant une cuisine ouverte sur séjour, une chambre, une salle de bains et un WC.
@@ -3342,8 +3150,7 @@ Date de réalisation du diagnostic énergétique : 21/10/2022
 Consommation énergie primaire : 280 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 742 € et 1 004 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, null, null, 1, false, 1, $$individual$$, $$other$$, null, null, null, null),
-(1011, $$Appartement 2 pièces 51 m²$$, $$Sully-sur-Loire 45600$$, false, 51, $$d$$, $$2025-10-24T22:00:00.000Z$$, 550, $$Appartment$$, $$b$$, $$Appartement À Louer
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 742 € et 1 004 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Le Havre 76600 Coty', '1', 'false', null, null, '1', 'individual', 'other', null, null, null, '143.0762'), ('1011', 'Appartement 2 pièces 51 m²', 'false', '51', 'd', '2025-10-24T22:00:00.000Z', '550', 'Appartment', 'b', 'Appartement À Louer
 
 Proche du centre ville de Sully Sur Loire !
 Appartement en duplex comprenant au rez-de-chaussé,  une grande cuisine indépendante, un séjour lumineux et un wc séparé.
@@ -3355,8 +3162,7 @@ Date de réalisation du diagnostic : 07/02/2025
 Honoraires à la charge du locataire : 486 € TTC dont 90 € pour l’état des lieux
 Dépôt de garantie : 550 €
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 950 € et 1 340 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, null, null, 1, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(1012, $$Chambre 2 pièces 35 m²$$, $$Lille 59800 République - Beaux-Arts$$, true, 35, $$b$$, null, 715, $$Appartment$$, $$a$$, $$Chambres privées avec sdb en coliving - Centre
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 950 € et 1 340 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Sully-sur-Loire 45600', '1', 'false', null, null, null, 'individual', 'electric', null, null, null, '216.1152'), ('1012', 'Chambre 2 pièces 35 m²', 'true', '35', 'b', null, '715', 'Appartment', 'a', 'Chambres privées avec sdb en coliving - Centre
 
   Nouvel espace de coliving IvyNest en plein centre de Lille   - Belle maison entièrement refaite à neuf - A partir de 715 euros par mois, tout compris ! Eligible aux APLs.
 
@@ -3376,8 +3182,7 @@ Bail individuel à la chambre. Pas de caution solidaire.
 Référence annonce : COLIVING_-_SOLFE
 Date de réalisation du diagnostic : 08/10/2025
 Honoraires à la charge du locataire : 350 € TTC
-Dépôt de garantie : 900 €$$, 2, null, null, null, false, null, null, null, null, null, null, null),
-(1013, $$Appartement 3 pièces 54 m²$$, $$Nevers 58000 Centre-ville$$, false, 54, $$d$$, null, 580, $$Appartment$$, $$d$$, $$Appartement 3 pièces 54 m²
+Dépôt de garantie : 900 €', '2', 'Lille 59800 République - Beaux-Arts', null, 'false', null, null, null, null, null, null, null, null, '47.9262'), ('1013', 'Appartement 3 pièces 54 m²', 'false', '54', 'd', null, '580', 'Appartment', 'd', 'Appartement 3 pièces 54 m²
 
 Découvrez cet appartement charmant situé à Nevers. Avec une superficie de 54 m², cet espace est idéal pour ceux qui cherchent un lieu de vie confortable et bien équipé. Doté de deux chambres et une pièce de vie lumineuse, cet appartement offre un cadre de vie accueillant et chaleureux. 
   
@@ -3395,8 +3200,7 @@ Date de réalisation du diagnostic énergétique : 17/03/2025
 Consommation énergie primaire : 149 kWh/m²/an
 Consommation énergie finale : 139 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 850 € et 1 160 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 3, null, 2, false, null, $$individual$$, $$gas$$, null, null, null, null),
-(1014, $$Appartement 2 pièces 36 m²$$, $$Chartres 28000 Centre-ville$$, false, 36, $$f$$, $$2025-02-07T23:00:00.000Z$$, 520, $$Appartment$$, $$c$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 850 € et 1 160 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Nevers 58000 Centre-ville', '2', 'false', '3', null, null, 'individual', 'gas', null, null, null, '132.9012'), ('1014', 'Appartement 2 pièces 36 m²', 'false', '36', 'f', '2025-02-07T23:00:00.000Z', '520', 'Appartment', 'c', 'APPARTEMENT
 
 en plein coeur de ville dans un petit immeuble convivial appartement atypique refait à neuf Entrée, séjour avec cuisine, sdb, wc, Chambre
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
@@ -3408,8 +3212,7 @@ Montant des charges : 50 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 870 € et 1 200 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)
-Logement à consommation énergétique excessive : classe F$$, 2, 2, null, null, false, null, $$individual$$, $$electric$$, 1990, null, null, null),
-(1015, $$Appartement 3 pièces 65 m²$$, $$Saint-Nazaire 44600 Ouest$$, true, 65, $$c$$, null, 895, $$Appartment$$, $$c$$, $$Appartement 3 pièces 65 m²
+Logement à consommation énergétique excessive : classe F', '2', 'Chartres 28000 Centre-ville', null, 'false', '2', null, null, 'individual', 'electric', '1990', null, null, '291.2112'), ('1015', 'Appartement 3 pièces 65 m²', 'true', '65', 'c', null, '895', 'Appartment', 'c', 'Appartement 3 pièces 65 m²
 
 SAINT-NAZAIRE OUEST -  Tous les commerces au pied de l'immeuble Dans une résidence récente avec ascenseur, Appartement Type 3 meublé entièrement rénové comprenant entrée, salon/salle à manger avec cuisine équipée et aménagée, deux chambres avec lit double et placards, une salle d'eau, WC.
 Une place de parking.
@@ -3424,12 +3227,10 @@ Date de réalisation du diagnostic énergétique : 12/10/2023
 Consommation énergie primaire : 97 kWh/m²/an
 Consommation énergie finale : 84 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 623 € et 843 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 3, 2, null, 2, true, 1, $$individual$$, $$gas$$, 2012, 4, null, null),
-(1016, $$Appartement T1 19m² meublé et équipé$$, $$Le Mans 72000 Centre$$, true, 19, $$b$$, null, 589, $$Appartment$$, $$a$$, $$La nouvelle résidence Studently Le Mans ouvrira ses portes en septembre 2025 ! Elle est située au pied des commerces et des restaurants, et à proximité de l’arrêt de tram et de bus, les étudiants bénéficient d’un cadre de vie optimal. La résidence, composée de 94 lots, offre des espaces communs conviviaux en rez-de-chaussée. Ils sont composés d’une grande pièce avec espace détente, espace game, cuisine collaborative, épicerie, ainsi qu’une salle de coworking, une salle de fitness et une laverie connectée. Les espaces privés sont quant à eux entièrement meublés et optimisés grâce aux nombreux rangements.
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 623 € et 843 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '3', 'Saint-Nazaire 44600 Ouest', '2', 'true', '2', null, '1', 'individual', 'gas', '2012', '4', null, '108.4262'), ('1016', 'Appartement T1 19m² meublé et équipé', 'true', '19', 'b', null, '589', 'Appartment', 'a', 'La nouvelle résidence Studently Le Mans ouvrira ses portes en septembre 2025 ! Elle est située au pied des commerces et des restaurants, et à proximité de l’arrêt de tram et de bus, les étudiants bénéficient d’un cadre de vie optimal. La résidence, composée de 94 lots, offre des espaces communs conviviaux en rez-de-chaussée. Ils sont composés d’une grande pièce avec espace détente, espace game, cuisine collaborative, épicerie, ainsi qu’une salle de coworking, une salle de fitness et une laverie connectée. Les espaces privés sont quant à eux entièrement meublés et optimisés grâce aux nombreux rangements.
 La résidence étudiante offre un cadre convivial où les étudiants pourront s’épanouir sereinement, apprendre et partager.
 
-*Photo d'appartement non contractuelle*$$, 1, null, null, null, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(1017, $$Studio 1 pièce 17 m²$$, $$Toulon 83000 Centre-ville$$, true, 17, $$c$$, null, 492, $$Appartment$$, $$a$$, $$Studio meublé et équipé - proche des écoles
+*Photo d'appartement non contractuelle*', '1', 'Le Mans 72000 Centre', null, 'false', null, null, null, 'individual', 'electric', null, null, null, '47.7792'), ('1017', 'Studio 1 pièce 17 m²', 'true', '17', 'c', null, '492', 'Appartment', 'a', 'Studio meublé et équipé - proche des écoles
 
 À Louer : Studio étudiant meublé - Résidence Carré Verane, Toulon
 
@@ -3471,8 +3272,7 @@ La résidence étudiante offre un cadre convivial où les étudiants pourront s�
  Disponibilité immédiate ! Contactez-nous dès aujourd'hui pour réserver votre logement étudiant et vivre une expérience étudiante épanouie à Toulon.
 Référence annonce : carre-verane-to_C11
 Consommation énergétique : 144 kWh/m²/an
-Emission de gaz à effet de serre : 5 CO2/m²/an$$, 1, null, null, null, true, null, null, null, 2011, null, null, null),
-(1018, $$Appartement 3 pièces 83 m²$$, $$Brest 29200 Kerbonne - La Corniche$$, true, 83, $$f$$, null, 875, $$Appartment$$, $$f$$, $$Appartement 3 pièces 83 m²
+Emission de gaz à effet de serre : 5 CO2/m²/an', '1', 'Toulon 83000 Centre-ville', null, 'true', null, null, null, null, null, '2011', null, null, '42.4262'), ('1018', 'Appartement 3 pièces 83 m²', 'true', '83', 'f', null, '875', 'Appartment', 'f', 'Appartement 3 pièces 83 m²
 
 LOCATION BREST CORNICHE T3 MEUBLE VUE MER
 
@@ -3508,12 +3308,10 @@ Consommation énergie primaire : 336 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 2 450 € et 3 314 € sur les années 2021, 2022 et 2023 (abonnements compris).
-Logement à consommation énergétique excessive : classe F$$, 3, 1, null, 2, false, null, $$individual$$, $$gas$$, 1997, 5, null, null),
-(1019, $$Appartement 2 pièces 49 m²$$, $$Saint-Pierre 97410$$, false, 49, null, null, 724, $$Appartment$$, null, $$Charmant F2 à Saint-Pierre
+Logement à consommation énergétique excessive : classe F', '3', 'Brest 29200 Kerbonne - La Corniche', '2', 'false', '1', null, null, 'individual', 'gas', '1997', '5', null, '361.4262'), ('1019', 'Appartement 2 pièces 49 m²', 'false', '49', null, null, '724', 'Appartment', null, 'Charmant F2 à Saint-Pierre
 
 Meublé : Ofim Saint-Pierre vous présente ce charmant F2 de 49m2 à proximité de tout commerce à Saint-Pierre.  Composé d'un séjour tout équipé avec vue mer, d'une cuisine aménagée ouverte sur le séjour offrant un espace de vie agréable.  Cette appartement est composée d'une chambre ainsi qu'une mezzanine.  Entièrement climatisé ce logement est idéal pour un étudiant.   Agent commercial Mme BONNEFOND [Coordonnées masquées] /  Mr BIGEY [Coordonnées masquées] 10A71667, Numéro de mandat: SP 420, Honoraires à la charge du locataire: 637 € TTC  Tél. commercial: [Coordonnées masquées]
-Référence annonce : 10A71667$$, 2, null, null, 1, false, null, null, null, null, null, null, null),
-(1020, $$Appartement 3 pièces 96 m²$$, $$Le Creusot 71200 Sud$$, false, 96, $$d$$, null, 493, $$Appartment$$, $$d$$, $$T4 PROCHE PARC DE LA VERRERIE
+Référence annonce : 10A71667', '2', 'Saint-Pierre 97410', '1', 'false', null, null, null, null, null, null, null, null, '167.2762'), ('1020', 'Appartement 3 pièces 96 m²', 'false', '96', 'd', null, '493', 'Appartment', 'd', 'T4 PROCHE PARC DE LA VERRERIE
 
 BEL ET VASTE APPARTEMENT DE 96 M2 SITUE FACE AU PARC DE LA VERRERIE. TRES CHALEUREUX. AGREABLE LUMINOSITE, MURS BLANCS, PARQUETS VITRIFIES AU SOL. JOLIE PIECE A VIVRE OUVRANT SUR BALCON, UNE CUISINE EQUIPEE (four, plaques de cuisson, hotte et meubles de rangement) , DEUX CHAMBRES, UNE SALLE DE BAINS ET UN W.C. SEPARE. CHAUFFAGE CENTRAL GAZ.
  LOYER : 485EUR/mois  CHARGES : 4EUR/mois (REGULARISATION ANNUELLE)
@@ -3532,8 +3330,7 @@ Pas de procédure en cours
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 580 € et 2 180 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 3, 2, null, 2, false, 1, $$individual$$, $$gas$$, null, 2, null, null),
-(1021, $$Appartement 3 pièces 64 m²$$, $$Lille 59000 Porte d'Arras$$, true, 64, $$c$$, $$2025-09-28T22:00:00.000Z$$, 1, $$Appartment$$, $$a$$, $$JB Lebas, dans une résidence sécurisée située à proximité des transports, cet appartement type 3 entièrement meublé offre une entrée desservant une pièce de vie lumineuse avec accès sur un balcon, une cuisine séparée équipée, deux chambres, une salle de bains et wc séparés. Un parking en sous-sol complète le bien. Chauffage individuel électrique - Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '3', 'Le Creusot 71200 Sud', '2', 'false', '2', null, '1', 'individual', 'gas', null, '2', null, '221.4512'), ('1021', 'Appartement 3 pièces 64 m²', 'true', '64', 'c', '2025-09-28T22:00:00.000Z', '1', 'Appartment', 'a', 'JB Lebas, dans une résidence sécurisée située à proximité des transports, cet appartement type 3 entièrement meublé offre une entrée desservant une pièce de vie lumineuse avec accès sur un balcon, une cuisine séparée équipée, deux chambres, une salle de bains et wc séparés. Un parking en sous-sol complète le bien. Chauffage individuel électrique - Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr
 Référence annonce : 840239
 Date de réalisation du diagnostic : 03/10/2025
 Honoraires à la charge du locataire : 842 € TTC dont 194 € pour l’état des lieux
@@ -3541,8 +3338,7 @@ Dépôt de garantie : 1894 €
 Montant des charges : 90 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 850 € et 1 180 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 3, null, 2, false, 1, null, null, null, null, null, null),
-(1022, $$Duplex 3 pièces 38 m²$$, $$Pontpoint 60700$$, false, 38, $$e$$, null, 695, $$Appartment$$, $$b$$, $$Duplex 3 pièces 38 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 850 € et 1 180 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Lille 59000 Porte d'Arras', '2', 'false', '3', null, '1', null, null, null, null, null, '107.0512'), ('1022', 'Duplex 3 pièces 38 m²', 'false', '38', 'e', null, '695', 'Appartment', 'b', 'Duplex 3 pièces 38 m²
 
 L'Immobilière FournIer vou propose en exclusivité sur la commune de Pontpoint ( Moru)
  Dans une co proprieté en pierres , cet appartement en duplex situé au 1er et dernière étage .
@@ -3556,8 +3352,7 @@ Modalité de récupération des charges locatives : Prévisionnelles mensuelles 
 Consommation énergie primaire : 264 kWh/m²/an
 Consommation énergie finale : 0 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 671 € et 907 € par an. Prix moyens des énergies indexés sur l'année 2000 (abonnements compris)$$, 3, 1, null, null, false, 1, $$individual$$, $$electric$$, 1900, null, null, null),
-(1023, $$Appartement 2 pièces 28 m²$$, $$Rennes 35000 Arsenal - Redon$$, false, 28, $$d$$, $$2025-10-31T23:00:00.000Z$$, 670, $$Appartment$$, $$d$$, $$Appartement 2 pièces 28 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 671 € et 907 € par an. Prix moyens des énergies indexés sur l'année 2000 (abonnements compris)', '3', 'Pontpoint 60700', null, 'false', '1', null, '1', 'individual', 'electric', '1900', null, null, '229.7232'), ('1023', 'Appartement 2 pièces 28 m²', 'false', '28', 'd', '2025-10-31T23:00:00.000Z', '670', 'Appartment', 'd', 'Appartement 2 pièces 28 m²
 
 Rue Noel Blayau, situé dans une copropriété récente au 4ème etg avec ascenseur T1BIS/T2 meublé de 28.06m2 avec vue dégagée sur parc et sans vis à vis. Il se compose d'une entrée avec placard, une pièce de vie avec coin cuisine équipée d'un lave linge, une coin nuit séparé, une petit dégagement avec placard et une salle d'eau avec wc. une place de parking en sous-sol. Libre 01/11/2025.
 
@@ -3572,8 +3367,7 @@ Date de réalisation du diagnostic énergétique : 28/01/2022
 Consommation énergie primaire : 214 kWh/m²/an
 Consommation énergie finale : 196 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 320 € et 450 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, 4, null, 1, true, null, $$communal$$, $$gas$$, 1996, 6, null, null),
-(1024, $$Appartement 2 pièces 48 m²$$, $$Bar-le-Duc 55000 Ville-Haute$$, false, 48, $$e$$, null, 380, $$Appartment$$, $$b$$, $$Appartement À Louer
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 320 € et 450 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Rennes 35000 Arsenal - Redon', '1', 'true', '4', null, null, 'communal', 'gas', '1996', '6', null, '19.0512'), ('1024', 'Appartement 2 pièces 48 m²', 'false', '48', 'e', null, '380', 'Appartment', 'b', 'Appartement À Louer
 
 Bel appartement T2 à louer, situé dans le secteur de la Ville haute à Bar-le-Duc, à proximité d'une école et des transports en commun 🚏. D'une surface de 48 m², cet appartement présente un bon état général et offre un cadre de vie confortable.
 
@@ -3588,15 +3382,13 @@ Honoraires à la charge du locataire : 360 € TTC
 Dépôt de garantie : 360 €
 Montant des charges : 20 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 880 € et 1 240 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, null, null, 1, false, 1, $$individual$$, $$electric$$, null, null, null, null),
-(1025, $$Appartement 4 pièces 80 m²$$, $$Creutzwald 57150 Maroc$$, false, 80, $$c$$, null, 503, $$Appartment$$, $$c$$, $$Location appartement t4 à Creutzwald
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 880 € et 1 240 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Bar-le-Duc 55000 Ville-Haute', '1', 'false', null, null, '1', 'individual', 'electric', null, null, null, '285.1632'), ('1025', 'Appartement 4 pièces 80 m²', 'false', '80', 'c', null, '503', 'Appartment', 'c', 'Location appartement t4 à Creutzwald
 
 Location d'un appartement de type F4 au 2ème étage d'un immeuble sans ascenseur comprenant un séjour donnant accès à un balcon, une cuisine fermée, une salle de bain, un WC, et 3 chambres.Le logement se situe à 5 min en voiture de la zone commercial du Leclerc, et 3 min en voiture du LIDL. Le logement se trouve également à 3 min du lac de [URL masquée pour votre sécurité] le logement vous intéresse merci de nous communiquer votre numéro unique de demande de logement ainsi que la référence du bien : 2210099
 Référence annonce : 2521681
 Consommation énergétique : 125 kWh/m²/an
 Emission de gaz à effet de serre : 23 CO2/m²/an
-Montant des charges : 122 € / mois$$, 4, 2, null, 3, false, 1, $$individual$$, $$gas$$, null, null, null, null),
-(1026, $$Appartement 2 pièces 45 m²$$, $$Lille 59000 CHR$$, true, 45, null, null, 900, $$Appartment$$, null, $$Résidence à Lille : Appartement de 45m2
+Montant des charges : 122 € / mois', '4', 'Creutzwald 57150 Maroc', '3', 'false', '2', null, '1', 'individual', 'gas', null, null, null, '129.0512'), ('1026', 'Appartement 2 pièces 45 m²', 'true', '45', null, null, '900', 'Appartment', null, 'Résidence à Lille : Appartement de 45m2
 
 Le logement est disponible est à partir du 08/10/2025
 
@@ -3618,8 +3410,7 @@ Lille Courtois - 128 est idéalement situé pour rejoindre Lille et ses quartier
 Bienvenue chez vous !
 
 #REF:1409#
-Référence annonce : 01-711_Lille_Courtois_-_128$$, 2, 1, null, 1, false, null, null, null, null, null, null, null),
-(1027, $$Appartement 2 pièces 31 m²$$, $$La Roquebrussanne 83136$$, false, 31, $$e$$, null, 525, $$Appartment$$, $$e$$, $$Appartement 2 pièces 31 m²
+Référence annonce : 01-711_Lille_Courtois_-_128', '2', 'Lille 59000 CHR', '1', 'false', '1', null, null, null, null, null, null, null, '155.1762'), ('1027', 'Appartement 2 pièces 31 m²', 'false', '31', 'e', null, '525', 'Appartment', 'e', 'Appartement 2 pièces 31 m²
 
 A La Roquebrussanne, bel appartement de type 2 entièrement rénové situé au 1er étage d'une maison de village. Il se compose d'un séjour avec cuisine US, une grande chambre et une salle d'eau avec W.C. Il dispose également d'une cave.
 
@@ -3631,8 +3422,7 @@ Consommation énergie finale : Non communiqué
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 600 € et 880 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 2, 1, null, 1, false, null, $$individual$$, $$electric$$, null, 3, null, null),
-(1028, $$Appartement 4 pièces 54 m²$$, $$Château-Thierry 02400 Centre-ville$$, false, 54, $$a$$, $$2025-10-16T22:00:00.000Z$$, 608, $$Appartment$$, $$a$$, $$Appartement Chateau Thierry 4 pièce(s) 54.14 m2
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '2', 'La Roquebrussanne 83136', '1', 'false', '1', null, null, 'individual', 'electric', null, '3', null, '190.9152'), ('1028', 'Appartement 4 pièces 54 m²', 'false', '54', 'a', '2025-10-16T22:00:00.000Z', '608', 'Appartment', 'a', 'Appartement Chateau Thierry 4 pièce(s) 54.14 m2
 
 À louer – Appartement T4 mansardé au cœur de Château-Thierry
 
@@ -3654,8 +3444,7 @@ Montant des charges : 60 € / mois
 A propos de la copropriété :
 Nombre de lots : 5
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 310 € et 470 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 4, 3, null, 3, false, 1, $$individual$$, $$other$$, null, 3, null, null),
-(1029, $$Appartement 3 pièces 67 m²$$, $$Mantes-la-Ville 78711 Centre-ville$$, false, 67, $$c$$, $$2025-09-27T22:00:00.000Z$$, 915, $$Appartment$$, $$d$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 310 € et 470 € sur les années 2021, 2022 et 2023 (abonnements compris).', '4', 'Château-Thierry 02400 Centre-ville', '3', 'false', '3', null, '1', 'individual', 'other', null, '3', null, '43.8012'), ('1029', 'Appartement 3 pièces 67 m²', 'false', '67', 'c', '2025-09-27T22:00:00.000Z', '915', 'Appartment', 'd', 'APPARTEMENT
 
 Residence recente, calme, proche autoroute et commodités, au deuxieme étage avec ascenseur comprenant: entrée avec placard, séjour spacieux, balcon, cuisine séparée, deux belles chambres, salle de bain avec wc.parking en sous sol.chuaffage individuel gaz.
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
@@ -3664,8 +3453,7 @@ Date de réalisation du diagnostic : 03/02/2020
 Honoraires à la charge du locataire : 872 € TTC dont 201 € pour l’état des lieux
 Dépôt de garantie : 790 €
 Montant des charges : 125 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 3, 2, null, null, true, null, $$individual$$, $$gas$$, 2006, null, null, null),
-(1030, $$Appartement 2 pièces 50 m²$$, $$Montigny-lès-Metz 57950 Friches$$, false, 50, $$c$$, null, 815, $$Appartment$$, $$c$$, $$Appartement 2 pièces 50 m²
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '3', 'Mantes-la-Ville 78711 Centre-ville', null, 'true', '2', null, null, 'individual', 'gas', '2006', null, null, '111.1762'), ('1030', 'Appartement 2 pièces 50 m²', 'false', '50', 'c', null, '815', 'Appartment', 'c', 'Appartement 2 pièces 50 m²
 
 Montigny-lès-Metz, allée du Maire Steinmetz, dans une résidence récente et de standing, magnifique T2 situé au 1er étage. Il se compose d'une entrée avec placard, d'une cuisine équipée ouverte sur un salon-séjour lumineux, d'une chambre, d'une salle d'eau avec WC, et d'un balcon. L'appartement dispose également d'un garage fermé en sous-sol et d'une place de parking extérieure.
 Disponible début décembre ! Pour recevoir un lien vers une visite virtuelle  et les éléments pour déposer un dossier, merci d'utiliser le bouton 'contact / envoyer un message' présent sur les différents sites, afin de nous communiquer votre email, vos nom, prénom et n° de téléphone portable.
@@ -3676,8 +3464,7 @@ Date de réalisation du diagnostic énergétique : 11/09/2025
 Consommation énergie primaire : Non communiqué
 Consommation énergie finale : 109 kWh/m²/an
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 2, 1, null, 1, false, null, null, null, null, 2, null, null),
-(1031, $$Appartement 2 pièces 38 m²$$, $$Nantes 44000 Graslin$$, false, 38, $$e$$, $$2025-09-30T22:00:00.000Z$$, 670, $$Appartment$$, $$b$$, $$Appartement 2 pièces 38 m²
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '2', 'Montigny-lès-Metz 57950 Friches', '1', 'false', '1', null, null, null, null, null, '2', null, '87.8012'), ('1031', 'Appartement 2 pièces 38 m²', 'false', '38', 'e', '2025-09-30T22:00:00.000Z', '670', 'Appartment', 'b', 'Appartement 2 pièces 38 m²
 
 Walter, appartement T1bis entièrement rénové - Nantes Hypercentre - Rue Maréchal Joffre, au cœur d'un quartier dynamique et dans un immeuble ancien, Walter est un charmant appartement T1bis d'environ 38m² se trouvant à proximité des commerces et des transports. Cet appartement meublé entièrement rénové comprend une grande cuisine aménagée et équipée (placards, réfrigérateur, four, micro-ondes, lave-linge et plaques de cuisson), une pièce de vie avec un espace nuit et une salle d'eau avec WC. Chauffage et eau chaude : individuels électriques. Charges : eau froide et entretien des parties communes. Disponible au 1er octobre. 
 
@@ -3696,8 +3483,7 @@ Date de réalisation du diagnostic énergétique : 25/04/2023
 Consommation énergie primaire : 281 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 690 € et 970 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)$$, 2, 2, null, null, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(1032, $$Appartement 2 pièces 55 m²$$, $$Viry-Châtillon 91170 Le Plateau$$, false, 55, $$d$$, null, 811, $$Appartment$$, $$d$$, $$Appartement 2 pièces 55 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 690 € et 970 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)', '2', 'Nantes 44000 Graslin', null, 'false', '2', null, null, 'individual', 'electric', null, null, null, '229.7232'), ('1032', 'Appartement 2 pièces 55 m²', 'false', '55', 'd', null, '811', 'Appartment', 'd', 'Appartement 2 pièces 55 m²
 
 Appartement  2 pièces avec balcon composé d'une entrée, un séjour, une cuisine aménagée,  une chambre, un cellier, une salle de bains, un wc. Emplacement de parking sécurisé.
 L'appartement est situé à proximité de plusieurs établissements scolaires (maternelles, élémentaires et collèges) deux supermarchés ainsi qu'un arrêt de bus situé en bas de la copropriété.
@@ -3709,8 +3495,7 @@ Modalité de récupération des charges locatives : Prévisionnelles mensuelles 
 Date de réalisation du diagnostic énergétique : 25/10/2021
 
 Consommation énergie primaire : 205 kWh/m²/an
-Consommation énergie finale : Non communiqué$$, 2, 8, null, 1, true, 1, $$communal$$, $$gas$$, 1970, 8, null, null),
-(1033, $$Appartement 2 pièces 18 m²$$, $$Rouen 76000 Saint-Hilaire - Croix-de-Pierre$$, false, 18, $$e$$, null, 525, $$Appartment$$, $$b$$, $$Appartement 2 pièces 18 m²
+Consommation énergie finale : Non communiqué', '2', 'Viry-Châtillon 91170 Le Plateau', '1', 'true', '8', null, '1', 'communal', 'gas', '1970', '8', null, '19.0512'), ('1033', 'Appartement 2 pièces 18 m²', 'false', '18', 'e', null, '525', 'Appartment', 'b', 'Appartement 2 pièces 18 m²
 
 JEANNE D'ARC IMMO VOUS PROPOSE UN APPARTEMENT T2 COMPRENANT UNE ENTRÉE - SÉJOUR/SALON AVEC RANGEMENTS- CUISINE KITCHENETTE - CHAMBRE AVEC RANGEMENTS - SALLE DE BAINS - WC SÉPARÉ - CELLIER - PARKING - 
 SUPERFICIE  ENVIRON 40 M² AU SOL ET 18.15 M² CARREZ.
@@ -3728,8 +3513,7 @@ Date de réalisation du diagnostic énergétique : 19/09/2023
 Consommation énergie primaire : 329 kWh/m²/an
 Consommation énergie finale : 173 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 500 € et 730 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, 3, null, 1, false, 1, $$individual$$, $$electric$$, null, 3, null, null),
-(1034, $$Appartement 1 pièce 33 m²$$, $$Luxeuil-les-Bains 70300$$, false, 33, null, null, null, $$Appartment$$, null, $$Appartement de 1 pièces non meublé dans Luxeuil-les-Bains
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 500 € et 730 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Rouen 76000 Saint-Hilaire - Croix-de-Pierre', '1', 'false', '3', null, '1', 'individual', 'electric', null, '3', null, '118.8432'), ('1034', 'Appartement 1 pièce 33 m²', 'false', '33', null, null, null, 'Appartment', null, 'Appartement de 1 pièces non meublé dans Luxeuil-les-Bains
 
 Ref : 532
 
@@ -3756,8 +3540,7 @@ Référence annonce : 532
 Honoraires à la charge du locataire : 366 € TTC dont 99 € pour l’état des lieux
 Dépôt de garantie : 362 €
 Montant des charges : 20 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 1, null, null, null, false, null, null, null, null, null, null, null),
-(1035, $$Appartement 3 pièces 74 m²$$, $$Annemasse 74100 Perrier$$, true, 74, $$f$$, null, 1, $$Appartment$$, $$f$$, $$Appartement 3 pièces 74 m²
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '1', 'Luxeuil-les-Bains 70300', null, 'false', null, null, null, null, null, null, null, null, '118.8762'), ('1035', 'Appartement 3 pièces 74 m²', 'true', '74', 'f', null, '1', 'Appartment', 'f', 'Appartement 3 pièces 74 m²
 
 Installez vous confortablement dans ce bel appartement meublé de 74 m², à louer à Annemasse, situé au premier étage d'une résidence calme et sécurisée, avec ascenseur.
 
@@ -3774,8 +3557,7 @@ Date de réalisation du diagnostic énergétique : 18/07/2023
 
 Consommation énergie primaire : 226 kWh/m²/an
 Consommation énergie finale : Non communiqué
-Logement à consommation énergétique excessive : classe F$$, 3, 1, null, 2, true, 1, null, null, null, 4, null, null),
-(1036, $$Appartement 2 pièces 55 m²$$, $$Antibes 06600 Rabiac$$, true, 55, $$c$$, null, 1, $$Appartment$$, $$c$$, $$Appartement 2 pièces 55 m²
+Logement à consommation énergétique excessive : classe F', '3', 'Annemasse 74100 Perrier', '2', 'true', '1', null, '1', null, null, null, '4', null, '324.3012'), ('1036', 'Appartement 2 pièces 55 m²', 'true', '55', 'c', null, '1', 'Appartment', 'c', 'Appartement 2 pièces 55 m²
 
 ANTIBES - rabiac espagnol
   
@@ -3803,8 +3585,7 @@ Modalité de récupération des charges locatives : Prévisionnelles mensuelles 
 Date de réalisation du diagnostic énergétique : 15/09/2025
 
 Consommation énergie primaire : 70 kWh/m²/an
-Consommation énergie finale : Non communiqué$$, 2, null, null, null, false, null, null, null, null, null, null, null),
-(1037, $$Appartement 4 pièces 122 m²$$, $$Brest 29200 Centre-ville - Triangle d'Or$$, false, 122, $$d$$, null, 1, $$Appartment$$, $$d$$, $$Appartement 4 pièces 122 m²
+Consommation énergie finale : Non communiqué', '2', 'Antibes 06600 Rabiac', null, 'false', null, null, null, null, null, null, null, null, '94.6762'), ('1037', 'Appartement 4 pièces 122 m²', 'false', '122', 'd', null, '1', 'Appartment', 'd', 'Appartement 4 pièces 122 m²
 
 Nestenn vous propose à la location ce spacieux appartement de type 4 d'une superficie de 122 m², idéalement situé dans le quartier recherché du Triangle d'Or.
 
@@ -3827,8 +3608,7 @@ Consommation énergie finale : Non communiqué
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 381 € et 1 868 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 4, 3, null, 3, false, 1, $$individual$$, $$gas$$, 1959, 4, null, null),
-(1038, $$Studio 1 pièce 28 m²$$, $$Avallon 89200$$, true, 28, $$e$$, null, 345, $$Appartment$$, $$e$$, $$Studio 1 pièce 28 m²
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '4', 'Brest 29200 Centre-ville - Triangle d'Or', '3', 'false', '3', null, '1', 'individual', 'gas', '1959', '4', null, '276.267866666667'), ('1038', 'Studio 1 pièce 28 m²', 'true', '28', 'e', null, '345', 'Appartment', 'e', 'Studio 1 pièce 28 m²
 
 En exclusivité dans votre agence Expertimo AvallonDécouvrez ce charmant studio entièrement meublé, idéalement situé à proximité immédiate de l'hôpital et du centre-ville.
 Équipé d'une pompe à chaleur réversible, il vous garantit confort en toutes saisons : climatisation l'été et chauffage économique l'hiver.
@@ -3839,8 +3619,7 @@ Surface : 28 m²
 Consommation énergie primaire : 234 kWh/m²/an
 Consommation énergie finale : 0 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 550 € et 770 € par an. Prix moyens des énergies indexés sur l'année 2000 (abonnements compris)$$, 1, null, null, null, false, null, null, null, null, null, null, null),
-(1039, $$Appartement 2 pièces 45 m²$$, $$Gennevilliers 92230 Chandon - Brenu$$, false, 45, $$c$$, $$2025-09-10T22:00:00.000Z$$, 1, $$Appartment$$, $$c$$, $$Appartement type 2
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 550 € et 770 € par an. Prix moyens des énergies indexés sur l'année 2000 (abonnements compris)', '1', 'Avallon 89200', null, 'false', null, null, null, null, null, null, null, null, '103.7512'), ('1039', 'Appartement 2 pièces 45 m²', 'false', '45', 'c', '2025-09-10T22:00:00.000Z', '1', 'Appartment', 'c', 'Appartement type 2
 
 Résidence récente (2018) l'Avant-Garde à Gennevilliers (92). Proche de toutes commodités (Cinéma Jean Vigo, Conservatoire, superettes, restaurants, boulangeries, bureau de poste ...) et notamment de 7 lignes de bus, de la station de métro les Agnettes (ligne 13) ainsi que la station de tramway Le Luth (ligne T1) dans un rayon de 1 km mettant Paris à 5 minutes en métro. L'appartement de type T2 de 46 m2 entièrement refait à neuf avec l'installation d'une belle cuisine aménagée et équipée, situé en rez-de-chaussée donnant sur une voie privée et calme (passage Chandon) bénéficie d'une belle terrasse de 16 m2. Entrée, séjour / cuisine de 25 m2 , salle d'eau, wc indépendant, une chambre de 13 m2 avec placard aménagée . Une place de parking en sous-sol sécurisée. Chauffage collectif, eau chaude et eau froide provisionnés dans les charges. Disponible de suite. Bien soumis à plafond de ressources dans le cadre de la loi PINEL. Votre dossier doit également être éligible à notre assurance garantie loyers impayés. Merci de déposer votre dossier COMPLET directement sur notre site ***. Les visites ne se font qu'une fois le dossier validé. (Loyer hors charges: 1115 € dont loyer parking : 57 €). Pour tous renseignements complémentaires merci de me contacter au [Coordonnées masquées] Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisque : ***
 Référence annonce : 57_1891_02_0007
@@ -3852,8 +3631,7 @@ Modalité de récupération des charges locatives : provision avec régularisati
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 390 € et 580 € sur les années 2021, 2022 et 2023 (abonnements compris).
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 2, null, null, 1, true, null, $$communal$$, null, null, 5, null, null),
-(1040, $$Studio 1 pièce 32 m²$$, $$Carmaux 81400$$, false, 32, $$c$$, $$2025-08-26T22:00:00.000Z$$, 873, $$Appartment$$, $$c$$, $$À louer Studio en résidence senior à Carmaux
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '2', 'Gennevilliers 92230 Chandon - Brenu', '1', 'true', null, null, null, 'communal', null, null, '5', null, '19.0512'), ('1040', 'Studio 1 pièce 32 m²', 'false', '32', 'c', '2025-08-26T22:00:00.000Z', '873', 'Appartment', 'c', 'À louer Studio en résidence senior à Carmaux
 Dans la résidence SENIORIALES, studio lumineux et climatisé, conçu pour le confort des personnes âgées autonomes. Il se compose d'une entrée, d'une pièce de vie avec cuisine équipée (meubles, évier, plaque, hotte, réfrigérateur top, micro-ondes), d'une salle d'eau avec WC, et d'une grande terrasse de 14 m².
 La résidence offre un cadre de vie sécurisé et chaleureux, avec des espaces communs climatisés favorisant la convivialité : coin repas, salon TV, buanderie équipée, salle d'activités accueillant régulièrement des professionnels du bien-être (coiffeuse, ..).
 Les extérieurs sont pensés pour le plaisir et l'autonomie des résidents : potager partagé, boulodrome, poulailler. Un environnement vivant et stimulant, idéal pour maintenir une vie sociale active.
@@ -3869,8 +3647,7 @@ Les informations sur les risques auxquels ce bien est exposé sont disponibles s
 Référence annonce : 26540
 Date de réalisation du diagnostic : 01/09/2025
 Honoraires à la charge du locataire : 357 € TTC dont 97 € pour l’état des lieux
-Dépôt de garantie : 1590 €$$, 1, null, null, 1, false, 1, $$communal$$, $$fuel$$, 1901, null, null, null),
-(1041, $$Appartement 3 pièces 57 m²$$, $$Charleville-Mézières 08000 Centre-ville - Gare$$, false, 57, $$d$$, $$2025-07-28T22:00:00.000Z$$, 570, $$Appartment$$, $$d$$, $$Appartement de type 3 situé au 2ème étage sans ascenseur comprenant : - Une entrée - Un séjour - Une cuisine - Deux chambres - Une salle de bains avec WC
+Dépôt de garantie : 1590 €', '1', 'Carmaux 81400', '1', 'false', null, null, '1', 'communal', 'fuel', '1901', null, null, '19.0512'), ('1041', 'Appartement 3 pièces 57 m²', 'false', '57', 'd', '2025-07-28T22:00:00.000Z', '570', 'Appartment', 'd', 'Appartement de type 3 situé au 2ème étage sans ascenseur comprenant : - Une entrée - Un séjour - Une cuisine - Deux chambres - Une salle de bains avec WC
 
 Assurance Multirisques Privilège *: 19.45 € / mois
 *Services facultatifs, voir conditions en agences
@@ -3882,8 +3659,7 @@ Dépôt de garantie : 540 €
 Montant des charges : 30 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 230 € et 1 670 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 2, null, 2, false, 1, $$individual$$, $$gas$$, 1955, null, null, null),
-(1042, $$Appartement 2 pièces 35 m²$$, $$Niort 79000 Saint-Liguaire$$, false, 35, $$c$$, null, 620, $$Appartment$$, $$c$$, $$A LOUER - T2 NIORT SECTEUR AVENUE DE NANTES
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 230 € et 1 670 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Charleville-Mézières 08000 Centre-ville - Gare', '2', 'false', '2', null, '1', 'individual', 'gas', '1955', null, null, '139.2262'), ('1042', 'Appartement 2 pièces 35 m²', 'false', '35', 'c', null, '620', 'Appartment', 'c', 'A LOUER - T2 NIORT SECTEUR AVENUE DE NANTES
 
 Nous vos proposons à la location ce bel appartement lumineux dans le secteur de l'avenue de Nantes.
   
@@ -3900,8 +3676,7 @@ Dépôt de garantie : 560 €
 Montant des charges : 60 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 390 € et 570 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 1, null, 1, false, null, $$individual$$, $$gas$$, 2012, null, null, null),
-(1043, $$Appartement 2 pièces 53 m²$$, $$Le Havre 76600 Graville$$, false, 53, $$d$$, $$2025-08-20T22:00:00.000Z$$, 690, $$Appartment$$, $$a$$, $$Graville - Appartement
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 390 € et 570 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Niort 79000 Saint-Liguaire', '1', 'false', '1', null, null, 'individual', 'gas', '2012', null, null, '67.1762'), ('1043', 'Appartement 2 pièces 53 m²', 'false', '53', 'd', '2025-08-20T22:00:00.000Z', '690', 'Appartment', 'a', 'Graville - Appartement
 
 Graville, 56 rue de Verdun  F3 -  2ème étage: un appartement refait à neuf de 53.63m²  comprenant une entrée dans la cuisine, un séjour, une chambre, un bureau avec placard pouvant faire office de chambre, une salle de douche avec WC.
 Chauffage individuel électrique
@@ -3924,8 +3699,7 @@ Honoraires à la charge du locataire : 589 € TTC dont 160 € pour l’état d
 Dépôt de garantie : 655 €
 Montant des charges : 35 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 870 € et 1 220 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 2, null, 1, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(1044, $$Appartement 2 pièces 46 m²$$, $$Charleville-Mézières 08000 Centre-ville - Gare$$, false, 46, $$e$$, $$2024-12-31T23:00:00.000Z$$, 530, $$Appartment$$, $$b$$, $$EXCLUSIVITÉ - A LOUER F2 CHARME ET LUMINOSITE
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 870 € et 1 220 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Le Havre 76600 Graville', '1', 'false', '2', null, null, 'individual', 'electric', null, null, null, '223.8432'), ('1044', 'Appartement 2 pièces 46 m²', 'false', '46', 'e', '2024-12-31T23:00:00.000Z', '530', 'Appartment', 'b', 'EXCLUSIVITÉ - A LOUER F2 CHARME ET LUMINOSITE
 A louer CHARLEVILLE MEZIERES (08000) appartement de 2 pièces de 47 m². Il propose une chambre, un vaste séjour, une cuisine aménagée et équipée et une salle d'eau. Chauffage individuel alimenté à l'électricité.
 Cet appartement est situé dans un immeuble de bon standing, bâtisse en pierre pleine de charme. Il est en très bon état général. Le bâtiment est équipé d'un interphone et d'une cour commune.
 Le bien se situe en hyper centre non loin de la gare, à proximité des commerces du centre ville, des collèges Jean Macé, Rimbaud, Saint Jean, ainsi que des Lycées Sévigné, Saint Paul et Chanzy, non loin de la gare. Pour vos loisirs, vous pourrez compter sur le cinéma Metropolis de même que le théâtre et un conservatoire dans les environs. Il y a aussi tout un panel de restaurants et deux bureaux de poste. Enfin 2 marchés animent le quartier.
@@ -3941,8 +3715,7 @@ Honoraires à la charge du locataire : 513 € TTC dont 140 € pour l’état d
 Dépôt de garantie : 500 €
 Montant des charges : 30 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 930 € et 1 290 € par an. Prix moyens des énergies indexés sur l'année 2015 (abonnements compris)$$, 2, 1, null, 1, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(1045, $$Appartement 5 pièces 93 m²$$, $$Rennes 35000 Gare$$, false, 93, $$c$$, null, 1, $$Appartment$$, $$c$$, $$Appartement 3 chambres Colombier
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 930 € et 1 290 € par an. Prix moyens des énergies indexés sur l'année 2015 (abonnements compris)', '2', 'Charleville-Mézières 08000 Centre-ville - Gare', '1', 'false', '1', null, null, 'individual', 'electric', null, null, null, '274.0752'), ('1045', 'Appartement 5 pièces 93 m²', 'false', '93', 'c', null, '1', 'Appartment', 'c', 'Appartement 3 chambres Colombier
 
 A Rennes, quartier centre-ville colombier
 A proximité immédiates des commerces, de la gare, du métro et des bus
@@ -3965,8 +3738,7 @@ Frais d'agence 1211.21 € TTC
 Référence annonce : Artillerie.7
 Date de réalisation du diagnostic : 21/08/2025
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 370 € et 1 910 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 5, null, null, 3, false, 1, null, null, null, null, null, null),
-(1046, $$Appartement 2 pièces 55 m²$$, $$Avignon 84000 Place des Corps Saints - Teinturiers$$, false, 55, $$c$$, $$2025-10-13T22:00:00.000Z$$, 650, $$Appartment$$, $$c$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 370 € et 1 910 € sur les années 2021, 2022 et 2023 (abonnements compris).', '5', 'Rennes 35000 Gare', '3', 'false', null, null, '1', null, null, null, null, null, '146.9262'), ('1046', 'Appartement 2 pièces 55 m²', 'false', '55', 'c', '2025-10-13T22:00:00.000Z', '650', 'Appartment', 'c', 'APPARTEMENT
 
 A louer  AVIGNON (84000) CENTRE VILLE - Appartement de type 2 traversant, situé au RDC dans une résidence sécurisée et proche de toutes les commodités composé d'un dégagement avec placard, un séjour avec coin cuisine donnant sur une très belle terrasse, 1 chambre avec placard, 1 salle de bain, wc séparé.Possibilité de louer en supplément un garage de type box fermé situé au sous sol de la résidence pour 90 euros par mois
 
@@ -3980,8 +3752,7 @@ Dépôt de garantie : 590 €
 Montant des charges : 60 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 590 € et 860 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, null, null, null, false, null, $$individual$$, $$electric$$, 1999, 4, null, null),
-(1047, $$Appartement 3 pièces 75 m²$$, $$Lille 59000 Euralille$$, false, 75, $$e$$, null, 940, $$Appartment$$, $$e$$, $$LILLE : appartement de 3 pièces meublé(75 m²) à louer
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 590 € et 860 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Avignon 84000 Place des Corps Saints - Teinturiers', null, 'false', null, null, null, 'individual', 'electric', '1999', '4', null, '157.6512'), ('1047', 'Appartement 3 pièces 75 m²', 'false', '75', 'e', null, '940', 'Appartment', 'e', 'LILLE : appartement de 3 pièces meublé(75 m²) à louer
 
 APPARTEMENT 3 PIÈCES meublé AVEC BALCON
 
@@ -4007,8 +3778,7 @@ Référence annonce : 3291
 Date de réalisation du diagnostic : 06/09/2023
 Montant des charges : 140 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 400 € et 1 940 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 3, null, null, 2, false, null, null, null, null, 1, null, null),
-(1048, $$Appartement 2 pièces 32 m²$$, $$La Possession 97419$$, true, 32, null, null, 1, $$Appartment$$, null, $$Appartement meublé à louer  à la Possession
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 400 € et 1 940 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '3', 'Lille 59000 Euralille', '2', 'false', null, null, null, null, null, null, '1', null, '245.9262'), ('1048', 'Appartement 2 pièces 32 m²', 'true', '32', null, null, '1', 'Appartment', null, 'Appartement meublé à louer  à la Possession
 
 Location T2 meublé – Rez-de-jardin – La Possession .
 
@@ -4035,8 +3805,7 @@ Climatisation dans la chambre//
 Quartier calme et proche des commodités//
 
 Montant total du loyer mensuel :1050,00 € CC dont 50 € de forfait de provision sur charges eau. Dépôt de garantie : 2 212,00 €, soit deux mois de loyer hors charge. Honoraires à la charge du locataire : 416.00€ soit 13€/ m², dont 96.00€ pour l'état des lieux d'entrée (soit 3€/ m²). DPE non requis. Contactez votre Conseiller Teka Immo Retournat Sebastien EI au [Coordonnées masquées] ou [Coordonnées masquées], inscrit au tribunal de Saint Denis sous le numéro R.S.A.C 888 004 686 . Lien vers le barème *** Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site georisque : ***\n
-Référence annonce : 2025-873$$, 2, null, null, null, false, null, null, null, null, null, null, null),
-(1049, $$Appartement 4 pièces 113 m²$$, $$Castres 81100 Corporal - Rey$$, true, 113, $$c$$, $$2025-09-15T22:00:00.000Z$$, 900, $$Appartment$$, $$a$$, $$LOCATION : appartement 4 pièces (111 m²) à CASTRES
+Référence annonce : 2025-873', '2', 'La Possession 97419', null, 'false', null, null, null, null, null, null, null, null, '115.8512'), ('1049', 'Appartement 4 pièces 113 m²', 'true', '113', 'c', '2025-09-15T22:00:00.000Z', '900', 'Appartment', 'a', 'LOCATION : appartement 4 pièces (111 m²) à CASTRES
 
 Appartement à louer meublé, surface 113.2 m², idéalement situé au 7 Allées Corbière à Castres. En parfait état, cet appartement de 3 chambres et un séjour lumineux dispose d'un balcon, d'un garage en sous-sol dans une résidence sécurisée avec ascenseur. Climatisation, dressing et nombreux rangements complètent le confort. Vue dégagée sur la verdure, en centre-ville. Loyer : 900 EUR. Contactez-nous pour visiter.
 Référence annonce : SLMH-LDE-4IE
@@ -4045,8 +3814,7 @@ Honoraires à la charge du locataire : 667 € TTC dont 339 € pour l’état d
 Dépôt de garantie : 1590 €
 Montant des charges : 105 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 830 € et 1 190 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 4, null, null, 3, true, null, $$individual$$, $$other$$, null, null, null, null),
-(1050, $$Appartement 3 pièces 74 m²$$, $$Rennes 35000 Sacrés Coeurs$$, true, 74, $$d$$, $$2025-09-01T22:00:00.000Z$$, 894, $$Appartment$$, $$d$$, $$APPARTEMENT_MEUBLE
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 830 € et 1 190 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '4', 'Castres 81100 Corporal - Rey', '3', 'true', null, null, null, 'individual', 'other', null, null, null, '174.4262'), ('1050', 'Appartement 3 pièces 74 m²', 'true', '74', 'd', '2025-09-01T22:00:00.000Z', '894', 'Appartment', 'd', 'APPARTEMENT_MEUBLE
 
 A deux pas du centre ville, dans le quartier Sacrés Coeurs, appartement sur parquet de type 3 meublé comprenant une entrée, une cuisine aménagé et équipée avec balcon, un séjour avec balcon exposé, un couloir avec placard, 2 chambres et une salle d'eau. Fenêtres neuves en double vitrage Eau froide individuelleEau chaude individuelle Chauffage individuel gaz
 
@@ -4060,8 +3828,7 @@ Dépôt de garantie : 1740 €
 Montant des charges : 24 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 890 € et 1 240 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 3, 2, null, 2, false, null, $$individual$$, $$electric$$, 1959, 5, null, null),
-(1051, $$Appartement 2 pièces 38 m²$$, $$Melun 77000$$, false, 38, $$e$$, null, 750, $$Appartment$$, $$e$$, $$Appartement À Louer
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 890 € et 1 240 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '3', 'Rennes 35000 Sacrés Coeurs', '2', 'false', '2', null, null, 'individual', 'electric', '1959', '5', null, '304.9872'), ('1051', 'Appartement 2 pièces 38 m²', 'false', '38', 'e', null, '750', 'Appartment', 'e', 'Appartement À Louer
 
 ORPI LE MÉE-SUR-SEINE vous présente cet appartement à louer, situé sur la commune de Melun.
 Il se compose d'un séjour, une cuisine, une chambre, une salle de bain, un WC ainsi que d'une cave.
@@ -4072,8 +3839,7 @@ Honoraires à la charge du locataire : 494 € TTC dont 114 € pour l’état d
 Dépôt de garantie : 620 €
 Montant des charges : 130 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 970 € et 1 350 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, null, null, 1, false, 1, $$individual$$, $$gas$$, null, null, null, null),
-(1052, $$Appartement 3 pièces 55 m²$$, $$Clermont-Ferrand 63000$$, false, 55, $$d$$, $$2025-10-01T22:00:00.000Z$$, 650, $$Appartment$$, $$d$$, $$Appartement
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 970 € et 1 350 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Melun 77000', '1', 'false', null, null, '1', 'individual', 'gas', null, null, null, '134.0012'), ('1052', 'Appartement 3 pièces 55 m²', 'false', '55', 'd', '2025-10-01T22:00:00.000Z', '650', 'Appartment', 'd', 'Appartement
 
 T3- NON MEUBLE - À Clermont-Ferrand, situé rue Pascal, : T3 de 55 m² non meublé situé au 2ème étage sans ascenseur.
 
@@ -4098,8 +3864,7 @@ Référence annonce : GES02560005-775
 Date de réalisation du diagnostic : 02/10/2025
 Honoraires à la charge du locataire : 416 € TTC dont 166 € pour l’état des lieux
 Dépôt de garantie : 578 €
-Montant des charges : 72 € / mois$$, 3, 2, null, 2, false, null, $$individual$$, $$gas$$, null, null, null, null),
-(1053, $$Appartement 3 pièces 65 m²$$, $$Saint-Macaire 33490$$, false, 65, $$c$$, $$2025-09-30T22:00:00.000Z$$, 750, $$Appartment$$, $$a$$, $$Appartement 3 pièces 65 m²
+Montant des charges : 72 € / mois', '3', 'Clermont-Ferrand 63000', '2', 'false', '2', null, null, 'individual', 'gas', null, null, null, '135.009533333333'), ('1053', 'Appartement 3 pièces 65 m²', 'false', '65', 'c', '2025-09-30T22:00:00.000Z', '750', 'Appartment', 'a', 'Appartement 3 pièces 65 m²
 
 Appartement comprenant une cuisine équipée et ouverte sur le salon, 2 chambres mansardés, un WC, une salle d'eau et un garage non attenant. Cette maison rénovée se trouve en plein centre ville et proche des commodités. Honoraires d'agence de 768euros et garantie loyer impayé. Disponible le 1 er novembre Pour plus d'informations contactez notre agence YD IMMO de Cadillac
 
@@ -4110,8 +3875,7 @@ Date de réalisation du diagnostic énergétique : 13/12/2024
 Consommation énergie primaire : 178 kWh/m²/an
 Consommation énergie finale : 77.6 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 831 € et 1 125 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, null, null, 2, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(1054, $$Appartement 2 pièces 46 m²$$, $$Charleville-Mézières 08000 Centre-ville - Gare$$, false, 46, $$e$$, $$2024-12-31T23:00:00.000Z$$, 530, $$Appartment$$, $$b$$, $$EXCLUSIVITÉ - A LOUER F2 CHARME ET LUMINOSITE
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 831 € et 1 125 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Saint-Macaire 33490', '2', 'false', null, null, null, 'individual', 'electric', null, null, null, '182.8512'), ('1054', 'Appartement 2 pièces 46 m²', 'false', '46', 'e', '2024-12-31T23:00:00.000Z', '530', 'Appartment', 'b', 'EXCLUSIVITÉ - A LOUER F2 CHARME ET LUMINOSITE
 A louer CHARLEVILLE MEZIERES (08000) appartement de 2 pièces de 47 m². Il propose une chambre, un vaste séjour, une cuisine aménagée et équipée et une salle d'eau. Chauffage individuel alimenté à l'électricité.
 Cet appartement est situé dans un immeuble de bon standing, bâtisse en pierre pleine de charme. Il est en très bon état général. Le bâtiment est équipé d'un interphone et d'une cour commune.
 Le bien se situe en hyper centre non loin de la gare, à proximité des commerces du centre ville, des collèges Jean Macé, Rimbaud, Saint Jean, ainsi que des Lycées Sévigné, Saint Paul et Chanzy, non loin de la gare. Pour vos loisirs, vous pourrez compter sur le cinéma Metropolis de même que le théâtre et un conservatoire dans les environs. Il y a aussi tout un panel de restaurants et deux bureaux de poste. Enfin 2 marchés animent le quartier.
@@ -4127,8 +3891,7 @@ Honoraires à la charge du locataire : 513 € TTC dont 140 € pour l’état d
 Dépôt de garantie : 500 €
 Montant des charges : 30 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 930 € et 1 290 € par an. Prix moyens des énergies indexés sur l'année 2015 (abonnements compris)$$, 2, 1, null, 1, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(1055, $$Appartement 5 pièces 93 m²$$, $$Rennes 35000 Gare$$, false, 93, $$c$$, null, 1, $$Appartment$$, $$c$$, $$Appartement 3 chambres Colombier
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 930 € et 1 290 € par an. Prix moyens des énergies indexés sur l'année 2015 (abonnements compris)', '2', 'Charleville-Mézières 08000 Centre-ville - Gare', '1', 'false', '1', null, null, 'individual', 'electric', null, null, null, '274.0752'), ('1055', 'Appartement 5 pièces 93 m²', 'false', '93', 'c', null, '1', 'Appartment', 'c', 'Appartement 3 chambres Colombier
 
 A Rennes, quartier centre-ville colombier
 A proximité immédiates des commerces, de la gare, du métro et des bus
@@ -4151,8 +3914,7 @@ Frais d'agence 1211.21 € TTC
 Référence annonce : Artillerie.7
 Date de réalisation du diagnostic : 21/08/2025
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 370 € et 1 910 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 5, null, null, 3, false, 1, null, null, null, null, null, null),
-(1056, $$Appartement 2 pièces 55 m²$$, $$Avignon 84000 Place des Corps Saints - Teinturiers$$, false, 55, $$c$$, $$2025-10-13T22:00:00.000Z$$, 650, $$Appartment$$, $$c$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 370 € et 1 910 € sur les années 2021, 2022 et 2023 (abonnements compris).', '5', 'Rennes 35000 Gare', '3', 'false', null, null, '1', null, null, null, null, null, '146.9262'), ('1056', 'Appartement 2 pièces 55 m²', 'false', '55', 'c', '2025-10-13T22:00:00.000Z', '650', 'Appartment', 'c', 'APPARTEMENT
 
 A louer  AVIGNON (84000) CENTRE VILLE - Appartement de type 2 traversant, situé au RDC dans une résidence sécurisée et proche de toutes les commodités composé d'un dégagement avec placard, un séjour avec coin cuisine donnant sur une très belle terrasse, 1 chambre avec placard, 1 salle de bain, wc séparé.Possibilité de louer en supplément un garage de type box fermé situé au sous sol de la résidence pour 90 euros par mois
 
@@ -4166,8 +3928,7 @@ Dépôt de garantie : 590 €
 Montant des charges : 60 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 590 € et 860 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, null, null, null, false, null, $$individual$$, $$electric$$, 1999, 4, null, null),
-(1057, $$Appartement 3 pièces 75 m²$$, $$Lille 59000 Euralille$$, false, 75, $$e$$, null, 940, $$Appartment$$, $$e$$, $$LILLE : appartement de 3 pièces meublé(75 m²) à louer
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 590 € et 860 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Avignon 84000 Place des Corps Saints - Teinturiers', null, 'false', null, null, null, 'individual', 'electric', '1999', '4', null, '157.6512'), ('1057', 'Appartement 3 pièces 75 m²', 'false', '75', 'e', null, '940', 'Appartment', 'e', 'LILLE : appartement de 3 pièces meublé(75 m²) à louer
 
 APPARTEMENT 3 PIÈCES meublé AVEC BALCON
 
@@ -4193,8 +3954,7 @@ Référence annonce : 3291
 Date de réalisation du diagnostic : 06/09/2023
 Montant des charges : 140 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 400 € et 1 940 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 3, null, null, 2, false, null, null, null, null, 1, null, null),
-(1058, $$Appartement 2 pièces 32 m²$$, $$La Possession 97419$$, true, 32, null, null, 1, $$Appartment$$, null, $$Appartement meublé à louer  à la Possession
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 400 € et 1 940 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '3', 'Lille 59000 Euralille', '2', 'false', null, null, null, null, null, null, '1', null, '245.9262'), ('1058', 'Appartement 2 pièces 32 m²', 'true', '32', null, null, '1', 'Appartment', null, 'Appartement meublé à louer  à la Possession
 
 Location T2 meublé – Rez-de-jardin – La Possession .
 
@@ -4221,8 +3981,7 @@ Climatisation dans la chambre//
 Quartier calme et proche des commodités//
 
 Montant total du loyer mensuel :1050,00 € CC dont 50 € de forfait de provision sur charges eau. Dépôt de garantie : 2 212,00 €, soit deux mois de loyer hors charge. Honoraires à la charge du locataire : 416.00€ soit 13€/ m², dont 96.00€ pour l'état des lieux d'entrée (soit 3€/ m²). DPE non requis. Contactez votre Conseiller Teka Immo Retournat Sebastien EI au [Coordonnées masquées] ou [Coordonnées masquées], inscrit au tribunal de Saint Denis sous le numéro R.S.A.C 888 004 686 . Lien vers le barème *** Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site georisque : ***\n
-Référence annonce : 2025-873$$, 2, null, null, null, false, null, null, null, null, null, null, null),
-(1059, $$Appartement 4 pièces 113 m²$$, $$Castres 81100 Corporal - Rey$$, true, 113, $$c$$, $$2025-09-15T22:00:00.000Z$$, 900, $$Appartment$$, $$a$$, $$LOCATION : appartement 4 pièces (111 m²) à CASTRES
+Référence annonce : 2025-873', '2', 'La Possession 97419', null, 'false', null, null, null, null, null, null, null, null, '115.8512'), ('1059', 'Appartement 4 pièces 113 m²', 'true', '113', 'c', '2025-09-15T22:00:00.000Z', '900', 'Appartment', 'a', 'LOCATION : appartement 4 pièces (111 m²) à CASTRES
 
 Appartement à louer meublé, surface 113.2 m², idéalement situé au 7 Allées Corbière à Castres. En parfait état, cet appartement de 3 chambres et un séjour lumineux dispose d'un balcon, d'un garage en sous-sol dans une résidence sécurisée avec ascenseur. Climatisation, dressing et nombreux rangements complètent le confort. Vue dégagée sur la verdure, en centre-ville. Loyer : 900 EUR. Contactez-nous pour visiter.
 Référence annonce : SLMH-LDE-4IE
@@ -4231,8 +3990,7 @@ Honoraires à la charge du locataire : 667 € TTC dont 339 € pour l’état d
 Dépôt de garantie : 1590 €
 Montant des charges : 105 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 830 € et 1 190 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 4, null, null, 3, true, null, $$individual$$, $$other$$, null, null, null, null),
-(1060, $$Appartement 3 pièces 74 m²$$, $$Rennes 35000 Sacrés Coeurs$$, true, 74, $$d$$, $$2025-09-01T22:00:00.000Z$$, 894, $$Appartment$$, $$d$$, $$APPARTEMENT_MEUBLE
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 830 € et 1 190 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '4', 'Castres 81100 Corporal - Rey', '3', 'true', null, null, null, 'individual', 'other', null, null, null, '174.4262'), ('1060', 'Appartement 3 pièces 74 m²', 'true', '74', 'd', '2025-09-01T22:00:00.000Z', '894', 'Appartment', 'd', 'APPARTEMENT_MEUBLE
 
 A deux pas du centre ville, dans le quartier Sacrés Coeurs, appartement sur parquet de type 3 meublé comprenant une entrée, une cuisine aménagé et équipée avec balcon, un séjour avec balcon exposé, un couloir avec placard, 2 chambres et une salle d'eau. Fenêtres neuves en double vitrage Eau froide individuelleEau chaude individuelle Chauffage individuel gaz
 
@@ -4246,8 +4004,7 @@ Dépôt de garantie : 1740 €
 Montant des charges : 24 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 890 € et 1 240 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 3, 2, null, 2, false, null, $$individual$$, $$electric$$, 1959, 5, null, null),
-(1061, $$Appartement 2 pièces 38 m²$$, $$Melun 77000$$, false, 38, $$e$$, null, 750, $$Appartment$$, $$e$$, $$Appartement À Louer
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 890 € et 1 240 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '3', 'Rennes 35000 Sacrés Coeurs', '2', 'false', '2', null, null, 'individual', 'electric', '1959', '5', null, '304.9872'), ('1061', 'Appartement 2 pièces 38 m²', 'false', '38', 'e', null, '750', 'Appartment', 'e', 'Appartement À Louer
 
 ORPI LE MÉE-SUR-SEINE vous présente cet appartement à louer, situé sur la commune de Melun.
 Il se compose d'un séjour, une cuisine, une chambre, une salle de bain, un WC ainsi que d'une cave.
@@ -4258,8 +4015,7 @@ Honoraires à la charge du locataire : 494 € TTC dont 114 € pour l’état d
 Dépôt de garantie : 620 €
 Montant des charges : 130 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 970 € et 1 350 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, null, null, 1, false, 1, $$individual$$, $$gas$$, null, null, null, null),
-(1062, $$Studio 1 pièce 18 m²$$, $$Roubaix 59100 Barbieux - Edouard Vaillant - Vauban$$, false, 18, $$d$$, $$2025-10-12T22:00:00.000Z$$, 406, $$Appartment$$, $$b$$, $$Roubaix centre, dans une résidence sécurisée à proximité du centre ville et d'Eurotéléport, à 150m du métro Charles De Gaulle, nous vous proposons ce studio meublé et fonctionnel desservant une entrée, une pièce à vivre avec placard, un coin kitchenette, et une salle-de-bains avec meuble vasque, baignoire et WC. Le chauffage est électrique individuel. Possibilité de louer une place de parking dans la résidence. Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisque : ***
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 970 € et 1 350 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Melun 77000', '1', 'false', null, null, '1', 'individual', 'gas', null, null, null, '134.0012'), ('1062', 'Studio 1 pièce 18 m²', 'false', '18', 'd', '2025-10-12T22:00:00.000Z', '406', 'Appartment', 'b', 'Roubaix centre, dans une résidence sécurisée à proximité du centre ville et d'Eurotéléport, à 150m du métro Charles De Gaulle, nous vous proposons ce studio meublé et fonctionnel desservant une entrée, une pièce à vivre avec placard, un coin kitchenette, et une salle-de-bains avec meuble vasque, baignoire et WC. Le chauffage est électrique individuel. Possibilité de louer une place de parking dans la résidence. Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisque : ***
 Référence annonce : 07_[Coordonnées masquées]
 Date de réalisation du diagnostic : 08/08/2025
 Honoraires à la charge du locataire : 234 € TTC dont 54 € pour l’état des lieux
@@ -4269,8 +4025,7 @@ Modalité de récupération des charges locatives : provision avec régularisati
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 420 € et 620 € sur les années 2021, 2022 et 2023 (abonnements compris).
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 1, null, null, null, true, null, $$individual$$, $$electric$$, null, 5, null, null),
-(1063, $$Appartement 1 pièce 13 m²$$, $$Noisy-le-Sec 93130 Centre-ville - Gare$$, false, 13, $$d$$, null, 751, $$Appartment$$, $$d$$, $$Chambre en colocation / 13m² / Bondy (RER E)
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '1', 'Roubaix 59100 Barbieux - Edouard Vaillant - Vauban', null, 'true', null, null, null, 'individual', 'electric', null, '5', null, '88.6032'), ('1063', 'Appartement 1 pièce 13 m²', 'false', '13', 'd', null, '751', 'Appartment', 'd', 'Chambre en colocation / 13m² / Bondy (RER E)
 
 Chambre meublée avec salle d'eau privative – Bail indépendant
 
@@ -4318,8 +4073,7 @@ Complément de loyer : 0 € / mois (inclus dans le loyer CC)
 Zone soumise à encadrement des loyers.
 Loyer de base : 749.99 €.
 Loyer de référence majoré (loyer de base à ne pas dépasser) : Non communiqué.
-Complément de loyer : 0.01 €.$$, 1, null, null, 1, false, null, null, null, null, null, null, null),
-(1064, $$Appartement 2 pièces 36 m²$$, $$Saint-Étienne 42000 Saint-Roch - Vivaraize - Valbenoite - Centre Deux$$, false, 36, $$d$$, null, 515, $$Appartment$$, $$a$$, $$Appartement 2 pièces 36 m²
+Complément de loyer : 0.01 €.', '1', 'Noisy-le-Sec 93130 Centre-ville - Gare', '1', 'false', null, null, null, null, null, null, null, null, '46.4595333333333'), ('1064', 'Appartement 2 pièces 36 m²', 'false', '36', 'd', null, '515', 'Appartment', 'a', 'Appartement 2 pièces 36 m²
 
 Vivaraize situé rue Jean Baptiste David, à proximité des écoles et commerces.
 T2 de 36,30m² au 1er étage sur cour d'un immeuble sécurisé, offrant une pièce à vivre lumineuse avec une cuisine équipée plaque de cuisson, hotte et four, une chambre avec rangement et balcon, une salle d'eau avec arrivée pour machine à laver et WC.
@@ -4334,8 +4088,7 @@ Date de réalisation du diagnostic énergétique : 01/08/2024
 Consommation énergie primaire : 219 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 670 € et 950 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 1, null, 1, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(1065, $$Appartement 1 pièce 31 m²$$, $$Saint-Étienne 42000 Tardy - Colline des Pères - Bizillon$$, false, 31, $$e$$, $$2025-09-26T22:00:00.000Z$$, 419, $$Appartment$$, $$e$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 670 € et 950 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Saint-Étienne 42000 Saint-Roch - Vivaraize - Valbenoite - Centre Deux', '1', 'false', '1', null, null, 'individual', 'electric', null, null, null, '158.1552'), ('1065', 'Appartement 1 pièce 31 m²', 'false', '31', 'e', '2025-09-26T22:00:00.000Z', '419', 'Appartment', 'e', 'APPARTEMENT
 
 Dans petite copropriété proche des bus. T1bis comprenant une grande cuisine meublée ouverte sur séjour, une chambre, une salle d'eau et WC.ce logement dispose également d'unecaveChauffage + eau chaude collectifs, eau froide individuelle.
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
@@ -4346,8 +4099,7 @@ Dépôt de garantie : 350 €
 Montant des charges : 69 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 780 € et 1 120 € par an. Prix moyens des énergies indexés sur l'année 2023 (abonnements compris)$$, 1, null, null, 1, true, null, null, $$gas$$, 1972, 5, null, null),
-(1066, $$Appartement 2 pièces 49 m²$$, $$Saint-Étienne 42000 La Cotonne - Montferré - La Chauvetière - Montmartre$$, true, 49, $$e$$, $$2023-07-31T22:00:00.000Z$$, 507, $$Appartment$$, $$f$$, $$Appartement 2 pièces 49 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 780 € et 1 120 € par an. Prix moyens des énergies indexés sur l'année 2023 (abonnements compris)', '1', 'Saint-Étienne 42000 Tardy - Colline des Pères - Bizillon', '1', 'true', null, null, null, null, 'gas', '1972', '5', null, '112.8262'), ('1066', 'Appartement 2 pièces 49 m²', 'true', '49', 'e', '2023-07-31T22:00:00.000Z', '507', 'Appartment', 'f', 'Appartement 2 pièces 49 m²
 
 T2 RENOVE ET MEUBLE - Saint-Etienne Proche de la gare du Clapier. Appartement rénové de type F2 de 49.39m² au rez-de-chaussée donnant sur cour. Situé rue Paillon, immeuble calme, sécurisé et bien entretenu. Composé d'une cuisine entièrement équipée (four, réfrigérateur, lave-vaisselle, plaque à induction), une salle d'eau neuve avec douche à l'italienne. Une place de parking privative est mise à votre disposition. L'appartement est raccordé à la fibre. Disponible fin aout 2025 ! Chauffage et eau chaude collectifs inclus dans les charges.
 Loyer 410€ - Charges 97€ -  Frais d'agence 348.50 € - Frais d'état des lieux 98.78€ - Dépôt de garantie 820€
@@ -4357,8 +4109,7 @@ DPE ANCIENNE VERSION.
 Surface : 49 m²
 
 Consommation énergie primaire : 276 kWh/m²/an
-Consommation énergie finale : Non communiqué$$, 2, null, null, 1, true, null, $$communal$$, $$gas$$, null, null, null, null),
-(1067, $$Appartement 3 pièces 81 m²$$, $$Nice 06000 Baumettes$$, false, 81, $$d$$, null, 1, $$Appartment$$, $$d$$, $$Appartement 3 pièces 81 m²
+Consommation énergie finale : Non communiqué', '2', 'Saint-Étienne 42000 La Cotonne - Montferré - La Chauvetière - Montmartre', '1', 'true', null, null, null, 'communal', 'gas', null, null, null, '19.0512'), ('1067', 'Appartement 3 pièces 81 m²', 'false', '81', 'd', null, '1', 'Appartment', 'd', 'Appartement 3 pièces 81 m²
 
 NICE / BAUMETTES
 
@@ -4375,8 +4126,7 @@ Date de réalisation du diagnostic énergétique : 31/03/2022
 Consommation énergie primaire : 191 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 880 € et 1 250 € par an. Prix moyens des énergies indexés sur l'année 2022 (abonnements compris)$$, 3, 1, null, 2, true, null, $$communal$$, $$other$$, 1949, 4, null, null),
-(1068, $$Appartement 4 pièces 89 m²$$, $$Nîmes 30900 Vacquerolles - Golf$$, false, 89, $$c$$, null, 1, $$Appartment$$, $$c$$, $$Appartement 4 pièces 89 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 880 € et 1 250 € par an. Prix moyens des énergies indexés sur l'année 2022 (abonnements compris)', '3', 'Nice 06000 Baumettes', '2', 'true', '1', null, null, 'communal', 'other', '1949', '4', null, '19.0512'), ('1068', 'Appartement 4 pièces 89 m²', 'false', '89', 'c', null, '1', 'Appartment', 'c', 'Appartement 4 pièces 89 m²
 
 Dans un cadre de verdure, donnant sur le golf de Vacquerolles, bel appartement de type P4 de 88.90 m², comprenant entrée, séjour, cuisine aménagée, 3 chambres, un dégagement, , salle de bains, WC, nombreux placards. Vous pourrez profiter de sa belle terrasse de 18 m² et de la piscine dans la résidence. Annexes garage et cave. La provision sur charges comprend les charges communes générales, l'eau froide, ainsi qu'une provision pour la taxe d'ordures ménagères. 
 Mandat n° 2051
@@ -4388,8 +4138,7 @@ Date de réalisation du diagnostic énergétique : 18/06/2025
 Consommation énergie primaire : 98 kWh/m²/an
 Consommation énergie finale : 85 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 940 € et 1 320 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 4, 1, null, 3, false, null, null, null, null, 2, null, null),
-(1069, $$Appartement 3 pièces 95 m²$$, $$Flétrange 57690$$, false, 95, $$c$$, null, 630, $$Appartment$$, $$c$$, $$Appartement 3 pièces 95 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 940 € et 1 320 € sur les années 2021, 2022 et 2023 (abonnements compris).', '4', 'Nîmes 30900 Vacquerolles - Golf', '3', 'false', '1', null, null, null, null, null, '2', null, '141.4262'), ('1069', 'Appartement 3 pièces 95 m²', 'false', '95', 'c', null, '630', 'Appartment', 'c', 'Appartement 3 pièces 95 m²
 
 L'agence Laforêt immobilier vous présente en exclusivité à la location cet appartement de 95m² situé au 1er étage comprenant :
 
@@ -4411,8 +4160,7 @@ Consommation énergie finale : Non communiqué
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 550 € et 2 130 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 3, 1, null, 2, false, 1, $$individual$$, $$other$$, 1972, 1, null, null),
-(1070, $$Logement sénior entièrement neuf à louer rue des Ecoles à Porcelette, calme et confort au rendez-vous$$, $$Porcelette 57890$$, false, 67, $$c$$, $$2025-09-30T22:00:00.000Z$$, 759, $$Appartment$$, $$c$$, $$Pas de frais d'agence.
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '3', 'Flétrange 57690', '2', 'false', '1', null, '1', 'individual', 'other', '1972', '1', null, '149.6762'), ('1070', 'Logement sénior entièrement neuf à louer rue des Ecoles à Porcelette, calme et confort au rendez-vous', 'false', '67', 'c', '2025-09-30T22:00:00.000Z', '759', 'Appartment', 'c', 'Pas de frais d'agence.
 Vous cherchez un logement confortable, sécurisé et adapté à vos besoins dans un environnement paisible ? Découvrez ces appartements neufs de type T3, situés dans une ancienne école primaire entièrement requalifiée en résidence seniors, au cœur d’un quartier pavillonnaire calme à Porcelette.
 🛏️ Description du logement type F3  :
 • Rez-de-chaussée avec terrasse privative et jardin clôturé : idéal pour profiter des beaux jours en toute intimité, à l'étage grande terrasse de 12 m²
@@ -4441,8 +4189,7 @@ Volets roulants électriques
 Redevance ordures ménagères en fonction du nombre de personne.
 Vous pouvez effectuer la visite virtuelle du logement témoin en cliquant sur le lien URL
 Disponible mi-octobre 2025
-“ Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques.gouv.fr ”.$$, 3, null, null, 2, true, 1, $$individual$$, $$electric$$, null, 1, null, null),
-(1071, $$Appartement 2 pièces 37 m²$$, $$Ronchin 59790 Cité Jardin$$, false, 37, $$e$$, $$2025-08-07T22:00:00.000Z$$, 670, $$Appartment$$, $$b$$, $$Appartement type 2
+“ Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques.gouv.fr ”.', '3', 'Porcelette 57890', '2', 'true', null, null, '1', 'individual', 'electric', null, '1', null, '187.8912'), ('1071', 'Appartement 2 pièces 37 m²', 'false', '37', 'e', '2025-08-07T22:00:00.000Z', '670', 'Appartment', 'b', 'Appartement type 2
 
 Ronchin, à proximité immédiate des commerces et des axes routiers. Dans une résidence sécurisée et récente, nous vous proposons cet appartement comprenant une entrée, une pièce de vie avec espace cuisine donnant sur le balcon, une chambre et une salle de bain, des WC séparés. Une place de parking privative est mise à disposition avec ce bien. L'eau froide est incluse dans les charges. Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisque : ***
 Référence annonce : 07_1098_01_0044
@@ -4454,8 +4201,7 @@ Modalité de récupération des charges locatives : provision avec régularisati
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 710 € et 1 000 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 2, null, null, 1, true, 1, $$individual$$, $$electric$$, null, 5, null, null),
-(1072, $$Appartement 2 pièces 49 m²$$, $$Lucé 28110 Centre-ville$$, false, 49, $$d$$, $$2025-09-16T22:00:00.000Z$$, 614, $$Appartment$$, $$b$$, $$APPARTEMENT
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '2', 'Ronchin 59790 Cité Jardin', '1', 'true', null, null, '1', 'individual', 'electric', null, '5', null, '224.1792'), ('1072', 'Appartement 2 pièces 49 m²', 'false', '49', 'd', '2025-09-16T22:00:00.000Z', '614', 'Appartment', 'b', 'APPARTEMENT
 
 à 15 minutes à pied du centre ville, résidence récente, bel appartement avec balcon, parking privatif entrée, séjour avec coin cuisine et balcon, chambre, sdb, degagement
 
@@ -4467,8 +4213,7 @@ Date de réalisation du diagnostic : 17/03/2022
 Honoraires à la charge du locataire : 542 € TTC dont 147 € pour l’état des lieux
 Dépôt de garantie : 554 €
 Montant des charges : 60 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 2, 3, null, null, true, null, $$individual$$, $$electric$$, 2010, null, null, null),
-(1073, $$Appartement 2 pièces 48 m²$$, $$Avignon 84000 Palais des Papes - Zone Piétonne$$, false, 48, $$d$$, $$2025-06-23T22:00:00.000Z$$, 599, $$Appartment$$, $$b$$, $$Appartement À Louer
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '2', 'Lucé 28110 Centre-ville', null, 'true', '3', null, null, 'individual', 'electric', '2010', null, null, '208.3872'), ('1073', 'Appartement 2 pièces 48 m²', 'false', '48', 'd', '2025-06-23T22:00:00.000Z', '599', 'Appartment', 'b', 'Appartement À Louer
 
 Avignon intra-muros, quartier Banasterie, très beau T2 avec une cuisine ouverte sur le séjour, une chambre, une salle de bains. Libre tout de suite !
 Référence annonce : GR2K-Y88-YTM
@@ -4476,8 +4221,7 @@ Consommation énergétique : 242 kWh/m²/an
 Emission de gaz à effet de serre : 7 CO2/m²/an
 Honoraires à la charge du locataire : 629 € TTC dont 145 € pour l’état des lieux
 Dépôt de garantie : 554 €
-Montant des charges : 45 € / mois$$, 2, 1, null, 1, false, 1, null, $$electric$$, null, null, null, null),
-(1074, $$Appartement 3 pièces 74 m²$$, $$Melun 77000 Centre-ville$$, false, 74, $$d$$, $$2025-06-29T22:00:00.000Z$$, 1, $$Appartment$$, $$b$$, $$CENTRE VILLE de MELUN, GRAND F3 74m² + PARKING
+Montant des charges : 45 € / mois', '2', 'Avignon 84000 Palais des Papes - Zone Piétonne', '1', 'false', '1', null, '1', null, 'electric', null, null, null, '204.5232'), ('1074', 'Appartement 3 pièces 74 m²', 'false', '74', 'd', '2025-06-29T22:00:00.000Z', '1', 'Appartment', 'b', 'CENTRE VILLE de MELUN, GRAND F3 74m² + PARKING
 
 MELUN : Dans une résidence situé en centre ville, nous vous proposons cet appartement F3, de 74.44 m² proposant de beaux volumes et comprenant : entrée, dégagement, séjour avec balcon vue Seine, cuisine aménagée, 2 grandes chambres, salle de bains, WC. PARKING EN SOUS-SOL. LIBRE DE SUITE
 Référence annonce : 3XQB-U14-W2N
@@ -4486,8 +4230,7 @@ Honoraires à la charge du locataire : 967 € TTC dont 223 € pour l’état d
 Dépôt de garantie : 955 €
 Montant des charges : 100 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 300 € et 1 800 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 2, null, 2, true, 1, $$individual$$, $$electric$$, null, null, null, null),
-(1075, $$Duplex 5 pièces 116 m²$$, $$Versailles 78000 Montreuil$$, false, 116, $$d$$, null, 3, $$Appartment$$, $$d$$, $$Appartement T5 duplex neuf à louer
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 300 € et 1 800 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Melun 77000 Centre-ville', '2', 'true', '2', null, '1', 'individual', 'electric', null, null, null, '304.9872'), ('1075', 'Duplex 5 pièces 116 m²', 'false', '116', 'd', null, '3', 'Appartment', 'd', 'Appartement T5 duplex neuf à louer
 
 Dans une nouvelle résidence neuve "Le Domaine La Bruyère", location d'un grand 5 pièces en duplex . Equipé d'un salon/séjour, salle à manger avec cuisine ouverte semi équipée (hotte, plaque de cuisson à induction, meuble haut et bas), de 4 chambres avec placard aménagé, salles de bains, une salle d'eau, deux WC.
 Parking inclus dans le montant du loyer.
@@ -4521,8 +4264,7 @@ Référence annonce : HPIP-27I-8F2
 Date de réalisation du diagnostic : 05/05/2025
 Honoraires à la charge du locataire : 1607 € TTC dont 349 € pour l’état des lieux
 Dépôt de garantie : 2678 €
-Montant des charges : 412 € / mois$$, 5, null, null, 4, false, 1, $$individual$$, $$gas$$, null, null, null, null),
-(1076, $$Studio 1 pièce 34 m²$$, $$Rueil-Malmaison 92500 Plaine Gare$$, false, 34, $$f$$, null, 1, $$Appartment$$, $$f$$, $$Studio / 34m² / Rueil-Malmaison (RER A)
+Montant des charges : 412 € / mois', '5', 'Versailles 78000 Montreuil', '4', 'false', null, null, '1', 'individual', 'gas', null, null, null, '263.617866666667'), ('1076', 'Studio 1 pièce 34 m²', 'false', '34', 'f', null, '1', 'Appartment', 'f', 'Studio / 34m² / Rueil-Malmaison (RER A)
 
 Emplacement rare – Studio de charme au cœur du centre historique
 
@@ -4555,8 +4297,7 @@ Zone soumise à encadrement des loyers.
 Loyer de base : 1169 €.
 Loyer de référence majoré (loyer de base à ne pas dépasser) : Non communiqué.
 Complément de loyer : 1 €.
-Logement à consommation énergétique excessive : classe F$$, 1, null, null, 1, false, null, null, null, null, null, null, null),
-(1077, $$Appartement 4 pièces 105 m²$$, $$Rueil-Malmaison 92500 Mazurieres$$, false, 105, $$v$$, null, 2, $$Appartment$$, $$c$$, $$Appartement 4 pièces 105 m²
+Logement à consommation énergétique excessive : classe F', '1', 'Rueil-Malmaison 92500 Plaine Gare', '1', 'false', null, null, null, null, null, null, null, null, '159.3012'), ('1077', 'Appartement 4 pièces 105 m²', 'false', '105', 'v', null, '2', 'Appartment', 'c', 'Appartement 4 pièces 105 m²
 
 RUEIL MALMAISON - 63/65 avenue de fouilleuse - Hauts-de-Rueil
 Situé à proximité immédiate du PARIS COUNTRY CLUB - Cinéma Ariel - 
@@ -4573,8 +4314,7 @@ Chauffage collectif au gaz. (eau froide et eau chaude inclus dans le loyer)
 Surface : 105 m²
 
 Consommation énergie primaire : 170 kWh/m²/an
-Consommation énergie finale : Non communiqué$$, 4, 4, null, 3, true, 1, null, null, 2014, 5, null, null),
-(1078, $$Studio 1 pièce 22 m²$$, $$Aubervilliers 93300 Villette - Quatre-Chemins$$, false, 22, $$e$$, null, 875, $$Appartment$$, $$e$$, $$Studio / 22m² / Pantin (RER E)
+Consommation énergie finale : Non communiqué', '4', 'Rueil-Malmaison 92500 Mazurieres', '3', 'true', '4', null, '1', null, null, '2014', '5', null, '336.6762'), ('1078', 'Studio 1 pièce 22 m²', 'false', '22', 'e', null, '875', 'Appartment', 'e', 'Studio / 22m² / Pantin (RER E)
 
 À louer : Charmant Studio Meublé – Métro Quatre Chemins – 875 €/mois CC
   Aubervilliers – À 2 pas du métro Quatre Chemins (Ligne 7)
@@ -4614,8 +4354,7 @@ Complément de loyer : 0 € / mois (inclus dans le loyer CC)
 Zone soumise à encadrement des loyers.
 Loyer de base : 824.99 €.
 Loyer de référence majoré (loyer de base à ne pas dépasser) : Non communiqué.
-Complément de loyer : 0.01 €.$$, 1, 3, null, 1, false, null, null, null, null, null, null, null),
-(1079, $$Appartement 3 pièces 88 m²$$, $$Rouen 76000 Joffre - Mutualité$$, false, 88, $$d$$, null, 920, $$Appartment$$, $$d$$, $$Appartement 3 pièces 88 m²
+Complément de loyer : 0.01 €.', '1', 'Aubervilliers 93300 Villette - Quatre-Chemins', '1', 'false', '3', null, null, null, null, null, null, null, '85.6012'), ('1079', 'Appartement 3 pièces 88 m²', 'false', '88', 'd', null, '920', 'Appartment', 'd', 'Appartement 3 pièces 88 m²
 
 REFERENCE ANNONCE : 14131/894 - CENTRE VILLE DE ROUEN
 
@@ -4639,8 +4378,7 @@ Consommation énergie finale : Non communiqué
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 490 € et 2 070 € sur les années 2021, 2022 et 2023 (abonnements compris).
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 3, 1, null, 2, false, null, null, null, null, null, null, null),
-(1080, $$Appartement 4 pièces 101 m²$$, $$Rouen 76100 Jardin des Plantes$$, false, 101, $$c$$, $$2025-04-07T22:00:00.000Z$$, 1, $$Appartment$$, $$c$$, $$Appartement T4
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '3', 'Rouen 76000 Joffre - Mutualité', '2', 'false', '1', null, null, null, null, null, null, null, '204.584533333333'), ('1080', 'Appartement 4 pièces 101 m²', 'false', '101', 'c', '2025-04-07T22:00:00.000Z', '1', 'Appartment', 'c', 'Appartement T4
 
 A Rouen, au centre de la rive sud, proche des métros et accès au voies rapides, et à proximité des commodités, dans la résidence ALLEE MOZART, un appartement T4 n° E603 de 101.83 m², situé au rez-de-chaussée du bâtiment E. Il comprend une entrée avec placard, un séjour avec cuisine ouverte de 47.81 m² donnant sur une terrasse de 32 m² et un jardin de 56 m² , un dégagement avec placard desservant 3 chambres dont une avec placard, une salle de bains et un WC indépendant. Au sous-sol, deux parkings n° 190 et n° 144. Eau chaude et chauffage gaz individuels. Eau froide, entretien parties communes et espaces verts communs, compris dans les provisions sur charges mensuelles et donnant lieu à une régularisation annuelle. Quant aux honoraires de rédaction des états des lieux, ils sont facturés par AFEDIM Gestion pour 305 € TTC, après réalisation, lors de l'entrée dans les lieux. Plus de détails sur notre site internet AFEDIM.
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr
@@ -4650,8 +4388,7 @@ Honoraires à la charge du locataire : 1119 € TTC
 Dépôt de garantie : 1090 €
 Montant des charges : 114 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 820 € et 1 160 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 4, null, null, 3, false, 1, $$individual$$, $$gas$$, null, null, null, null),
-(1081, $$Appartement 2 pièces 75 m²$$, $$Noyers-sur-Cher 41140$$, false, 75, $$d$$, $$2025-05-05T22:00:00.000Z$$, 485, $$Appartment$$, $$b$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 820 € et 1 160 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '4', 'Rouen 76100 Jardin des Plantes', '3', 'false', null, null, '1', 'individual', 'gas', null, null, null, '157.9262'), ('1081', 'Appartement 2 pièces 75 m²', 'false', '75', 'd', '2025-05-05T22:00:00.000Z', '485', 'Appartment', 'b', 'APPARTEMENT
 
 A NOYER SUR CHER, appartement situé au 1er étage d'un petit immeuble comprenant : cuisine aménagée, séjour, chambre, débarras, salle d'eau et wc. Chauffage électrique individuel.Eau froide individuel.Disponibilité immédiate.Dépôt de dossier sur le site *** avant toute visite.
 
@@ -4663,8 +4400,7 @@ Date de réalisation du diagnostic : 28/03/2025
 Honoraires à la charge du locataire : 485 € TTC dont 226 € pour l’état des lieux
 Dépôt de garantie : 485 €
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 420 € et 1 970 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 1, null, null, false, null, $$individual$$, $$electric$$, 1948, null, null, null),
-(1082, $$Appartement 2 pièces 40 m²$$, $$Cergy 95000 Grand Centre$$, false, 40, $$c$$, null, 1, $$Appartment$$, $$c$$, $$BEAU T2 NEUF DE 40 M²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 420 € et 1 970 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Noyers-sur-Cher 41140', null, 'false', '1', null, null, 'individual', 'electric', '1948', null, null, '308.8512'), ('1082', 'Appartement 2 pièces 40 m²', 'false', '40', 'c', null, '1', 'Appartment', 'c', 'BEAU T2 NEUF DE 40 M²
 
 À LOUER – APPARTEMENT NEUF À CERGY
 
@@ -4693,8 +4429,7 @@ Consommation énergétique : 74 kWh/m²/an
 Emission de gaz à effet de serre : 11 CO2/m²/an
 Honoraires à la charge du locataire : 524 € TTC
 Dépôt de garantie : 842 €
-Montant des charges : 179 € / mois$$, 2, null, null, 1, false, null, $$communal$$, null, null, null, null, null),
-(1083, $$Appartement 1 pièce 41 m²$$, $$Saint-Étienne 42000 Centre-ville - Peuple - Chavanelle$$, true, 41, $$d$$, $$2024-12-31T23:00:00.000Z$$, 495, $$Appartment$$, $$d$$, $$Appartement 1 pièce 41 m²
+Montant des charges : 179 € / mois', '2', 'Cergy 95000 Grand Centre', '1', 'false', null, null, null, 'communal', null, null, null, null, '19.0512'), ('1083', 'Appartement 1 pièce 41 m²', 'true', '41', 'd', '2024-12-31T23:00:00.000Z', '495', 'Appartment', 'd', 'Appartement 1 pièce 41 m²
 
 APPARTEMENT MEUBLE - PROCHE ECOLE ARCHITECTURE - CENTRE VILLE - Centre ville, à proximité de la place jacquard, gare du clapier. Rue des deux amis. Immeuble sécurisé avec interphone et ascenseur. Proche de toutes commodités des écoles Tezenas du Montcel, architecture. Appartement de type 2 pièces de 40m² entièrement meublé et rénové, composé d'une cuisine séparée, séjour avec coin nuit et accès à un grand balcon, salle de bain et wc. Chauffage et eau chaude collectifs (régularisation annuelle).  Loyer 400€ + Charges 95€ soit 495 € CHARGES COMPRISES (avec régularisation annuelle / montant pour un usage standard) - Dépôt de garantie 400€ - Frais d'agence 325.44€ - Frais d'état des lieux 81.36€ Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr. 
 DPE ANCIENNE VERSION.
@@ -4702,8 +4437,7 @@ DPE ANCIENNE VERSION.
 Surface : 41 m²
 
 Consommation énergie primaire : 199 kWh/m²/an
-Consommation énergie finale : Non communiqué$$, 1, 3, null, null, true, null, $$communal$$, null, null, null, null, null),
-(1084, $$Appartement 2 pièces 53 m²$$, $$Saint-Quentin 02100 Centre-ville$$, false, 53, $$e$$, null, 550, $$Appartment$$, $$c$$, $$Appartement 2 pièces 53 m²
+Consommation énergie finale : Non communiqué', '1', 'Saint-Étienne 42000 Centre-ville - Peuple - Chavanelle', null, 'true', '3', null, null, 'communal', null, null, null, null, '19.0512'), ('1084', 'Appartement 2 pièces 53 m²', 'false', '53', 'e', null, '550', 'Appartment', 'c', 'Appartement 2 pièces 53 m²
 
 Votre Agence QUENTIMMO  St Quentin vous propose à la location cet appartement très lumineux situé en plein centre ville situé dans une résidence sécurisée au 2ème étage avec ascenseur.
 Il se compose d'une entrée desservant un spacieux séjour avec  un espace cuisine équipée (plaque, hotte, frigo), une chambre, et une salle de bain et WC séparé.
@@ -4718,8 +4452,7 @@ Modalité de récupération des charges locatives : Prévisionnelles mensuelles 
 Date de réalisation du diagnostic énergétique : 09/09/2021
 
 Consommation énergie primaire : 296 kWh/m²/an
-Consommation énergie finale : Non communiqué$$, 2, 2, null, 1, true, 1, null, null, null, 3, null, null),
-(1085, $$Appartement 3 pièces 63 m²$$, $$Bar-le-Duc 55000 Centre-ville$$, false, 63, $$e$$, $$2024-08-27T22:00:00.000Z$$, 420, $$Appartment$$, $$e$$, $$À louer : Appartement T3 de 60m², en rez-de-chaussée dans une rue calme
+Consommation énergie finale : Non communiqué', '2', 'Saint-Quentin 02100 Centre-ville', '1', 'true', '2', null, '1', null, null, null, '3', null, '179.3762'), ('1085', 'Appartement 3 pièces 63 m²', 'false', '63', 'e', '2024-08-27T22:00:00.000Z', '420', 'Appartment', 'e', 'À louer : Appartement T3 de 60m², en rez-de-chaussée dans une rue calme
 
 À louer : Bel appartement T3 de 60m², idéalement situé en rez-de-chaussée dans une rue calme, à proximité du centre-ville.
 
@@ -4738,8 +4471,7 @@ Dépôt de garantie : 390 €
 Montant des charges : 30 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 980 € et 1 390 € par an. Prix moyens des énergies indexés sur l'année 2022 (abonnements compris)$$, 3, null, null, 2, false, null, $$individual$$, null, null, null, null, null),
-(1086, $$Appartement 1 pièce 40 m²$$, $$Saint-Étienne 42100$$, false, 40, $$d$$, $$2023-12-31T23:00:00.000Z$$, 480, $$Appartment$$, $$d$$, $$Appartement 1 pièce 40 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 980 € et 1 390 € par an. Prix moyens des énergies indexés sur l'année 2022 (abonnements compris)', '3', 'Bar-le-Duc 55000 Centre-ville', '2', 'false', null, null, null, 'individual', null, null, null, null, '209.6262'), ('1086', 'Appartement 1 pièce 40 m²', 'false', '40', 'd', '2023-12-31T23:00:00.000Z', '480', 'Appartment', 'd', 'Appartement 1 pièce 40 m²
 
 Proximité école de Mines dans belle résidence arborée, Studio avec coin chambre au 3eme étage avec ascenseur, chauffage et eau chaude collectifs, ascenseur, parking. 
  Loyer de 480,00 euros par mois charges comprises dont 80,00 euros par mois de provision pour charges (soumis à la régularisation annuelle). 
@@ -4752,8 +4484,7 @@ Date de réalisation du diagnostic énergétique : 30/01/2024
 Consommation énergie primaire : 247 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 570 € et 830 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)$$, 1, 3, null, null, true, 1, $$communal$$, $$gas$$, null, null, null, null),
-(1087, $$Appartement 4 pièces 84 m²$$, $$Schiltigheim 67300 Ecrivains$$, true, 84, $$d$$, null, 976, $$Appartment$$, $$d$$, $$Appartement 4 pièces 84 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 570 € et 830 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)', '1', 'Saint-Étienne 42100', null, 'true', '3', null, '1', 'communal', 'gas', null, null, null, '19.0512'), ('1087', 'Appartement 4 pièces 84 m²', 'true', '84', 'd', null, '976', 'Appartment', 'd', 'Appartement 4 pièces 84 m²
 
 VISITE VIRTUELLE A VENIR !
 
@@ -4777,8 +4508,7 @@ Consommation énergie finale : Non communiqué
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 160 € et 1 620 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 4, 4, null, 2, false, 1, $$individual$$, $$gas$$, 1970, 4, null, null),
-(1088, $$Appartement F2 en duplex à TREPAIL$$, $$Trépail 51380$$, false, 73, $$e$$, null, 580, $$Appartment$$, $$b$$, $$Appartement RENOVE F2 en duplex à TREPAIL 1 Rue d'Ambonnay et comprenant :
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '4', 'Schiltigheim 67300 Ecrivains', '2', 'false', '4', null, '1', 'individual', 'gas', '1970', '4', null, '196.1512'), ('1088', 'Appartement F2 en duplex à TREPAIL', 'false', '73', 'e', null, '580', 'Appartment', 'b', 'Appartement RENOVE F2 en duplex à TREPAIL 1 Rue d'Ambonnay et comprenant :
 
 Au rez-de-chaussée : Entrée dans pièce principale avec coin cuisine - une salle d'eau avec douche, lavabo et WC - 
 A l'étage : une pièce en mezzanine - une grande chambre – Rangements - 
@@ -4788,8 +4518,7 @@ Estimation des coûts annuels d’énergie du logement :
 Entre 1740 euros et 2380 euros (prix indexés sur 2021,2022,2023) 
 DEPOT DE GARANTIE : 580 euros
 DISPONIBLE   
-HONORAIRES CHARGE LOCATAIRE : 395 euros$$, 2, null, null, 1, false, 1, $$individual$$, $$electric$$, null, null, null, null),
-(1089, $$Appartement 2 pièces 114 m²$$, $$Le Tampon 97430$$, true, 114, null, null, null, $$Appartment$$, null, $$CHAMBRE MEUBLÉE À LOUER EN COLOCATION AU TAMPON DE LA RÉUNION, venez découvrir la chambre disponible dans un appartement T5 d'une surface habitable d'environ 114,28 m².
+HONORAIRES CHARGE LOCATAIRE : 395 euros', '2', 'Trépail 51380', '1', 'false', null, null, '1', 'individual', 'electric', null, null, null, '423.7632'), ('1089', 'Appartement 2 pièces 114 m²', 'true', '114', null, null, null, 'Appartment', null, 'CHAMBRE MEUBLÉE À LOUER EN COLOCATION AU TAMPON DE LA RÉUNION, venez découvrir la chambre disponible dans un appartement T5 d'une surface habitable d'environ 114,28 m².
 
 DISPONIBLE:
 
@@ -4807,17 +4536,13 @@ Les informations sur les risques auxquels ce bien est exposé sont disponibles s
 Référence annonce : YS7F-S26-QA1
 Non soumis au DPE
 Dépôt de garantie : 500 €
-Montant des charges : 138 € / mois$$, 2, null, null, 1, false, 1, null, null, null, null, null, null),
-(1090, $$T3 secteur calme à Bréviandes$$, $$Bréviandes 10450$$, false, null, $$e$$, $$2025-12-31T23:00:00.000Z$$, 670, $$Appartment$$, $$c$$, $$Appart lumineux dans petite copro. Séjour 50m² au sol communiquant cuisine aménagée avec mange debout [nombreux rangements hauts et bas] et équipée [four, plaques, lave vaisselle]. 2 ch, salle de bain avec vélux [armoire miroirs et rangements]. Placard avec étagères sur palier. Chauffage élec. Grande cave en sous-sol. Parking privé pour 1 voiture. Libre le 1er janvier 2026.$$, 3, 2, null, 2, false, 1, $$individual$$, $$electric$$, 2005, 2, null, null),
-(1091, $$T2 rénové et lumineux, centre ville Poitiers, proche gare$$, $$Poitiers 86000 Centre-ville$$, false, 47, $$e$$, $$2025-10-31T23:00:00.000Z$$, 740, $$Appartment$$, $$d$$, $$Appartement T2 de 47m2, en centre ville de Poitiers, au calme, vue parc. 
+Montant des charges : 138 € / mois', '2', 'Le Tampon 97430', '1', 'false', null, null, '1', null, null, null, null, null, '363.9012'), ('1090', 'T3 secteur calme à Bréviandes', 'false', null, 'e', '2025-12-31T23:00:00.000Z', '670', 'Appartment', 'c', 'Appart lumineux dans petite copro. Séjour 50m² au sol communiquant cuisine aménagée avec mange debout [nombreux rangements hauts et bas] et équipée [four, plaques, lave vaisselle]. 2 ch, salle de bain avec vélux [armoire miroirs et rangements]. Placard avec étagères sur palier. Chauffage élec. Grande cave en sous-sol. Parking privé pour 1 voiture. Libre le 1er janvier 2026.', '3', 'Bréviandes 10450', '2', 'false', '2', null, '1', 'individual', 'electric', '2005', '2', null, '19.0512'), ('1091', 'T2 rénové et lumineux, centre ville Poitiers, proche gare', 'false', '47', 'e', '2025-10-31T23:00:00.000Z', '740', 'Appartment', 'd', 'Appartement T2 de 47m2, en centre ville de Poitiers, au calme, vue parc. 
 Localisation idéale à proximité immédiate du parc de Blossac, à 8 mn de la place d'arme et à 10 minutes de la gare à pied. 
 L'appartement à été récemment refait à neuf (2023) et comprend une chambre, un vaste séjour, dressing, cuisine et salle de bain de standing. 
 Benéficiant d'une double exposition et d'une vue sur le parc depuis la chambre, l'appartement est très lumineux. 
 Idéal jeunes pro.
 580€+160€ de charges, EAU CHAUDE ET CHAUFFAGE INCLUS. 
-Disponible au 1er novembre.$$, 2, 1, null, 1, false, 1, $$communal$$, $$gas$$, 1900, 3, null, null),
-(1092, $$Location appartement a GUIGNICOURT SUR VENCE L'ANCIENNE FORGE 08430$$, $$Charleville-Mézières 08000 La Houillère$$, false, 76, $$c$$, $$2025-10-31T23:00:00.000Z$$, 550, $$Appartment$$, $$c$$, $$je loue un appartement a 6 mn  de Charleville sur L 'A 34  au 1er étage. Le logement comprends 1 cuisine 1 séjour 2 chambres .1 salle de bain et plusieurs grands placards .La visite est possible dès maintenant ainsi que la réservation$$, 3, 1, null, 2, false, 1, $$individual$$, $$electric$$, 1920, 2, null, null),
-(1093, $$Type 2 meublé et équipé dans résidence de Coliving à Montpellier - Centre-ville / Antigone$$, $$Montpellier 34000 Antigone$$, true, 32, $$b$$, null, 1, $$Appartment$$, $$b$$, $$⚡Consultez nos disponibilités, planifiez votre visite ou réservez directement votre appartement en ligne.
+Disponible au 1er novembre.', '2', 'Poitiers 86000 Centre-ville', '1', 'false', '1', null, '1', 'communal', 'gas', '1900', '3', null, '19.0512'), ('1092', 'Location appartement a GUIGNICOURT SUR VENCE L'ANCIENNE FORGE 08430', 'false', '76', 'c', '2025-10-31T23:00:00.000Z', '550', 'Appartment', 'c', 'je loue un appartement a 6 mn  de Charleville sur L 'A 34  au 1er étage. Le logement comprends 1 cuisine 1 séjour 2 chambres .1 salle de bain et plusieurs grands placards .La visite est possible dès maintenant ainsi que la réservation', '3', 'Charleville-Mézières 08000 La Houillère', '2', 'false', '1', null, '1', 'individual', 'electric', '1920', '2', null, '210.5712'), ('1093', 'Type 2 meublé et équipé dans résidence de Coliving à Montpellier - Centre-ville / Antigone', 'true', '32', 'b', null, '1', 'Appartment', 'b', '⚡Consultez nos disponibilités, planifiez votre visite ou réservez directement votre appartement en ligne.
 
 T2 meublé situé sur l’avenue Jean Mermoz (quartier Antigone) au sein d’une grande résidence de Coliving.
 
@@ -4873,11 +4598,8 @@ Nous vous proposons bien plus qu’un simple logement. Ici vous pourrez partager
 - Aéroport Montpellier à 15min en voiture
 - Centre commercial Polygone à 3mn à pied
 - Commerces de proximité : nombreux commerces et restaurants, marché couvert, ...
-- Parking en sous sol de l’immeuble en supplément$$, 2, null, null, null, true, null, null, null, null, null, null, null),
-(1094, $$Lachassagne type 2$$, $$Lachassagne 69480$$, false, 32, $$d$$, $$2025-08-31T22:00:00.000Z$$, 495, $$Appartment$$, $$d$$, $$CENTRE LACHASSAGNE, DANS PETIT IMMEUBLE TRES CALME, LOGEMENT DE TYPE 2 AU 3EME ETAGE COMPOSE D'UN SEJOUR AVEC UNE CUISINE US, UNE CHAMBRE, UNE SALLE DE DOUCHE AVEC WC, DOUBLE VITRAGE ET ISOLATION THERMIQUE, CHAUFFAGE CENTRAL GAZ INDIVIDUEL, UNE CAVE, UN PARKING PRIVATIF, PAS DE FRAIS D'AGENCE, LOYER MENSUEL 450 EUROS + 45 EUROS DE CHARGES POUR L'ENTRETIEN DES PARTIES COMMUNES$$, 2, 3, null, 1, false, 1, $$individual$$, $$gas$$, 2000, 3, null, null),
-(1095, $$LOUE Apparemment T4$$, $$Lille 59800 Centre$$, false, 82, $$d$$, $$2025-09-30T22:00:00.000Z$$, 1, $$Appartment$$, $$d$$, $$Apparemment meublé T4 duplex 3/4 étages  3 chambres - cuisine équipée - garage box 2 voitures ( vélo) . Métro / TGV / Autoroute.
-État impeccable. Une maison sur les toits ! très lumineux et  très ensoleillé  .$$, 7, 4, null, 3, false, 1, $$individual$$, $$electric$$, 2008, 4, null, null),
-(1096, $$Studio 25m2 meublé refait à neuf centre village, prix charges comprises (eau, elec, internet)$$, $$Éguilles 13510$$, true, 25, $$b$$, $$2025-11-30T23:00:00.000Z$$, 790, $$Appartment$$, null, $$Direct propriétaire – pas de frais d’agence
+- Parking en sous sol de l’immeuble en supplément', '2', 'Montpellier 34000 Antigone', null, 'true', null, null, null, null, null, null, null, null, '45.4512'), ('1094', 'Lachassagne type 2', 'false', '32', 'd', '2025-08-31T22:00:00.000Z', '495', 'Appartment', 'd', 'CENTRE LACHASSAGNE, DANS PETIT IMMEUBLE TRES CALME, LOGEMENT DE TYPE 2 AU 3EME ETAGE COMPOSE D'UN SEJOUR AVEC UNE CUISINE US, UNE CHAMBRE, UNE SALLE DE DOUCHE AVEC WC, DOUBLE VITRAGE ET ISOLATION THERMIQUE, CHAUFFAGE CENTRAL GAZ INDIVIDUEL, UNE CAVE, UN PARKING PRIVATIF, PAS DE FRAIS D'AGENCE, LOYER MENSUEL 450 EUROS + 45 EUROS DE CHARGES POUR L'ENTRETIEN DES PARTIES COMMUNES', '2', 'Lachassagne 69480', '1', 'false', '3', null, '1', 'individual', 'gas', '2000', '3', null, '86.5178666666667'), ('1095', 'LOUE Apparemment T4', 'false', '82', 'd', '2025-09-30T22:00:00.000Z', '1', 'Appartment', 'd', 'Apparemment meublé T4 duplex 3/4 étages  3 chambres - cuisine équipée - garage box 2 voitures ( vélo) . Métro / TGV / Autoroute.
+État impeccable. Une maison sur les toits ! très lumineux et  très ensoleillé  .', '7', 'Lille 59800 Centre', '3', 'false', '4', null, '1', 'individual', 'electric', '2008', '4', null, '335.8992'), ('1096', 'Studio 25m2 meublé refait à neuf centre village, prix charges comprises (eau, elec, internet)', 'true', '25', 'b', '2025-11-30T23:00:00.000Z', '790', 'Appartment', null, 'Direct propriétaire – pas de frais d’agence
 Libre début Décembre, je loue toutes charges comprises (eau, électricité, internet)
 Parking gratuit disponible.
 
@@ -4908,19 +4630,16 @@ Sèche serviette
 Douche cascade
 
 Non fumeur
-790€ charges comprises (eau, électricité, internet)$$, 1, null, null, null, false, 1, $$individual$$, $$electric$$, null, 3, null, null),
-(1097, $$Studio 30m²$$, $$Limoges 87000 Centre-Hôtel de Ville Emailleurs$$, false, 30, $$d$$, null, 440, $$Appartment$$, $$d$$, $$Bel appartement de 30 m² en hyper centre de Limoges (rue Othon-Péconnet) entièrement REFAIT A NEUF: électricité, plomberie, peinture, isolation, nouvelle cuisine équipée (four, plaques vitrocéramiques, hotte), frigo et lave linge neufs, salle de bain (baignoire avec WC).
+790€ charges comprises (eau, électricité, internet)', '1', 'Éguilles 13510', null, 'false', null, null, '1', 'individual', 'electric', null, '3', null, '56.8512'), ('1097', 'Studio 30m²', 'false', '30', 'd', null, '440', 'Appartment', 'd', 'Bel appartement de 30 m² en hyper centre de Limoges (rue Othon-Péconnet) entièrement REFAIT A NEUF: électricité, plomberie, peinture, isolation, nouvelle cuisine équipée (four, plaques vitrocéramiques, hotte), frigo et lave linge neufs, salle de bain (baignoire avec WC).
 Literie neuve ; matelas et sommier 
 Table et chaises
-Chauffage individuel au gaz$$, 1, 4, null, 1, false, 1, $$individual$$, $$gas$$, 1910, 4, null, null),
-(1098, $$Appartement à louer T3$$, $$Wavignies 60130$$, false, 65, null, $$2025-11-30T23:00:00.000Z$$, 590, $$Appartment$$, null, $$Appartement T3 à louer sur la commune de Wavignies.
+Chauffage individuel au gaz', '1', 'Limoges 87000 Centre-Hôtel de Ville Emailleurs', '1', 'false', '4', null, '1', 'individual', 'gas', '1910', '4', null, '82.3012'), ('1098', 'Appartement à louer T3', 'false', '65', null, '2025-11-30T23:00:00.000Z', '590', 'Appartment', null, 'Appartement T3 à louer sur la commune de Wavignies.
 Situé au Rez de chaussée avec une cour de 150m².
 Surface de 65 m²
 1 garage et 1 place de parking
 Chauffage au gaz de ville
 Loyer total de 590 €
-Merci de préciser, dans votre réponse, la composition de votre foyer (nombre d'enfant et âge)$$, 3, null, null, 2, false, 1, $$individual$$, $$gas$$, 2015, 2, null, null),
-(1099, $$T2 lumineux 59 m2 - 13 min à pied de la gare$$, $$Valserhône 01200$$, true, 59, null, $$2025-09-30T22:00:00.000Z$$, 1, $$Appartment$$, null, $$Bel appartement de 59m², entièrement rénové, situé dans une petite copropriété de 5 logements seulement (un par étage).
+Merci de préciser, dans votre réponse, la composition de votre foyer (nombre d'enfant et âge)', '3', 'Wavignies 60130', '2', 'false', null, null, '1', 'individual', 'gas', '2015', '2', null, '215.6762'), ('1099', 'T2 lumineux 59 m2 - 13 min à pied de la gare', 'true', '59', null, '2025-09-30T22:00:00.000Z', '1', 'Appartment', null, 'Bel appartement de 59m², entièrement rénové, situé dans une petite copropriété de 5 logements seulement (un par étage).
 L’appartement est lumineux, calme, il y a une fenêtre dans chaque pièce même le wc.
 
 Il est loué meublé, avec :
@@ -4934,9 +4653,7 @@ Le logement est propre, spacieux et agréable à vivre.
 Idéal pour une personne seule ou un couple cherchant un logement tranquille, prêt à vivre.
 
 Conditions : 1 mois de dépôt de garantie + 1 mois de loyer d’avance.
-Garant solvable demandé ou assurance type GarantMe acceptée.$$, 3, 1, null, 1, false, 1, $$individual$$, $$electric$$, null, 3, null, null),
-(1100, $$À louer appartement T3$$, $$Foix 09000$$, false, 62, null, null, 560, $$Appartment$$, null, $$À louer appartement, T3, deux chambres, salon, cuisine, WC, salle de bain, terrasse. Premier étage, et une cave au sous-sol. Situé dans une rue calme à 150 m du centre-ville de Foix. Prix 500 € plus 60 € de charges (ordures ménagères, électricité des communs). libre de suite.$$, 3, 1, null, 2, false, 1, $$individual$$, $$electric$$, 1960, 2, null, null),
-(1101, $$Appartement 3 pièces 64 m²$$, $$Avignon 84000 Palais des Papes - Zone Piétonne$$, true, 64, $$f$$, null, 880, $$Appartment$$, $$d$$, $$AVIGNON IM - APPARTEMENT T3 MEUBLÉ 64,53M²
+Garant solvable demandé ou assurance type GarantMe acceptée.', '3', 'Valserhône 01200', '1', 'false', '1', null, '1', 'individual', 'electric', null, '3', null, '346.1472'), ('1100', 'À louer appartement T3', 'false', '62', null, null, '560', 'Appartment', null, 'À louer appartement, T3, deux chambres, salon, cuisine, WC, salle de bain, terrasse. Premier étage, et une cave au sous-sol. Situé dans une rue calme à 150 m du centre-ville de Foix. Prix 500 € plus 60 € de charges (ordures ménagères, électricité des communs). libre de suite.', '3', 'Foix 09000', '2', 'false', '1', null, '1', 'individual', 'electric', '1960', '2', null, '362.7792'), ('1101', 'Appartement 3 pièces 64 m²', 'true', '64', 'f', null, '880', 'Appartment', 'd', 'AVIGNON IM - APPARTEMENT T3 MEUBLÉ 64,53M²
 
 A louer sur Avignon intra-muros, appartement type 3 meublé de 64,53 m² - Secteur Rue Banasterie
 
@@ -4962,8 +4679,7 @@ Dépôt de garantie : 780 €
 Montant des charges : 100 € / mois
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 830 € et 2 530 € sur les années 2021, 2022 et 2023 (abonnements compris).
-Logement à consommation énergétique excessive : classe F$$, 3, 2, null, 2, false, 1, null, null, null, 2, null, null),
-(1102, $$Appartement 2 pièces 47 m²$$, $$Avignon 84140 Montfavet$$, false, 47, $$c$$, null, 675, $$Appartment$$, $$a$$, $$MONTFAVET - APPARTEMENT TYPE 2 47M² AVEC PARKING ET TERRASSE
+Logement à consommation énergétique excessive : classe F', '3', 'Avignon 84000 Palais des Papes - Zone Piétonne', '2', 'false', '2', null, '1', null, null, null, '2', null, '283.0512'), ('1102', 'Appartement 2 pièces 47 m²', 'false', '47', 'c', null, '675', 'Appartment', 'a', 'MONTFAVET - APPARTEMENT TYPE 2 47M² AVEC PARKING ET TERRASSE
 
 A louer sur Montfavet, appartement type 2 d'environ 47.31m² - Proche centre ville
 
@@ -4986,8 +4702,7 @@ Honoraires à la charge du locataire : 615 € TTC
 Dépôt de garantie : 650 €
 Montant des charges : 25 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 540 € et 790 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 1, null, 1, false, null, null, null, null, 1, null, null),
-(1103, $$Appartement 2 pièces 44 m²$$, $$Avignon 84140 Montfavet$$, false, 44, $$c$$, null, 681, $$Appartment$$, $$a$$, $$MONTFAVET - APPARTEMENT T2 44.10M² AVEC TERRASSE ET PARKING
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 540 € et 790 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Avignon 84140 Montfavet', '1', 'false', '1', null, null, null, null, null, '1', null, '83.6762'), ('1103', 'Appartement 2 pièces 44 m²', 'false', '44', 'c', null, '681', 'Appartment', 'a', 'MONTFAVET - APPARTEMENT T2 44.10M² AVEC TERRASSE ET PARKING
 
 A louer sur Montfavet, appartement type 2 de 44.10m² avec terrasse et parking - Résidence le Rubia
 
@@ -5011,8 +4726,7 @@ Honoraires à la charge du locataire : 573 € TTC dont 132 € pour l’état d
 Dépôt de garantie : 550 €
 Montant des charges : 131 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 350 € et 520 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, null, null, 1, true, 1, null, null, 2013, 3, null, null),
-(1104, $$Sous location jusqu’au 7 novembre$$, $$Paris 75014 14e Arrondissement$$, false, 48, $$d$$, null, 1, $$Appartment$$, $$n$$, $$Appartement 2 pièces proche de Montparnasse, entre les stations Mouton Duvernet (ligne 4) et Pernety (ligne 13)
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 350 € et 520 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Avignon 84140 Montfavet', '1', 'true', null, null, '1', null, null, '2013', '3', null, '79.5512'), ('1104', 'Sous location jusqu’au 7 novembre', 'false', '48', 'd', null, '1', 'Appartment', 'n', 'Appartement 2 pièces proche de Montparnasse, entre les stations Mouton Duvernet (ligne 4) et Pernety (ligne 13)
 
 Sous-location temporaire jusqu’au 7 novembre :
 • 4 nuits minimum
@@ -5023,8 +4737,7 @@ Dispose d’une grande chambre avec lit 140 matelas quasi neuf, sur rue calme av
 
 Salon double séjour avec cuisine ouverte (mais la deuxième pièce n’est plus meublée, parfaite pour entreposer vos valises)
 
-Proche d’une superbe boulangerie avec les meilleurs éclairs au chocolat$$, 2, 3, null, 1, false, 1, $$individual$$, $$electric$$, null, 6, null, null),
-(1105, $$Appartement T2$$, $$Ploudalmézeau 29830$$, false, 43, $$d$$, $$2025-10-31T23:00:00.000Z$$, 510, $$Appartment$$, $$d$$, $$Appartement à louer à Ploudalmezeau près du centre ville à 30mn de centre de Brest, 8mn des Abers  et 15 mn d’un spot de surf .
+Proche d’une superbe boulangerie avec les meilleurs éclairs au chocolat', '2', 'Paris 75014 14e Arrondissement', '1', 'false', '3', null, '1', 'individual', 'electric', null, '6', null, '204.5232'), ('1105', 'Appartement T2', 'false', '43', 'd', '2025-10-31T23:00:00.000Z', '510', 'Appartment', 'd', 'Appartement à louer à Ploudalmezeau près du centre ville à 30mn de centre de Brest, 8mn des Abers  et 15 mn d’un spot de surf .
 Situation agréable : ville paisible avec proximité plages 
 
 T2 rénové confortable et lumineux avec 
@@ -5041,15 +4754,12 @@ Il est visitable dès le lundi 3 novembre et louable dès cette semaine .
 N’hésitez pas à m’appeler 
 Les compteurs électrique et eau sont individuels .
 Le loyer est 510€ et les charges communes
- à 16€ (poubelles et électricité couloir )$$, 2, null, null, 1, false, 1, $$individual$$, $$electric$$, 1974, null, null, null),
-(1106, $$Location meublé T2$$, $$Pornichet 44380 Villès Blais$$, false, null, null, null, 650, $$Appartment$$, null, $$Meublé Pornichet T2 à louer de novembre à juin appartement avec terrasse jardin, place de parking individuelle, tv wifi,charges non comprises.
-Libre de suite étudiant ou mission pro, logement prévu pour 1 personne$$, null, null, null, null, false, null, null, null, null, null, null, null),
-(1107, $$App 2 piè$$, $$Strasbourg 67000 Montagne Verte$$, true, 32, $$c$$, null, 545, $$Appartment$$, $$f$$, $$Situé à proximité de l'arrêt de tram B "Laiterie" (5min à pied) et de l'arrêt de tram F "Porte blanche" (6min à pied) ainsi que des bus 2, 4, 10 et N3 à moins de 5 minutes. Le centre ville et la gare sont ainsi facilement accessibles en 15 minutes.
+ à 16€ (poubelles et électricité couloir )', '2', 'Ploudalmézeau 29830', '1', 'false', null, null, '1', 'individual', 'electric', '1974', null, null, '185.2032'), ('1106', 'Location meublé T2', 'false', null, null, null, '650', 'Appartment', null, 'Meublé Pornichet T2 à louer de novembre à juin appartement avec terrasse jardin, place de parking individuelle, tv wifi,charges non comprises.
+Libre de suite étudiant ou mission pro, logement prévu pour 1 personne', null, 'Pornichet 44380 Villès Blais', null, 'false', null, null, null, null, null, null, null, null, '19.0512'), ('1107', 'App 2 piè', 'true', '32', 'c', null, '545', 'Appartment', 'f', 'Situé à proximité de l'arrêt de tram B "Laiterie" (5min à pied) et de l'arrêt de tram F "Porte blanche" (6min à pied) ainsi que des bus 2, 4, 10 et N3 à moins de 5 minutes. Le centre ville et la gare sont ainsi facilement accessibles en 15 minutes.
 Le quartier est dynamique avec toutes les commodités aux alentours : salles de spectacles et concerts, pharmacie, restaurants, boucheries, boulangeries etc. La faculté de médecine de Strasbourg, L'hôpital civil et universitaire de Strasbourg ainsi que SciencePo se situent à moins de 12 minutes à pied.
 Le T2 comporte une belle pièce de vie donnant sur un balcon agréable pour les jours d'été. La pièce de vie comporte un salon et une cuisine ouverte. La salon est meublé avec canapé, table basse, bureau, commode et une télévision avec meuble TV. La cuisine est quant à elle équipée avec un grand plan de travail, frigo, four, plaque de cuisson, lave vaisselle et de nombreux rangements.
 La chambre dispose d'un lit double ainsi que d'un grand placard de rangement vitré. La salle de bain est attenante à la chambre, avec baignoire, meuble vasque et machine à laver.
-Les WC sont séparés.$$, 2, null, null, 1, false, 1, $$individual$$, $$gas$$, null, null, null, null),
-(1108, $$Loue studio meublé$$, $$Rouen 76000 St.-Marc/Crx. de Pierre/St.-Nicaise$$, false, null, null, null, 490, $$Appartment$$, null, $$Bonjour, 
+Les WC sont séparés.', '2', 'Strasbourg 67000 Montagne Verte', '1', 'false', null, null, '1', 'individual', 'gas', null, null, null, '63.0512'), ('1108', 'Loue studio meublé', 'false', null, null, null, '490', 'Appartment', null, 'Bonjour, 
 A louer un studio F1 meublé de 29m2 refait à neuf en 2017 dans  résidence récente et sécurisée (interphone + digicode) à côté du CHU de Rouen.
 Transports en commun et commerces à proximité. 
 Donne sur rue calme sans vis-à-vis.
@@ -5060,8 +4770,7 @@ Priorité donnée aux personnes non fumeurs.
 Libre au 24 octobre. 
 Loyer : 490 € CC.
 Caution familiale impératif. 
-Pas de frais d'agence.$$, null, null, null, null, false, null, null, null, null, null, null, null),
-(1109, $$T1 meublé avec vue sur le lac et plage privée$$, $$Annecy 74000 Centre-ville - Vieille ville - Marquisats$$, true, 35, $$d$$, $$2025-10-31T23:00:00.000Z$$, 890, $$Appartment$$, null, $$T1 meublé avec vue sur le lac et plage privée
+Pas de frais d'agence.', null, 'Rouen 76000 St.-Marc/Crx. de Pierre/St.-Nicaise', null, 'false', null, null, null, null, null, null, null, null, '19.0512'), ('1109', 'T1 meublé avec vue sur le lac et plage privée', 'true', '35', 'd', '2025-10-31T23:00:00.000Z', '890', 'Appartment', null, 'T1 meublé avec vue sur le lac et plage privée
 Surface 34.97 m2 loi carrez + 2.89 m2
 Au 1er étage sans ascenseur.
 Belle entrée avec grands placards.
@@ -5081,8 +4790,7 @@ L'eau et l'électricité sont à la charge du locataire.
 Les visites se feront les 26/27/28/29 octobre 2025 sur rendez-vous.
 Ne pas laisser de message sur mon répondeur de portable car cela arrive 48h00 après sur ma boîte vocale. SmS ou Mail pour me joindre.
 Votre dossier complet  devra être envoyé sur mon mail.
-Bonne journée.$$, 1, 1, null, null, false, 1, $$individual$$, $$electric$$, 1948, 1, null, null),
-(1110, $$Bel appartement 3 pièces$$, $$Souffelweyersheim 67460$$, false, 92, $$c$$, $$2025-10-31T23:00:00.000Z$$, 1, $$Appartment$$, $$c$$, $$Beau 3 pièces de 92m² situé à Souffelweyersheim, dans un quartier résidentiel calme et verdoyant à seulement quelques minutes de Strasbourg.
+Bonne journée.', '1', 'Annecy 74000 Centre-ville - Vieille ville - Marquisats', null, 'false', '1', null, '1', 'individual', 'electric', '1948', '1', null, '154.2912'), ('1110', 'Bel appartement 3 pièces', 'false', '92', 'c', '2025-10-31T23:00:00.000Z', '1', 'Appartment', 'c', 'Beau 3 pièces de 92m² situé à Souffelweyersheim, dans un quartier résidentiel calme et verdoyant à seulement quelques minutes de Strasbourg.
 
 L’appartement se trouve en rez-de-jardin et bénéficie d’un cadre exceptionnel avec deux jardins privatifs dans la résidence Beau Rivage
 
@@ -5099,8 +4807,7 @@ Appartement en excellent état, disponible immédiatement.
 Résidence récente et bien entretenue, proche des commerces, écoles et transports.
 
 Loyer : 1150€/mois
-Charges : 95€/mois$$, 3, null, null, 2, true, 1, $$individual$$, $$electric$$, null, null, null, null),
-(1111, $$Studio 1 pièce 20 m²$$, $$Bressuire 79300 Malabry - Bois d'Anne$$, false, 20, $$c$$, $$2025-11-29T23:00:00.000Z$$, 556, $$Appartment$$, $$c$$, $$Studio de 20m2 au 2ème étage d'un immeuble en plein coeur de ville, renové entièrement, Kitchinette avec plaques et frigo, salle d'eau avec douche et WC
+Charges : 95€/mois', '3', 'Souffelweyersheim 67460', '2', 'true', null, null, '1', 'individual', 'electric', null, null, null, '250.8912'), ('1111', 'Studio 1 pièce 20 m²', 'false', '20', 'c', '2025-11-29T23:00:00.000Z', '556', 'Appartment', 'c', 'Studio de 20m2 au 2ème étage d'un immeuble en plein coeur de ville, renové entièrement, Kitchinette avec plaques et frigo, salle d'eau avec douche et WC
  Loyer de 556EUR ( 450EUR + 106EUR pour l'eau, l'électricité, le gaz de ville et entretien de la chaudière et des communs)
  .
 Référence annonce : 7_TUCBRE
@@ -5109,10 +4816,7 @@ Honoraires à la charge du locataire : 228 € TTC
 Dépôt de garantie : 450 €
 Montant des charges : 106 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 377 € et 511 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 1, null, null, null, false, null, null, null, null, 2, null, null),
-(1112, $$Appartement a louer T4$$, $$Savigneux 42600$$, false, 85, $$c$$, $$2025-10-31T23:00:00.000Z$$, 825, $$Appartment$$, $$d$$, $$dans résidence neuve et sécurisée au dernier étage T4 de 85m2, 3 chambres, séjour avec balcon de 12m2,cuisine et salle de bains équipées,chauffage gaz individuel,volets roulants électriques ,garage en sous sol,parking extérieur privé$$, 4, 1, null, 3, false, 11, $$individual$$, $$gas$$, 2021, 1, null, null),
-(1113, $$Location T3$$, $$Auriac-sur-Vendinelle 31460$$, false, 65, $$b$$, $$2025-10-31T23:00:00.000Z$$, 695, $$Appartment$$, $$b$$, $$Appartement très lumineux donnant sur la place de la Halle du charmant village d'Auriac sur Vendinelle (31). Petite copro de 2 appartements. Belle pièce à vivre avec cuisine à l'américaine, 2 chambres, 1 grande salle de douche, WC indépendant, vrai parquet. Le charme de l'ancien et le confort du neuf.$$, 3, 1, null, 2, false, 1, $$individual$$, $$electric$$, null, 2, null, null),
-(1114, $$T1 meublé & ultra-équipé dans résidence de coliving en centre ville de Grenoble$$, $$Grenoble 38000 Saint-Laurent$$, true, 28, $$b$$, null, 810, $$Appartment$$, $$b$$, $$Appartement de type 1 meublé situé au centre-ville de Grenoble, quartier Saint-Laurent sur le contrefort de la Bastille. 
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 377 € et 511 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '1', 'Bressuire 79300 Malabry - Bois d'Anne', null, 'false', null, null, null, null, null, null, '2', null, '46.5512'), ('1112', 'Appartement a louer T4', 'false', '85', 'c', '2025-10-31T23:00:00.000Z', '825', 'Appartment', 'd', 'dans résidence neuve et sécurisée au dernier étage T4 de 85m2, 3 chambres, séjour avec balcon de 12m2,cuisine et salle de bains équipées,chauffage gaz individuel,volets roulants électriques ,garage en sous sol,parking extérieur privé', '4', 'Savigneux 42600', '3', 'false', '1', null, '11', 'individual', 'gas', '2021', '1', null, '135.9262'), ('1113', 'Location T3', 'false', '65', 'b', '2025-10-31T23:00:00.000Z', '695', 'Appartment', 'b', 'Appartement très lumineux donnant sur la place de la Halle du charmant village d'Auriac sur Vendinelle (31). Petite copro de 2 appartements. Belle pièce à vivre avec cuisine à l'américaine, 2 chambres, 1 grande salle de douche, WC indépendant, vrai parquet. Le charme de l'ancien et le confort du neuf.', '3', 'Auriac-sur-Vendinelle 31460', '2', 'false', '1', null, '1', 'individual', 'electric', null, '2', null, '117.3312'), ('1114', 'T1 meublé & ultra-équipé dans résidence de coliving en centre ville de Grenoble', 'true', '28', 'b', null, '810', 'Appartment', 'b', 'Appartement de type 1 meublé situé au centre-ville de Grenoble, quartier Saint-Laurent sur le contrefort de la Bastille. 
 
 Entièrement équipé, cet appartement se situe dans une résidence ultra moderne intégrant de nombreux espaces communs (terrasses partagées, salons, salle de cinéma, salle de sport, restaurant en rooftop). De nombreux services (inclus ou en option) sont proposés et de nombreux événements sont organisés tout au long de la semaine (cours de sports, apéros, conférences…)
 
@@ -5165,48 +4869,40 @@ Nous vous proposons bien plus qu’un simple logement. Ici vous pourrez partager
 - Quai Perrière à 6 min à pied
 - Hyper-centre à 8mn à pied
 - Commerces de proximité à 6min à pied
-- Parking gratuit devant l’immeuble$$, 1, null, null, 1, true, null, null, null, null, null, null, null),
-(1115, $$T3 centre ville Navarre$$, $$Évreux 27000 Navarre$$, true, 62, $$e$$, null, 750, $$Appartment$$, null, $$Disponible 
+- Parking gratuit devant l’immeuble', '1', 'Grenoble 38000 Saint-Laurent', '1', 'true', null, null, null, null, null, null, null, null, '42.1512'), ('1115', 'T3 centre ville Navarre', 'true', '62', 'e', null, '750', 'Appartment', null, 'Disponible 
 
 Appartement en plein centre ville quartier Navarre 
 
 Cuisine entièrement équipée 
 Stationnement dans la rue 
 Chauffage individuel eau chaude individuelle 
-Appartement en tout électrique avec radiateur basse consommation à inertie$$, 3, 1, null, 2, false, 1, $$individual$$, $$electric$$, 1970, 3, null, null),
-(1116, $$Appartement 56m2$$, $$Lanouaille 24270$$, false, 56, null, null, 500, $$Appartment$$, null, $$A louer appartement 56m2 au 1er étage d’un immeuble situé sur la commune de lanouaille.
+Appartement en tout électrique avec radiateur basse consommation à inertie', '3', 'Évreux 27000 Navarre', '2', 'false', '1', null, '1', 'individual', 'electric', '1970', '3', null, '362.7792'), ('1116', 'Appartement 56m2', 'false', '56', null, null, '500', 'Appartment', null, 'A louer appartement 56m2 au 1er étage d’un immeuble situé sur la commune de lanouaille.
 Refait a neuf. 
 Comprend une cuisine équipée ouverte sur salon, 2 chambres, salle de bain, WC.
 A proximité directe a pied des commerces et de l’école. 
 Loyer 470€ + 30€ de charges. 
-Plus de photos sur demande.$$, 3, 1, null, 2, false, 1, $$individual$$, $$electric$$, null, 1, null, null),
-(1117, $$Appartement 2 pièces 30 m² 14000 Caen$$, $$Caen 14000 Folie Couvrechef$$, true, 30, $$d$$, null, 525, $$Appartment$$, $$a$$, $$A LOUER UN APPARTEMENT DE DEUX PIECES PRINCIPALES AVEC GRAND BALCON ET PARKING à  proche lycée Saint Ursule, mémorial et clinique Saint Martin. Situé au 3ème étage pour une superficie de 26.59 M² dans résidence sécurisée avec interphone, ascenseur et gardien, le logement se compose d'une entrée, d'une cuisine équipée, d'un séjour, d'une chambre, d'un balcon d'environ 4,50 m², d'une salle de bain et d'un wc.$$, 2, null, null, 1, false, null, null, null, null, null, null, null),
-(1118, $$Appartement 2 pièces 24 m²$$, $$Paris 75005 Sorbonne - Quartier Latin$$, true, 24, null, null, 1, $$Appartment$$, null, $$Appartement T2 PARIS
+Plus de photos sur demande.', '3', 'Lanouaille 24270', '2', 'false', '1', null, '1', 'individual', 'electric', null, '1', null, '329.5152'), ('1117', 'Appartement 2 pièces 30 m² 14000 Caen', 'true', '30', 'd', null, '525', 'Appartment', 'a', 'A LOUER UN APPARTEMENT DE DEUX PIECES PRINCIPALES AVEC GRAND BALCON ET PARKING à  proche lycée Saint Ursule, mémorial et clinique Saint Martin. Situé au 3ème étage pour une superficie de 26.59 M² dans résidence sécurisée avec interphone, ascenseur et gardien, le logement se compose d'une entrée, d'une cuisine équipée, d'un séjour, d'une chambre, d'un balcon d'environ 4,50 m², d'une salle de bain et d'un wc.', '2', 'Caen 14000 Folie Couvrechef', '1', 'false', null, null, null, null, null, null, null, null, '82.3012'), ('1118', 'Appartement 2 pièces 24 m²', 'true', '24', null, null, '1', 'Appartment', null, 'Appartement T2 PARIS
 
 Pour visiter, candidatez gratuitement sur le site LA GESTION EN LIGNE Cliquez sur JE VEUX VISITER et indiquez la reference : 4463
 
 Un très beau deux-pièces de 24 m², avec kitchenette et salle d'eau séparée, situé dans un quartier historique du 5ᵉ arrondissement de Paris, sectorisé Henri-IV et à deux pas du Panthéon et de la Sorbonne, à proximité de toutes commodités. Entièrement refait à neuf, avec une décoration soignée, totalement équipé et meublé, il dispose d'une grande mezzanine. L'appartement est situé au rez-de-chaussée, donnant sur une cour et une rue très calme, dans un immeuble bien entretenu. Très lumineux, avec de grandes fenêtres à double vitrage, parquet massif, cuisine équipée (réfrigérateur, micro-ondes, lave-linge, etc.). Chauffage électrique individuel. Libre immédiatement. Location meublée.
 Référence annonce : 4463
 Honoraires à la charge du locataire : 280 € TTC
-Montant des charges : 50 € / mois$$, 2, null, null, null, false, null, null, null, null, null, null, null),
-(1119, $$Appartement T5$$, $$Brest 29200 Croix Rouge - Europe$$, false, 89, $$d$$, $$2025-10-31T23:00:00.000Z$$, 850, $$Appartment$$, $$d$$, $$a louer appartement t5 libre
+Montant des charges : 50 € / mois', '2', 'Paris 75005 Sorbonne - Quartier Latin', null, 'false', null, null, null, null, null, null, null, null, '91.6512'), ('1119', 'Appartement T5', 'false', '89', 'd', '2025-10-31T23:00:00.000Z', '850', 'Appartment', 'd', 'a louer appartement t5 libre
 quartier lambezellec résidence calme espace vert
 demande 
 bulletins de salaire 3 derniers mois
  quittance de loyer de L ancien propriétaire 
 1 garant solvable 
-merci de joindre le profil locataire$$, 5, null, null, 3, false, 1, $$individual$$, $$gas$$, null, 4, null, null),
-(1120, $$Studio + garage SAINT JUERY à 6 km d Albi$$, $$Saint-Juéry 81160$$, false, null, null, null, 420, $$Appartment$$, null, $$Loue studio centre de saint Juery + garage à 6 km d Albi 
+merci de joindre le profil locataire', '5', 'Brest 29200 Croix Rouge - Europe', '3', 'false', null, null, '1', 'individual', 'gas', null, '4', null, '206.692866666667'), ('1120', 'Studio + garage SAINT JUERY à 6 km d Albi', 'false', null, null, null, '420', 'Appartment', null, 'Loue studio centre de saint Juery + garage à 6 km d Albi 
 Climatisation réversible double vitrage 
 Idéal personne seule étudiant 
-Premier contact par sms$$, 1, null, null, null, false, null, null, null, null, null, null, null),
-(1121, $$Duplex 60m2 avec jardin Boulogne centre/ proximité faculté St Louis$$, $$Boulogne-sur-Mer 62200 Saint-Pierre$$, true, 60, $$e$$, $$2025-10-31T23:00:00.000Z$$, 550, $$Appartment$$, $$b$$, $$Appartement en duplex 2eme et 3eme étage d'une petite copropriété, meublé entièrement rénové, 60m2 avec jardin, composé d’une pièce centrale de 25 m2 parquet stratifié neuf (partie salle à manger et partie séjour / baie libre (canapé, table basse, table, chaises, étagère,... ), WC, cuisine (évier, plaques de cuisson, réfrigérateur/ congélateur). A l'étage: une salle de bain (douche/baignoire/vasque/ rangements) et une chambre d'environ 20m2 (commode/ literie neuve). Sol: PVC
+Premier contact par sms', '1', 'Saint-Juéry 81160', null, 'false', null, null, null, null, null, null, null, null, '19.0512'), ('1121', 'Duplex 60m2 avec jardin Boulogne centre/ proximité faculté St Louis', 'true', '60', 'e', '2025-10-31T23:00:00.000Z', '550', 'Appartment', 'b', 'Appartement en duplex 2eme et 3eme étage d'une petite copropriété, meublé entièrement rénové, 60m2 avec jardin, composé d’une pièce centrale de 25 m2 parquet stratifié neuf (partie salle à manger et partie séjour / baie libre (canapé, table basse, table, chaises, étagère,... ), WC, cuisine (évier, plaques de cuisson, réfrigérateur/ congélateur). A l'étage: une salle de bain (douche/baignoire/vasque/ rangements) et une chambre d'environ 20m2 (commode/ literie neuve). Sol: PVC
 Situé en centre-ville / quartier st Pierre, à 2 min de la faculté Saint Louis et à proximité immédiate des commerces et transports. Calme et sécurisé.
 Parking non payant et facile dans la rue.
 550€/mois, charges courantes en supplément (eau, EDF et taxe ordures ménagères). Conditions locatives : garant physique impératif ou visale + étudiant ou salarié – calme et soigneux.
 Logement disponible de novembre 2025 à mai 2026.
-Me contacter par le site le bon coin uniquement SVP et merci de laisser vos nom, prénom et coordonnées, ainsi que votre situation (étudiant/ salarié). AGENCES S’ABSTENIR MERCI. Disponible: novembre 2025$$, 2, 2, null, 1, false, 1, $$individual$$, $$electric$$, null, 3, null, null),
-(1122, $$Beau T3 résidence Antibes$$, $$Antibes 06600 La Fontonne$$, true, 66, $$a$$, null, 1, $$Appartment$$, $$b$$, $$Dans un ensemble immobilier à Antibes (06600) résidence LE CALLIOPE : 
+Me contacter par le site le bon coin uniquement SVP et merci de laisser vos nom, prénom et coordonnées, ainsi que votre situation (étudiant/ salarié). AGENCES S’ABSTENIR MERCI. Disponible: novembre 2025', '2', 'Boulogne-sur-Mer 62200 Saint-Pierre', '1', 'false', '2', null, '1', 'individual', 'electric', null, '3', null, '351.6912'), ('1122', 'Beau T3 résidence Antibes', 'true', '66', 'a', null, '1', 'Appartment', 'b', 'Dans un ensemble immobilier à Antibes (06600) résidence LE CALLIOPE : 
 
 - un appartement de type 3 (portant le n°A22), de 66.10 m² avec :
 - une entrée de 4.65 m²
@@ -5228,8 +4924,7 @@ dernier avis d'imposition
 3 derniers bulletins de salaire
 contrat de travail ou attestation employeur
 3 dernières quittances de loyer
-tout autre justificatif de revenus$$, 3, 2, null, 2, false, null, null, null, null, null, null, null),
-(1123, $$Studio Centre Nantes$$, $$Nantes 44000 Centre-Ville$$, true, 24, $$b$$, $$2025-09-30T22:00:00.000Z$$, 590, $$Appartment$$, $$b$$, $$Studio centre Nantes 
+tout autre justificatif de revenus', '3', 'Antibes 06600 La Fontonne', '2', 'false', '2', null, null, null, null, null, null, null, '49.3012'), ('1123', 'Studio Centre Nantes', 'true', '24', 'b', '2025-09-30T22:00:00.000Z', '590', 'Appartment', 'b', 'Studio centre Nantes 
 
 Charmant studio équipé situé dans l’hyper centre de Nantes, à 50m de la place Sainte Croix. 
 
@@ -5251,8 +4946,7 @@ Direct proprietaire, pas de frais d’agence !
 
 Éligible aux APl 
 
-Contactez moi pour une visite$$, 1, null, null, 1, false, 1, $$communal$$, $$gas$$, 1950, null, null, null),
-(1124, $$A louer Appartement T3 Libre au 1er janvier 2026$$, $$Basse-Ham 57970 Saint-Louis$$, false, 65, $$c$$, $$2025-12-31T23:00:00.000Z$$, 1, $$Appartment$$, $$c$$, $$Appartement 3 pièces 65,10 m² habitable et 16,95 m² de surface terrasse / loggia 
+Contactez moi pour une visite', '1', 'Nantes 44000 Centre-Ville', '1', 'false', null, null, '1', 'communal', 'gas', '1950', null, null, '19.0512'), ('1124', 'A louer Appartement T3 Libre au 1er janvier 2026', 'false', '65', 'c', '2025-12-31T23:00:00.000Z', '1', 'Appartment', 'c', 'Appartement 3 pièces 65,10 m² habitable et 16,95 m² de surface terrasse / loggia 
 
 RÉSIDENCE LES TERRASSES DU GOLF à BASSE HAM // LOCATION NUE // 2 CHAMBRES // TERRASSE – LOGGIA // 1 GARAGE // DISPONIBLE AU 1erJanvier 2026
 
@@ -5270,8 +4964,7 @@ Garant demandé (personne physique ou VISALE)
 
 Si vous êtes intéressé(e) merci de nous indiquer par message votre Nom, Prénom, situation et numéro de téléphone afin que nous vous contactions.
 Information d'affichage énergétique sur ce bien : classe ENERGIE C indice 61 et classe CLIMAT C indice 11. Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr.
-Date de réalisation du diagnostic énergétique : 26/07/2023. Consommation énergie primaire : 61 kWh/m²/an. Consommation énergie finale : 56 kWh/m²/an. Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 401 € et 543 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris).$$, 3, 1, null, 2, true, 1, $$individual$$, $$gas$$, 2023, 2, null, null),
-(1125, $$Appartement 4 pièces 63 m²$$, $$Vesoul 70000 Les Rêpes$$, false, 63, $$d$$, null, 397, $$Appartment$$, $$d$$, $$APPARTEMENT T4 A VESOUL PROCHE TOUTES COMMODITES
+Date de réalisation du diagnostic énergétique : 26/07/2023. Consommation énergie primaire : 61 kWh/m²/an. Consommation énergie finale : 56 kWh/m²/an. Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 401 € et 543 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris).', '3', 'Basse-Ham 57970 Saint-Louis', '2', 'true', '1', null, '1', 'individual', 'gas', '2023', '2', null, '108.4262'), ('1125', 'Appartement 4 pièces 63 m²', 'false', '63', 'd', null, '397', 'Appartment', 'd', 'APPARTEMENT T4 A VESOUL PROCHE TOUTES COMMODITES
 
 Appartement de type 4 situé au cœur des Repes proche de toutes commodités au 1er étage d un collectif .Il est composé de 3 chambres, salon, cuisine, salle de bain,WC séparé et 2 balcons
 Loyer très attractif de 328.85 € +69.54 € de charges (entretien chaudière, robinetterie, charges diverses...) Chauffage collectif
@@ -5279,8 +4972,7 @@ Pas de frais d'agence ni de frais de dossier.
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
 Référence annonce : LG18PEPVES3
 Non soumis au DPE
-Montant des charges : 69 € / mois$$, 4, 1, null, 3, false, 1, $$communal$$, $$gas$$, null, 3, null, null),
-(1126, $$T2 Centre ville Mairie$$, $$Saint-Étienne 42000 Crêt de Roc$$, false, 42, $$d$$, $$2025-10-31T23:00:00.000Z$$, 500, $$Appartment$$, $$d$$, $$Loue T2 8 rue Brossard , proximité fac centre-ville ,  entièrement rénové avec mobilier récent :
+Montant des charges : 69 € / mois', '4', 'Vesoul 70000 Les Rêpes', '3', 'false', '1', null, '1', 'communal', 'gas', null, '3', null, '19.0512'), ('1126', 'T2 Centre ville Mairie', 'false', '42', 'd', '2025-10-31T23:00:00.000Z', '500', 'Appartment', 'd', 'Loue T2 8 rue Brossard , proximité fac centre-ville ,  entièrement rénové avec mobilier récent :
 une chambre lit double 140x200, un  placards, un grand bureau avec rangements
 une salle de bain avec douche, meuble vasque avec miroir & autres meubles, sèche serviette, WC 
 une cuisine  (Cuisine équipée plaques de cuisson vitro , frigo, micro-onde, table chaises..) ainsi que canapé, table basse, meuble Tv , TV ,  machine à laver
@@ -5288,35 +4980,28 @@ une cuisine  (Cuisine équipée plaques de cuisson vitro , frigo, micro-onde, ta
 Double vitrage, proche de toutes commodités. 50 m du tram
 Prestations de qualité.
 
-Loyer 470 Euros   + 30 euros de charges (charges de copropriétés, cotes part ordures ménagères, électricité et eau des communs)$$, 2, null, null, 1, false, 1, $$individual$$, $$electric$$, 1960, 3, null, null),
-(1127, $$Location meublée$$, $$Touffreville-la-Corbeline 76190$$, true, 50, $$d$$, $$2025-09-30T22:00:00.000Z$$, 650, $$Appartment$$, $$d$$, $$Duplex au milieu d 'un jardin au grand calme . Loyer mensuel  fixe 520 Euros + Charges fixes mensuelles 160 euros ( Eau , electricité , chauffage et internet ) Terrasse ,parking$$, 2, 1, null, 1, false, 1, $$communal$$, $$fuel$$, null, 1, null, null),
-(1128, $$Appartement 2 pièces 30 m² 14000 Caen$$, $$Caen 14000 Folie Couvrechef$$, true, 30, $$d$$, null, 525, $$Appartment$$, $$a$$, $$A LOUER UN APPARTEMENT DE DEUX PIECES PRINCIPALES AVEC GRAND BALCON ET PARKING à  proche lycée Saint Ursule, mémorial et clinique Saint Martin. Situé au 3ème étage pour une superficie de 26.59 M² dans résidence sécurisée avec interphone, ascenseur et gardien, le logement se compose d'une entrée, d'une cuisine équipée, d'un séjour, d'une chambre, d'un balcon d'environ 4,50 m², d'une salle de bain et d'un wc.$$, 2, null, null, 1, false, null, null, null, null, null, null, null),
-(1129, $$Appartement 2 pièces 24 m²$$, $$Paris 75005 Sorbonne - Quartier Latin$$, true, 24, null, null, 1, $$Appartment$$, null, $$Appartement T2 PARIS
+Loyer 470 Euros   + 30 euros de charges (charges de copropriétés, cotes part ordures ménagères, électricité et eau des communs)', '2', 'Saint-Étienne 42000 Crêt de Roc', '1', 'false', null, null, '1', 'individual', 'electric', '1960', '3', null, '181.3392'), ('1127', 'Location meublée', 'true', '50', 'd', '2025-09-30T22:00:00.000Z', '650', 'Appartment', 'd', 'Duplex au milieu d 'un jardin au grand calme . Loyer mensuel  fixe 520 Euros + Charges fixes mensuelles 160 euros ( Eau , electricité , chauffage et internet ) Terrasse ,parking', '2', 'Touffreville-la-Corbeline 76190', '1', 'false', '1', null, '1', 'communal', 'fuel', null, '1', null, '19.0512'), ('1128', 'Appartement 2 pièces 30 m² 14000 Caen', 'true', '30', 'd', null, '525', 'Appartment', 'a', 'A LOUER UN APPARTEMENT DE DEUX PIECES PRINCIPALES AVEC GRAND BALCON ET PARKING à  proche lycée Saint Ursule, mémorial et clinique Saint Martin. Situé au 3ème étage pour une superficie de 26.59 M² dans résidence sécurisée avec interphone, ascenseur et gardien, le logement se compose d'une entrée, d'une cuisine équipée, d'un séjour, d'une chambre, d'un balcon d'environ 4,50 m², d'une salle de bain et d'un wc.', '2', 'Caen 14000 Folie Couvrechef', '1', 'false', null, null, null, null, null, null, null, null, '82.3012'), ('1129', 'Appartement 2 pièces 24 m²', 'true', '24', null, null, '1', 'Appartment', null, 'Appartement T2 PARIS
 
 Pour visiter, candidatez gratuitement sur le site LA GESTION EN LIGNE Cliquez sur JE VEUX VISITER et indiquez la reference : 4463
 
 Un très beau deux-pièces de 24 m², avec kitchenette et salle d'eau séparée, situé dans un quartier historique du 5ᵉ arrondissement de Paris, sectorisé Henri-IV et à deux pas du Panthéon et de la Sorbonne, à proximité de toutes commodités. Entièrement refait à neuf, avec une décoration soignée, totalement équipé et meublé, il dispose d'une grande mezzanine. L'appartement est situé au rez-de-chaussée, donnant sur une cour et une rue très calme, dans un immeuble bien entretenu. Très lumineux, avec de grandes fenêtres à double vitrage, parquet massif, cuisine équipée (réfrigérateur, micro-ondes, lave-linge, etc.). Chauffage électrique individuel. Libre immédiatement. Location meublée.
 Référence annonce : 4463
 Honoraires à la charge du locataire : 280 € TTC
-Montant des charges : 50 € / mois$$, 2, null, null, null, false, null, null, null, null, null, null, null),
-(1130, $$Appartement T5$$, $$Brest 29200 Croix Rouge - Europe$$, false, 89, $$d$$, $$2025-10-31T23:00:00.000Z$$, 850, $$Appartment$$, $$d$$, $$a louer appartement t5 libre
+Montant des charges : 50 € / mois', '2', 'Paris 75005 Sorbonne - Quartier Latin', null, 'false', null, null, null, null, null, null, null, null, '91.6512'), ('1130', 'Appartement T5', 'false', '89', 'd', '2025-10-31T23:00:00.000Z', '850', 'Appartment', 'd', 'a louer appartement t5 libre
 quartier lambezellec résidence calme espace vert
 demande 
 bulletins de salaire 3 derniers mois
  quittance de loyer de L ancien propriétaire 
 1 garant solvable 
-merci de joindre le profil locataire$$, 5, null, null, 3, false, 1, $$individual$$, $$gas$$, null, 4, null, null),
-(1131, $$Studio + garage SAINT JUERY à 6 km d Albi$$, $$Saint-Juéry 81160$$, false, null, null, null, 420, $$Appartment$$, null, $$Loue studio centre de saint Juery + garage à 6 km d Albi 
+merci de joindre le profil locataire', '5', 'Brest 29200 Croix Rouge - Europe', '3', 'false', null, null, '1', 'individual', 'gas', null, '4', null, '206.692866666667'), ('1131', 'Studio + garage SAINT JUERY à 6 km d Albi', 'false', null, null, null, '420', 'Appartment', null, 'Loue studio centre de saint Juery + garage à 6 km d Albi 
 Climatisation réversible double vitrage 
 Idéal personne seule étudiant 
-Premier contact par sms$$, 1, null, null, null, false, null, null, null, null, null, null, null),
-(1132, $$Duplex 60m2 avec jardin Boulogne centre/ proximité faculté St Louis$$, $$Boulogne-sur-Mer 62200 Saint-Pierre$$, true, 60, $$e$$, $$2025-10-31T23:00:00.000Z$$, 550, $$Appartment$$, $$b$$, $$Appartement en duplex 2eme et 3eme étage d'une petite copropriété, meublé entièrement rénové, 60m2 avec jardin, composé d’une pièce centrale de 25 m2 parquet stratifié neuf (partie salle à manger et partie séjour / baie libre (canapé, table basse, table, chaises, étagère,... ), WC, cuisine (évier, plaques de cuisson, réfrigérateur/ congélateur). A l'étage: une salle de bain (douche/baignoire/vasque/ rangements) et une chambre d'environ 20m2 (commode/ literie neuve). Sol: PVC
+Premier contact par sms', '1', 'Saint-Juéry 81160', null, 'false', null, null, null, null, null, null, null, null, '19.0512'), ('1132', 'Duplex 60m2 avec jardin Boulogne centre/ proximité faculté St Louis', 'true', '60', 'e', '2025-10-31T23:00:00.000Z', '550', 'Appartment', 'b', 'Appartement en duplex 2eme et 3eme étage d'une petite copropriété, meublé entièrement rénové, 60m2 avec jardin, composé d’une pièce centrale de 25 m2 parquet stratifié neuf (partie salle à manger et partie séjour / baie libre (canapé, table basse, table, chaises, étagère,... ), WC, cuisine (évier, plaques de cuisson, réfrigérateur/ congélateur). A l'étage: une salle de bain (douche/baignoire/vasque/ rangements) et une chambre d'environ 20m2 (commode/ literie neuve). Sol: PVC
 Situé en centre-ville / quartier st Pierre, à 2 min de la faculté Saint Louis et à proximité immédiate des commerces et transports. Calme et sécurisé.
 Parking non payant et facile dans la rue.
 550€/mois, charges courantes en supplément (eau, EDF et taxe ordures ménagères). Conditions locatives : garant physique impératif ou visale + étudiant ou salarié – calme et soigneux.
 Logement disponible de novembre 2025 à mai 2026.
-Me contacter par le site le bon coin uniquement SVP et merci de laisser vos nom, prénom et coordonnées, ainsi que votre situation (étudiant/ salarié). AGENCES S’ABSTENIR MERCI. Disponible: novembre 2025$$, 2, 2, null, 1, false, 1, $$individual$$, $$electric$$, null, 3, null, null),
-(1133, $$Beau T3 résidence Antibes$$, $$Antibes 06600 La Fontonne$$, true, 66, $$a$$, null, 1, $$Appartment$$, $$b$$, $$Dans un ensemble immobilier à Antibes (06600) résidence LE CALLIOPE : 
+Me contacter par le site le bon coin uniquement SVP et merci de laisser vos nom, prénom et coordonnées, ainsi que votre situation (étudiant/ salarié). AGENCES S’ABSTENIR MERCI. Disponible: novembre 2025', '2', 'Boulogne-sur-Mer 62200 Saint-Pierre', '1', 'false', '2', null, '1', 'individual', 'electric', null, '3', null, '351.6912'), ('1133', 'Beau T3 résidence Antibes', 'true', '66', 'a', null, '1', 'Appartment', 'b', 'Dans un ensemble immobilier à Antibes (06600) résidence LE CALLIOPE : 
 
 - un appartement de type 3 (portant le n°A22), de 66.10 m² avec :
 - une entrée de 4.65 m²
@@ -5338,8 +5023,7 @@ dernier avis d'imposition
 3 derniers bulletins de salaire
 contrat de travail ou attestation employeur
 3 dernières quittances de loyer
-tout autre justificatif de revenus$$, 3, 2, null, 2, false, null, null, null, null, null, null, null),
-(1134, $$Studio Centre Nantes$$, $$Nantes 44000 Centre-Ville$$, true, 24, $$b$$, $$2025-09-30T22:00:00.000Z$$, 590, $$Appartment$$, $$b$$, $$Studio centre Nantes 
+tout autre justificatif de revenus', '3', 'Antibes 06600 La Fontonne', '2', 'false', '2', null, null, null, null, null, null, null, '49.3012'), ('1134', 'Studio Centre Nantes', 'true', '24', 'b', '2025-09-30T22:00:00.000Z', '590', 'Appartment', 'b', 'Studio centre Nantes 
 
 Charmant studio équipé situé dans l’hyper centre de Nantes, à 50m de la place Sainte Croix. 
 
@@ -5361,8 +5045,7 @@ Direct proprietaire, pas de frais d’agence !
 
 Éligible aux APl 
 
-Contactez moi pour une visite$$, 1, null, null, 1, false, 1, $$communal$$, $$gas$$, 1950, null, null, null),
-(1135, $$A louer Appartement T3 Libre au 1er janvier 2026$$, $$Basse-Ham 57970 Saint-Louis$$, false, 65, $$c$$, $$2025-12-31T23:00:00.000Z$$, 1, $$Appartment$$, $$c$$, $$Appartement 3 pièces 65,10 m² habitable et 16,95 m² de surface terrasse / loggia 
+Contactez moi pour une visite', '1', 'Nantes 44000 Centre-Ville', '1', 'false', null, null, '1', 'communal', 'gas', '1950', null, null, '19.0512'), ('1135', 'A louer Appartement T3 Libre au 1er janvier 2026', 'false', '65', 'c', '2025-12-31T23:00:00.000Z', '1', 'Appartment', 'c', 'Appartement 3 pièces 65,10 m² habitable et 16,95 m² de surface terrasse / loggia 
 
 RÉSIDENCE LES TERRASSES DU GOLF à BASSE HAM // LOCATION NUE // 2 CHAMBRES // TERRASSE – LOGGIA // 1 GARAGE // DISPONIBLE AU 1erJanvier 2026
 
@@ -5380,8 +5063,7 @@ Garant demandé (personne physique ou VISALE)
 
 Si vous êtes intéressé(e) merci de nous indiquer par message votre Nom, Prénom, situation et numéro de téléphone afin que nous vous contactions.
 Information d'affichage énergétique sur ce bien : classe ENERGIE C indice 61 et classe CLIMAT C indice 11. Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr.
-Date de réalisation du diagnostic énergétique : 26/07/2023. Consommation énergie primaire : 61 kWh/m²/an. Consommation énergie finale : 56 kWh/m²/an. Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 401 € et 543 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris).$$, 3, 1, null, 2, true, 1, $$individual$$, $$gas$$, 2023, 2, null, null),
-(1136, $$Appartement 4 pièces 63 m²$$, $$Vesoul 70000 Les Rêpes$$, false, 63, $$d$$, null, 397, $$Appartment$$, $$d$$, $$APPARTEMENT T4 A VESOUL PROCHE TOUTES COMMODITES
+Date de réalisation du diagnostic énergétique : 26/07/2023. Consommation énergie primaire : 61 kWh/m²/an. Consommation énergie finale : 56 kWh/m²/an. Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 401 € et 543 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris).', '3', 'Basse-Ham 57970 Saint-Louis', '2', 'true', '1', null, '1', 'individual', 'gas', '2023', '2', null, '108.4262'), ('1136', 'Appartement 4 pièces 63 m²', 'false', '63', 'd', null, '397', 'Appartment', 'd', 'APPARTEMENT T4 A VESOUL PROCHE TOUTES COMMODITES
 
 Appartement de type 4 situé au cœur des Repes proche de toutes commodités au 1er étage d un collectif .Il est composé de 3 chambres, salon, cuisine, salle de bain,WC séparé et 2 balcons
 Loyer très attractif de 328.85 € +69.54 € de charges (entretien chaudière, robinetterie, charges diverses...) Chauffage collectif
@@ -5389,21 +5071,18 @@ Pas de frais d'agence ni de frais de dossier.
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
 Référence annonce : LG18PEPVES3
 Non soumis au DPE
-Montant des charges : 69 € / mois$$, 4, 1, null, 3, false, 1, $$communal$$, $$gas$$, null, 3, null, null),
-(1137, $$Location à l année CAP d Agde$$, $$Agde 34300 Le Cap d'Agde$$, true, 31, $$c$$, $$2025-09-30T22:00:00.000Z$$, 560, $$Appartment$$, $$c$$, $$Résidence le Cosmos, appartement à louer à l année d une superficie de 26m2 + 5m2 de terrasse situé au 3eme étage sans ascenseur. 
+Montant des charges : 69 € / mois', '4', 'Vesoul 70000 Les Rêpes', '3', 'false', '1', null, '1', 'communal', 'gas', null, '3', null, '19.0512'), ('1137', 'Location à l année CAP d Agde', 'true', '31', 'c', '2025-09-30T22:00:00.000Z', '560', 'Appartment', 'c', 'Résidence le Cosmos, appartement à louer à l année d une superficie de 26m2 + 5m2 de terrasse situé au 3eme étage sans ascenseur. 
 L appartement a été entièrement rénové, il est loué meublé avec parking privé numéroté. Le loyer est de 560€ charges comprises soit 530€ hors charges.
 Le loyer est à régler avant le 10 du mois. Le montant de la caution est de 560€.
 Profil du locataire: personne seule, gagnant minimum 1300€, personne sérieuse, non fumeur. 
-L appartement se compose d une entrée, salle d eau avec chauffage électrique, coin chambre avec tv suspendu, dressing, cuisine équipée, lave linge, séjour, terrasse avec belle vue dégagée. Clim réversible. Accès direct centre port et plage du môle.$$, 2, 3, null, 1, false, 1, $$individual$$, $$electric$$, 1980, 4, null, null),
-(1138, $$Appartement 2 pièces 51m2$$, $$Saint-Just-Saint-Rambert 42170 Saint-Rambert$$, false, 51, $$a$$, null, 860, $$Appartment$$, $$a$$, $$loue T2 de 51 m2 dans résidence neuve sécurisée ,
+L appartement se compose d une entrée, salle d eau avec chauffage électrique, coin chambre avec tv suspendu, dressing, cuisine équipée, lave linge, séjour, terrasse avec belle vue dégagée. Clim réversible. Accès direct centre port et plage du môle.', '2', 'Agde 34300 Le Cap d'Agde', '1', 'false', '3', null, '1', 'individual', 'electric', '1980', '4', null, '97.1712'), ('1138', 'Appartement 2 pièces 51m2', 'false', '51', 'a', null, '860', 'Appartment', 'a', 'loue T2 de 51 m2 dans résidence neuve sécurisée ,
 rez de jardin avec terrasse de 60 m2 ,
 cuisine équipée , 1 chambre , sdb avec bac douche de 1,30 x 0,90 , wc indépendant .
 chauffage au sol avec pompe à chaleur , ( réversible en clim )
 grand garage fermé avec éclairage + 1 prise ,
 1 place de parking privatif ,
 libre de suite ,
-loyer 860 euros charges comprise .$$, 2, null, null, 1, false, 1, $$individual$$, null, 2025, 2, null, null),
-(1139, $$Appartement 3 pièces 71 m²$$, $$Lyon 69008 Mermoz$$, false, 71, $$v$$, null, 970, $$Appartment$$, $$v$$, $$T3 LYON 8
+loyer 860 euros charges comprise .', '2', 'Saint-Just-Saint-Rambert 42170 Saint-Rambert', '1', 'false', null, null, '1', 'individual', null, '2025', '2', null, '42.4262'), ('1139', 'Appartement 3 pièces 71 m²', 'false', '71', 'v', null, '970', 'Appartment', 'v', 'T3 LYON 8
 
 Rue Professeur Ranvier - Appartement de type 3 au 7e et dernier étage avec ascenseur.
 
@@ -5428,8 +5107,7 @@ Bien soumis à une garantie loyer impayé.
 Pour toute demande merci de me contacter au [Coordonnées masquées]
 Référence annonce : 9NAW-54W-1X1
 Honoraires à la charge du locataire : 923 € TTC dont 213 € pour l’état des lieux
-Montant des charges : 207 € / mois$$, 3, 7, null, 2, true, 1, $$communal$$, $$gas$$, null, 7, null, null),
-(1140, $$Appartement 1 pièce 31 m²$$, $$Lyon 69009$$, false, 31, $$f$$, $$2025-11-03T23:00:00.000Z$$, 690, $$Appartment$$, $$f$$, $$T1 Bis - 31,95m²
+Montant des charges : 207 € / mois', '3', 'Lyon 69008 Mermoz', '2', 'true', '7', null, '1', 'communal', 'gas', null, '7', null, '19.0512'), ('1140', 'Appartement 1 pièce 31 m²', 'false', '31', 'f', '2025-11-03T23:00:00.000Z', '690', 'Appartment', 'f', 'T1 Bis - 31,95m²
 
 T1 Bis de 31,95 m², situé au 5e étage sur le quai Hippolyte Jaÿr dans le 9e arrondissement de Lyon.
 L'appartement offre une entrée avec une cuisine aménagée (équipée d'une plaque induction, d'un réfrigérateur encastré et de meubles hauts et bas), une chambre séparée avec meuble dressing, une salle de bains (machine à laver) et des WC + une cave (n°29) en sous-sol.
@@ -5455,8 +5133,7 @@ Modalité de récupération des charges locatives : provision avec régularisati
 Complément de loyer : 77 € / mois (inclus dans le loyer CC)
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 840 € et 1 170 € par an. Prix moyens des énergies indexés sur l'année 2023 (abonnements compris)
-Logement à consommation énergétique excessive : classe F$$, 1, 5, null, 1, false, 1, $$individual$$, $$gas$$, 1948, null, null, null),
-(1141, $$À louer: 1 Appartement T2 à l étage d’une maison d’habitation$$, $$Mazamet 81200$$, false, 59, null, $$2025-10-31T23:00:00.000Z$$, 400, $$Appartment$$, null, $$Au dernier étage d’une maison d’habitation, appartement de type T2 comprenant : une pièce principale, une chambre avec placard, une salle de bain avec douche, baignoire et WC.
+Logement à consommation énergétique excessive : classe F', '1', 'Lyon 69009', '1', 'false', '5', null, '1', 'individual', 'gas', '1948', null, null, '146.9262'), ('1141', 'À louer: 1 Appartement T2 à l étage d’une maison d’habitation', 'false', '59', null, '2025-10-31T23:00:00.000Z', '400', 'Appartment', null, 'Au dernier étage d’une maison d’habitation, appartement de type T2 comprenant : une pièce principale, une chambre avec placard, une salle de bain avec douche, baignoire et WC.
 
 NB: Une cuisine commune est accessible au rez-de-chaussée ainsi que le hall d’entrée et les escaliers (comme en colocation, partagés avec les propriétaires
 occupant le RDC et le 1er étage)
@@ -5464,8 +5141,7 @@ occupant le RDC et le 1er étage)
 Possibilité de louer non meublé ou meublé (sans lit)
 Situé à 5 minutes à pied de la gare SNCF, dans un secteur calme et proche de toutes commodités.
 
-💶 Loyer : 400 € charges comprises$$, 2, 2, null, 1, false, 1, $$individual$$, $$solar$$, 1960, 2, null, null),
-(1142, $$F2 meublé centre-ville Bar-le-Duc$$, $$Bar-le-Duc 55000 Parc de l'Hôtel de Ville$$, false, 30, $$d$$, $$2025-10-31T23:00:00.000Z$$, 415, $$Appartment$$, $$b$$, $$Loue appartement F2 meublé situé plein centre ville de Bar-le-Duc composé d'une cuisine intégrée: frigo, plaque, micro-ondes, vaisselle, d'une pièce principale composée d' une partie repas et d'un espace salon avec canapé,table basse,meuble tv.
+💶 Loyer : 400 € charges comprises', '2', 'Mazamet 81200', '1', 'false', '2', null, '1', 'individual', 'solar', '1960', '2', null, '197.5262'), ('1142', 'F2 meublé centre-ville Bar-le-Duc', 'false', '30', 'd', '2025-10-31T23:00:00.000Z', '415', 'Appartment', 'b', 'Loue appartement F2 meublé situé plein centre ville de Bar-le-Duc composé d'une cuisine intégrée: frigo, plaque, micro-ondes, vaisselle, d'une pièce principale composée d' une partie repas et d'un espace salon avec canapé,table basse,meuble tv.
 
 Une chambre avec lit 2 personne 140x190, un chevet et un meuble dressing.
 
@@ -5483,12 +5159,10 @@ Compteur électrique individuel 
 
 400+15€ de charges  (ordures ménagères et électricité des communs )
 Disponible mi novembre 
-Un garant est demandé$$, 2, 2, null, 1, false, 1, $$individual$$, $$electric$$, null, 3, null, null),
-(1143, $$Charmant F2 Meublé avec Parking – À 20 min de Paris & Massy TGV$$, $$Chilly-Mazarin 91380 Croix Blanche - Cardinal - Bel Abord$$, true, 54, $$e$$, $$2025-09-30T22:00:00.000Z$$, 1, $$Appartment$$, $$c$$, $$Idéalement situé, ce bel appartement F2 vous séduira par sa luminosité, son calme et son cadre verdoyant. Niché au sein d’une résidence fermée, sécurisée et arborée, il offre un cadre de vie privilégié, à proximité des commodités et des transports.
+Un garant est demandé', '2', 'Bar-le-Duc 55000 Parc de l'Hôtel de Ville', '1', 'false', '2', null, '1', 'individual', 'electric', null, '3', null, '134.9712'), ('1143', 'Charmant F2 Meublé avec Parking – À 20 min de Paris & Massy TGV', 'true', '54', 'e', '2025-09-30T22:00:00.000Z', '1', 'Appartment', 'c', 'Idéalement situé, ce bel appartement F2 vous séduira par sa luminosité, son calme et son cadre verdoyant. Niché au sein d’une résidence fermée, sécurisée et arborée, il offre un cadre de vie privilégié, à proximité des commodités et des transports.
 Il se compose d’une chambre cosy, d’un grand séjour lumineux, d’une cuisine séparée entièrement équipée, ainsi que de toilettes indépendantes et d’une salle de douche. Une place de parking privative est également incluse.
 À seulement 20 minutes en bus de la station de métro Porte d’Orléans (ligne 4) et également à 20 minutes de Massy TGV, Antony ou L’aéroport de Orly.
-Loyer mensuel : 1078 € charges comprises, dont 278 € de charges (incluant chauffage, eau chaude, eau froide et entretien des parties communes).$$, 2, 3, null, 1, false, 1, $$communal$$, $$gas$$, null, 3, null, null),
-(1144, $$Appartement meublé T2 île de Nantes République$$, $$Nantes 44200 Île de Nantes$$, true, 45, $$d$$, $$2025-10-31T23:00:00.000Z$$, 780, $$Appartment$$, null, $$Appartement de 45 m2 , idéalement située sur l’île de Nantes , proche commerces et bar , dans une rue calme adjacente au rond point de république. 
+Loyer mensuel : 1078 € charges comprises, dont 278 € de charges (incluant chauffage, eau chaude, eau froide et entretien des parties communes).', '2', 'Chilly-Mazarin 91380 Croix Blanche - Cardinal - Bel Abord', '1', 'false', '3', null, '1', 'communal', 'gas', null, '3', null, '19.0512'), ('1144', 'Appartement meublé T2 île de Nantes République', 'true', '45', 'd', '2025-10-31T23:00:00.000Z', '780', 'Appartment', null, 'Appartement de 45 m2 , idéalement située sur l’île de Nantes , proche commerces et bar , dans une rue calme adjacente au rond point de république. 
 1er étage 
 Loué meublé (comme sur les photos sans la décoration) 
 Cuisine équipée (plaque induction, four, frigo) 
@@ -5496,26 +5170,22 @@ Machine à laver le linge
 
 Loyer : 760 euros par mois + 20 euros de charges 
 
-Dispo à partir du 30 octobre.$$, 2, 1, null, 1, false, 1, $$individual$$, $$electric$$, null, 2, null, null),
-(1145, $$T2 place st louis de gonzague pau$$, $$Pau 64000 Centre-ville$$, false, 47, $$f$$, $$2025-08-31T22:00:00.000Z$$, 550, $$Appartment$$, $$c$$, $$Charmant T2 de 57 M2 entièrement rénové au coeur de la ville- proche du Lycée Barthou-
+Dispo à partir du 30 octobre.', '2', 'Nantes 44200 Île de Nantes', '1', 'false', '1', null, '1', 'individual', 'electric', null, '2', null, '192.9312'), ('1145', 'T2 place st louis de gonzague pau', 'false', '47', 'f', '2025-08-31T22:00:00.000Z', '550', 'Appartment', 'c', 'Charmant T2 de 57 M2 entièrement rénové au coeur de la ville- proche du Lycée Barthou-
 Place Saint Louis de Gonzague.
 L'appartement est lumineux. Il est situé au 1e étage sans ascenseur.
 La cuisine est équipée- Il comprend une douche- le WC est indépendant.
 Double vitrage- L'eau est comprise dans la provision- 
 Loyer 500 € + provision sur les charges 50 €-Frais de baux et état des lieux 420 €- caution 500 €
-Libre de suite$$, 2, 1, null, 1, false, 1, $$individual$$, $$electric$$, null, 2, null, null),
-(1146, $$Studio libre Saint Florent sur cher$$, $$Saint-Florent-sur-Cher 18400$$, false, null, $$d$$, null, 350, $$Appartment$$, $$d$$, $$Studio libre de suite 
+Libre de suite', '2', 'Pau 64000 Centre-ville', '1', 'false', '1', null, '1', 'individual', 'electric', null, '2', null, '374.3712'), ('1146', 'Studio libre Saint Florent sur cher', 'false', null, 'd', null, '350', 'Appartment', 'd', 'Studio libre de suite 
 Avec vraie salle de bain
-Pour plus d’informations merci de passer par l’annonce et de laisser vos coordonnées$$, 1, null, null, null, false, 1, $$individual$$, $$electric$$, null, null, null, null),
-(1147, $$Studio pour travailleur détaché$$, $$Rochefort 17300 Centre-ville$$, true, 22, $$c$$, $$2025-11-30T23:00:00.000Z$$, 550, $$Appartment$$, $$b$$, $$Loue studio dans résidence calme et sécurisée proche gare.
+Pour plus d’informations merci de passer par l’annonce et de laisser vos coordonnées', '1', 'Saint-Florent-sur-Cher 18400', null, 'false', null, null, '1', 'individual', 'electric', null, null, null, '19.0512'), ('1147', 'Studio pour travailleur détaché', 'true', '22', 'c', '2025-11-30T23:00:00.000Z', '550', 'Appartment', 'b', 'Loue studio dans résidence calme et sécurisée proche gare.
 Avec terrasse, parking privé et local vélos. 
 Coin cuisine avec plaques , mini four et micro ondes et lave linge 
 Coin salon avec 2 fauteuil et TV
 Coin nuit avec lit armoire 
 Location au mois pour 1 personne
 Loyer 550€ plus consommation électrique. 
-N'hésitez pas à me contacter pour des renseignements supplémentaires.$$, 1, null, null, null, true, 1, $$individual$$, $$electric$$, 2006, 3, null, null),
-(1148, $$Appartement T5 de 129m² avec parking et cave - Nantes / Saint-Herblain$$, $$Nantes 44100 Dervallières-Zola$$, false, 129, $$d$$, $$2025-09-30T22:00:00.000Z$$, 1, $$Appartment$$, $$d$$, $$***CET APPARTEMENT VOUS INTÉRESSE ? RDV sur notre site [URL masquée pour votre sécurité] afin de DEPOSER VOTRE CANDIDATURE EN LIGNE !***
+N'hésitez pas à me contacter pour des renseignements supplémentaires.', '1', 'Rochefort 17300 Centre-ville', null, 'true', null, null, '1', 'individual', 'electric', '2006', '3', null, '74.4912'), ('1148', 'Appartement T5 de 129m² avec parking et cave - Nantes / Saint-Herblain', 'false', '129', 'd', '2025-09-30T22:00:00.000Z', '1', 'Appartment', 'd', '***CET APPARTEMENT VOUS INTÉRESSE ? RDV sur notre site [URL masquée pour votre sécurité] afin de DEPOSER VOTRE CANDIDATURE EN LIGNE !***
 
 Situé au 1er étage (avec ascenseur), l'appartement s'ouvre sur une grande entrée avec placard, des wc, le séjour sur parquet de 37 m², une cuisine séparée et équipée (four, plaques de cuisson, hotte), 4 belles chambres dont une avec placard de rangement et une avec sa salle d'eau (douche) privative. Une salle de bains (baignoire) supplémentaire. Une place de parking couverte et une cave (au sous-sol). Eau froide, eau chaude et chauffage collectif gaz (inclus dans les charges).
 
@@ -5531,8 +5201,7 @@ En bordure immédiate de Nantes, à Saint Herblain, l'appartement est situé au 
 
 Disponible dès à présent
 
-Référence à nous communiquer : 710156$$, 5, 1, null, 4, true, 2, $$communal$$, $$gas$$, 1967, null, null, null),
-(1149, $$Appartement rénové 2025 – Triangle d’Or Nantes, idéal colocation ou couple$$, $$Nantes 44000 Centre-Ville$$, true, 37, $$d$$, $$2025-08-31T22:00:00.000Z$$, 1, $$Appartment$$, $$a$$, $$Appartement intelligent et entièrement rénové en 2025, situé au cœur du Triangle d’Or de Nantes. Idéal pour deux colocataires ou un couple, dans un cadre moderne, confortable et premium.
+Référence à nous communiquer : 710156', '5', 'Nantes 44100 Dervallières-Zola', '4', 'true', '1', null, '2', 'communal', 'gas', '1967', null, null, '19.0512'), ('1149', 'Appartement rénové 2025 – Triangle d’Or Nantes, idéal colocation ou couple', 'true', '37', 'd', '2025-08-31T22:00:00.000Z', '1', 'Appartment', 'a', 'Appartement intelligent et entièrement rénové en 2025, situé au cœur du Triangle d’Or de Nantes. Idéal pour deux colocataires ou un couple, dans un cadre moderne, confortable et premium.
 Caractéristiques du logement
 • Surface : 36,9 m² Carrez (env. 50 m² au sol)
 • 3ᵉ étage sous combles, lumineux et calme
@@ -5550,8 +5219,7 @@ Atouts
 • Adresse premium : Triangle d’Or, commerces et transports immédiats
 • Colocation ou couple idéale pour 2 personnes sérieuses
 • Ambiance moderne et prestations haut de gamme
-Loyer global : 1 250 € CC (réparti entre 730 € + 520 €)$$, 3, 3, null, 2, false, 1, $$individual$$, $$electric$$, 1900, 3, null, null),
-(1150, $$Appartement 3 pièces 67 m²$$, $$Geispolsheim 67118$$, false, 67, $$d$$, null, 873, $$Appartment$$, $$c$$, $$GEISPOLSHEIM VILLAGE, dans une impasse au sein d'une copropriété bien entretenue, nous vous présentons ce beau 3 pièces en excellent état au 1 er étage.
+Loyer global : 1 250 € CC (réparti entre 730 € + 520 €)', '3', 'Nantes 44000 Centre-Ville', '2', 'false', '3', null, '1', 'individual', 'electric', '1900', '3', null, '162.0192'), ('1150', 'Appartement 3 pièces 67 m²', 'false', '67', 'd', null, '873', 'Appartment', 'c', 'GEISPOLSHEIM VILLAGE, dans une impasse au sein d'une copropriété bien entretenue, nous vous présentons ce beau 3 pièces en excellent état au 1 er étage.
 Cet appartement dispose d'une entrée avec placard donnant sur un lumineux séjour avec cuisine équipée toute équipée (plaque, hotte, four, lave-vaisselle), 2 belles chambres et une salle de bains avec douche.
 La terrasse est accessible par le séjour.
 
@@ -5562,8 +5230,7 @@ Emission de gaz à effet de serre : 20 CO2/m²/an
 Honoraires à la charge du locataire : 674 € TTC dont 202 € pour l’état des lieux
 Dépôt de garantie : 765 €
 Montant des charges : 108 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 3, 1, null, 2, false, 1, null, null, 2013, null, null, null),
-(1151, $$Studio 1 pièce 20 m²$$, $$Lingolsheim 67380$$, true, 20, $$e$$, null, 570, $$Appartment$$, $$b$$, $$Au dernier étage d'un immeuble calme et très bien tenu, situé dans un cadre verdoyant à proximité de toutes les commodités, vous serez séduit par ce mignon studio très bien équipé.
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '3', 'Geispolsheim 67118', '2', 'false', '1', null, '1', null, null, '2013', null, null, '160.309533333333'), ('1151', 'Studio 1 pièce 20 m²', 'true', '20', 'e', null, '570', 'Appartment', 'b', 'Au dernier étage d'un immeuble calme et très bien tenu, situé dans un cadre verdoyant à proximité de toutes les commodités, vous serez séduit par ce mignon studio très bien équipé.
 Il se compose d'une entrée avec rangements, d'un coin cuisine, joliment aménagé, avec des matériaux de qualité, et bien équipé, d'une salle d'eau spacieuse et bien pensée et d'une belle pièce de vie, lumineuse et disposant d'un grand placard intégralement aménagé.
 
 Bus au pied de l'immeuble (ligne 13 - arrêt "Rue d'Eckbolsheim")
@@ -5575,8 +5242,7 @@ Emission de gaz à effet de serre : 10 CO2/m²/an
 Honoraires à la charge du locataire : 262 € TTC dont 60 € pour l’état des lieux
 Dépôt de garantie : 1040 €
 Montant des charges : 50 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 1, 5, null, null, false, null, null, null, 1975, null, null, null),
-(1152, $$Appartement 3 pièces 71 m²$$, $$Vienne 38200$$, false, 71, $$c$$, $$2025-09-05T22:00:00.000Z$$, 925, $$Appartment$$, $$c$$, $$VIENNE SUD - APPARTEMENT T3 72m²
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '1', 'Lingolsheim 67380', null, 'false', '5', null, null, null, null, '1975', null, null, '79.5512'), ('1152', 'Appartement 3 pièces 71 m²', 'false', '71', 'c', '2025-09-05T22:00:00.000Z', '925', 'Appartment', 'c', 'VIENNE SUD - APPARTEMENT T3 72m²
 
 Dans résidence sécurisée, appartement T3 de 72m² situé au 4ème étage avec ascenseur composé d'un hall d'entrée desservant une cuisine séparée, équipée et meublée donnant sur un balcon, un grand séjour, 2 chambres avec placards muraux, salle de bains et WC séparés. Garage et place de parking privée. Chauffage individuel au gaz. Disponible de suite.
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
@@ -5587,8 +5253,7 @@ Dépôt de garantie : 850 €
 Montant des charges : 75 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 070 € et 1 490 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 4, null, 2, false, 1, $$individual$$, null, null, 4, null, null),
-(1153, $$Studio 20m²$$, $$Privas 07000$$, false, 20, $$c$$, $$2025-07-31T22:00:00.000Z$$, 340, $$Appartment$$, $$c$$, $$Studio refait à neuf en 2012.
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 070 € et 1 490 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Vienne 38200', '2', 'false', '4', null, '1', 'individual', null, null, '4', null, '116.6762'), ('1153', 'Studio 20m²', 'false', '20', 'c', '2025-07-31T22:00:00.000Z', '340', 'Appartment', 'c', 'Studio refait à neuf en 2012.
 Tout équipé, lumineux et fonctionnel dans un quartier calme. Au 1er étage d'une petite résidence de 4 appartements. Façades refaites à neuves en 2025.
 
 Entrée avec un grand placard mural coulissant. Interphone.
@@ -5607,8 +5272,7 @@ Proche toutes commodités :
 Location : 340€/mois (330€ + 10€ charges: ordures ménagères + électricité des communs)
 Eau et électricité non compris
 Disponible de suite
-Pas de location de courte durée possible / garant demandé pour les étudiants$$, 1, 1, null, null, false, 1, $$individual$$, $$electric$$, 1900, 2, null, null),
-(1154, $$Location d'un beau F3 rue Maréchal Lyautey secteur Wenheck ST AVOLD$$, $$Saint-Avold 57500 Wenheck$$, false, 57, $$d$$, $$2025-10-31T23:00:00.000Z$$, 541, $$Appartment$$, $$d$$, $$PAS DE FRAIS D’AGENCE
+Pas de location de courte durée possible / garant demandé pour les étudiants', '1', 'Privas 07000', null, 'false', '1', null, '1', 'individual', 'electric', '1900', '2', null, '69.4512'), ('1154', 'Location d'un beau F3 rue Maréchal Lyautey secteur Wenheck ST AVOLD', 'false', '57', 'd', '2025-10-31T23:00:00.000Z', '541', 'Appartment', 'd', 'PAS DE FRAIS D’AGENCE
 Situé dans un immeuble isolé thermiquement, cet appartement de 3 pièces rénové, d’une superficie de 57 m² est composé d’une cuisine ouverte sur séjour (avec possibilité de le fermer) avec un grand balcon (qui est situé côté sud), deux chambres, d’une salle d'eau toute équipée, toilette séparée et de nombreux placards de rangement. 
 Une cave privative complète ce bien. 
 Idéalement situé, entouré de colline et dans un environnement boisé et verdoyant. Cette résidence est à 5 minutes des commerces et proche de l'école maternelle, primaire et du collège, bien desservie par les transports en commun et offrant un cadre de vie agréable et de belles prestations. 
@@ -5617,8 +5281,7 @@ Une location exclusive incluant le loyer nu, le chauffage collectif gaz, l’ent
 Le montant de la redevance des ordures ménagères est calculé en fonction du nombre de personnes logées. 
 Logement conventionné éligible à l'APL pour lequel nous vous proposons une mesure d'accompagnement dans vos démarches.
 Disponible fin novembre 2025
-“ Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques.gouv.fr ”.$$, 3, 2, null, 2, false, 1, $$communal$$, $$gas$$, null, 4, null, null),
-(1155, $$Charmant et lumineux T4$$, $$Lorient 56100 Centre-ville$$, true, 63, $$d$$, $$2025-10-31T23:00:00.000Z$$, 980, $$Appartment$$, $$b$$, $$Dans quartier résidentiel proche des restaurants et rue piétonne.
+“ Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques.gouv.fr ”.', '3', 'Saint-Avold 57500 Wenheck', '2', 'false', '2', null, '1', 'communal', 'gas', null, '4', null, '19.0512'), ('1155', 'Charmant et lumineux T4', 'true', '63', 'd', '2025-10-31T23:00:00.000Z', '980', 'Appartment', 'b', 'Dans quartier résidentiel proche des restaurants et rue piétonne.
 
 T4 avec 3 chambres entièrement rénové au 2ème étage d’un petit immeuble.
 Exposition plein sud, 2 balcons, très lumineux.
@@ -5648,15 +5311,13 @@ Les charges comprennent :
 
 L’électricité est à la charge du locataire qui doit mettre le compteur à son nom.
 
-Agences s’abstenir.$$, 4, 2, null, 3, false, 1, $$individual$$, $$electric$$, 1970, 2, null, null),
-(1156, $$Appartement T3$$, $$Semur-en-Auxois 21140$$, false, 86, null, $$2025-12-31T23:00:00.000Z$$, 700, $$Appartment$$, null, $$situé au 1er étage
+Agences s’abstenir.', '4', 'Lorient 56100 Centre-ville', '3', 'false', '2', null, '1', 'individual', 'electric', '1970', '2', null, '262.4832'), ('1156', 'Appartement T3', 'false', '86', null, '2025-12-31T23:00:00.000Z', '700', 'Appartment', null, 'situé au 1er étage
 Entrée commune avec 1 appartement situé au 2ème
 Salon côté rue lumineux 
 2 chambre avec penderie en arrière cours 
 WC séparé
 1 balcon côté sud
-1 terrasse coté nord$$, 3, 1, null, 2, false, 1, $$individual$$, $$gas$$, null, 2, null, null),
-(1157, $$Beau t4 - sans frais d'agence$$, $$La Loupe 28240$$, false, 76, $$e$$, null, 630, $$Appartment$$, $$c$$, $$🏠 SANS FRAIS D’AGENCE – T4 à LA LOUPE – 1er étage
+1 terrasse coté nord', '3', 'Semur-en-Auxois 21140', '2', 'false', '1', null, '1', 'individual', 'gas', null, '2', null, '279.2012'), ('1157', 'Beau t4 - sans frais d'agence', 'false', '76', 'e', null, '630', 'Appartment', 'c', '🏠 SANS FRAIS D’AGENCE – T4 à LA LOUPE – 1er étage
 
 📍 Place de l’Hôtel de Ville – LA LOUPE
 
@@ -5673,8 +5334,7 @@ Une salle d’eau avec douche et lavabo
 Provisions pour charges : 50 € (incluant taxe d’ordures ménagères, eau froide, électricité des parties communes)
 Total mensuel charges comprises : 630 €
 
-🔒 Dépôt de garantie : 580 €$$, 4, 1, null, 3, false, 1, null, null, null, 2, null, null),
-(1158, $$T3 avec terrasse - sans frais d'agence$$, $$Le Mans 72000 Centre$$, false, 81, $$c$$, null, 920, $$Appartment$$, $$c$$, $$À louer – Appartement T3 avec terrasse et parking – LE MANS
+🔒 Dépôt de garantie : 580 €', '4', 'La Loupe 28240', '3', 'false', '1', null, '1', null, null, null, '2', null, '248.9512'), ('1158', 'T3 avec terrasse - sans frais d'agence', 'false', '81', 'c', null, '920', 'Appartment', 'c', 'À louer – Appartement T3 avec terrasse et parking – LE MANS
 📍 11 bis rue Leboindre – Appartement n°04 – Rez-de-jardin
 🚫 PAS DE FRAIS D’AGENCE
 
@@ -5699,8 +5359,7 @@ Provision mensuelle pour charges : 50 €
 (inclut : taxe d’ordures ménagères, entretien de l’immeuble et de l’ascenseur, eau et électricité des parties communes)
 Chauffage et eau chaude individuels au gaz : 60 €/mois
 
-Dépôt de garantie : 810 €$$, 3, null, null, 2, false, 1, null, null, null, null, null, null),
-(1159, $$Sous location T2 LA SALINE LES BAINS 20 novembre 8 décembre$$, $$Saint-Paul 97434 La Saline-les-Bains$$, true, 65, null, $$2025-10-31T23:00:00.000Z$$, 650, $$Appartment$$, null, $$Bonjour,
+Dépôt de garantie : 810 €', '3', 'Le Mans 72000 Centre', '2', 'false', null, null, '1', null, null, null, null, null, '130.4262'), ('1159', 'Sous location T2 LA SALINE LES BAINS 20 novembre 8 décembre', 'true', '65', null, '2025-10-31T23:00:00.000Z', '650', 'Appartment', null, 'Bonjour,
 
 Je sous loue mon appartement de 65m2 avec 40 m2 de terasse à La Saline Les bains, à 5 min à pied du lagon du 20 novembre au 8 décembre.
 
@@ -5710,8 +5369,7 @@ Les logement est climatisé et avec WIFI. Place de stationnement devant le logem
 
 N'hésitez pas a me contacter par texto si besoin de renseignements ou photo, (amelioration faite d'amenagement depuis les photos)
 
-Bonne journée$$, 3, 1, null, 1, false, 1, null, null, 2000, 3, null, null),
-(1160, $$Appartement 4 pièces 82 m²$$, $$Clermont-Ferrand 63000 Vallières - Sallins - Poncillon$$, false, 82, $$c$$, null, 1, $$Appartment$$, $$c$$, $$Résidence VALENTY : Appartement T4 de 82.06m²
+Bonne journée', '3', 'Saint-Paul 97434 La Saline-les-Bains', '1', 'false', '1', null, '1', null, null, '2000', '3', null, '215.6762'), ('1160', 'Appartement 4 pièces 82 m²', 'false', '82', 'c', null, '1', 'Appartment', 'c', 'Résidence VALENTY : Appartement T4 de 82.06m²
 
 LOGEMENT DISPONIBLE IMMÉDIATEMENT
 
@@ -5740,12 +5398,10 @@ Mail : [Coordonnées masquées]
 Référence annonce : 02010767010304
 Consommation énergétique : 57 kWh/m²/an
 Emission de gaz à effet de serre : 11 CO2/m²/an
-Dépôt de garantie : 903 €$$, 4, 4, null, 3, true, 1, $$individual$$, $$gas$$, 2025, 4, null, null),
-(1161, $$A louer T3 meublé quartier Trigance à Istres$$, $$Istres 13800 Trigance$$, true, 57, $$d$$, $$2025-10-31T23:00:00.000Z$$, 920, $$Appartment$$, null, $$Découvrez ce charmant appartement entièrement meublé de 57 m2. Il est situé dans le quartier de Trigance en résidence sécurisée proche du CFAI pôle formation UIMM et du centre commercial Leclerc.
+Dépôt de garantie : 903 €', '4', 'Clermont-Ferrand 63000 Vallières - Sallins - Poncillon', '3', 'true', '4', null, '1', 'individual', 'gas', '2025', '4', null, '131.8012'), ('1161', 'A louer T3 meublé quartier Trigance à Istres', 'true', '57', 'd', '2025-10-31T23:00:00.000Z', '920', 'Appartment', null, 'Découvrez ce charmant appartement entièrement meublé de 57 m2. Il est situé dans le quartier de Trigance en résidence sécurisée proche du CFAI pôle formation UIMM et du centre commercial Leclerc.
 Situé au 3ème et dernier étage avec ascenseur, cet espace lumineux se compose d un salon salle à manger, d une cuisine équipée, de 2 chambres ( lit 160 et lit 140) avec placards, d une salle de bain avec douche et d une terrasse. Vous bénéficieriez d une place de parking en sous sol fermé.
 Les transports en commun y sont également facilement accessibles ( bus / gare ).
-Contactez nous pour organiser une visite et découvrir le tout le potentiel de cet appartement.$$, 3, 3, null, 2, true, 1, $$individual$$, $$electric$$, null, 3, null, null),
-(1162, $$T3 hyper centre +2 sdb 73m²$$, $$Saumur 49400 Centre-ville$$, true, 73, $$d$$, null, 800, $$Appartment$$, $$b$$, $$A louer appartement T3 duplex meublé très bon état plein centre-ville de Saumur (grande rue).
+Contactez nous pour organiser une visite et découvrir le tout le potentiel de cet appartement.', '3', 'Istres 13800 Trigance', '2', 'true', '3', null, '1', 'individual', 'electric', null, '3', null, '239.2992'), ('1162', 'T3 hyper centre +2 sdb 73m²', 'true', '73', 'd', null, '800', 'Appartment', 'b', 'A louer appartement T3 duplex meublé très bon état plein centre-ville de Saumur (grande rue).
 Situé au 2ème étage et dernier d'un petit immeuble de 3 appartements très calme. 
 Surface totale = 73m² avec double vitrage et chauffage électrique.
 ( 2 chambres avec salle de bain indépendantes par chambre + WC )
@@ -5758,15 +5414,13 @@ Cour commune fermée abri velos
 
   (eau + fibre avec box +entretien des communs+ OM)
  2 mois de caution (sans les charges) + garant obligatoire + bail individuel si coloc 
- Libre début Novembre$$, 3, null, null, 2, false, 2, $$individual$$, $$electric$$, null, 2, null, null),
-(1163, $$Aix en provence superbe t5 en duplex terrasses et box$$, $$Aix-en-Provence 13100 Allées provençales - Rotonde$$, false, 221, $$c$$, $$2025-09-30T22:00:00.000Z$$, 3, $$Appartment$$, $$a$$, $$En plein cœur d’Aix-en-Provence, sur les Allées Provençales, découvrez ce bien d’exception : un superbe appartement en duplex de 221 m², occupant le 5ème et dernier étage d’une résidence récente de standing. Rare sur le marché aixois, il séduit par ses volumes généreux, sa luminosité remarquable et ses trois terrasses offrant une vue dégagée et sans vis à vis.
+ Libre début Novembre', '3', 'Saumur 49400 Centre-ville', '2', 'false', null, null, '2', 'individual', 'electric', null, '2', null, '301.1232'), ('1163', 'Aix en provence superbe t5 en duplex terrasses et box', 'false', '221', 'c', '2025-09-30T22:00:00.000Z', '3', 'Appartment', 'a', 'En plein cœur d’Aix-en-Provence, sur les Allées Provençales, découvrez ce bien d’exception : un superbe appartement en duplex de 221 m², occupant le 5ème et dernier étage d’une résidence récente de standing. Rare sur le marché aixois, il séduit par ses volumes généreux, sa luminosité remarquable et ses trois terrasses offrant une vue dégagée et sans vis à vis.
 
 L’appartement s’ouvre sur un spacieux hall d’entrée menant à un vaste séjour baigné de lumière, prolongé par une cuisine moderne entièrement équipée. Il dispose de quatre chambres confortables, trois salles de bains, trois WC, ainsi que de nombreux rangements parfaitement intégrés.
 
 Deux box fermés en sous-sol complètent ce bien, garantissant un stationnement pratique et sécurisé.
 
-Cet appartement conjugue élégance, confort et fonctionnalité, pour un cadre de vie à la fois paisible et raffiné, au cœur d’une adresse prisée.$$, 5, 5, null, 4, true, 3, $$individual$$, $$electric$$, 1999, 5, null, null),
-(1164, $$Appartement T1 de 21m² toutes charges comprises à Gif-sur-Yvette$$, $$Gif-sur-Yvette 91190 Courcelle - Damiette$$, true, 22, $$c$$, $$2025-09-30T22:00:00.000Z$$, 827, $$Appartment$$, $$c$$, $$Nouvelle résidence, prépare ta rentrée 2025 !
+Cet appartement conjugue élégance, confort et fonctionnalité, pour un cadre de vie à la fois paisible et raffiné, au cœur d’une adresse prisée.', '5', 'Aix-en-Provence 13100 Allées provençales - Rotonde', '4', 'true', '5', null, '3', 'individual', 'electric', '1999', '5', null, '575.9712'), ('1164', 'Appartement T1 de 21m² toutes charges comprises à Gif-sur-Yvette', 'true', '22', 'c', '2025-09-30T22:00:00.000Z', '827', 'Appartment', 'c', 'Nouvelle résidence, prépare ta rentrée 2025 !
 
 La résidence Saclay / Gif-sur-Yvette se situe face à un joli parc traversé par l’Yvette. Composée de 188 unités d’hébergements, elle offre un environnement paisible à deux pas des commerces et des transports.
 
@@ -5779,8 +5433,7 @@ À l’intérieur, la résidence se pare d’une décoration conviviale et c
 T1 21-22m² en étage
 Loyer : 827€ - TOUTES CHARGES COMPRISES ! 
 Dépôt de garantie : 650€
-Frais de dossiers : 400€$$, 1, 1, null, null, true, 1, null, null, 2025, 3, null, null),
-(1165, $$T3 meublé avec terrasse quartier Saint Roch$$, $$Nice 06300 Saint-Roch$$, true, 40, $$c$$, $$2025-10-31T23:00:00.000Z$$, 1, $$Appartment$$, $$a$$, $$Situé au cœur du quartier Saint Roch, proche tram T1, tous commerces, écoles, campus Saint Jean d'Angély. 
+Frais de dossiers : 400€', '1', 'Gif-sur-Yvette 91190 Courcelle - Damiette', null, 'true', '1', null, '1', null, null, '2025', '3', null, '49.3012'), ('1165', 'T3 meublé avec terrasse quartier Saint Roch', 'true', '40', 'c', '2025-10-31T23:00:00.000Z', '1', 'Appartment', 'a', 'Situé au cœur du quartier Saint Roch, proche tram T1, tous commerces, écoles, campus Saint Jean d'Angély. 
 1 pièce centrale avec 1 table et 4 chaises et une cuisine équipée ( cuisinière électrique et frigo.)
 1 chambre ( sans fenêtre) avec un lit 90x190cm et un petit bureau.
 1 chambre ( sans fenêtre) avec un cliclac ( couchage 140x190 cm) et un meuble TV.
@@ -5792,8 +5445,7 @@ Eau chaude par cumulus.
 Bail longue durée 
 Diagnostic des risques naturels et technologiques disponible sur georisques.gouv.fr/
 
-Dossier à déposer sur [URL masquée pour votre sécurité]/$$, 3, 1, null, 2, false, 1, $$individual$$, $$electric$$, null, 4, null, null),
-(1166, $$Appartement T1+ meublé$$, $$Valence 26000 Maurice Faure$$, true, 37, $$b$$, null, 500, $$Appartment$$, $$b$$, $$Je loue un appartement meublé au 1er étage avec parking gratuit.
+Dossier à déposer sur [URL masquée pour votre sécurité]/', '3', 'Nice 06300 Saint-Roch', '2', 'false', '1', null, '1', 'individual', 'electric', null, '4', null, '119.8512'), ('1166', 'Appartement T1+ meublé', 'true', '37', 'b', null, '500', 'Appartment', 'b', 'Je loue un appartement meublé au 1er étage avec parking gratuit.
 La cuisine est équipée : plaques de cuisson, micro-ondes, cafetière, bouilloire,  frigo congélateur, vaisselle, rangements, table et chaises.
 La chambre : grand lit en 140x190, bureau, chaise, armoire et rangements.
 La salle d'eau avec douche et lavabo, toilettes séparées.
@@ -5802,8 +5454,7 @@ Parking 2 roues sécurisé dans la cour.
 Le logement est situé dans un quartier calme, toutes commodités à proximité.
 
 Merci d’envoyer une demande en décrivant votre situation professionnelle puis
- éventuellement nous reviendrons vers vous pour obtenir des pièces justificatives (fiche d’imposition, 3 derniers bulletins de salaire…) et convenir d’une visite.$$, null, null, null, 1, false, 1, $$communal$$, $$gas$$, null, null, null, null),
-(1167, $$Appartement T2 meublé de 73 m²$$, $$Roquemaure 30150$$, true, 73, $$b$$, $$2025-10-31T23:00:00.000Z$$, 755, $$Appartment$$, $$a$$, $$APPARTEMENT entièrement rénové 
+ éventuellement nous reviendrons vers vous pour obtenir des pièces justificatives (fiche d’imposition, 3 derniers bulletins de salaire…) et convenir d’une visite.', null, 'Valence 26000 Maurice Faure', '1', 'false', null, null, '1', 'communal', 'gas', null, null, null, '19.0512'), ('1167', 'Appartement T2 meublé de 73 m²', 'true', '73', 'b', '2025-10-31T23:00:00.000Z', '755', 'Appartment', 'a', 'APPARTEMENT entièrement rénové 
 
 situé au 2ème étage d'une maison de ville en petite copropriété (2 appartements), centre-ville proximité immédiate de la place du marché tous les commerces sont à proximités direct ainsi que le plus grand parking de la ville.  Très calme avec une grande terrasse de 25m² supplémentaire et sans vis-à-vis.
 Très lumineux, parfaitement isolé, il est composé d'un salon/cuisine équipés climatisés, de 2 grandes chambres, une partie pouvant servir de bureau, une salle d'eau spacieuse vasque/douche et WC, la partie nuit est également climatisée.
@@ -5818,8 +5469,7 @@ Charges :  25€/eau
 Electricité à la charge du locataire
  
 Dépôt de garantie : 2 loyers  
-Diagnostic énergétique : DPE classé B.$$, 4, 2, null, 2, false, 1, $$individual$$, $$electric$$, null, 2, null, null),
-(1168, $$Appartement 4 pièces 85 m²$$, $$Rouen 76100 Saint-Sever$$, false, 85, $$d$$, null, 770, $$Appartment$$, $$b$$, $$Appartement 4 pièces 85 m²
+Diagnostic énergétique : DPE classé B.', '4', 'Roquemaure 30150', '2', 'false', '2', null, '1', 'individual', 'electric', null, '2', null, '129.4272'), ('1168', 'Appartement 4 pièces 85 m²', 'false', '85', 'd', null, '770', 'Appartment', 'b', 'Appartement 4 pièces 85 m²
 
 Votre agence GUY HOQUET vous propose à la location cet appartement  SANS FRAIS D'AGENCE situé au 5ème étage d'une résidence récente avec ascenseur
 
@@ -5841,8 +5491,7 @@ Date de réalisation du diagnostic énergétique : 29/04/2022
 Consommation énergie primaire : 193 kWh/m²/an
 Consommation énergie finale : 193 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 970 € et 1 340 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 4, null, null, 3, false, null, null, null, null, 5, null, null),
-(1169, $$Appartement 2 pièces 43 m²$$, $$Remire-Montjoly 97354$$, false, 43, null, null, 722, $$Appartment$$, $$v$$, $$Appartement 2 pièces 43 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 970 € et 1 340 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '4', 'Rouen 76100 Saint-Sever', '3', 'false', null, null, null, null, null, null, '5', null, '198.259533333333'), ('1169', 'Appartement 2 pièces 43 m²', 'false', '43', null, null, '722', 'Appartment', 'v', 'Appartement 2 pièces 43 m²
 
 Situé dans une résidence à Attila-Cabassou un appartement T2 en R+1, comprenant : un séjour, une chambre, une cuisine, une salle d'eau avec WC et une terrasse.
 
@@ -5850,8 +5499,7 @@ Surface : 43 m²
 Non soumis au DPE
 
 Consommation énergie primaire : Non communiqué
-Consommation énergie finale : Non communiqué$$, 2, 1, null, 1, false, null, null, null, null, 1, null, null),
-(1170, $$Studio 1 pièce 31 m²$$, $$Rennes 35000 Villejean$$, false, 31, $$c$$, null, 566, $$Appartment$$, $$a$$, $$Studio 1 pièce 31 m²
+Consommation énergie finale : Non communiqué', '2', 'Remire-Montjoly 97354', '1', 'false', '1', null, null, null, null, null, '1', null, '149.1262'), ('1170', 'Studio 1 pièce 31 m²', 'false', '31', 'c', null, '566', 'Appartment', 'a', 'Studio 1 pièce 31 m²
 
 Bd St Jean Baptiste de la Salle ! 
 Proche Rennes 2 et en dernier étage !! Studio de 31 m² avec entrée, séjour, pièce de vie et kitchenette équipée, coin-nuit en retrait, rangement, salle d'eau. Parking. Laverie à disposition. Libre le 23/10/2025 !
@@ -5866,16 +5514,14 @@ Date de réalisation du diagnostic énergétique : 12/08/2022
 Consommation énergie primaire : 170 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 390 € et 560 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 1, 9, null, 1, true, null, $$individual$$, $$electric$$, 2002, 9, null, null),
-(1171, $$Appartement 2 pièces 41 m²$$, $$Méounes-lès-Montrieux 83136$$, false, 41, $$c$$, null, 450, $$Appartment$$, $$a$$, $$T2 centre-ville
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 390 € et 560 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '1', 'Rennes 35000 Villejean', '1', 'true', '9', null, null, 'individual', 'electric', '2002', '9', null, '97.1712'), ('1171', 'Appartement 2 pièces 41 m²', 'false', '41', 'c', null, '450', 'Appartment', 'a', 'T2 centre-ville
 
 Au cœur du centre-ville de Méounes, un appartement de type 2 au 2ème étage sans ascenseur composé d'une cuisine équipée ouverte sur le salon, une chambre, une salle d'eau avec wc. En parfait état. Commerces et parking à proximité.
 Référence annonce : S1-83136-002_B21
 Date de réalisation du diagnostic : 22/09/2025
 Honoraires à la charge du locataire : 450 € TTC dont 125 € pour l’état des lieux
 Dépôt de garantie : 435 €
-Montant des charges : 14 € / mois$$, 2, null, null, 1, false, null, null, null, null, null, null, null),
-(1172, $$Appartement 1 pièce 30 m²$$, $$Quimper 29000 Locmaria$$, false, 30, $$d$$, $$2025-10-01T22:00:00.000Z$$, 448, $$Appartment$$, $$a$$, $$APPARTEMENT
+Montant des charges : 14 € / mois', '2', 'Méounes-lès-Montrieux 83136', '1', 'false', null, null, null, null, null, null, null, null, '75.4262'), ('1172', 'Appartement 1 pièce 30 m²', 'false', '30', 'd', '2025-10-01T22:00:00.000Z', '448', 'Appartment', 'a', 'APPARTEMENT
 
 A proximité de tous commerces, dans une résidence sécurisée avec ascenseur,venez découvrir cet agréable studio qui se compose d'un séjour lumineux avec balcon d'une cuisine aménagée et équipée, d'une salle d'eau avec wc et d'un parking
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
@@ -5886,8 +5532,7 @@ Dépôt de garantie : 420 €
 Montant des charges : 28 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 600 € et 850 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 1, null, null, null, false, null, $$individual$$, null, 1978, null, null, null),
-(1173, $$Appartement 3 pièces 58 m²$$, $$Villeparisis 77270 Le Marché$$, false, 58, $$e$$, null, 1, $$Appartment$$, $$b$$, $$Appartement 3 pièces 58 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 600 € et 850 € sur les années 2021, 2022 et 2023 (abonnements compris).', '1', 'Quimper 29000 Locmaria', null, 'false', null, null, null, 'individual', null, '1978', null, null, '82.3012'), ('1173', 'Appartement 3 pièces 58 m²', 'false', '58', 'e', null, '1', 'Appartment', 'b', 'Appartement 3 pièces 58 m²
 
 L'agence PARIS EST vous propose en exclusivité un appartement trois pièces refait à neuf composé d'une entrée, un séjour avec balcon, une cuisine aménagée, deux chambres dont une avec balcon, une salle de douche, un wc. Chauffage individuel électrique, Compteur divisionnaire d'eau. Une cave en sous sol et un garage viennent completer cet appartement.
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr
@@ -5899,8 +5544,7 @@ Date de réalisation du diagnostic énergétique : 27/12/2022
 Consommation énergie primaire : 313 kWh/m²/an
 Consommation énergie finale : 136 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 120 € et 1 560 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 3, null, null, 2, false, null, $$individual$$, $$electric$$, 1983, 1, null, null),
-(1174, $$Studio 1 pièce 27 m²$$, $$Hyères 83400 Port$$, true, 27, $$d$$, $$2025-09-30T22:00:00.000Z$$, 525, $$Appartment$$, $$c$$, $$Studio 1 pièce 27 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 120 € et 1 560 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '3', 'Villeparisis 77270 Le Marché', '2', 'false', null, null, null, 'individual', 'electric', '1983', '1', null, '340.6032'), ('1174', 'Studio 1 pièce 27 m²', 'true', '27', 'd', '2025-09-30T22:00:00.000Z', '525', 'Appartment', 'c', 'Studio 1 pièce 27 m²
 
 Résidence sécurisée, au coeur du port de Hyères, studio meublé au rez de jardin avec loggia vitrée et jardinet privatif. Parking composition : une entrée avec coin cuisine équipé, salle d'eau avec WC. séjour meublé avec lit abattable en 140 et coin repas, donnant sur loggia vitrée et jardinet. SH 27m2 + loggia vitrée 6.48m2+ Terrasse carrelée 13.78m2. EXPO N/EST emplacement de parking.
  Disponible au 01/11/2025
@@ -5910,8 +5554,7 @@ Surface : 27 m²
 Modalité de récupération des charges locatives : Prévisionnelles mensuelles avec régularisation annuelle
 
 Consommation énergie primaire : 203 kWh/m²/an
-Consommation énergie finale : 0 kWh/m²/an$$, 1, null, null, null, false, null, $$individual$$, $$electric$$, 1975, 1, null, null),
-(1175, $$Appartement 2 pièces 51 m²$$, $$Fleury-sur-Orne 14123$$, false, 51, $$c$$, null, null, $$Appartment$$, $$c$$, $$APPARTEMENT T2 - 52 m² - FLEURY SUR ORNE - BALCON - PARKING
+Consommation énergie finale : 0 kWh/m²/an', '1', 'Hyères 83400 Port', null, 'false', null, null, null, 'individual', 'electric', '1975', '1', null, '123.3792'), ('1175', 'Appartement 2 pièces 51 m²', 'false', '51', 'c', null, null, 'Appartment', 'c', 'APPARTEMENT T2 - 52 m² - FLEURY SUR ORNE - BALCON - PARKING
 
 Venez découvrir cet appartement lumineux de 2 pièces situé au deuxième étage avec ascenseur, comprenant une entrée, un séjour avec une cuisine  ouverte, une chambre ainsi qu'une salle d'eau et un WC. L'appartement dispose d'un balcon et d'une place de parking. Chauffage individuel au gaz.
 
@@ -5926,8 +5569,7 @@ Modalité de récupération des charges locatives : provision avec régularisati
 A propos de la copropriété :
 Pas de procédure en cours
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 760 € et 1 028 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 2, null, 1, true, null, $$individual$$, $$gas$$, 2012, 3, null, null),
-(1176, $$Appartement 2 pièces 34 m²$$, $$Limoges 87000 Centre-ville$$, false, 34, $$c$$, null, 385, $$Appartment$$, $$a$$, $$Location Appartement 2 pièces LIMOGES (87000)
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 760 € et 1 028 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Fleury-sur-Orne 14123', '1', 'true', '2', null, null, 'individual', 'gas', '2012', '3', null, '89.1762'), ('1176', 'Appartement 2 pièces 34 m²', 'false', '34', 'c', null, '385', 'Appartment', 'a', 'Location Appartement 2 pièces LIMOGES (87000)
 
 LIMOGES - SECTEUR GARE DES BENEDICTINS
 
@@ -5953,8 +5595,7 @@ Dépôt de garantie : 355 €
 Montant des charges : 30 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 451 € et 611 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, 1, null, 1, false, null, $$individual$$, $$electric$$, null, 3, null, null),
-(1177, $$Appartement 3 pièces 46 m²$$, $$Lyon 69001 Terreaux$$, true, 46, $$d$$, null, 1, $$Appartment$$, $$b$$, $$Appartement Canut - T3 - Opéra Hotel de Ville
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 451 € et 611 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Limoges 87000 Centre-ville', '1', 'false', '1', null, null, 'individual', 'electric', null, '3', null, '104.7312'), ('1177', 'Appartement 3 pièces 46 m²', 'true', '46', 'd', null, '1', 'Appartment', 'b', 'Appartement Canut - T3 - Opéra Hotel de Ville
 
 A deux pas du métro Hôtel de Ville
 Dans des lieux chargés d'histoire, appartement duplex typique canut au calme.
@@ -5981,8 +5622,7 @@ Modalité de récupération des charges locatives : provision avec régularisati
 A propos de la copropriété :
 Pas de procédure en cours
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 680 € et 950 € par an. Prix moyens des énergies indexés sur l'année 2023 (abonnements compris)$$, 3, null, null, 2, false, null, null, null, null, null, null, null),
-(1178, $$Studio 1 pièce 29 m²$$, $$Reims 51100 Forum$$, true, 29, $$e$$, null, 660, $$Appartment$$, $$b$$, $$Studio 1 pièce 29 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 680 € et 950 € par an. Prix moyens des énergies indexés sur l'année 2023 (abonnements compris)', '3', 'Lyon 69001 Terreaux', '2', 'false', null, null, null, null, null, null, null, null, '116.034533333333'), ('1178', 'Studio 1 pièce 29 m²', 'true', '29', 'e', null, '660', 'Appartment', 'b', 'Studio 1 pièce 29 m²
 
 REFERENCE 2671G8 - RUE DES CHAPELAINS - FIN DE PREAVIS LE 14 NOVEMBRE 2025
  Dans une rue calme du Centre Ville et proche de toute commodité. Un charmant studio meublé entièrement rénové de 28.68 m2 au sol (18.56 m2 en loi Carrez) au 3ème et derniers étages, comprenant : une entrée, une salle de douches avec WC et une pièce principale avec une cuisine meublée et équipée (plaque, micro-ondes, lave vaisselle et frigo).
@@ -5996,8 +5636,7 @@ Modalité de récupération des charges locatives : Prévisionnelles mensuelles 
 Date de réalisation du diagnostic énergétique : 11/10/2024
 
 Consommation énergie primaire : 298 kWh/m²/an
-Consommation énergie finale : 0 kWh/m²/an$$, 1, 3, null, null, false, null, $$individual$$, $$electric$$, 1948, 3, null, null),
-(1179, $$Appartement 3 pièces 70 m²$$, $$Soissons 02200 Centre-ville$$, false, 70, $$v$$, null, 1, $$Appartment$$, $$b$$, $$Appartement 3 pièces 70 m²
+Consommation énergie finale : 0 kWh/m²/an', '1', 'Reims 51100 Forum', null, 'false', '3', null, null, 'individual', 'electric', '1948', '3', null, '179.8272'), ('1179', 'Appartement 3 pièces 70 m²', 'false', '70', 'v', null, '1', 'Appartment', 'b', 'Appartement 3 pièces 70 m²
 
 Appartement de type 3 en très bon état situé au 2ème étage avec ascenseur du 35 Boulevard Jeanne d'Arc à Soissons, résidence sécurisée bénéficiant d'espaces verts et d'un gardien.
 Il comprend une  entrée, une pièce principale, une cuisine meublée avec plaques et hotte aspirante, deux chambres, une salle de douche, un wc.
@@ -6015,8 +5654,7 @@ Surface : 70 m²
 Date de réalisation du diagnostic énergétique : 29/04/2025
 
 Consommation énergie primaire : Non communiqué
-Consommation énergie finale : Non communiqué$$, 3, 2, null, 2, true, null, null, null, null, 4, null, null),
-(1180, $$Studio 1 pièce 32 m²$$, $$Tourcoing 59200 Blanche Porte - Flocon$$, false, 32, $$e$$, null, 507, $$Appartment$$, $$b$$, $$STUDIO TOURCOING
+Consommation énergie finale : Non communiqué', '3', 'Soissons 02200 Centre-ville', '2', 'true', '2', null, null, null, null, null, '4', null, '230.8012'), ('1180', 'Studio 1 pièce 32 m²', 'false', '32', 'e', null, '507', 'Appartment', 'b', 'STUDIO TOURCOING
 
 A LOUER - TOURCOING, dans le quartier du Flocon, à quelques minutes à pied du Centre-Ville de Tourcoing et à proximité de nombreuses commodités (transports en communs, commerces, axes autoroutiers), découvrez ce studio de 32,66m² composé d'un hall d'entrée, pièce à vivre, cuisine séparée, salle de douche avec WC. Menuiserie en double vitrage PVC et chauffage individuel électrique. Loyer: 507€ dont Charges: 35€ (eau froide, entretiens communs) Dépôt de garantie: 472€ Honoraire de location : 424,58€ dont 97,98€ d'état des lieux
 Référence annonce : 7210469
@@ -6024,8 +5662,7 @@ Date de réalisation du diagnostic : 05/09/2025
 Honoraires à la charge du locataire : 424 € TTC
 Montant des charges : 35 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 890 € et 1 230 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 1, 2, null, null, false, null, $$individual$$, $$electric$$, null, 2, null, null),
-(1181, $$Studio 1 pièce 28 m²$$, $$Le Chesnay-Rocquencourt 78150 Le Chesnay$$, false, 28, $$d$$, $$2025-11-13T23:00:00.000Z$$, 697, $$Appartment$$, $$d$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 890 € et 1 230 € sur les années 2021, 2022 et 2023 (abonnements compris).', '1', 'Tourcoing 59200 Blanche Porte - Flocon', null, 'false', '2', null, null, 'individual', 'electric', null, '2', null, '196.4592'), ('1181', 'Studio 1 pièce 28 m²', 'false', '28', 'd', '2025-11-13T23:00:00.000Z', '697', 'Appartment', 'd', 'APPARTEMENT
 
 Dans résidence au calme résidence PARLY 2, rez-de-jardin, un appartement de type studio de 28m2, comprenant une entrée, pièce principale, cuisine séparée, salle de bain avec un WC.chauffage et eau collectif.Piscine, tennis, gardien.
 
@@ -6039,8 +5676,7 @@ Dépôt de garantie : 617 €
 Montant des charges : 80 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 430 € et 610 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 1, null, null, null, false, null, null, null, 1970, null, null, null),
-(1182, $$Appartement 2 pièces 55 m²$$, $$Cholet 49300 Notre Dame$$, true, 55, $$d$$, $$2025-10-13T22:00:00.000Z$$, 680, $$Appartment$$, $$a$$, $$APPARTEMENT_MEUBLE
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 430 € et 610 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '1', 'Le Chesnay-Rocquencourt 78150 Le Chesnay', null, 'false', null, null, null, null, null, '1970', null, null, '78.0845333333333'), ('1182', 'Appartement 2 pièces 55 m²', 'true', '55', 'd', '2025-10-13T22:00:00.000Z', '680', 'Appartment', 'a', 'APPARTEMENT_MEUBLE
 
 Appartement type 2 meublé - Rue du Petit Conseil Venez découvrir ce bel appartement entièrement refait avec goût au 1er étage d'une petite copropriété dans l'hyper-centre de CHOLET. Profitez d'une pièce de vie lumineuse donnant sur un balcon, une grande cuisine ouverte et dinatoire entièrement aménagée et équipée (Plaque induction, hotte, four, micro-onde, lave-vaisselle...), un petit cellier, un couloir avec rangement, des toilettes séparés, une salle de bain avec machine à laver et une spacieuse chambre au calme.Chauffage et production d'eau chaude : Individuel électrique.
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
@@ -6051,8 +5687,7 @@ Dépôt de garantie : 1260 €
 Montant des charges : 50 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 660 € et 940 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, 1, null, null, false, 1, null, null, 1960, null, null, null),
-(1183, $$Studio 1 pièce 32 m²$$, $$Lormont 33310$$, false, 32, $$a$$, null, 654, $$Appartment$$, $$a$$, $$Studio 1 pièce 32 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 660 € et 940 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Cholet 49300 Notre Dame', null, 'false', '1', null, '1', null, null, '1960', null, null, '135.009533333333'), ('1183', 'Studio 1 pièce 32 m²', 'false', '32', 'a', null, '654', 'Appartment', 'a', 'Studio 1 pièce 32 m²
 
 A saisir !! Résidence neuve.
  Situé rue de l'Alose à Lormont, soyez le premier à occuper ce studio au 2ème étage avec ascenseur dans une résidence neuve. Il se compose d'une avec un grand placard, un séjour avec cuisine semi-équipée, d'une salle d'eau avec wc. Double vitrage et volet roulant.
@@ -6069,8 +5704,7 @@ Date de réalisation du diagnostic énergétique : 01/07/2025
 Consommation énergie primaire : 53 kWh/m²/an
 Consommation énergie finale : 0 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 200 € et 300 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 1, 2, null, null, false, null, $$communal$$, $$other$$, 2025, 5, null, null),
-(1184, $$Appartement 3 pièces 67 m²$$, $$Rives 38140$$, false, 67, $$c$$, $$2025-12-31T23:00:00.000Z$$, 780, $$Appartment$$, $$c$$, $$Appartement 3 pièces 67 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 200 € et 300 € sur les années 2021, 2022 et 2023 (abonnements compris).', '1', 'Lormont 33310', null, 'false', '2', null, null, 'communal', 'other', '2025', '5', null, '19.0512'), ('1184', 'Appartement 3 pièces 67 m²', 'false', '67', 'c', '2025-12-31T23:00:00.000Z', '780', 'Appartment', 'c', 'Appartement 3 pièces 67 m²
 
 RIVES - 135 RUE DIDIER KLEBER LES PIERRELLES - Appartement type 3avec terrasse
 
@@ -6107,8 +5741,7 @@ Consommation énergie finale : 116.00 kWh/m²/an
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 707 € et 958 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 3, null, null, 2, true, 1, null, $$gas$$, 2006, 3, null, null),
-(1185, $$Appartement 1 pièce 33 m²$$, $$Toulouse 31400 Pont des Demoiselles - Saint-Exupéry$$, false, 33, null, null, 757, $$Appartment$$, $$v$$, $$Appartement 1 pièce 33 m²
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '3', 'Rives 38140', '2', 'true', null, null, '1', null, 'gas', '2006', '3', null, '111.1762'), ('1185', 'Appartement 1 pièce 33 m²', 'false', '33', null, null, '757', 'Appartment', 'v', 'Appartement 1 pièce 33 m²
 
 PONT DES DEMOISELLES
 
@@ -6120,8 +5753,7 @@ Surface : 33 m²
 Non soumis au DPE
 
 Consommation énergie primaire : Non communiqué
-Consommation énergie finale : Non communiqué$$, 1, 1, null, null, false, null, null, null, null, 3, null, null),
-(1186, $$Appartement 3 pièces 60 m²$$, $$Olemps 12510$$, false, 60, $$c$$, $$2026-01-02T23:00:00.000Z$$, 689, $$Appartment$$, $$a$$, $$LOCATION T3 OLEMPS SANS FRAIS D'AGENCE
+Consommation énergie finale : Non communiqué', '1', 'Toulouse 31400 Pont des Demoiselles - Saint-Exupéry', null, 'false', '1', null, null, null, null, null, '3', null, '118.8762'), ('1186', 'Appartement 3 pièces 60 m²', 'false', '60', 'c', '2026-01-02T23:00:00.000Z', '689', 'Appartment', 'a', 'LOCATION T3 OLEMPS SANS FRAIS D'AGENCE
 
 T3 n°12 au 2°étage comprenant une entrée, une cuisine américaine, des éléments hauts et bas, une hotte, un four, une plaque à induction, un lave-vaisselle ,un frigo/congélateur, un placard comprenant le ballon d'eau chaude, un séjour donnant sur le balcon, un placard, deux chambres avec placards, une salle de bains avec meuble-vasque, sèche-serviette,  baignoire, un WC séparé, un garage + une place de parking
 Mode de chauffage : clim air/air
@@ -6135,8 +5767,7 @@ Dépôt de garantie : 640 €
 Montant des charges : 49 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 840 € et 1 180 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 2, null, 2, false, 1, $$individual$$, null, 2009, null, null, null),
-(1187, $$Appartement 1 pièce 28 m²$$, $$Saint-Gratien 95210 Forum$$, true, 28, $$e$$, $$2025-10-21T22:00:00.000Z$$, 800, $$Appartment$$, $$b$$, $$APPARTEMENT_MEUBLE
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 840 € et 1 180 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Olemps 12510', '2', 'false', '2', null, '1', 'individual', null, '2009', null, null, '101.5512'), ('1187', 'Appartement 1 pièce 28 m²', 'true', '28', 'e', '2025-10-21T22:00:00.000Z', '800', 'Appartment', 'b', 'APPARTEMENT_MEUBLE
 
 SAINT-GRATIEN - En plein centre ville - A quelques minutes à pieds de la gare de Saint-Gratien - Magnifique studio meublé au 3ème étage avec vue dégagée offrant entrée, pièce principale avec placard et balcon, salle de bains avec WC. 1 cave complète ce bien.Disponible immédiatement.
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
@@ -6147,16 +5778,14 @@ Dépôt de garantie : 1480 €
 Montant des charges : 60 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 660 € et 940 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 1, 3, null, null, true, null, null, null, 2000, null, null, null),
-(1188, $$Appartement 4 pièces 82 m²$$, $$Boulogne-Billancourt 92100$$, false, 82, $$v$$, $$2025-11-07T23:00:00.000Z$$, 2, $$Appartment$$, $$d$$, $$Appartement 4 pièces tout en parquet au 4ème étage orienté Ouest offrant une entrée avec placard, un séjour, une cuisine séparée aménagée et équipée de plaques induction et hotte, 3 chambres dont deux avec placard, une salle de bain avec WC, une salle de douche, un WC séparé avec lave-mains, une buanderie. Balcon filant de 20 m2 desservant toutes les pièces.Parking en sous-sol compris.Loyer : 2350€ / mois CC.Dont 170€ de provision pour charges locatives (régularisation annuelle).Dépôt de Garantie : 2180€.Honoraires à la charge du locataire : 1236.90€ TTC (soit 15€ / m² ) dont 247.38€ pour l'état des lieux (soit 3€/m²). Immeuble récent BBC offrant de très belles prestations, tout en parquet, cuisine aménagée, double-vitrage, digicode, vigicode et visiophone, local à vélos, ascenseur, parking en sous-sol.
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 660 € et 940 € sur les années 2021, 2022 et 2023 (abonnements compris).', '1', 'Saint-Gratien 95210 Forum', null, 'true', '3', null, null, null, null, '2000', null, null, '103.7512'), ('1188', 'Appartement 4 pièces 82 m²', 'false', '82', 'v', '2025-11-07T23:00:00.000Z', '2', 'Appartment', 'd', 'Appartement 4 pièces tout en parquet au 4ème étage orienté Ouest offrant une entrée avec placard, un séjour, une cuisine séparée aménagée et équipée de plaques induction et hotte, 3 chambres dont deux avec placard, une salle de bain avec WC, une salle de douche, un WC séparé avec lave-mains, une buanderie. Balcon filant de 20 m2 desservant toutes les pièces.Parking en sous-sol compris.Loyer : 2350€ / mois CC.Dont 170€ de provision pour charges locatives (régularisation annuelle).Dépôt de Garantie : 2180€.Honoraires à la charge du locataire : 1236.90€ TTC (soit 15€ / m² ) dont 247.38€ pour l'état des lieux (soit 3€/m²). Immeuble récent BBC offrant de très belles prestations, tout en parquet, cuisine aménagée, double-vitrage, digicode, vigicode et visiophone, local à vélos, ascenseur, parking en sous-sol.
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
 Référence annonce : 20902-45
 Consommation énergétique : 62 kWh/m²/an
 Emission de gaz à effet de serre : 23 CO2/m²/an
 Honoraires à la charge du locataire : 1236 € TTC
 Dépôt de garantie : 2180 €
-Montant des charges : 170 € / mois$$, 4, 4, null, 3, false, 1, $$communal$$, null, null, null, null, null),
-(1189, $$Appartement 3 pièces 70 m²$$, $$Haubourdin 59320 Rive gauche$$, false, 70, $$c$$, $$2025-10-05T22:00:00.000Z$$, 940, $$Appartment$$, $$a$$, $$Appartement type 3
+Montant des charges : 170 € / mois', '4', 'Boulogne-Billancourt 92100', '3', 'false', '4', null, '1', 'communal', null, null, null, null, '19.0512'), ('1189', 'Appartement 3 pièces 70 m²', 'false', '70', 'c', '2025-10-05T22:00:00.000Z', '940', 'Appartment', 'a', 'Appartement type 3
 
 Dans une résidence récente et sécurisée, venez découvrir cet appartement type 3 lumineux. Il se compose d'une entrée avec rangement, d'un séjour donnant sur un balcon, d'une cuisine équipée, de deux chambres dont une avec rangement, d'un cellier, d'une salle de bain et d'un WC séparé. Une place de parking fermée complète ce bien. A visiter sans tarder ! Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisque : ***
 Référence annonce : 07_[Coordonnées masquées]
@@ -6168,8 +5797,7 @@ Modalité de récupération des charges locatives : provision avec régularisati
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 790 € et 1 120 € sur les années 2021, 2022 et 2023 (abonnements compris).
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 3, null, null, 2, false, 1, $$individual$$, $$electric$$, 2008, 4, null, null),
-(1190, $$Appartement 3 pièces 61 m²$$, $$Marquette-lez-Lille 59520 Rive gauche$$, false, 61, $$c$$, $$2025-11-09T23:00:00.000Z$$, 803, $$Appartment$$, $$c$$, $$Appartement type 3
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '3', 'Haubourdin 59320 Rive gauche', '2', 'false', null, null, '1', 'individual', 'electric', '2008', '4', null, '195.4512'), ('1190', 'Appartement 3 pièces 61 m²', 'false', '61', 'c', '2025-11-09T23:00:00.000Z', '803', 'Appartment', 'c', 'Appartement type 3
 
 A 20 minutes du centre-ville de Lille en voiture comme en TER, le Hameau d'Ypres se veut avant tout pratique pour ses habitants. Le parking privé donnant sur une des artères de Marquette-lez-Lille. Une localisation idéal pour rejoindre Lille en un moment, tout en profitant du calme de la ville de Marquette-lez-Lille et de la proximité immédiate de la gare de Marquette, des commerces et du port de plaisance. Cet appartement de type 3 vous offre une entrée, un séjour donnant accès à un balcon de 6 m², une cuisine ouverte, deux belles chambres, une salle de bain, un Wc séparé ainsi que deux emplacements de parking. Le chauffage est au gaz individuel. Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisque : ***
 Référence annonce : 14_[Coordonnées masquées]
@@ -6181,8 +5809,7 @@ Modalité de récupération des charges locatives : provision avec régularisati
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 476 € et 644 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 3, null, null, 2, true, 1, $$individual$$, $$gas$$, null, 3, null, null),
-(1191, $$Appartement 3 pièces 73 m²$$, $$Pont-de-Chéruy 38230$$, false, 73, $$c$$, $$2025-10-20T22:00:00.000Z$$, 848, $$Appartment$$, $$c$$, $$APPARTEMENT
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '3', 'Marquette-lez-Lille 59520 Rive gauche', '2', 'true', null, null, '1', 'individual', 'gas', null, '3', null, '102.9262'), ('1191', 'Appartement 3 pièces 73 m²', 'false', '73', 'c', '2025-10-20T22:00:00.000Z', '848', 'Appartment', 'c', 'APPARTEMENT
 
 Découvrez ce bel appartement T3 de 73,7m² situé au 2ème étage d'une résidence paisible. L'espace de vie est parfaitement agencé autour d'une belle pièce principale lumineuse qui s'ouvre sur une cuisine entièrement équipée, créant ainsi un espace convivial idéal pour recevoir.Le coin nuit comprend deux chambres confortables, une salle de bains et un WC indépendantVous apprécierez également le cellier et la terrasse.Le chauffage est assuré par une chaudière individuel au gaz (contrat elecgaz).N'hésitez pas à déposer votre dossier sur notre site internet Foncia au plus vite.
 
@@ -6196,8 +5823,7 @@ Dépôt de garantie : 800 €
 Montant des charges : 48 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 950 € et 1 340 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 2, null, 2, false, 1, $$individual$$, $$gas$$, 1997, null, null, null),
-(1192, $$Appartement 2 pièces 49 m²$$, $$Bordeaux 33800 Nansouty$$, false, 49, $$e$$, $$2025-09-14T22:00:00.000Z$$, 790, $$Appartment$$, $$e$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 950 € et 1 340 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Pont-de-Chéruy 38230', '2', 'false', '2', null, '1', 'individual', 'gas', '1997', null, null, '119.4262'), ('1192', 'Appartement 2 pièces 49 m²', 'false', '49', 'e', '2025-09-14T22:00:00.000Z', '790', 'Appartment', 'e', 'APPARTEMENT
 
 Dans une rue calme du quartier Nansouty, cet appartement de caractère vous séduira par son cadre paisible et son précieux espace extérieur. Situé dans un immeuble ancien composé de seulement deux logements, il offre une atmosphère intime et préservée.L'agencement intérieur comprend une entrée accueillante, une pièce principale lumineuse, une cuisine fonctionnelle, ainsi qu'une chambre donnant sur rue,  une salle d'eau et des toilettes séparées. Le chauffage individuel au gaz vous permet de maîtriser votre consommation énergétique selon vos besoins.Le véritable atout de ce bien réside dans son jardin privatif, un espace rare et recherché qui vous permettra de profiter pleinement des beaux jours en toute tranquillité.
 
@@ -6211,8 +5837,7 @@ Dépôt de garantie : 762 €
 Montant des charges : 28 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 190 € et 1 660 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, null, null, 1, false, null, $$individual$$, $$gas$$, 1940, null, null, null),
-(1193, $$Appartement 2 pièces 56 m²$$, $$Lyon 69007 Berges du Rhône$$, false, 56, $$c$$, $$2025-10-22T22:00:00.000Z$$, 823, $$Appartment$$, $$d$$, $$Appartement 2 pièces 56.9 m² Lyon 7e  Arrondissement
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 190 € et 1 660 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Bordeaux 33800 Nansouty', '1', 'false', null, null, null, 'individual', 'gas', '1940', null, null, '167.2762'), ('1193', 'Appartement 2 pièces 56 m²', 'false', '56', 'c', '2025-10-22T22:00:00.000Z', '823', 'Appartment', 'd', 'Appartement 2 pièces 56.9 m² Lyon 7e  Arrondissement
 
 Rue Lieutenant Colonel Girard, résidence récente, T2 de 56.90m² au 2° étage, traversant, 2 balcons, cuisine ouverte sur séjour, 1 chambre en parquet, chauffage individuel au gaz, garage, disponible 20/10   Assurance habitation (facultative) 19.44 € ttc/mois. Zone soumise à encadrement des loyers : Loyer de base :  763   €. Loyer de référence majoré (loyer de base à ne pas dépasser) :916.73 €.  Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le Site Géorisques : www.georisques.gouv.fr - Immo de France Rhône Alpes [Coordonnées masquées]
 Référence annonce : 14765
@@ -6220,8 +5845,7 @@ Consommation énergétique : 127 kWh/m²/an
 Emission de gaz à effet de serre : 29 CO2/m²/an
 Honoraires à la charge du locataire : 740 € TTC dont 170 € pour l’état des lieux
 Dépôt de garantie : 763 €
-Montant des charges : 60 € / mois$$, 2, 2, null, 1, true, 1, $$individual$$, $$gas$$, 2000, null, null, null),
-(1194, $$Appartement 2 pièces 43 m²$$, $$Thionville 57100 Saint-Pierre$$, false, 43, $$d$$, $$2025-08-31T22:00:00.000Z$$, 800, $$Appartment$$, $$b$$, $$APPARTEMENT
+Montant des charges : 60 € / mois', '2', 'Lyon 69007 Berges du Rhône', '1', 'true', '2', null, '1', 'individual', 'gas', '2000', null, null, '96.0512'), ('1194', 'Appartement 2 pièces 43 m²', 'false', '43', 'd', '2025-08-31T22:00:00.000Z', '800', 'Appartment', 'b', 'APPARTEMENT
 
 Découvrez ce T2 de 43m2 dans une résidence récente idéalement situé à Thionville, quartier Saint-Pierre. Cet appartement comprend une pièce à vivre ouverte sur la cuisine amémagée et équipée, une chambre ainsi qu'une salle de bain et un wc séparé. Un emplacement de stationnement privatif en sous sol complète ce bien. A noter que ce bien est proche axes autoroutiers !
 
@@ -6235,8 +5859,7 @@ Dépôt de garantie : 750 €
 Montant des charges : 50 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 810 € et 1 150 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 3, null, 1, true, 1, null, null, 2010, null, null, null),
-(1195, $$Appartement 2 pièces 23 m²$$, $$Sète 34200 L'Île Sud$$, true, 23, $$d$$, $$2025-10-21T22:00:00.000Z$$, 640, $$Appartment$$, $$a$$, $$APPARTEMENT_MEUBLE
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 810 € et 1 150 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Thionville 57100 Saint-Pierre', '1', 'true', '3', null, '1', null, null, '2010', null, null, '109.709533333333'), ('1195', 'Appartement 2 pièces 23 m²', 'true', '23', 'd', '2025-10-21T22:00:00.000Z', '640', 'Appartment', 'a', 'APPARTEMENT_MEUBLE
 
 idéalement situé en plein centre ville (Quai d'Alger) à 10 min à pied de la gare et à proximité des commerces foncia vous propose ce joli T2 meublé plein sud, sans vis à vis comprenant : un séjour avec une cuisine ouverte équipée, un accès direct au balcon avec vue mer, une chambre, une salle d'eau. Contacté Mme CLEMENT au [Coordonnées masquées]
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
@@ -6245,10 +5868,8 @@ Date de réalisation du diagnostic : 12/05/2020
 Honoraires à la charge du locataire : 302 € TTC dont 69 € pour l’état des lieux
 Dépôt de garantie : 595 €
 Montant des charges : 45 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 2, 3, null, 1, false, null, null, null, 1985, null, null, null),
-(1196, $$Appartement 2 pièces 67 m²$$, $$Bordeaux 33000$$, true, 67, $$c$$, null, 1, $$Appartment$$, $$d$$, $$BORDEAUX, 977  Euros + charges 80  Euros Appartement T2 Tres bon etat 67 m 2. Avec Balcon, Local a velos. En residence, ascenseur, interphone. Comprenant entree, salon, cuisine Independante equipee,  1 chambre,  1 salle de bain,  1 wc. Proche transports et commerces. Caution : 2 mois HC. Nous contacter dl [Coordonnées masquées] fd 210 Euros  - mis a jour le 24/10/25
-Référence annonce : 37-0238-20$$, 2, null, null, 1, false, 1, null, null, null, null, null, null),
-(1197, $$Appartement 2 pièces 51 m²$$, $$Vesoul 70000$$, false, 51, $$d$$, null, 450, $$Appartment$$, $$b$$, $$Appartement 2 pièces 51 m²
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '2', 'Sète 34200 L'Île Sud', '1', 'false', '3', null, null, null, null, '1985', null, null, '67.5428666666667'), ('1196', 'Appartement 2 pièces 67 m²', 'true', '67', 'c', null, '1', 'Appartment', 'd', 'BORDEAUX, 977  Euros + charges 80  Euros Appartement T2 Tres bon etat 67 m 2. Avec Balcon, Local a velos. En residence, ascenseur, interphone. Comprenant entree, salon, cuisine Independante equipee,  1 chambre,  1 salle de bain,  1 wc. Proche transports et commerces. Caution : 2 mois HC. Nous contacter dl [Coordonnées masquées] fd 210 Euros  - mis a jour le 24/10/25
+Référence annonce : 37-0238-20', '2', 'Bordeaux 33000', '1', 'false', null, null, '1', null, null, null, null, null, '111.1762'), ('1197', 'Appartement 2 pièces 51 m²', 'false', '51', 'd', null, '450', 'Appartment', 'b', 'Appartement 2 pièces 51 m²
 
 Appartement de type 2 au 1er étage sans ascenseur comprenant: 
 Une cuisine équipée (hotte, plaques de cuisson, four) ouverte sur spacieuse pièce à vivre, 
@@ -6264,8 +5885,7 @@ Date de réalisation du diagnostic énergétique : 02/05/2023
 Consommation énergie primaire : 226 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 733 € et 991 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, 1, null, 1, false, null, null, null, null, null, null, null),
-(1198, $$Appartement 3 pièces 66 m²$$, $$Neyron 01700$$, false, 66, $$d$$, $$2025-09-30T22:00:00.000Z$$, 759, $$Appartment$$, $$b$$, $$Appartement 3 pièces 66 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 733 € et 991 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Vesoul 70000', '1', 'false', '1', null, null, null, null, null, null, null, '126.5762'), ('1198', 'Appartement 3 pièces 66 m²', 'false', '66', 'd', '2025-09-30T22:00:00.000Z', '759', 'Appartment', 'b', 'Appartement 3 pièces 66 m²
 
 Résidence La Petite Cornaz, 76 Route de Genève à Neyron, proche de toutes commodités.
 À LOUER : Au 1er étage, appartement T3 de 66.20 m², comprenant entrée, séjour, cuisine équipée (plaque, hotte, four), 2 chambres avec placard, salle de bains et WC séparés.
@@ -6285,8 +5905,7 @@ Consommation énergie finale : Non communiqué
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 800 € et 1 140 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 3, null, null, null, false, null, $$individual$$, $$other$$, null, null, null, null),
-(1199, $$Appartement 4 pièces 83 m²$$, $$Clichy 92110 Centre-ville$$, false, 83, $$c$$, null, 1, $$Appartment$$, $$c$$, $$Appartement de 4 pièces à louer à Clichy - Proche Métro
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '3', 'Neyron 01700', null, 'false', null, null, null, 'individual', 'other', null, null, null, '158.2012'), ('1199', 'Appartement 4 pièces 83 m²', 'false', '83', 'c', null, '1', 'Appartment', 'c', 'Appartement de 4 pièces à louer à Clichy - Proche Métro
 
 Situé rue Paradinas, à 2 minutes à pied du métro Mairie de Clichy, au sein d'un très bel immeuble neuf , un appartement  de quatre pièces.
 
@@ -6317,27 +5936,23 @@ Honoraires à la charge du locataire : 1130 € TTC
 Dépôt de garantie : 1872 €
 Montant des charges : 125 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 560 € et 840 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 4, 1, null, 3, true, 1, $$communal$$, $$gas$$, null, null, null, null),
-(1200, $$F3 La madeleine Botanique 59110 71M² av garage$$, $$La Madeleine 59110 Grand Boulevard$$, false, 71, $$e$$, $$2025-10-31T23:00:00.000Z$$, 966, $$Appartment$$, $$e$$, $$F3 traversant lumineux av. balcon terrasse. orienté Sud
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 560 € et 840 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '4', 'Clichy 92110 Centre-ville', '3', 'true', '1', null, '1', 'communal', 'gas', null, null, null, '19.0512'), ('1200', 'F3 La madeleine Botanique 59110 71M² av garage', 'false', '71', 'e', '2025-10-31T23:00:00.000Z', '966', 'Appartment', 'e', 'F3 traversant lumineux av. balcon terrasse. orienté Sud
 Etage 1/4 copro de 8 log.dans secteur calme et recherché. Métro Botanique : 5mn à pied.
 grand séjour, cuisine semi équipée, Sdb av baignoire, 2 chambres av plaquards-penderie
 parquet flottant ds chambres et séjour
 chauffage individuel au gaz.
 garage individuel fermé.
 loyer 880 € + 25€ ord.ménagères+ 61€ charges de copropriété
-DPE E 285kwh/m²/an     GES E  62kg CO2/m²/an$$, 3, 1, null, 2, false, 1, $$individual$$, $$gas$$, 1970, 4, null, null),
-(1201, $$Appartement meublé$$, $$Vannes 56000 Centre-ville - Le Port$$, true, 21, $$e$$, $$2025-09-30T22:00:00.000Z$$, 570, $$Appartment$$, $$d$$, $$appartement meublé, 2 pièces, 21m², centre ville vue cathédrale , 8ème étage avec ascenseur, refait à neuf, entièrement équipé, chauffage central
+DPE E 285kwh/m²/an     GES E  62kg CO2/m²/an', '3', 'La Madeleine 59110 Grand Boulevard', '2', 'false', '1', null, '1', 'individual', 'gas', '1970', '4', null, '233.8262'), ('1201', 'Appartement meublé', 'true', '21', 'e', '2025-09-30T22:00:00.000Z', '570', 'Appartment', 'd', 'appartement meublé, 2 pièces, 21m², centre ville vue cathédrale , 8ème étage avec ascenseur, refait à neuf, entièrement équipé, chauffage central
 libre de suite 
 loyer : 570€ / mois TCC  sauf électricité en sus
 caution : 1000€  (pas sérieux s'abstenir) 
-tel HR$$, 2, 8, null, 1, true, 1, $$communal$$, $$gas$$, null, 8, null, null),
-(1202, $$Appartement 4 pièces 83 m²$$, $$Dijon 21000 Bourroches$$, false, 83, null, $$2026-01-30T23:00:00.000Z$$, 1, $$Appartment$$, null, $$Appartement T4
+tel HR', '2', 'Vannes 56000 Centre-ville - Le Port', '1', 'true', '8', null, '1', 'communal', 'gas', null, '8', null, '19.0512'), ('1202', 'Appartement 4 pièces 83 m²', 'false', '83', null, '2026-01-30T23:00:00.000Z', '1', 'Appartment', null, 'Appartement T4
 
 SANS HONORAIRES. Attention nouvelle opportunité !! Programme NEUF résidence « IMAGIN'AIR » à DIJON 28 allée de la Poudrière. Livraison fin Novembre 2025. Découvrez cet appartement T4 de 84 m² au 6 ème étage (avec ascenseur) sur 8. Le logement se compose d'une entrée avec un placard mural de rangements. Trois chambres, de 12.20 et 10.30 et 15.90 m2 dont 2 avec un placard mural. Les WC sont séparés, vous disposerez d'une baignoire. Pour finir, le séjour cuisine (aménagée) de 27.30m2 vous donnera accès à un extérieur exposé SUD qui vous permettra de profiter du soleil. Le bien est pourvu du chauffage collectif ainsi que l'eau chaude et froide. Une place de stationnement est incluse dans la location. Le loyer est de 1 220 € CC, les charges sont de 239.18 €. PS : Résidence livrée fin Novembre 2025, visite d'un logement T3 témoin puis choix sur plan PS 2 : Cuisine : voir plan PS 3 : Photos non contractuelles Le bien est situé à DIJON (21000). Plusieurs établissements scolaires (maternelle, élémentaire, primaire et collège) se trouvent à moins de 10 minutes à pied, tout comme 2 structures d'accueil pour la petite enfance. Niveau transports en commun, il y a 8 lignes de bus ainsi que la ligne de tramway T2 (Bourroches) dans les alentours. 4 autoroutes et la nationale N274 sont accessibles à moins de 10 km. Pour vos loisirs, vous pourrez compter sur un bassin de natation et un tennis à quelques minutes du logement. On trouve aussi des restaurants, des commerces, 3 supermarchés, des boulangeries, 2 boucheries-charcuteries et une supérette. A SAISIR RAPIDEMENT. SANS HONORAIRES. Référence à rappeler lors de nos échanges : A314 - 371064 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr LAC / Logement Abord.contract. Date disponibilité : 31/01/2026
 Référence annonce : SNI_0000_371064
 Dépôt de garantie : 920 €
-Montant des charges : 239 € / mois$$, 4, 6, null, 3, true, null, $$communal$$, $$gas$$, null, null, null, null),
-(1203, $$Studio 1 pièce 33 m²$$, $$Besançon 25000 Saint-Claude - Torcols - Chailluz$$, false, 33, $$c$$, $$2025-09-25T22:00:00.000Z$$, 480, $$Appartment$$, $$b$$, $$APPARTEMENT
+Montant des charges : 239 € / mois', '4', 'Dijon 21000 Bourroches', '3', 'true', '6', null, null, 'communal', 'gas', null, null, null, '19.0512'), ('1203', 'Studio 1 pièce 33 m²', 'false', '33', 'c', '2025-09-25T22:00:00.000Z', '480', 'Appartment', 'b', 'APPARTEMENT
 
 A louer à Besançon, dans le quartier Saint-Claude, découvrez ce spacieux studio de 33 m² habitable. Dans une résidence des années 2000 baptisée Le Valériane avec ascenseur, l'appartement est situé au 1er étage. Il est composé d'une pièce principale avec coin cuisine aménagée comprenant meubles et plan de travail, 2 plaques de cuisson, avec sol carrelage, fenêtres double-vitrage, murs clairs. A ceci s'ajoute une salle de bains équipée et faiencée avec baignoire, meuble vasque et miroir, wc. Le mode de chauffage de ce logement est électrique individuel. La copropriété bien entretenue est située 1 ter rue de Trey/26 rue de Vesoul à Besançon. Un atout majeur pour bénéficier des commodités environnantes : bus, proximité de la gare Viotte, boulangerie, supermarché, fleuriste... Tout y est pour faciliter votre quotidien. Pour vos déplacements, l'appartement est loué avec une place de parking. Vous pourrez donc rejoindre facilement les grands axes de circulation (boulevard) mais aussi les pôles étudiants (Bouloie - faculté de droit, économie-gestion, sciences- Pôle Témis, Lycée Claude-Nicolas Ledoux...) Ce logement est disponible.
 
@@ -6351,8 +5966,7 @@ Dépôt de garantie : 435 €
 Montant des charges : 45 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 384 € et 450 € par an. Prix moyens des énergies indexés sur l'année 2015 (abonnements compris)$$, 1, 1, null, null, false, 1, null, null, 2009, null, null, null),
-(1204, $$Appartement 1 pièce 20 m²$$, $$Rouen 76000 Vieux-marché$$, false, 20, $$e$$, null, 430, $$Appartment$$, $$b$$, $$Appartement 1 pièce 20 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 384 € et 450 € par an. Prix moyens des énergies indexés sur l'année 2015 (abonnements compris)', '1', 'Besançon 25000 Saint-Claude - Torcols - Chailluz', null, 'false', '1', null, '1', null, null, '2009', null, null, '64.4262'), ('1204', 'Appartement 1 pièce 20 m²', 'false', '20', 'e', null, '430', 'Appartment', 'b', 'Appartement 1 pièce 20 m²
 
 Référence à nous communiquer lors de votre appel : 3108-601
 Le Cabinet Sauvage Gestion vous propose à la location un appartement meublé / non meublé de type f1 situé Quai du Havre à Rouen au 6ème étage sans ascenseur. 
@@ -6374,8 +5988,7 @@ Date de réalisation du diagnostic énergétique : 22/09/2025
 Consommation énergie primaire : 310 kWh/m²/an
 Consommation énergie finale : 135 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 540 € et 780 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 1, 6, null, null, true, 1, $$individual$$, $$electric$$, 1900, 6, null, null),
-(1205, $$Appartement 1 pièce 28 m²$$, $$Le Mans 72000 Olivier Heuzé$$, false, 28, $$d$$, null, 474, $$Appartment$$, $$d$$, $$T1 QUARTIER HEUZE
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 540 € et 780 € sur les années 2021, 2022 et 2023 (abonnements compris).', '1', 'Rouen 76000 Vieux-marché', null, 'true', '6', null, '1', 'individual', 'electric', '1900', '6', null, '129.9312'), ('1205', 'Appartement 1 pièce 28 m²', 'false', '28', 'd', null, '474', 'Appartment', 'd', 'T1 QUARTIER HEUZE
 
 A louer, T1 LUMINEUX de 30 m2 situé quartier Heuzé/Sain Georges, dans une résidence sécurisée, résidence LES IRIS' proche des commerces de proximité et des transport en commun. Au sein de cet appartement, vous trouverez une entrée, un débarras, une cuisine aménagée et équipée ( plaques à induction, micro-ondes), un séjour et une salle d'eau avec douche et WC. Vous disposerez d'une place de parking privative ainsi qu'une cave.   CHAUFFAGE ET EAU CHAUDE COMPRIS DANS LES CHARGES !  A VISITER DES MAINTENANT - DISPONIBLE ! N'hésitez pas à nous contacter au [Coordonnées masquées] pour plus de renseignements !   Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr
 Référence annonce : F1247
@@ -6384,8 +5997,7 @@ Honoraires à la charge du locataire : 308 € TTC dont 84 € pour l’état de
 Montant des charges : 74 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 390 € et 590 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 1, 4, null, null, true, null, null, $$gas$$, null, null, null, null),
-(1206, $$Appartement 2 pièces 54 m²$$, $$Vix 85770$$, false, 54, $$e$$, null, 550, $$Appartment$$, $$b$$, $$Appartement 2 pièces 54 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 390 € et 590 € sur les années 2021, 2022 et 2023 (abonnements compris).', '1', 'Le Mans 72000 Olivier Heuzé', null, 'true', '4', null, null, null, 'gas', null, null, null, '78.0845333333333'), ('1206', 'Appartement 2 pièces 54 m²', 'false', '54', 'e', null, '550', 'Appartment', 'b', 'Appartement 2 pièces 54 m²
 
 Appartement T2 proche commerces situé au deuxième étage composé d'une cuisine ouverte sur salon, d'une salle d'eau avec toilettes et d'une chambre.
   
@@ -6402,8 +6014,7 @@ Date de réalisation du diagnostic énergétique : 07/08/2025
 Consommation énergie primaire : 283 kWh/m²/an
 Consommation énergie finale : 123.1 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 210 € et 1 650 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 2, null, 1, false, null, $$individual$$, $$electric$$, 1949, null, null, null),
-(1207, $$Appartement 3 pièces 51 m²$$, $$Illiers-Combray 28120$$, false, 51, $$c$$, null, 672, $$Appartment$$, $$a$$, $$Appartement 3 pièces 51 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 210 € et 1 650 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Vix 85770', '1', 'false', '2', null, null, 'individual', 'electric', '1949', null, null, '318.4272'), ('1207', 'Appartement 3 pièces 51 m²', 'false', '51', 'c', null, '672', 'Appartment', 'a', 'Appartement 3 pièces 51 m²
 
 MGN Immobilier vous propose à la location cet appartement meublé refait à neuf dans un immeuble située dans l'hypercentre d'Illiers-Combray.
 
@@ -6436,8 +6047,7 @@ Consommation énergie finale : 168 kWh/m²/an
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 710 € et 1 010 € sur les années 2021, 2022 et 2023 (abonnements compris).
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 3, 2, null, 2, false, null, null, null, null, 2, null, null),
-(1208, $$Appartement 2 pièces 41 m²$$, $$La Rochette 77000$$, false, 41, $$c$$, $$2025-03-22T23:00:00.000Z$$, 837, $$Appartment$$, $$c$$, $$Appartement T2
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '3', 'Illiers-Combray 28120', '2', 'false', '2', null, null, null, null, null, '2', null, '89.1762'), ('1208', 'Appartement 2 pièces 41 m²', 'false', '41', 'c', '2025-03-22T23:00:00.000Z', '837', 'Appartment', 'c', 'Appartement T2
 
 Au Sud de Melun, au coeur d'un quartier pavillonaire de la commune de la Rochette, profitant de la proximité des transports, dans la résidence VILLA  DES IMPRESSIONNISTES, appartement T2 n°C206 (lot n°76) de 41.66 m², situé au 2ème étage avec ascenseur du bâtiment C. Il est composé d'une entrée avec placard, d'une pièce à vivre avec cuisine ouverte sur balcon de 4.421m², d'une chambre et d'une salle de bain avec WC. Au sous-sol, un parking n° 49 (lot 134). Chauffage collectif gaz.
 Les honoraires de location TTC (à la charge du locataire) incluent le montant de rédaction des états des lieux facturé 124 euros TTC; après réalisation lors de l'entrée dans les lieux.
@@ -6449,16 +6059,14 @@ Honoraires à la charge du locataire : 540 € TTC
 Dépôt de garantie : 728 €
 Montant des charges : 109 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 440 € et 640 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, null, null, 1, true, 1, null, null, null, null, null, null),
-(1209, $$Appartement 2 pièces 38 m²$$, $$Saint-Romain-en-Gal 69560$$, false, 38, null, null, 495, $$Appartment$$, null, $$Appartement T2
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 440 € et 640 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'La Rochette 77000', '1', 'true', null, null, '1', null, null, null, null, null, '75.4262'), ('1209', 'Appartement 2 pièces 38 m²', 'false', '38', null, null, '495', 'Appartment', null, 'Appartement T2
 
 Charmant T2 de 38 m² au 1er étage, dans une petite résidence. Il comprend une pièce de vie avec coin cuisine ouverte, de grands placards, un cellier, une chambre, une salle de bain et toilettes séparés. Chauffage individuel électrique. Disponible de suite. Loyer hors charges : 475 euros/mois. Pour renseignements ou visites, veuillez nous contacter.
 Référence annonce : LA2882-KPIMMOBILIER
 Honoraires à la charge du locataire : 380 € TTC dont 114 € pour l’état des lieux
 Dépôt de garantie : 475 €
 Montant des charges : 20 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 2, null, null, 1, false, 1, $$individual$$, $$electric$$, null, null, null, null),
-(1210, $$Appartement 2 pièces 35 m²$$, $$Metz 57070 Borny$$, false, 35, $$d$$, $$2025-10-22T22:00:00.000Z$$, 646, $$Appartment$$, $$a$$, $$APPARTEMENT
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '2', 'Saint-Romain-en-Gal 69560', '1', 'false', null, null, '1', 'individual', 'electric', null, null, null, '229.7232'), ('1210', 'Appartement 2 pièces 35 m²', 'false', '35', 'd', '2025-10-22T22:00:00.000Z', '646', 'Appartment', 'a', 'APPARTEMENT
 
 Sur les Hauts de Queuleu, secteur desservi par les transports en communs, dans résidence avec ascenseur et accès piscine, joli appartement au 1er étage (n°101) avec terrasse comprenant une entrée avec placard, un coin cuisine aménagé et équipé, une pièce de vie, une chambre avec placard, une salle de bains et un WC. Emplacement de parking aérien (n°145). Chauffage individuel électrique.
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
@@ -6467,8 +6075,7 @@ Date de réalisation du diagnostic : 01/08/2022
 Honoraires à la charge du locataire : 384 € TTC dont 104 € pour l’état des lieux
 Dépôt de garantie : 600 €
 Montant des charges : 46 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 2, 1, null, 1, true, 1, $$individual$$, $$electric$$, 2006, 4, null, null),
-(1211, $$Appartement 2 pièces 34 m²$$, $$Compiègne 60200 Centre-ville$$, false, 34, $$e$$, $$2025-11-30T23:00:00.000Z$$, 560, $$Appartment$$, $$b$$, $$Appartement - Compiègne - 2 pièce(s) - 34.79 m²
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '2', 'Metz 57070 Borny', '1', 'true', '1', null, '1', 'individual', 'electric', '2006', '4', null, '154.2912'), ('1211', 'Appartement 2 pièces 34 m²', 'false', '34', 'e', '2025-11-30T23:00:00.000Z', '560', 'Appartment', 'b', 'Appartement - Compiègne - 2 pièce(s) - 34.79 m²
 
 En hypercentre de Compiègne, au sein d'une résidence sécurisée,  Un appartement en duplex de 34.79m² comprenant une entrée sur la pièce principale, un coin kitchenette, une salle d'eau avec WC, et une chambre en mezzanine de 19.15m² avec placards.
 
@@ -6481,8 +6088,7 @@ Honoraires à la charge du locataire : 374 € TTC dont 102 € pour l’état d
 Dépôt de garantie : 520 €
 Montant des charges : 40 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 730 € et 1 020 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, null, null, 1, false, null, $$individual$$, $$electric$$, null, 1, null, null),
-(1212, $$Appartement 2 pièces 42 m²$$, $$Condé-en-Normandie 14110 Condé-sur-Noireau$$, false, 42, $$d$$, $$2025-12-12T23:00:00.000Z$$, 425, $$Appartment$$, $$c$$, $$Duplex de type F2 comprenant entrée sur pièce principale avec coin cuisine, 1 chambre, salle d'eau avec WC. Chauffage collectif au gaz de ville. Travaux peinture et sol viennent d'être effectué!
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 730 € et 1 020 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Compiègne 60200 Centre-ville', '1', 'false', null, null, null, 'individual', 'electric', null, '1', null, '207.5472'), ('1212', 'Appartement 2 pièces 42 m²', 'false', '42', 'd', '2025-12-12T23:00:00.000Z', '425', 'Appartment', 'c', 'Duplex de type F2 comprenant entrée sur pièce principale avec coin cuisine, 1 chambre, salle d'eau avec WC. Chauffage collectif au gaz de ville. Travaux peinture et sol viennent d'être effectué!
 + 75 Euros de provisions sur charges comprennant : eau froide, chauffage, charges immeuble.
 
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
@@ -6493,8 +6099,7 @@ Dépôt de garantie : 350 €
 Montant des charges : 75 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 660 € et 930 € par an. Prix moyens des énergies indexés sur l'année 2023 (abonnements compris)$$, 2, 2, null, 1, false, null, null, null, 1980, null, null, null),
-(1213, $$Studio 1 pièce 20 m²$$, $$Franqueville-Saint-Pierre 76520$$, false, 20, $$b$$, null, 410, $$Appartment$$, $$b$$, $$Studio 1 pièce 20 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 660 € et 930 € par an. Prix moyens des énergies indexés sur l'année 2023 (abonnements compris)', '2', 'Condé-en-Normandie 14110 Condé-sur-Noireau', '1', 'false', '2', null, null, null, null, '1980', null, null, '107.6012'), ('1213', 'Studio 1 pièce 20 m²', 'false', '20', 'b', null, '410', 'Appartment', 'b', 'Studio 1 pièce 20 m²
 
 A Franqueville Saint PIerre 76520 ce studio est à louer
  200 EUROS OFFERTS SUR 6 MOIS Offre valable pour toute entrée avant le 15 octobre 2025
@@ -6516,8 +6121,7 @@ Modalité de récupération des charges locatives : Prévisionnelles mensuelles 
 Date de réalisation du diagnostic énergétique : 14/07/2025
 
 Consommation énergie primaire : 53 kWh/m²/an
-Consommation énergie finale : 0 kWh/m²/an$$, 1, null, null, null, false, null, $$communal$$, $$gas$$, 2024, null, null, null),
-(1214, $$Appartement 2 pièces 50 m²$$, $$Cambrai 59400 Centre-Ville - Gare$$, false, 50, $$f$$, null, 575, $$Appartment$$, $$e$$, $$Appartement 2 pièces 50 m²
+Consommation énergie finale : 0 kWh/m²/an', '1', 'Franqueville-Saint-Pierre 76520', null, 'false', null, null, null, 'communal', 'gas', '2024', null, null, '19.0512'), ('1214', 'Appartement 2 pièces 50 m²', 'false', '50', 'f', null, '575', 'Appartment', 'e', 'Appartement 2 pièces 50 m²
 
 Cet appartement 2 pièces de 49,78 m² comprend un séjour, une cuisine séparée, une chambre, une salle de bains, wc et une place de parking.
 Coeur de ville de Cambrai, Mail ST Martin.
@@ -6534,8 +6138,7 @@ Consommation énergie finale : 352 kWh/m²/an
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : 352 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)
 Logement à consommation énergétique excessive : classe F
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 2, 1, null, 1, false, 1, $$communal$$, $$gas$$, null, 2, null, null),
-(1215, $$Appartement 2 pièces 47 m²$$, $$Gournay-en-Bray 76220$$, false, 47, $$e$$, null, 550, $$Appartment$$, $$c$$, $$Rue des Pipets à GOURNAY EN BRAY
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '2', 'Cambrai 59400 Centre-Ville - Gare', '1', 'false', '1', null, '1', 'communal', 'gas', null, '2', null, '19.0512'), ('1215', 'Appartement 2 pièces 47 m²', 'false', '47', 'e', null, '550', 'Appartment', 'c', 'Rue des Pipets à GOURNAY EN BRAY
 
 Appartement de type F2 au 2ème étage dans une résidence comprenant une grande pièce de vie avec coin cuisine aménagée, une chambre, salle d'eau avec wc. Chauffage électrique. Une place de  parking. SH : 47 m²  Loyer : 500 Euros Provision sur charges avec régularisation annuelle : 50Euros  (consommation d'eau et entretien des parties communes)  Soit un loyer total mensuel de : 550 Euros   Dépot de garantie : 500 Euros Total honoraires d'agence locataire : 200 Euros TTC (dont honoraires réalisation état des lieux : 80 Euros)  Estimation des coûts annuels d'énergie du logement entre 980 Euros et 1 380 Euros par an
 Référence annonce : 00101166000
@@ -6543,8 +6146,7 @@ Date de réalisation du diagnostic : 06/01/2025
 Loyer : 500 € + 50 € de charges.
 Frais à la charge du locataire : 200 €
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 980 € et 1 380 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 2, null, 1, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(1216, $$Appartement 3 pièces 74 m²$$, $$Périgueux 24000 Vésone$$, false, 74, $$d$$, null, 690, $$Appartment$$, $$d$$, $$GRAND T3 AVEC TERRASSE VESONE
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 980 € et 1 380 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Gournay-en-Bray 76220', '1', 'false', '2', null, null, 'individual', 'electric', null, null, null, '279.6192'), ('1216', 'Appartement 3 pièces 74 m²', 'false', '74', 'd', null, '690', 'Appartment', 'd', 'GRAND T3 AVEC TERRASSE VESONE
 
 Quartier Vésone, agréable T3 avec vue dégagée et terrasse d'environ 16 m2. Situé au 2ème étage et dernier étage. Composé d'un grand séjour et d'une cuisine séparée avec hotte et plaque de cuisson électrique accédant à la terrasse, 2 chambres dont une avec dressing, une salle de bain avec baignoire. WC séparés. Prévoir 100EUR en supplément pour les charges générales et le chauffage. Disponible de suite
 
@@ -6557,8 +6159,7 @@ Dépôt de garantie : 620 €
 Montant des charges : 100 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 176 € et 1 590 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 3, 2, null, 2, false, 1, $$communal$$, $$gas$$, null, 2, null, null),
-(1217, $$Appartement 1 pièce 18 m²$$, $$Nancy 54000 Centre-ville - Charles III$$, true, 18, $$f$$, null, 350, $$Appartment$$, $$c$$, $$NANCY RUE JEAN LAMOUR / PLACE CARNOT - Dans une résidence avec gardien, salle de sports, laverie, Studio comprenant pièce de vie avec accès extérieur, coin kitchenette, salle de bains avec WC
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 176 € et 1 590 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '3', 'Périgueux 24000 Vésone', '2', 'false', '2', null, '1', 'communal', 'gas', null, '2', null, '19.0512'), ('1217', 'Appartement 1 pièce 18 m²', 'true', '18', 'f', null, '350', 'Appartment', 'c', 'NANCY RUE JEAN LAMOUR / PLACE CARNOT - Dans une résidence avec gardien, salle de sports, laverie, Studio comprenant pièce de vie avec accès extérieur, coin kitchenette, salle de bains avec WC
 MISE A DISPOSITION D'UN LIT, BUREAU, TABLE ET CHAISES
 LIBRE DE SUITE
 Référence annonce : 3736
@@ -6567,8 +6168,7 @@ Emission de gaz à effet de serre : 11 CO2/m²/an
 Honoraires à la charge du locataire : 198 € TTC dont 54 € pour l’état des lieux
 Montant des charges : 30 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
-Logement à consommation énergétique excessive : classe F$$, 1, null, null, null, false, null, $$individual$$, null, null, null, null, null),
-(1218, $$Appartement 3 pièces 53 m²$$, $$Clermont-Ferrand 63100 Montferrand$$, false, 53, $$e$$, null, 670, $$Appartment$$, $$e$$, $$Appartement 3 pièces 53 m²
+Logement à consommation énergétique excessive : classe F', '1', 'Nancy 54000 Centre-ville - Charles III', null, 'false', null, null, null, 'individual', null, null, null, null, '93.3012'), ('1218', 'Appartement 3 pièces 53 m²', 'false', '53', 'e', null, '670', 'Appartment', 'e', 'Appartement 3 pièces 53 m²
 
 CLERMONT-FD proche Chu Estaing / République, proximité TRAM et tous commerces, nous vous proposons un appartement de type F3 de 53,19 m², au calme, en parfait état. 
 
@@ -6589,8 +6189,7 @@ Date de réalisation du diagnostic énergétique : 23/06/2022
 Consommation énergie primaire : 283 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 020 € et 1 430 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 3, 2, null, 2, false, null, null, null, null, 2, null, null),
-(1219, $$Appartement 2 pièces 36 m²$$, $$Biscarrosse 40600 Centre-ville - République - Breux$$, false, 36, $$c$$, $$2025-11-03T23:00:00.000Z$$, 625, $$Appartment$$, $$c$$, $$Située dans un quartier résidentiel calme et pavillonnaire de la rue des Bruyères à Biscarrosse. Cette résidence neuve est à 10 minutes à pied du centre-ville, avec un accès rapide aux commerces et commodités.
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 020 € et 1 430 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '3', 'Clermont-Ferrand 63100 Montferrand', '2', 'false', '2', null, null, null, null, null, '2', null, '179.3762'), ('1219', 'Appartement 2 pièces 36 m²', 'false', '36', 'c', '2025-11-03T23:00:00.000Z', '625', 'Appartment', 'c', 'Située dans un quartier résidentiel calme et pavillonnaire de la rue des Bruyères à Biscarrosse. Cette résidence neuve est à 10 minutes à pied du centre-ville, avec un accès rapide aux commerces et commodités.
 
 A louer! Agréable T2 neuf situé en rez-de-jardin.
 
@@ -6609,8 +6208,7 @@ Date de réalisation du diagnostic : 01/09/2025
 Honoraires à la charge du locataire : 480 € TTC dont 110 € pour l’état des lieux
 Dépôt de garantie : 545 €
 Montant des charges : 80 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 2, null, null, 1, false, 1, $$individual$$, $$gas$$, 1901, null, null, null),
-(1220, $$Appartement 2 pièces 44 m²$$, $$Sainte-Geneviève-des-Bois 91700 Liers - Croix Blanche$$, false, 44, $$c$$, null, 850, $$Appartment$$, $$c$$, $$Appartement 2 pièces 44 m²
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '2', 'Biscarrosse 40600 Centre-ville - République - Breux', '1', 'false', null, null, '1', 'individual', 'gas', '1901', null, null, '68.5512'), ('1220', 'Appartement 2 pièces 44 m²', 'false', '44', 'c', null, '850', 'Appartment', 'c', 'Appartement 2 pièces 44 m²
 
 À louer : Charmant appartement de 2 pièces situé au 1er étage d'un immeuble récent construit en 2021, d'une surface de 44.34 m². 
 
@@ -6631,8 +6229,7 @@ Modalité de récupération des charges locatives : Prévisionnelles mensuelles 
 Consommation énergie primaire : 86 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 250 € et 338 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)$$, 2, 1, null, 1, true, null, $$communal$$, $$gas$$, 2021, null, null, null),
-(1221, $$Appartement 3 pièces 62 m²$$, $$Issoudun 36100 Saint-Louis - Bonnefont - Le Moulin de Saint-Ladre - Chenevière$$, false, 62, $$c$$, null, 606, $$Appartment$$, $$c$$, $$Appartement 3 pièces 62 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 250 € et 338 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)', '2', 'Sainte-Geneviève-des-Bois 91700 Liers - Croix Blanche', '1', 'true', '1', null, null, 'communal', 'gas', '2021', null, null, '19.0512'), ('1221', 'Appartement 3 pièces 62 m²', 'false', '62', 'c', null, '606', 'Appartment', 'c', 'Appartement 3 pièces 62 m²
 
 Appartement  meublé  très lumineux  et spacieux - situé en centre ville proche parking - 1er étage - chauffage gaz
    : couloir - pièce à vivre avec cuisine équipée neuve  - deux chambres - 
@@ -6645,8 +6242,7 @@ Date de réalisation du diagnostic énergétique : 02/12/2024
 Consommation énergie primaire : 105 kWh/m²/an
 Consommation énergie finale : 96 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 740 € et 1 002 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 1, null, 2, false, null, null, null, null, 2, null, null),
-(1222, $$Appartement 2 pièces 32 m²$$, $$Limoges 87000$$, false, 32, $$e$$, null, 420, $$Appartment$$, $$e$$, $$Appartement T2 (32 m²) à louer à LIMOGES
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 740 € et 1 002 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Issoudun 36100 Saint-Louis - Bonnefont - Le Moulin de Saint-Ladre - Chenevière', '2', 'false', '1', null, null, null, null, null, '2', null, '104.3012'), ('1222', 'Appartement 2 pièces 32 m²', 'false', '32', 'e', null, '420', 'Appartment', 'e', 'Appartement T2 (32 m²) à louer à LIMOGES
 
 À découvrir, agréable appartement T2 non meublé situé au 32 rue de la Croix Verte à Limoges, au sein d'une petite résidence calme avec espaces verts. Ce logement lumineux offre un cadre de vie pratique et convivial, idéal pour une personne seule ou un couple.
 
@@ -6677,8 +6273,7 @@ Référence annonce : 3211CS
 Date de réalisation du diagnostic : 24/02/2025
 Montant des charges : 120 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 845 € et 1 143 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, null, null, 1, false, 1, null, null, null, null, null, null),
-(1223, $$Appartement 4 pièces 70 m²$$, $$Cholet 49300 Lorraine$$, false, 70, $$d$$, null, 780, $$Appartment$$, $$b$$, $$Appartement 4 pièces 70 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 845 € et 1 143 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Limoges 87000', '1', 'false', null, null, '1', null, null, null, null, null, '115.8512'), ('1223', 'Appartement 4 pièces 70 m²', 'false', '70', 'd', null, '780', 'Appartment', 'b', 'Appartement 4 pièces 70 m²
 
 Résidence 'Le Parc'
 Appartement rénové situé au 2ème étage sans ascenseur comprenant une entrée, cuisine aménagée, salon- séjour, 2 chambres avec placards, salle d'eau, WC, loggia fermée.
@@ -6692,8 +6287,7 @@ Date de réalisation du diagnostic énergétique : 09/08/2022
 Consommation énergie primaire : 228 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 903 € et 1 221 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 4, 2, null, 2, false, null, $$individual$$, $$electric$$, null, 4, null, null),
-(1224, $$Appartement 2 pièces 47 m²$$, $$Le Tampon 97430 Trois Mares$$, true, 47, null, null, 769, $$Appartment$$, $$v$$, $$Appartement 2 pièces 47 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 903 € et 1 221 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '4', 'Cholet 49300 Lorraine', '2', 'false', '2', null, null, 'individual', 'electric', null, '4', null, '289.5312'), ('1224', 'Appartement 2 pièces 47 m²', 'true', '47', null, null, '769', 'Appartment', 'v', 'Appartement 2 pièces 47 m²
 
 Situé au sein d'une résidence sécurisée, calme et parfaitement entretenue.
 Cet appartement en rez-de-chaussée loué meublé offre une pièce de vie avec cuisine ouverte sur le salon, une salle d'eau avec WC, une chambre donnant sur un jardin privatif fleuri et arboré.
@@ -6710,8 +6304,7 @@ Non soumis au DPE
 Modalité de récupération des charges locatives : Forfaitaires mensuelles
 
 Consommation énergie primaire : Non communiqué
-Consommation énergie finale : Non communiqué$$, 2, null, null, 1, false, null, null, null, null, null, null, null),
-(1225, $$Appartement 1 pièce 17 m²$$, $$Granville 50400 Centre-ville$$, false, 17, $$e$$, $$2025-09-09T22:00:00.000Z$$, 450, $$Appartment$$, $$b$$, $$A LOUER - Appartement meublé "bail étudiant 9 mois" centre ville GRANVILLE 1 pièce 17.8 m2
+Consommation énergie finale : Non communiqué', '2', 'Le Tampon 97430 Trois Mares', '1', 'false', null, null, null, null, null, null, null, null, '161.2262'), ('1225', 'Appartement 1 pièce 17 m²', 'false', '17', 'e', '2025-09-09T22:00:00.000Z', '450', 'Appartment', 'b', 'A LOUER - Appartement meublé "bail étudiant 9 mois" centre ville GRANVILLE 1 pièce 17.8 m2
 
 A louer, un appartement meublé, pour un bail étudiant 9 mois, situé au troisième étage dans un immeuble en centre-ville, comprenant une pièce de vie ouvert sur une cuisine équipée et aménagée, une salle de bain avec WC.
 
@@ -6727,8 +6320,7 @@ Montant des charges : 30 € / mois
 A propos de la copropriété :
 Pas de procédure en cours
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 550 € et 780 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 1, 3, null, null, false, 1, $$individual$$, $$electric$$, null, 3, null, null),
-(1226, $$Studio 1 pièce 14 m²$$, $$Toulouse 31000 Capitole$$, false, 14, $$d$$, null, 620, $$Appartment$$, $$b$$, $$Studio 1 pièce 14 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 550 € et 780 € sur les années 2021, 2022 et 2023 (abonnements compris).', '1', 'Granville 50400 Centre-ville', null, 'false', '3', null, '1', 'individual', 'electric', null, '3', null, '113.2992'), ('1226', 'Studio 1 pièce 14 m²', 'false', '14', 'd', null, '620', 'Appartment', 'b', 'Studio 1 pièce 14 m²
 
 Venez découvrir ce studio totalement rénové non meublé, situé au 1er d'une petite résidence. 
 Le bien comprend un petit séjour avec un espace cuisine avec plaques électriques, frigo, hotte et rangements. La pièce de vie et  une salle d'eau dispose d'un douche d'un WC et un lavabo.
@@ -6744,8 +6336,7 @@ Surface : 14 m²
 Date de réalisation du diagnostic énergétique : 12/08/2025
 
 Consommation énergie primaire : 322 kWh/m²/an
-Consommation énergie finale : 161 kWh/m²/an$$, 1, 2, null, 1, false, null, null, null, null, 4, null, null),
-(1227, $$Appartement 4 pièces 122 m²$$, $$Saint-Étienne 42000 Centre-ville - Peuple - Chavanelle$$, false, 122, $$c$$, $$2025-12-25T23:00:00.000Z$$, 995, $$Appartment$$, $$a$$, $$6 RUE GENERAL FOY - Dans le centre-ville de Saint-Etienne à proximité des transports en commun et commerces - Magnifique F4 entièrement réhabilité de 122 m² comprenant une cuisine équipée (four, plaques, hotte) ouverte sur très grand séjour avec parquet chevron - 3 chambres dont 1 parentale avec salle d'eau privative et WC privatif - 1 salle d'eau - 1 WC- nombreux placards - chauffage et eau chde ind électrique - double vitrage - interphone à défilement
+Consommation énergie finale : 161 kWh/m²/an', '1', 'Toulouse 31000 Capitole', '1', 'false', '2', null, null, null, null, null, '4', null, '48.5678666666667'), ('1227', 'Appartement 4 pièces 122 m²', 'false', '122', 'c', '2025-12-25T23:00:00.000Z', '995', 'Appartment', 'a', '6 RUE GENERAL FOY - Dans le centre-ville de Saint-Etienne à proximité des transports en commun et commerces - Magnifique F4 entièrement réhabilité de 122 m² comprenant une cuisine équipée (four, plaques, hotte) ouverte sur très grand séjour avec parquet chevron - 3 chambres dont 1 parentale avec salle d'eau privative et WC privatif - 1 salle d'eau - 1 WC- nombreux placards - chauffage et eau chde ind électrique - double vitrage - interphone à défilement
 
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr
 Référence annonce : 3010
@@ -6753,8 +6344,7 @@ Date de réalisation du diagnostic : 12/10/2023
 Honoraires à la charge du locataire : 900 € TTC
 Dépôt de garantie : 950 €
 Montant des charges : 45 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 4, 1, null, 3, true, null, $$individual$$, null, 1900, null, null, null),
-(1228, $$Appartement 3 pièces 67 m²$$, $$Crécy-la-Chapelle 77580$$, false, 67, $$c$$, $$2025-09-17T22:00:00.000Z$$, 1, $$Appartment$$, $$c$$, $$Appartement T3 CRECY LA  CHAPELLE
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '4', 'Saint-Étienne 42000 Centre-ville - Peuple - Chavanelle', '3', 'true', '1', null, null, 'individual', null, '1900', null, null, '186.8012'), ('1228', 'Appartement 3 pièces 67 m²', 'false', '67', 'c', '2025-09-17T22:00:00.000Z', '1', 'Appartment', 'c', 'Appartement T3 CRECY LA  CHAPELLE
 
 Un appartement de type F3 situé au rez de chaussée, d'une surface de 67,07 m2 comprenant: une entrée donnant sur un séjour, une cuisine aménagée et équipée ( une plaque de cuisson et une hotte aspirante), deux chambres dont une avec un placard, un WC, une salle de bains.
 Deux petits jardinets.
@@ -6762,8 +6352,7 @@ Une place de parking en sous-sol double.
 Référence annonce : 9R8R-MXW-QB7
 Date de réalisation du diagnostic : 25/09/2025
 Dépôt de garantie : 922 €
-Montant des charges : 100 € / mois$$, 3, null, null, 2, false, 1, $$individual$$, $$gas$$, null, null, null, null),
-(1229, $$Studio 1 pièce 14 m²$$, $$Larmor-Plage 56260$$, true, 14, $$d$$, null, 480, $$Appartment$$, $$a$$, $$Studio 1 pièce 14 m²
+Montant des charges : 100 € / mois', '3', 'Crécy-la-Chapelle 77580', '2', 'false', null, null, '1', 'individual', 'gas', null, null, null, '111.1762'), ('1229', 'Studio 1 pièce 14 m²', 'true', '14', 'd', null, '480', 'Appartment', 'a', 'Studio 1 pièce 14 m²
 
 STUDIO MEUBLE AU PIED DE LA MER
 
@@ -6795,8 +6384,7 @@ Date de réalisation du diagnostic énergétique : 04/07/2024
 Consommation énergie primaire : 286 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 400 € et 600 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 1, 3, null, null, false, null, $$individual$$, $$electric$$, null, 3, null, null),
-(1230, $$Appartement 2 pièces 42 m²$$, $$Toulouse 31100 La Cépière$$, true, 42, $$c$$, $$2025-11-14T23:00:00.000Z$$, 1, $$Appartment$$, $$c$$, $$Appartement 2 chambres
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 400 € et 600 € sur les années 2021, 2022 et 2023 (abonnements compris).', '1', 'Larmor-Plage 56260', null, 'false', '3', null, null, 'individual', 'electric', null, '3', null, '73.1472'), ('1230', 'Appartement 2 pièces 42 m²', 'true', '42', 'c', '2025-11-14T23:00:00.000Z', '1', 'Appartment', 'c', 'Appartement 2 chambres
 
 Proche du Zenith et à proximité immédiate du centre-ville de Toulouse, notre résidence vous accueille pour tous vos séjours. En famille ou entre amis, venez découvrir la « ville rose », vous balader le long des berges du Canal du Midi et profiter de nos équipements pour vous détendre. Vous apprécierez également le calme de la résidence dans le cadre d'un déplacement professionnel.
 
@@ -6812,8 +6400,7 @@ Emission de gaz à effet de serre : 13 CO2/m²/an
 Honoraires à la charge du locataire : 998 € TTC
 Dépôt de garantie : 1050 €
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 340 € et 520 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, null, null, 2, true, 1, null, null, null, null, null, null),
-(1231, $$Appartement 3 pièces 67 m²$$, $$Aubervilliers 93300 Landy-Plaine - Marcreus - Pressensé$$, true, 67, $$b$$, null, 1, $$Appartment$$, $$c$$, $$LOCATION APPARTEMENT TRES RECENT DE TYPE T3 PROCHE CANAL - DISPONIBLE DE SUITE !
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 340 € et 520 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Toulouse 31100 La Cépière', '2', 'true', null, null, '1', null, null, null, null, null, '76.8012'), ('1231', 'Appartement 3 pièces 67 m²', 'true', '67', 'b', null, '1', 'Appartment', 'c', 'LOCATION APPARTEMENT TRES RECENT DE TYPE T3 PROCHE CANAL - DISPONIBLE DE SUITE !
 
 APPARTEMENT TOUJOURS DISPONIBLE. AVANT TOUTE VISITE : pour déposer votre dossier (obligatoire avant la visite), utiliser le bouton de contact par mail sur cette page, vous recevrez un mail en retour avec tous les documents à fournir (Certificat GLI obligatoire : Visale, Garantme, Cautionneo ou SmartGarant). Votre agence Immotop à AUBERVILLIERS vous propose un appartement MEUBLE de type T3 d'une surface de 67.50 m², comprenant 2 balcons.
 Ce logement se situe dans une résidence très calme .
@@ -6824,8 +6411,7 @@ Référence annonce : 3203UBI
 Date de réalisation du diagnostic : 25/06/2015
 Honoraires à la charge du locataire : 1020 € TTC
 Dépôt de garantie : 2294 €
-Montant des charges : 100 € / mois$$, 3, 1, null, 2, true, 1, null, null, 2014, 4, null, null),
-(1232, $$Appartement 14 pièces 230 m²$$, $$Compiègne 60200$$, true, 230, $$d$$, null, 460, $$Appartment$$, $$d$$, $$Maison Compiegne 14 pièce(s) 230.21 m2
+Montant des charges : 100 € / mois', '3', 'Aubervilliers 93300 Landy-Plaine - Marcreus - Pressensé', '2', 'true', '1', null, '1', null, null, '2014', '4', null, '74.3262'), ('1232', 'Appartement 14 pièces 230 m²', 'true', '230', 'd', null, '460', 'Appartment', 'd', 'Maison Compiegne 14 pièce(s) 230.21 m2
 
 CHAMBRES EN COLOCATION A COMPIEGNE : situé entre les deux sites de l'UTC, proche commodités, piste cyclable :
 Maison entièrement meublé offrant au rez-de-chaussée une pièce de vie avec cuisine aménagée et équipée, quatre chambres, une salle d'eau avec WC et un WC indépendant.
@@ -6844,8 +6430,7 @@ Dépôt de garantie : 760 €
 Montant des charges : 80 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 3 010 € et 4 110 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 14, null, null, 11, false, null, null, $$gas$$, 1948, null, null, null),
-(1233, $$Appartement 3 pièces 88 m²$$, $$Strasbourg 67000 Contades$$, false, 88, $$d$$, $$2025-09-01T22:00:00.000Z$$, 1, $$Appartment$$, $$d$$, $$STRASBOURG
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 3 010 € et 4 110 € sur les années 2021, 2022 et 2023 (abonnements compris).', '14', 'Compiègne 60200', '11', 'false', null, null, null, null, 'gas', '1948', null, null, '503.967866666667'), ('1233', 'Appartement 3 pièces 88 m²', 'false', '88', 'd', '2025-09-01T22:00:00.000Z', '1', 'Appartment', 'd', 'STRASBOURG
 
 Orangerie - Proche Institutions Européennes -
 Très bel appartement situé au 3ème étage avec balcon . L'appartement est lumineux, dispose de très beau volume et de nombreux rangements. Le logement est composé d'une entrée, une cuisine totalement équipée et ouverte sur le séjour. L'appartement dispose d'une salle de bains, deux WC dont un séparé et deux chambres dont une avec un lit encastré. Chauffage collectif.
@@ -6858,8 +6443,7 @@ Dépôt de garantie : 1400 €
 Montant des charges : 210 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 200 € et 1 690 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 3, null, 2, true, 1, $$communal$$, $$electric$$, 1990, 4, null, null),
-(1234, $$Appartement 2 pièces 43 m²$$, $$Sequedin 59320$$, false, 43, $$c$$, null, 800, $$Appartment$$, $$c$$, $$Appartement de 2 pièces (43 m²) en location à SEQUEDIN
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 200 € et 1 690 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Strasbourg 67000 Contades', '2', 'true', '3', null, '1', 'communal', 'electric', '1990', '4', null, '19.0512'), ('1234', 'Appartement 2 pièces 43 m²', 'false', '43', 'c', null, '800', 'Appartment', 'c', 'Appartement de 2 pièces (43 m²) en location à SEQUEDIN
 
 PROCHE DE LILLE - APPARTEMENT 2 PIÈCES AVEC TERRASSE ET PARKING
 
@@ -6886,8 +6470,7 @@ Référence annonce : 2313
 Date de réalisation du diagnostic : 05/09/2024
 Montant des charges : 100 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 340 € et 500 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, null, null, 1, false, null, null, null, null, null, null, null),
-(1235, $$Appartement 2 pièces 46 m²$$, $$Villeneuve-d'Ascq 59650 Pres - Flers Bourg - Château$$, false, 46, $$d$$, $$2025-09-30T22:00:00.000Z$$, 739, $$Appartment$$, $$a$$, $$Appartement type 2
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 340 € et 500 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Sequedin 59320', '1', 'false', null, null, null, null, null, null, null, null, '78.1762'), ('1235', 'Appartement 2 pièces 46 m²', 'false', '46', 'd', '2025-09-30T22:00:00.000Z', '739', 'Appartment', 'a', 'Appartement type 2
 
 SECTEUR LES PRES VILLENEUVE D'ASCQ à proximité des commerces et des écoles, desservi par les bus, venez visiter ce joli logement de type 2 COUP DE CŒUR dans une résidence verdoyante et récente ! Faites vite et candidatez sur le site *** ! Au premier étage, il propose un séjour parqueté lumineux ouvert sur une cuisine toute équipée et fonctionnelle. Un balcon agréable permet de profiter du calme de la résidence et de ses jardins. La chambre est parquetée et au calme. La salle de bain est carrelée et propose une baignoire, prise de MAL dans placard avec le cumuls. Le WC est séparé. Une place de stationnement est comprise dans le lot, sécurisée en extérieur. Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisque : ***
 Référence annonce : 15_[Coordonnées masquées]
@@ -6899,8 +6482,7 @@ Modalité de récupération des charges locatives : provision avec régularisati
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 570 € et 800 € par an. Prix moyens des énergies indexés sur l'année 2022 (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 2, null, null, 1, false, null, $$individual$$, $$electric$$, null, 4, null, null),
-(1236, $$Appartement 3 pièces 64 m²$$, $$Montrond-les-Bains 42210$$, false, 64, $$c$$, $$2025-09-30T22:00:00.000Z$$, 530, $$Appartment$$, $$c$$, $$Appartement 3 pièces 64 m²
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '2', 'Villeneuve-d'Ascq 59650 Pres - Flers Bourg - Château', '1', 'false', null, null, null, 'individual', 'electric', null, '4', null, '196.7952'), ('1236', 'Appartement 3 pièces 64 m²', 'false', '64', 'c', '2025-09-30T22:00:00.000Z', '530', 'Appartment', 'c', 'Appartement 3 pièces 64 m²
 
 Montrond les Bains, à proximité écoles, commerces et transports, bel F3 de 64.01m² au 1er étage d'un immeuble sécurisé avec interphone, offrant une cuisine équipée avec plaque de cuisson et hotte ouverte sur séjour, deux chambres, salle de bains avec baignoire, WC séparés, un cellier, une cave et double vitrage.
 Chauffage individuel gaz.
@@ -6915,8 +6497,7 @@ Date de réalisation du diagnostic énergétique : 01/09/2025
 Consommation énergie primaire : 128 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 870 € et 1 230 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 1, null, 2, false, 1, $$individual$$, $$gas$$, null, null, null, null),
-(1237, $$T4 lumineux refait à neuf + parking, au calme et à 10 min de la frontière suisse$$, $$Beaucourt 90500$$, false, 70, $$c$$, $$2025-09-30T22:00:00.000Z$$, 750, $$Appartment$$, $$c$$, $$Appartement T4 rénové à neuf, situé dans un quartier calme et verdoyant de Beaucourt, à 5 minutes à pied du centre-ville et à 100 mètres d’un supermarché.
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 870 € et 1 230 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Montrond-les-Bains 42210', '2', 'false', '1', null, '1', 'individual', 'gas', null, null, null, '107.0512'), ('1237', 'T4 lumineux refait à neuf + parking, au calme et à 10 min de la frontière suisse', 'false', '70', 'c', '2025-09-30T22:00:00.000Z', '750', 'Appartment', 'c', 'Appartement T4 rénové à neuf, situé dans un quartier calme et verdoyant de Beaucourt, à 5 minutes à pied du centre-ville et à 100 mètres d’un supermarché.
 Cave privative, parking. 
 ✨ Caractéristiques principales :
 
@@ -6947,8 +6528,7 @@ Proximité immédiate : commerces, écoles, transports, centre-ville, axes routi
 
 Merci de vous présenter en quelques lignes (activités, revenus, nombre de locataires, etc.). 
 Garantie : 3 x loyer minimum
-Merci$$, 4, 1, null, 3, false, 1, $$individual$$, $$electric$$, 2025, 2, null, null),
-(1238, $$T3 Meublé Terrasse Pkg Clim$$, $$Toulouse 31500 Bonnefoy-Roseraie-Gramont$$, true, 64, $$c$$, $$2025-09-30T22:00:00.000Z$$, 1, $$Appartment$$, $$a$$, $$Directe Propriétaire - Ouvert Colocation -  Dans Triangle : Roseraie  /Bonnefoy / Croix Daurade et proximité Gramont (31000,31200, 31500) - Libre au 31 Octobre 2025- PAS DE FRAIS D’AGENCE-
+Merci', '4', 'Beaucourt 90500', '3', 'false', '1', null, '1', 'individual', 'electric', '2025', '2', null, '195.4512'), ('1238', 'T3 Meublé Terrasse Pkg Clim', 'true', '64', 'c', '2025-09-30T22:00:00.000Z', '1', 'Appartment', 'a', 'Directe Propriétaire - Ouvert Colocation -  Dans Triangle : Roseraie  /Bonnefoy / Croix Daurade et proximité Gramont (31000,31200, 31500) - Libre au 31 Octobre 2025- PAS DE FRAIS D’AGENCE-
 
 Dans résidence arborée et familiale, T3 Meublé - 64m2, 31500, Grand séjour, Cuisine équipée, 2 chambres (lits 2 personnes) parquet massif, Terrasse et Balcon, piscine dans la résidence ouverte de juin à septembre, 1 pkg aérien dans résidence, climatisation.
 
@@ -6981,8 +6561,7 @@ Estimation Trajet Tisséo (marche incluse) :
 30 min de École Nationale Supérieure Maritime - ISTEF - Ecole Supérieure de Tourisme - ISADAT - École nationale supérieure de l'audiovisuel
 30 à 40 min de ISAE Supaéro - ENSEEIHT -IPSA - IDRAC - INSPÉ - Institut Limayrac.
 
-Pas d’agence merci.$$, 3, 3, null, 2, false, 1, $$individual$$, $$electric$$, 2000, 3, null, null),
-(1239, $$Studio 1 pièce 14 m²$$, $$Toulouse 31000 Capitole$$, false, 14, $$d$$, null, 620, $$Appartment$$, $$b$$, $$Studio 1 pièce 14 m²
+Pas d’agence merci.', '3', 'Toulouse 31500 Bonnefoy-Roseraie-Gramont', '2', 'false', '3', null, '1', 'individual', 'electric', '2000', '3', null, '180.3312'), ('1239', 'Studio 1 pièce 14 m²', 'false', '14', 'd', null, '620', 'Appartment', 'b', 'Studio 1 pièce 14 m²
 
 Venez découvrir ce studio totalement rénové non meublé, situé au 1er d'une petite résidence. 
 Le bien comprend un petit séjour avec un espace cuisine avec plaques électriques, frigo, hotte et rangements. La pièce de vie et  une salle d'eau dispose d'un douche d'un WC et un lavabo.
@@ -6998,8 +6577,7 @@ Surface : 14 m²
 Date de réalisation du diagnostic énergétique : 12/08/2025
 
 Consommation énergie primaire : 322 kWh/m²/an
-Consommation énergie finale : 161 kWh/m²/an$$, 1, 2, null, 1, false, null, null, null, null, 4, null, null),
-(1240, $$Appartement 4 pièces 122 m²$$, $$Saint-Étienne 42000 Centre-ville - Peuple - Chavanelle$$, false, 122, $$c$$, $$2025-12-25T23:00:00.000Z$$, 995, $$Appartment$$, $$a$$, $$6 RUE GENERAL FOY - Dans le centre-ville de Saint-Etienne à proximité des transports en commun et commerces - Magnifique F4 entièrement réhabilité de 122 m² comprenant une cuisine équipée (four, plaques, hotte) ouverte sur très grand séjour avec parquet chevron - 3 chambres dont 1 parentale avec salle d'eau privative et WC privatif - 1 salle d'eau - 1 WC- nombreux placards - chauffage et eau chde ind électrique - double vitrage - interphone à défilement
+Consommation énergie finale : 161 kWh/m²/an', '1', 'Toulouse 31000 Capitole', '1', 'false', '2', null, null, null, null, null, '4', null, '48.5678666666667'), ('1240', 'Appartement 4 pièces 122 m²', 'false', '122', 'c', '2025-12-25T23:00:00.000Z', '995', 'Appartment', 'a', '6 RUE GENERAL FOY - Dans le centre-ville de Saint-Etienne à proximité des transports en commun et commerces - Magnifique F4 entièrement réhabilité de 122 m² comprenant une cuisine équipée (four, plaques, hotte) ouverte sur très grand séjour avec parquet chevron - 3 chambres dont 1 parentale avec salle d'eau privative et WC privatif - 1 salle d'eau - 1 WC- nombreux placards - chauffage et eau chde ind électrique - double vitrage - interphone à défilement
 
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr
 Référence annonce : 3010
@@ -7007,8 +6585,7 @@ Date de réalisation du diagnostic : 12/10/2023
 Honoraires à la charge du locataire : 900 € TTC
 Dépôt de garantie : 950 €
 Montant des charges : 45 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 4, 1, null, 3, true, null, $$individual$$, null, 1900, null, null, null),
-(1241, $$Appartement 3 pièces 67 m²$$, $$Crécy-la-Chapelle 77580$$, false, 67, $$c$$, $$2025-09-17T22:00:00.000Z$$, 1, $$Appartment$$, $$c$$, $$Appartement T3 CRECY LA  CHAPELLE
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '4', 'Saint-Étienne 42000 Centre-ville - Peuple - Chavanelle', '3', 'true', '1', null, null, 'individual', null, '1900', null, null, '186.8012'), ('1241', 'Appartement 3 pièces 67 m²', 'false', '67', 'c', '2025-09-17T22:00:00.000Z', '1', 'Appartment', 'c', 'Appartement T3 CRECY LA  CHAPELLE
 
 Un appartement de type F3 situé au rez de chaussée, d'une surface de 67,07 m2 comprenant: une entrée donnant sur un séjour, une cuisine aménagée et équipée ( une plaque de cuisson et une hotte aspirante), deux chambres dont une avec un placard, un WC, une salle de bains.
 Deux petits jardinets.
@@ -7016,8 +6593,7 @@ Une place de parking en sous-sol double.
 Référence annonce : 9R8R-MXW-QB7
 Date de réalisation du diagnostic : 25/09/2025
 Dépôt de garantie : 922 €
-Montant des charges : 100 € / mois$$, 3, null, null, 2, false, 1, $$individual$$, $$gas$$, null, null, null, null),
-(1242, $$Studio 1 pièce 14 m²$$, $$Larmor-Plage 56260$$, true, 14, $$d$$, null, 480, $$Appartment$$, $$a$$, $$Studio 1 pièce 14 m²
+Montant des charges : 100 € / mois', '3', 'Crécy-la-Chapelle 77580', '2', 'false', null, null, '1', 'individual', 'gas', null, null, null, '111.1762'), ('1242', 'Studio 1 pièce 14 m²', 'true', '14', 'd', null, '480', 'Appartment', 'a', 'Studio 1 pièce 14 m²
 
 STUDIO MEUBLE AU PIED DE LA MER
 
@@ -7049,8 +6625,7 @@ Date de réalisation du diagnostic énergétique : 04/07/2024
 Consommation énergie primaire : 286 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 400 € et 600 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 1, 3, null, null, false, null, $$individual$$, $$electric$$, null, 3, null, null),
-(1243, $$Appartement 2 pièces 42 m²$$, $$Toulouse 31100 La Cépière$$, true, 42, $$c$$, $$2025-11-14T23:00:00.000Z$$, 1, $$Appartment$$, $$c$$, $$Appartement 2 chambres
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 400 € et 600 € sur les années 2021, 2022 et 2023 (abonnements compris).', '1', 'Larmor-Plage 56260', null, 'false', '3', null, null, 'individual', 'electric', null, '3', null, '73.1472'), ('1243', 'Appartement 2 pièces 42 m²', 'true', '42', 'c', '2025-11-14T23:00:00.000Z', '1', 'Appartment', 'c', 'Appartement 2 chambres
 
 Proche du Zenith et à proximité immédiate du centre-ville de Toulouse, notre résidence vous accueille pour tous vos séjours. En famille ou entre amis, venez découvrir la « ville rose », vous balader le long des berges du Canal du Midi et profiter de nos équipements pour vous détendre. Vous apprécierez également le calme de la résidence dans le cadre d'un déplacement professionnel.
 
@@ -7066,8 +6641,7 @@ Emission de gaz à effet de serre : 13 CO2/m²/an
 Honoraires à la charge du locataire : 998 € TTC
 Dépôt de garantie : 1050 €
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 340 € et 520 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, null, null, 2, true, 1, null, null, null, null, null, null),
-(1244, $$Appartement 3 pièces 67 m²$$, $$Aubervilliers 93300 Landy-Plaine - Marcreus - Pressensé$$, true, 67, $$b$$, null, 1, $$Appartment$$, $$c$$, $$LOCATION APPARTEMENT TRES RECENT DE TYPE T3 PROCHE CANAL - DISPONIBLE DE SUITE !
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 340 € et 520 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Toulouse 31100 La Cépière', '2', 'true', null, null, '1', null, null, null, null, null, '76.8012'), ('1244', 'Appartement 3 pièces 67 m²', 'true', '67', 'b', null, '1', 'Appartment', 'c', 'LOCATION APPARTEMENT TRES RECENT DE TYPE T3 PROCHE CANAL - DISPONIBLE DE SUITE !
 
 APPARTEMENT TOUJOURS DISPONIBLE. AVANT TOUTE VISITE : pour déposer votre dossier (obligatoire avant la visite), utiliser le bouton de contact par mail sur cette page, vous recevrez un mail en retour avec tous les documents à fournir (Certificat GLI obligatoire : Visale, Garantme, Cautionneo ou SmartGarant). Votre agence Immotop à AUBERVILLIERS vous propose un appartement MEUBLE de type T3 d'une surface de 67.50 m², comprenant 2 balcons.
 Ce logement se situe dans une résidence très calme .
@@ -7078,8 +6652,7 @@ Référence annonce : 3203UBI
 Date de réalisation du diagnostic : 25/06/2015
 Honoraires à la charge du locataire : 1020 € TTC
 Dépôt de garantie : 2294 €
-Montant des charges : 100 € / mois$$, 3, 1, null, 2, true, 1, null, null, 2014, 4, null, null),
-(1245, $$Appartement 14 pièces 230 m²$$, $$Compiègne 60200$$, true, 230, $$d$$, null, 460, $$Appartment$$, $$d$$, $$Maison Compiegne 14 pièce(s) 230.21 m2
+Montant des charges : 100 € / mois', '3', 'Aubervilliers 93300 Landy-Plaine - Marcreus - Pressensé', '2', 'true', '1', null, '1', null, null, '2014', '4', null, '74.3262'), ('1245', 'Appartement 14 pièces 230 m²', 'true', '230', 'd', null, '460', 'Appartment', 'd', 'Maison Compiegne 14 pièce(s) 230.21 m2
 
 CHAMBRES EN COLOCATION A COMPIEGNE : situé entre les deux sites de l'UTC, proche commodités, piste cyclable :
 Maison entièrement meublé offrant au rez-de-chaussée une pièce de vie avec cuisine aménagée et équipée, quatre chambres, une salle d'eau avec WC et un WC indépendant.
@@ -7098,8 +6671,7 @@ Dépôt de garantie : 760 €
 Montant des charges : 80 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 3 010 € et 4 110 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 14, null, null, 11, false, null, null, $$gas$$, 1948, null, null, null),
-(1246, $$Appartement 3 pièces 88 m²$$, $$Strasbourg 67000 Contades$$, false, 88, $$d$$, $$2025-09-01T22:00:00.000Z$$, 1, $$Appartment$$, $$d$$, $$STRASBOURG
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 3 010 € et 4 110 € sur les années 2021, 2022 et 2023 (abonnements compris).', '14', 'Compiègne 60200', '11', 'false', null, null, null, null, 'gas', '1948', null, null, '503.967866666667'), ('1246', 'Appartement 3 pièces 88 m²', 'false', '88', 'd', '2025-09-01T22:00:00.000Z', '1', 'Appartment', 'd', 'STRASBOURG
 
 Orangerie - Proche Institutions Européennes -
 Très bel appartement situé au 3ème étage avec balcon . L'appartement est lumineux, dispose de très beau volume et de nombreux rangements. Le logement est composé d'une entrée, une cuisine totalement équipée et ouverte sur le séjour. L'appartement dispose d'une salle de bains, deux WC dont un séparé et deux chambres dont une avec un lit encastré. Chauffage collectif.
@@ -7112,8 +6684,7 @@ Dépôt de garantie : 1400 €
 Montant des charges : 210 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 200 € et 1 690 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 3, null, 2, true, 1, $$communal$$, $$electric$$, 1990, 4, null, null),
-(1247, $$Appartement 2 pièces 43 m²$$, $$Sequedin 59320$$, false, 43, $$c$$, null, 800, $$Appartment$$, $$c$$, $$Appartement de 2 pièces (43 m²) en location à SEQUEDIN
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 200 € et 1 690 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Strasbourg 67000 Contades', '2', 'true', '3', null, '1', 'communal', 'electric', '1990', '4', null, '19.0512'), ('1247', 'Appartement 2 pièces 43 m²', 'false', '43', 'c', null, '800', 'Appartment', 'c', 'Appartement de 2 pièces (43 m²) en location à SEQUEDIN
 
 PROCHE DE LILLE - APPARTEMENT 2 PIÈCES AVEC TERRASSE ET PARKING
 
@@ -7140,8 +6711,7 @@ Référence annonce : 2313
 Date de réalisation du diagnostic : 05/09/2024
 Montant des charges : 100 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 340 € et 500 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, null, null, 1, false, null, null, null, null, null, null, null),
-(1248, $$Appartement 2 pièces 46 m²$$, $$Villeneuve-d'Ascq 59650 Pres - Flers Bourg - Château$$, false, 46, $$d$$, $$2025-09-30T22:00:00.000Z$$, 739, $$Appartment$$, $$a$$, $$Appartement type 2
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 340 € et 500 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Sequedin 59320', '1', 'false', null, null, null, null, null, null, null, null, '78.1762'), ('1248', 'Appartement 2 pièces 46 m²', 'false', '46', 'd', '2025-09-30T22:00:00.000Z', '739', 'Appartment', 'a', 'Appartement type 2
 
 SECTEUR LES PRES VILLENEUVE D'ASCQ à proximité des commerces et des écoles, desservi par les bus, venez visiter ce joli logement de type 2 COUP DE CŒUR dans une résidence verdoyante et récente ! Faites vite et candidatez sur le site *** ! Au premier étage, il propose un séjour parqueté lumineux ouvert sur une cuisine toute équipée et fonctionnelle. Un balcon agréable permet de profiter du calme de la résidence et de ses jardins. La chambre est parquetée et au calme. La salle de bain est carrelée et propose une baignoire, prise de MAL dans placard avec le cumuls. Le WC est séparé. Une place de stationnement est comprise dans le lot, sécurisée en extérieur. Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisque : ***
 Référence annonce : 15_[Coordonnées masquées]
@@ -7153,8 +6723,7 @@ Modalité de récupération des charges locatives : provision avec régularisati
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 570 € et 800 € par an. Prix moyens des énergies indexés sur l'année 2022 (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 2, null, null, 1, false, null, $$individual$$, $$electric$$, null, 4, null, null),
-(1249, $$Appartement 3 pièces 64 m²$$, $$Montrond-les-Bains 42210$$, false, 64, $$c$$, $$2025-09-30T22:00:00.000Z$$, 530, $$Appartment$$, $$c$$, $$Appartement 3 pièces 64 m²
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '2', 'Villeneuve-d'Ascq 59650 Pres - Flers Bourg - Château', '1', 'false', null, null, null, 'individual', 'electric', null, '4', null, '196.7952'), ('1249', 'Appartement 3 pièces 64 m²', 'false', '64', 'c', '2025-09-30T22:00:00.000Z', '530', 'Appartment', 'c', 'Appartement 3 pièces 64 m²
 
 Montrond les Bains, à proximité écoles, commerces et transports, bel F3 de 64.01m² au 1er étage d'un immeuble sécurisé avec interphone, offrant une cuisine équipée avec plaque de cuisson et hotte ouverte sur séjour, deux chambres, salle de bains avec baignoire, WC séparés, un cellier, une cave et double vitrage.
 Chauffage individuel gaz.
@@ -7169,8 +6738,7 @@ Date de réalisation du diagnostic énergétique : 01/09/2025
 Consommation énergie primaire : 128 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 870 € et 1 230 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 1, null, 2, false, 1, $$individual$$, $$gas$$, null, null, null, null),
-(1250, $$Appartement 1 pièce 24 m²$$, $$Cholet 49300 ière$$, true, 24, $$e$$, $$2025-08-23T22:00:00.000Z$$, 400, $$Appartment$$, $$c$$, $$Meublé
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 870 € et 1 230 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Montrond-les-Bains 42210', '2', 'false', '1', null, '1', 'individual', 'gas', null, null, null, '107.0512'), ('1250', 'Appartement 1 pièce 24 m²', 'true', '24', 'e', '2025-08-23T22:00:00.000Z', '400', 'Appartment', 'c', 'Meublé
 
 Proche du campus universitaire et à 10 minutes du centre ville, La résidence Berkeley vous offre une salle de sport, une salle de télévision, la wifi, une laverie automatique. Elle dispose également d'un garage à vélo, d'un parking aérien ainsi qu'un régisseur sur place. Nous vous proposons ce studio meublé au 1er étage qui vous offre une entrée avec un placard aménagé, une pièce de vie avec une kitchenette équipée d'un frigo et de deux plaques électriques, une salle de bain et des wc séparés. L'eau froide est inclus dans vos charges. L'eau chaude et le chauffage sont par production électrique. Merci de soumettre votre dossier de solvabilité sur notre site *** en cliquant sur \"Candidater en ligne\", toute demande de visite ne sera pas étudiée en l'absence de validation de vos pièces justificatives. Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisque : ***
 Référence annonce : 34_[Coordonnées masquées]
@@ -7181,8 +6749,7 @@ Dépôt de garantie : 355 €
 Montant des charges : 45 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 1, null, null, null, false, 1, $$individual$$, $$electric$$, 1992, 2, null, null),
-(1251, $$Appartement 2 pièces 47 m²$$, $$Le Havre 76600 Saint-Vincent - Plage$$, true, 47, $$d$$, null, 755, $$Appartment$$, $$b$$, $$Appartement  F2 MEUBLE À Louer
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '1', 'Cholet 49300 ière', null, 'false', null, null, '1', 'individual', 'electric', '1992', '2', null, '152.1072'), ('1251', 'Appartement 2 pièces 47 m²', 'true', '47', 'd', null, '755', 'Appartment', 'b', 'Appartement  F2 MEUBLE À Louer
 
 EFERENCE AGENCE: 14223 - LE HAVRE, QUARTIER SAINT VINCENT - Appartement de type F2 meublé en parfait état au 2ème étage comprenant une entrée, un séjour avec placard, une cuisine aménagée et équipée, une chambre avec placard et une salle d'eau aménagée, un WC. Cave.
 Appartement équipé de plaques vitro-céramique, hotte, four, four micro-ondes, combiné réfrigérateur/congélateur, lave vaisselle, machine à laver.
@@ -7195,8 +6762,7 @@ Honoraires à la charge du locataire : 519 € TTC dont 519 € pour l’état d
 Dépôt de garantie : 735 €
 Montant des charges : 20 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 840 € et 1 200 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, null, null, 1, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(1252, $$Appartement 2 pièces 41 m²$$, $$Saint-Martin-en-Bresse 71620$$, false, 41, $$d$$, $$2025-08-29T22:00:00.000Z$$, 370, $$Appartment$$, $$d$$, $$2 PIECES SAINT MARTIN EN BRESSE
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 840 € et 1 200 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Le Havre 76600 Saint-Vincent - Plage', '1', 'false', null, null, null, 'individual', 'electric', null, null, null, '200.6592'), ('1252', 'Appartement 2 pièces 41 m²', 'false', '41', 'd', '2025-08-29T22:00:00.000Z', '370', 'Appartment', 'd', '2 PIECES SAINT MARTIN EN BRESSE
 
 A Saint Martin en Bresse à 2 pas des établissements scolaires, F2 de 41.65 m2 situé au 2ème étage d'un immeuble sans ascenseur. Il se compose d'une grande pièce à vivre avec coin cuisine, une chambre, une salle de bain et un WC séparé.
 Chauffage individuel au gaz
@@ -7209,8 +6775,7 @@ Dépôt de garantie : 365 €
 Montant des charges : 5 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 650 € et 930 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, 2, null, 1, false, 1, $$individual$$, null, null, null, null, null),
-(1253, $$Appartement 2 pièces 30 m²$$, $$Saint-Omer 62500 Centre historique$$, false, 30, $$e$$, $$2025-07-30T22:00:00.000Z$$, 482, $$Appartment$$, $$b$$, $$Au cœur du centre ville, joli T2 au 2ème étage comprenant un hall d'entrée, un séjour avec cuisine ouverte, une chambre, une salle d'eau. Libre de suite - Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 650 € et 930 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Saint-Martin-en-Bresse 71620', '1', 'false', '2', null, '1', 'individual', null, null, null, null, '105.492866666667'), ('1253', 'Appartement 2 pièces 30 m²', 'false', '30', 'e', '2025-07-30T22:00:00.000Z', '482', 'Appartment', 'b', 'Au cœur du centre ville, joli T2 au 2ème étage comprenant un hall d'entrée, un séjour avec cuisine ouverte, une chambre, une salle d'eau. Libre de suite - Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr
 Référence annonce : 809839
 Date de réalisation du diagnostic : 13/04/2022
 Honoraires à la charge du locataire : 332 € TTC dont 90 € pour l’état des lieux
@@ -7218,8 +6783,7 @@ Dépôt de garantie : 470 €
 Montant des charges : 12 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 578 € et 782 € par an. Prix moyens des énergies indexés sur l'année 2022 (abonnements compris)$$, 2, 2, null, 1, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(1254, $$Appartement 2 pièces 63 m²$$, $$Strasbourg 67000 Petite France$$, true, 63, $$e$$, $$2025-08-12T22:00:00.000Z$$, 1, $$Appartment$$, $$b$$, $$Appartement À Louer
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 578 € et 782 € par an. Prix moyens des énergies indexés sur l'année 2022 (abonnements compris)', '2', 'Saint-Omer 62500 Centre historique', '1', 'false', '2', null, null, 'individual', 'electric', null, null, null, '185.3712'), ('1254', 'Appartement 2 pièces 63 m²', 'true', '63', 'e', '2025-08-12T22:00:00.000Z', '1', 'Appartment', 'b', 'Appartement À Louer
 
 Rue Ste Hélène, charmant 2/3 pièces meublé comprenant:
 Une entrée, un séjour double (possibilité seconde petite chambre), une cuisine meublée et semi-équipée, une chambre avec nombreux rangements, une salle de bains, WC.
@@ -7232,23 +6796,20 @@ Honoraires à la charge du locataire : 820 € TTC dont 189 € pour l’état d
 Dépôt de garantie : 2600 €
 Montant des charges : 80 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 410 € et 1 950 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 3, null, 1, false, 1, $$individual$$, $$electric$$, null, null, null, null),
-(1255, $$Appartement 33 m² Nancy$$, $$Nancy 54000 Trois Maisons - Saint-Fiacre - Crosne - Vayringe$$, false, 33, null, null, 260, $$Appartment$$, null, $$Location appartement t1 à NANCY
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 410 € et 1 950 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Strasbourg 67000 Petite France', '1', 'false', '3', null, '1', 'individual', 'electric', null, null, null, '368.3232'), ('1255', 'Appartement 33 m² Nancy', 'false', '33', null, null, '260', 'Appartment', null, 'Location appartement t1 à NANCY
 
 — Disponibilité Novembre 2025 — Adresse : 40, rue Henri Déglin – 54000  NANCY 1er étage, sans ascenseur       Surface :  33 m² Description :Appartements T1 bis disponibles1 chambre lumineuseVisiophonieCuisine séparée  Chauffage individuel gaz Performance énergétique : Classe C  Loyer : Loyer hors charges : 230€          Charges : 30€ Contact : [Coordonnées masquées] Merci de préciser votre numéro unique d'enregistrement de demande de logement commençant par 054. Réf : 1718-
 Référence annonce : 2477860
 Consommation énergétique : 1 kWh/m²/an
 Emission de gaz à effet de serre : 1 CO2/m²/an
-Montant des charges : 30 € / mois$$, null, 1, null, 1, false, null, $$individual$$, $$gas$$, null, null, null, null),
-(1256, $$Appartement 3 pièces 83 m²$$, $$Carcassonne 11000 Centre-ville$$, true, 83, $$d$$, $$2025-01-01T23:00:00.000Z$$, 647, $$Appartment$$, $$c$$, $$Meublé de standing de 83,20 m² Carcassonne
+Montant des charges : 30 € / mois', null, 'Nancy 54000 Trois Maisons - Saint-Fiacre - Crosne - Vayringe', '1', 'false', '1', null, null, 'individual', 'gas', null, null, null, '118.8762'), ('1256', 'Appartement 3 pièces 83 m²', 'true', '83', 'd', '2025-01-01T23:00:00.000Z', '647', 'Appartment', 'c', 'Meublé de standing de 83,20 m² Carcassonne
 
 Ce meublé de standing situé dans une petite copropriété, centre-ville de Carcassonne,  très bien entretenue, vous accueillera avec tout le confort et une très belle hauteur sous plafond. 2 chambres dont une avec dressing, une cuisine américaine aménagée et équipée (lave-linge, lave-vaisselle, appareils de cuisson etc...), salle d'eau et toilette, placard, en duplex, une mezzanine avec couchage supplémentaire avec dressing. Vous tomberez sous le charme de la pièce de vie avec son volume très agréable et sa luminosité. Ce meublé 'cocooning' vous attend afin de vous détendre dès que vous passez la porte. Les charges comprennent : la TOM + entretien  (eau et électricité à votre charge).
 Référence annonce : X9A5-8MF-56G
 Date de réalisation du diagnostic : 29/06/2023
 Honoraires à la charge du locataire : 596 € TTC dont 180 € pour l’état des lieux
 Dépôt de garantie : 800 €
-Montant des charges : 47 € / mois$$, 3, null, null, 2, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(1257, $$Appartement 4 pièces 97 m²$$, $$Clermont-Ferrand 63000 Jaude - Fontgiève Saint-Alyre$$, false, 97, $$f$$, null, 790, $$Appartment$$, $$c$$, $$Appartement 4 pièces 97 m²
+Montant des charges : 47 € / mois', '3', 'Carcassonne 11000 Centre-ville', '2', 'false', null, null, null, 'individual', 'electric', null, null, null, '339.7632'), ('1257', 'Appartement 4 pièces 97 m²', 'false', '97', 'f', null, '790', 'Appartment', 'c', 'Appartement 4 pièces 97 m²
 
 Clermont-Ferrand, place de Jaude
 
@@ -7266,8 +6827,7 @@ Consommation énergie finale : Non communiqué
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 970 € et 2 710 € par an. Prix moyens des énergies indexés sur l'année 2023 (abonnements compris)
 Logement à consommation énergétique excessive : classe F
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 4, 4, null, 2, false, null, $$individual$$, $$electric$$, null, 4, null, null),
-(1258, $$Appartement 3 pièces 63 m²$$, $$Nantes 44000 Dalby$$, false, 63, $$d$$, null, 899, $$Appartment$$, $$b$$, $$Appartement 3 pièces 63 m²
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '4', 'Clermont-Ferrand 63000 Jaude - Fontgiève Saint-Alyre', '2', 'false', '4', null, null, 'individual', 'electric', null, '4', null, '752.3712'), ('1258', 'Appartement 3 pièces 63 m²', 'false', '63', 'd', null, '899', 'Appartment', 'b', 'Appartement 3 pièces 63 m²
 
 'Ce bien vous intéresse ? Rendez-vous sur notre site [URL masquée pour votre sécurité] et déposez votre candidature sur ce bien.'
  A louer T3 situé dans une rue calme, rue d'Allonville. Ce logement offre une grande pièce de vie avec cuisine ouverte donnant sur un balcon. Ce bien comporte 2 chambres, avec salle de bain et WC séparés.
@@ -7283,8 +6843,7 @@ Surface : 63 m²
 Consommation énergie primaire : 196 kWh/m²/an
 Consommation énergie finale : 86 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 799 € et 1 081 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 3, 2, null, 2, true, 1, $$individual$$, $$electric$$, null, null, null, null),
-(1259, $$Appartement 2 pièces 55 m²$$, $$Sarreguemines 57200 Centre-ville$$, true, 55, $$c$$, $$2025-08-31T22:00:00.000Z$$, 590, $$Appartment$$, $$a$$, $$Appartement 2 pièces 55 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 799 € et 1 081 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '3', 'Nantes 44000 Dalby', '2', 'true', '2', null, '1', 'individual', 'electric', null, null, null, '262.4832'), ('1259', 'Appartement 2 pièces 55 m²', 'true', '55', 'c', '2025-08-31T22:00:00.000Z', '590', 'Appartment', 'a', 'Appartement 2 pièces 55 m²
 
 L’agence Beanstock vous propose ce sympathique appartement à Sarreguemines , situé au 1er étage.
 
@@ -7327,8 +6886,7 @@ Surface : 55 m²
 Modalité de récupération des charges locatives : Forfaitaires mensuelles
 
 Consommation énergie primaire : 177 kWh/m²/an
-Consommation énergie finale : Non communiqué$$, 2, 1, null, 1, false, 1, $$individual$$, $$electric$$, null, null, null, null),
-(1260, $$Appartement 2 pièces 30 m²$$, $$Vierzon 18100 Centre-ville$$, true, 30, $$d$$, null, 555, $$Appartment$$, $$a$$, $$Appartement À Louer
+Consommation énergie finale : Non communiqué', '2', 'Sarreguemines 57200 Centre-ville', '1', 'false', '1', null, '1', 'individual', 'electric', null, null, null, '157.6512'), ('1260', 'Appartement 2 pièces 30 m²', 'true', '30', 'd', null, '555', 'Appartment', 'a', 'Appartement À Louer
 
 Appartement T2 à louer. Situé proche centre ville de Vierzon. Appartement meublé, composé d'un séjour avec cuisine ouverte, chambre et salle d'eau.
 Avantage de cet appartement : une place de parking privative dans une cour.
@@ -7339,8 +6897,7 @@ Honoraires à la charge du locataire : 429 € TTC dont 117 € pour l’état d
 Dépôt de garantie : 1080 €
 Montant des charges : 15 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 420 € et 610 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, 2, null, 1, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(1261, $$Appartement 2 pièces 42 m²$$, $$Vias 34450 Ville$$, false, 42, $$d$$, $$2025-09-17T22:00:00.000Z$$, 530, $$Appartment$$, $$b$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 420 € et 610 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Vierzon 18100 Centre-ville', '1', 'false', '2', null, null, 'individual', 'electric', null, null, null, '134.9712'), ('1261', 'Appartement 2 pièces 42 m²', 'false', '42', 'd', '2025-09-17T22:00:00.000Z', '530', 'Appartment', 'b', 'APPARTEMENT
 
 Agréable appartement avec vue sur les arbres au coeur de la ville. Possibilité de stationnement à proximité. Refait avec des équipements de qualité. Une grande pièce à vivre avec espace salon et salle à manger ouverte sur la cuisine aménagée, une chambre avec rangements, une salle de bain avec wc.
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
@@ -7349,8 +6906,7 @@ Date de réalisation du diagnostic : 04/04/2022
 Honoraires à la charge du locataire : 471 € TTC dont 128 € pour l’état des lieux
 Dépôt de garantie : 525 €
 Montant des charges : 5 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 2, 2, null, 1, false, 1, $$individual$$, $$electric$$, 2002, 2, null, null),
-(1262, $$Appartement 3 pièces 62 m²$$, $$Perpignan 66000 Saint-Jean$$, false, 62, $$d$$, null, 590, $$Appartment$$, $$b$$, $$Appartement 3 pièces 62 m²
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '2', 'Vias 34450 Ville', '1', 'false', '2', null, '1', 'individual', 'electric', '2002', '2', null, '181.3392'), ('1262', 'Appartement 3 pièces 62 m²', 'false', '62', 'd', null, '590', 'Appartment', 'b', 'Appartement 3 pièces 62 m²
 
 Très joli T3 semi-meublé en hyper centre de Perpignan, qui allie le charme de l'ancien et la modernité, situé au 3ème étage d'un bel immeuble (sans ascenseur). Appartement  lumineux et traversant composé d'un grand séjour /salon, d'une cuisine séparée meublée et équipée (plaque, four, réfrigérateur), de deux chambres, une salle de bains et un WC séparé. Petit Balcon. Appartement décoré avec goût. Climatisation.
 Très joli produit. 
@@ -7364,16 +6920,14 @@ Consommation énergie finale : Non communiqué
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 816 € et 1 104 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 3, 3, null, 2, false, null, null, null, null, 4, null, null),
-(1263, $$Appartement 2 pièces 50 m²$$, $$Tours 37000 Rives du Cher$$, false, 50, $$d$$, $$2025-07-16T22:00:00.000Z$$, 740, $$Appartment$$, $$f$$, $$Appartement Tours 2 pièces 51m²
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '3', 'Perpignan 66000 Saint-Jean', '2', 'false', '3', null, null, null, null, null, '4', null, '149.767866666667'), ('1263', 'Appartement 2 pièces 50 m²', 'false', '50', 'd', '2025-07-16T22:00:00.000Z', '740', 'Appartment', 'f', 'Appartement Tours 2 pièces 51m²
 
 Appartement spacieux de 51 m2, idéalement situé sur l'avenue de grammont à Tours. Ce bien situé au 2ème étage comporte une entrée donnant sur un salon-séjour lumineux avec une cheminée. Une cuisine comprenant meubles, évier, hotte et plaques de cuisson électrique. Une chambre avec un balcon dans la continuité du salon et de la cuisine. Une salle de bain tout équipée (évier, WC, cabine de douche).
 Référence annonce : XXG7-9Y0-6NV
 Consommation énergétique : 204 kWh/m²/an
 Emission de gaz à effet de serre : 56 CO2/m²/an
 Honoraires à la charge du locataire : 556 € TTC
-Montant des charges : 165 € / mois$$, 2, 2, null, 1, true, 1, $$communal$$, null, null, null, null, null),
-(1264, $$Duplex 2 pièces 27 m²$$, $$Paris 75018 Montmartre - Sacré Coeur - Abbesses$$, true, 27, $$c$$, null, 1, $$Appartment$$, $$b$$, $$Appartement à louer Paris
+Montant des charges : 165 € / mois', '2', 'Tours 37000 Rives du Cher', '1', 'true', '2', null, '1', 'communal', null, null, null, null, '19.0512'), ('1264', 'Duplex 2 pièces 27 m²', 'true', '27', 'c', null, '1', 'Appartment', 'b', 'Appartement à louer Paris
 
 Très beau duplex type loft, situé à Montmartre, à deux pas de la place des Abbesses, dans la charmante rue des Trois Frères. Calme absolu grâce à la circulation quasi inexistante.
 Entièrement rénové, clair et parfaitement agencé, ce bien offre de beaux volumes et une vue imprenable sur la Tour Eiffel... depuis votre lit !
@@ -7383,8 +6937,7 @@ Coup de coeur assuré !
 Votre conseiller LOKKA : Rad AGENT 1
 Agent commercial (Entreprise individuelle)
 Référence annonce : 65329238-LOKKAIMMO
-Date de réalisation du diagnostic : 10/06/2025$$, 2, null, null, null, false, null, null, null, null, null, null, null),
-(1265, $$Studio 1 pièce 36 m²$$, $$Nevers 58000$$, false, 36, $$e$$, $$2025-09-30T22:00:00.000Z$$, 485, $$Appartment$$, $$b$$, $$Grand studio de 36 m2
+Date de réalisation du diagnostic : 10/06/2025', '2', 'Paris 75018 Montmartre - Sacré Coeur - Abbesses', null, 'false', null, null, null, null, null, null, null, null, '56.1762'), ('1265', 'Studio 1 pièce 36 m²', 'false', '36', 'e', '2025-09-30T22:00:00.000Z', '485', 'Appartment', 'b', 'Grand studio de 36 m2
 
 Résidence Le France, très beau studio de 36m² avec cuisine équipée, salle d'eau et wc. Parking en souterrain.
 Loyer 485euros /mois, charges comprises dont 85euros de provision sur charges avec régularisation annuelle. Dépôt de garantie : 400euros
@@ -7396,8 +6949,7 @@ Montant des charges : 85 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
 A propos de la copropriété :
-Pas de procédure en cours$$, 1, 3, null, null, true, null, $$communal$$, $$electric$$, null, null, null, null),
-(1266, $$Appartement 4 pièces 92 m²$$, $$Saint-Étienne 42000 La Métare - Le Portail Rouge - Fauriel - Villeboeuf$$, false, 92, $$d$$, null, 980, $$Appartment$$, $$d$$, $$T4 EN TRES BON ETAT
+Pas de procédure en cours', '1', 'Nevers 58000', null, 'true', '3', null, null, 'communal', 'electric', null, null, null, '19.0512'), ('1266', 'Appartement 4 pièces 92 m²', 'false', '92', 'd', null, '980', 'Appartment', 'd', 'T4 EN TRES BON ETAT
 
 122 COURS FAURIEL - A proximité des commerces et de l'entrée d'autoroute - F4 rénové de 92 m² comprenant 1 cuisine fermée équipée - 1 séjour double avec grand balcon - 2 chambres - 1 salle de bains - 1 salle d'eau - WC séparé - chauffage collectif, eau chaude et froide collectives - 1 cave - 1 garage privatif
 
@@ -7407,8 +6959,7 @@ Date de réalisation du diagnostic : 10/04/2025
 Honoraires à la charge du locataire : 800 € TTC dont 95 € pour l’état des lieux
 Dépôt de garantie : 800 €
 Montant des charges : 180 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 4, 1, null, 2, true, 1, $$communal$$, $$gas$$, 1900, null, null, null),
-(1267, $$Appartement 2 pièces 50 m²$$, $$Millau 12100$$, false, 50, $$d$$, $$2025-06-30T22:00:00.000Z$$, 590, $$Appartment$$, $$a$$, $$Appartement 2 pièces 50 m²
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '4', 'Saint-Étienne 42000 La Métare - Le Portail Rouge - Fauriel - Villeboeuf', '2', 'true', '1', null, '1', 'communal', 'gas', '1900', null, null, '19.0512'), ('1267', 'Appartement 2 pièces 50 m²', 'false', '50', 'd', '2025-06-30T22:00:00.000Z', '590', 'Appartment', 'a', 'Appartement 2 pièces 50 m²
 
 À louer - Appartement type 2 avec terrasse - TARN - À louer - proche des commodités, grand appartement de type 2 situé au 1er étage d'une petite résidence. Le logement dispose d'une entrée donnant sur une grande cuisine dînatoire avec de nombreux rangements, un séjour avec placard, d'une chambre
 Grande terrasse au calme.
@@ -7423,15 +6974,13 @@ Date de réalisation du diagnostic énergétique : 27/08/2022
 Consommation énergie primaire : 189 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 634 € et 858 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)$$, 2, 1, null, 1, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(1268, $$Appartement 3 pièces 42 m²$$, $$Dreux 28100$$, false, 42, null, $$2025-06-26T22:00:00.000Z$$, 760, $$Appartment$$, null, $$T3 en duplex sympathique à louer
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 634 € et 858 € par an. Prix moyens des énergies indexés sur l'année Non communiqué (abonnements compris)', '2', 'Millau 12100', '1', 'false', '1', null, null, 'individual', 'electric', null, null, null, '212.2512'), ('1268', 'Appartement 3 pièces 42 m²', 'false', '42', null, '2025-06-26T22:00:00.000Z', '760', 'Appartment', null, 'T3 en duplex sympathique à louer
 
 Appartement sympathique type T3 en duplex à louer !
   Un appartement, comprenant un bel espace de vie, une cuisine, une salle d'eau.
   A l'étage 2 chambres et à l'extérieur un accès à la terrasse.
   Une place de parking est disponible à l'intérieur de la cour. -
-Référence annonce : LOC_300_LBC$$, 3, 1, null, 2, false, null, null, null, null, null, null, null),
-(1269, $$Appartement 1 pièce 12 m²$$, $$Villejuif 94800 Louis Aragon - Vaux de Rome$$, false, 12, $$c$$, null, 601, $$Appartment$$, $$c$$, $$Chambre en colocation / 12m² / Villejuif Louis Aragon (Ligne 7)
+Référence annonce : LOC_300_LBC', '3', 'Dreux 28100', '2', 'false', '1', null, null, null, null, null, null, null, '146.1012'), ('1269', 'Appartement 1 pièce 12 m²', 'false', '12', 'c', null, '601', 'Appartment', 'c', 'Chambre en colocation / 12m² / Villejuif Louis Aragon (Ligne 7)
 
 Colocation Haut Standing – 4 Chambres à partir de 690€ – Villejuif Louis Aragon
 
@@ -7475,8 +7024,7 @@ Complément de loyer : 0 € / mois (inclus dans le loyer CC)
 Zone soumise à encadrement des loyers.
 Loyer de base : 599.99 €.
 Loyer de référence majoré (loyer de base à ne pas dépasser) : Non communiqué.
-Complément de loyer : 0.01 €.$$, 1, 2, null, 1, false, 1, null, null, null, null, null, null),
-(1270, $$Appartement 3 pièces 57 m²$$, $$Toulouse 31500 Château de l'Hers$$, false, 57, $$c$$, $$2025-06-14T22:00:00.000Z$$, 991, $$Appartment$$, $$c$$, $$APPARTEMENT
+Complément de loyer : 0.01 €.', '1', 'Villejuif 94800 Louis Aragon - Vaux de Rome', '1', 'false', '2', null, '1', null, null, null, null, null, '35.5512'), ('1270', 'Appartement 3 pièces 57 m²', 'false', '57', 'c', '2025-06-14T22:00:00.000Z', '991', 'Appartment', 'c', 'APPARTEMENT
 
 Idéalement située à Toulouse, résidence dédiée aux + de 50 ans, au sein d'une résidence au concept moderne & intergénérationnel.Venez découvrir ce logement vide, type 3 comprenant une entrée, séjour, cuisine ouverte, balcon, deux chambres, salle d'eau.Espaces privés cosy et lumineux.Compris dans les charges, un accès à l'espace Dolce Vita, espace commun partagés pour manger, lire, jouer, discuter. Espace boulodrome avec sa cuisine d'été pour des moments conviviaux, salle de muscu, jardins partagés en RoofTop.Une place de parking vient compléter ce bien (prévoir 35 € par mois en supplément).
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
@@ -7487,8 +7035,7 @@ Dépôt de garantie : 856 €
 Montant des charges : 135 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 304 € et 411 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, null, null, 2, false, null, null, null, 2025, null, null, null),
-(1271, $$Appartement 2 pièces 39 m²$$, $$Clermont-Ferrand 63000$$, false, 39, $$d$$, null, 585, $$Appartment$$, $$d$$, $$EXCLUSIVITE- CLERMONT-FERRAND- SECTEUR REPUBLIQUE
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 304 € et 411 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Toulouse 31500 Château de l'Hers', '2', 'false', null, null, null, null, null, '2025', null, null, '97.4262'), ('1271', 'Appartement 2 pièces 39 m²', 'false', '39', 'd', null, '585', 'Appartment', 'd', 'EXCLUSIVITE- CLERMONT-FERRAND- SECTEUR REPUBLIQUE
 
 Venez découvrir ce superbe T2 lumineux à proximité de la gare de Clermont-Ferrand.
 Cet appartement est composé d'une cuisine aménagée et équipée, d'un salon/séjour, d'une chambre avec grand placard, d'une salle d'eau et d'un WC séparé.
@@ -7501,8 +7048,7 @@ Emission de gaz à effet de serre : 46 CO2/m²/an
 Honoraires à la charge du locataire : 432 € TTC dont 117 € pour l’état des lieux
 Dépôt de garantie : 555 €
 Montant des charges : 30 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 2, 1, null, 1, false, null, null, null, null, null, null, null),
-(1272, $$Studio 1 pièce 23 m²$$, $$Lay 42470$$, false, 23, $$c$$, null, 295, $$Appartment$$, $$a$$, $$Studio 1 pièce 23 m²
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '2', 'Clermont-Ferrand 63000', '1', 'false', '1', null, null, null, null, null, null, null, '101.2762'), ('1272', 'Studio 1 pièce 23 m²', 'false', '23', 'c', null, '295', 'Appartment', 'a', 'Studio 1 pièce 23 m²
 
 L'Agence du Roannais vous présente ce beau studio de 22.82 m2 habitables au rez de chaussée comprenant une cuisine équipée ouverte sur la pièce à vivre et une salle d'eau avec wc - chauffage individuel par climatisation réversible. Disponible de suite.
 DPE: C, GES: A (diagnostic réalisé le 11/03/2024).
@@ -7520,8 +7066,7 @@ Date de réalisation du diagnostic énergétique : 11/03/2024
 Consommation énergie primaire : 179 kWh/m²/an
 Consommation énergie finale : 78 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 310 € et 490 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 1, null, null, null, false, null, $$individual$$, $$other$$, null, null, null, null),
-(1273, $$Appartement 4 pièces 110 m²$$, $$Rouen 76000$$, false, 110, null, null, 1, $$Appartment$$, null, $$Appartement 4 pièces 110 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 310 € et 490 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '1', 'Lay 42470', null, 'false', null, null, null, 'individual', 'other', null, null, null, '50.6762'), ('1273', 'Appartement 4 pièces 110 m²', 'false', '110', null, null, '1', 'Appartment', null, 'Appartement 4 pièces 110 m²
 
 A louer appartement de 110m² avec ascenseur et parking, cave offrant entrée , séjour avec balcon, cuisine, dégagement, buanderie, 3 chambres, une salle de bains, une salle de douche, wc   libre fin novembre 20213  vue sur seine  rare sur le marché 
 
@@ -7532,13 +7077,11 @@ Date de réalisation du diagnostic énergétique : 15/11/2023
 Consommation énergie primaire : 0 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 4, 4, null, 3, false, null, null, null, null, null, null, null),
-(1274, $$Vue port et remparts, 4 pieces, 100 m2$$, $$Vannes 56000 Rive Gauche$$, false, 100, $$c$$, $$2025-09-30T22:00:00.000Z$$, 1, $$Appartment$$, $$c$$, $$Appartement en duplex au 3ème étage.
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '4', 'Rouen 76000', '3', 'false', '4', null, null, null, null, null, null, null, '351.8012'), ('1274', 'Vue port et remparts, 4 pieces, 100 m2', 'false', '100', 'c', '2025-09-30T22:00:00.000Z', '1', 'Appartment', 'c', 'Appartement en duplex au 3ème étage.
 Immeuble calme, prestations de qualité.
 Salon, Salle à manger avec cuisine équipée (Four, Micro-ondes, Lave-vaisselle)
 3 chambres dont 2 avec parquets. Salle de bains (baignoire et douche). WC séparé.
-Buanderie. Chauffage au  gaz.$$, 4, 3, null, 3, false, 1, $$individual$$, $$gas$$, 1900, 4, null, null),
-(1275, $$Appartement 3 pièces 63 m²$$, $$Saint-Raphaël 83700 Centre-ville$$, false, 63, null, null, 1, $$Appartment$$, $$a$$, $$Appartement 3 pièces 63 m²
+Buanderie. Chauffage au  gaz.', '4', 'Vannes 56000 Rive Gauche', '3', 'false', '3', null, '1', 'individual', 'gas', '1900', '4', null, '156.5512'), ('1275', 'Appartement 3 pièces 63 m²', 'false', '63', null, null, '1', 'Appartment', 'a', 'Appartement 3 pièces 63 m²
 
 Appartement de type 3 pièces situé au 2 ème étage comprenant : une entrée, un séjour donnant sur balcon, cuisine aménagée, 2 chambres avec placard - débarras - une salle de bains - WC, parking dans résidences - cave - piscine 
   
@@ -7549,8 +7092,7 @@ Surface : 63 m²
 Modalité de récupération des charges locatives : Prévisionnelles mensuelles avec régularisation annuelle
 
 Consommation énergie primaire : Non communiqué
-Consommation énergie finale : 0 kWh/m²/an$$, 3, 2, null, 2, true, 1, $$individual$$, $$electric$$, 2000, 5, null, null),
-(1276, $$Appartement 2 pièces 49 m²$$, $$Toulouse 31500 Château de l'Hers$$, false, 49, $$c$$, $$2025-05-21T22:00:00.000Z$$, 854, $$Appartment$$, $$c$$, $$APPARTEMENT
+Consommation énergie finale : 0 kWh/m²/an', '3', 'Saint-Raphaël 83700 Centre-ville', '2', 'true', '2', null, '1', 'individual', 'electric', '2000', '5', null, '368.3232'), ('1276', 'Appartement 2 pièces 49 m²', 'false', '49', 'c', '2025-05-21T22:00:00.000Z', '854', 'Appartment', 'c', 'APPARTEMENT
 
 Dans résidence sénior, appartement T2 au 4è étage, lumineux, accès PMR ok - neuf. Cet appartement comprend une entrée, un séjour avec cuisine ouverte équipée d'une plaque et d'une hotte, branchement machine à laver ok.Une chambre spacieuse avec placard et accès balcon. LA résidence comporte de nombreux services inclus dans les charges dont un jardin partagé en roof top, un boulodrome, cuisine d'été, espace DolceVita pour moment de partage. Résidence intergénérationnelle avec salle de sport partagée. L'eau chaude, le chauffage et l'eau froide compris dans les charges. Ce bien est situé à proximité des commerces, transports et accès rocade.
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www. georisques. gouv. fr
@@ -7561,8 +7103,7 @@ Dépôt de garantie : 729 €
 Montant des charges : 125 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 273 € et 370 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, null, null, 1, false, null, null, null, 2025, null, null, null),
-(1277, $$Studio 1 pièce 22 m²$$, $$Narbonne 11100 Ville$$, false, 22, $$d$$, $$2025-07-02T22:00:00.000Z$$, 330, $$Appartment$$, $$a$$, $$APPARTEMENT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 273 € et 370 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Toulouse 31500 Château de l'Hers', '1', 'false', null, null, null, null, null, '2025', null, null, '86.4262'), ('1277', 'Studio 1 pièce 22 m²', 'false', '22', 'd', '2025-07-02T22:00:00.000Z', '330', 'Appartment', 'a', 'APPARTEMENT
 
 A proximité du centre-ville, studio en rez-de-chaussée dans un immeuble sécurisé. Il se compose d?une pièce principale avec son coin cuisine, ainsi que d?une salle d?eau avec WC. Disponible de suite. Contactez directement le commercial au [Coordonnées masquées]
 
@@ -7576,8 +7117,7 @@ Dépôt de garantie : 310 €
 Montant des charges : 20 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 479 € et 649 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 1, null, null, null, false, null, null, null, 1949, null, null, null),
-(1278, $$Appartement 4 pièces 114 m²$$, $$Limoges 87000 Ouest - CHU$$, false, 114, $$d$$, $$2025-05-31T22:00:00.000Z$$, 1, $$Appartment$$, $$d$$, $$Appartement 4 pièces 114 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 479 € et 649 € sur les années 2021, 2022 et 2023 (abonnements compris).', '1', 'Narbonne 11100 Ville', null, 'false', null, null, null, null, null, '1949', null, null, '65.4345333333333'), ('1278', 'Appartement 4 pièces 114 m²', 'false', '114', 'd', '2025-05-31T22:00:00.000Z', '1', 'Appartment', 'd', 'Appartement 4 pièces 114 m²
 
 Très bel appartement F4 d'environ 114 m2 (loi carrez) au troisième et dernier étage avec ascenseur dans un ancien hôtel particulier en mono-propriété de type haussmanien, entièrement rénové, avec de belles hauteurs sous-plafond, une superbe charpente apparente et des anciens parquets en chêne, le tout au sein d'un parc calme et privatif, arboré d'espèces plus que centenaires. Il s'agit d'un plateau entier composé de la sorte : une entrée, une cuisine séparée & semi-équipée, un grand séjour lumineux d'environ 50 m2 offrant une jolie vue, 3 chambres (dont une avec placard), une salle de bain, un WC séparé, une salle d'eau avec toilettes.
  Tout l'immeuble a été réhabilité et rénové récemment et l'appartement a été équipé, en plus du chauffage central individuel au gaz, d'une pompe à chaleur air/air (climatisation). Facades, comme parties communes avec beaucoup de cachet. Bien ouvert à la colocation
@@ -7592,8 +7132,7 @@ Date de réalisation du diagnostic énergétique : 11/04/2023
 Consommation énergie primaire : 201 kWh/m²/an
 Consommation énergie finale : 187 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 550 € et 2 150 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 4, 3, null, 3, true, 1, null, null, 1880, 3, null, null),
-(1279, $$Appartement 2 pièces 51 m²$$, $$La Courneuve 93120$$, false, 51, $$b$$, null, 974, $$Appartment$$, $$b$$, $$LA COURNEUVE : Appartement F2 (52 m²) à louer
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 550 € et 2 150 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '4', 'Limoges 87000 Ouest - CHU', '3', 'true', '3', null, '1', null, null, '1880', '3', null, '259.4012'), ('1279', 'Appartement 2 pièces 51 m²', 'false', '51', 'b', null, '974', 'Appartment', 'b', 'LA COURNEUVE : Appartement F2 (52 m²) à louer
 
 *SANS FRAIS D'AGENCE*
 
@@ -7616,8 +7155,7 @@ Référence annonce : 610-01
 Date de réalisation du diagnostic : 10/10/2024
 Montant des charges : 114 € / mois
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 320 € et 490 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 2, null, 1, false, null, null, null, null, 2, null, null),
-(1280, $$Duplex 2 pièces 41 m²$$, $$Nancy 54000 Centre-ville - Charles III$$, false, 41, $$e$$, null, 545, $$Appartment$$, $$b$$, $$Duplex 2 pièces 41 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 320 € et 490 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'La Courneuve 93120', '1', 'false', '2', null, null, null, null, null, '2', null, '61.1262'), ('1280', 'Duplex 2 pièces 41 m²', 'false', '41', 'e', null, '545', 'Appartment', 'b', 'Duplex 2 pièces 41 m²
 
 RUE RAUGRAFF - NANCY 54000
 Un appartement en duplex situé en plein coeur du centre-ville de NANCY proche du centre commercial Saint-Sébastien et de la place Charles III. 
@@ -7634,8 +7172,7 @@ Date de réalisation du diagnostic énergétique : 15/05/2025
 Consommation énergie primaire : 329 kWh/m²/an
 Consommation énergie finale : 143 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 060 € et 1 460 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 2, null, 1, false, null, null, null, null, 3, null, null),
-(1281, $$Appartement 4 pièces 82 m²$$, $$Le Creusot 71200 Nord Ouest$$, false, 82, $$d$$, null, 635, $$Appartment$$, $$d$$, $$RUE JEAN JAURES. VASTE APPARTEMENT DE 82 M2 . TRES BELLE SALLE DE BAINS EQUIPEE, ENTIEREMENT CARRELEE. AGREABLE PIECE A VIVRE LUMINEUSE AVEC PARQUETS VITRIFIES, DEUX CHAMBRES DONT UNE AVEC RANGEMENTS (POSSIBILITE 3 CHAMBRES) UNE CUISINE EQUIPEE (meubles de rangement, four, plaques de cuisson, hotte) ET W.C SEPARE.
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 060 € et 1 460 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Nancy 54000 Centre-ville - Charles III', '1', 'false', '2', null, null, null, null, null, '3', null, '143.0762'), ('1281', 'Appartement 4 pièces 82 m²', 'false', '82', 'd', null, '635', 'Appartment', 'd', 'RUE JEAN JAURES. VASTE APPARTEMENT DE 82 M2 . TRES BELLE SALLE DE BAINS EQUIPEE, ENTIEREMENT CARRELEE. AGREABLE PIECE A VIVRE LUMINEUSE AVEC PARQUETS VITRIFIES, DEUX CHAMBRES DONT UNE AVEC RANGEMENTS (POSSIBILITE 3 CHAMBRES) UNE CUISINE EQUIPEE (meubles de rangement, four, plaques de cuisson, hotte) ET W.C SEPARE.
  UN PARTIE DE JARDIN. UNE CAVE
  CHAUFFAGE CENTRAL GAZ. FENETRES PVC DOUBLE VITRAGE AVEC VOLETS ROULANTS.
  LOYER : 595EUR EUR/mois, CHARGES : 40 EUR/mois (eau comprise)
@@ -7651,8 +7188,7 @@ Modalité de récupération des charges locatives : provision avec régularisati
 A propos de la copropriété :
 Pas de procédure en cours
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 300 € et 1 800 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 4, 1, null, 2, false, 1, null, $$gas$$, null, 1, null, null),
-(1282, $$Appartement 4 pièces 77 m²$$, $$Juvisy-sur-Orge 91260 Terrasse - Plateau$$, false, 77, $$c$$, null, 1, $$Appartment$$, $$c$$, $$Appartement 4 pièces 77 m²
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 300 € et 1 800 € sur les années 2021, 2022 et 2023 (abonnements compris).', '4', 'Le Creusot 71200 Nord Ouest', '2', 'false', '1', null, '1', null, 'gas', null, '1', null, '191.934533333333'), ('1282', 'Appartement 4 pièces 77 m²', 'false', '77', 'c', null, '1', 'Appartment', 'c', 'Appartement 4 pièces 77 m²
 
 JUVISY-SUR-ORGE, au 55-61 Avenue de la Cour de France, proche des transports en commun, à 15 minutes à pieds de la Gare RER C et RER D.
   
@@ -7673,8 +7209,7 @@ Modalité de récupération des charges locatives : Prévisionnelles mensuelles 
 Date de réalisation du diagnostic énergétique : 22/02/2024
 
 Consommation énergie primaire : 73 kWh/m²/an
-Consommation énergie finale : Non communiqué$$, 4, null, null, 3, false, null, $$communal$$, $$other$$, null, null, null, null),
-(1283, $$Studio 1 pièce 20 m²$$, $$Plescop 56890 Le Mustoir$$, true, 20, $$b$$, null, 565, $$Appartment$$, $$a$$, $$Studio 1 pièce 20 m²
+Consommation énergie finale : Non communiqué', '4', 'Juvisy-sur-Orge 91260 Terrasse - Plateau', '3', 'false', null, null, null, 'communal', 'other', null, null, null, '19.0512'), ('1283', 'Studio 1 pièce 20 m²', 'true', '20', 'b', null, '565', 'Appartment', 'a', 'Studio 1 pièce 20 m²
 
 Location sur Plescop uniquement de septembre à juin.
  
@@ -7727,8 +7262,7 @@ Date de réalisation du diagnostic énergétique : 29/08/2024
 Consommation énergie primaire : 101.7 kWh/m²/an
 Consommation énergie finale : 1868 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 720 € et 720 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 1, null, null, null, false, 1, null, null, 2011, null, null, null),
-(1284, $$Appartement 3 pièces 37 m²$$, $$Chambles 42170$$, false, 37, $$d$$, null, 435, $$Appartment$$, null, $$APPARTEMENT T2 NEUF AVEC JARDIN
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 720 € et 720 € sur les années 2021, 2022 et 2023 (abonnements compris).', '1', 'Plescop 56890 Le Mustoir', null, 'false', null, null, '1', null, null, '2011', null, null, '35.5512'), ('1284', 'Appartement 3 pièces 37 m²', 'false', '37', 'd', null, '435', 'Appartment', null, 'APPARTEMENT T2 NEUF AVEC JARDIN
 
 Dans le charmant village de Chambles, au premier étage d'une villa composée de 2 logements.
 Appartement neuf de 37,92 m2 comprenant une cuisine, un séjour, une chambres, wc et salle d'eau.
@@ -7740,8 +7274,7 @@ Consommation énergétique : 221 kWh/m²/an
 Honoraires à la charge du locataire : 284 € TTC
 Dépôt de garantie : 395 €
 Montant des charges : 40 € / mois
-Modalité de récupération des charges locatives : provision avec régularisation annuelle$$, 3, null, null, 1, false, null, $$individual$$, $$electric$$, null, null, null, null),
-(1285, $$A louer F3 Meublée à Vitry s/s proche RER C"$$, $$Vitry-sur-Seine 94400 Port à l'Anglais - Zone d'activité$$, true, 45, $$f$$, $$2025-09-30T22:00:00.000Z$$, 1, $$Appartment$$, $$c$$, $$🔥 A louer F3 Meublé à Vitry sur seine, à 15 min de Paris en RER et 5 min à pied de la gare principale (RER C). Bus 180, 217, 182
+Modalité de récupération des charges locatives : provision avec régularisation annuelle', '3', 'Chambles 42170', '1', 'false', null, null, null, 'individual', 'electric', null, null, null, '162.0192'), ('1285', 'A louer F3 Meublée à Vitry s/s proche RER C"', 'true', '45', 'f', '2025-09-30T22:00:00.000Z', '1', 'Appartment', 'c', '🔥 A louer F3 Meublé à Vitry sur seine, à 15 min de Paris en RER et 5 min à pied de la gare principale (RER C). Bus 180, 217, 182
 
 🤩 Je vous propose ce bel appartement. 
 
@@ -7755,8 +7288,7 @@ Une cave complète également ce bien.
 👨‍🎓👨‍👩‍👧‍👧 Idéal pour une famille ou pour une colocation étudiante. 
 
 🔑 Bail meublé d'une durée de 1 an.
-Dossiers et garanties exigées.$$, 3, 2, null, 2, false, 1, $$individual$$, $$electric$$, null, 4, null, null),
-(1286, $$Appartement T4 meublé romans centre$$, $$Romans-sur-Isère 26100 Centre-ville$$, true, 66, $$d$$, $$2025-11-30T23:00:00.000Z$$, 690, $$Appartment$$, $$d$$, $$Bel appartement T4 meublé à Romans sur Isère. 
+Dossiers et garanties exigées.', '3', 'Vitry-sur-Seine 94400 Port à l'Anglais - Zone d'activité', '2', 'false', '2', null, '1', 'individual', 'electric', null, '4', null, '359.2512'), ('1286', 'Appartement T4 meublé romans centre', 'true', '66', 'd', '2025-11-30T23:00:00.000Z', '690', 'Appartment', 'd', 'Bel appartement T4 meublé à Romans sur Isère. 
 Appartement lumineux loué meublé d'une superficie de 66m2.
 Situé au 2eme étage sur 3 d’une copropriété calme dans le centre historique de romans proche de la collégiale. 
 Toutes les commodités sont à proximité. 
@@ -7775,9 +7307,7 @@ Total Loyer : 690€ c.c.
 
 Garantie visale demandée ou garant et dépôt de garantie. 
 
-Prenez contact pour organiser une visite.$$, 4, 2, null, 2, false, 1, $$individual$$, $$gas$$, null, 3, null, null),
-(1287, $$T3 7 km Narbonne$$, $$Cuxac-d'Aude 11590$$, false, 92, $$d$$, $$2025-11-30T23:00:00.000Z$$, 835, $$Appartment$$, $$b$$, $$Centre Cuxac d'Aude vaste appartement traversant sur 2 niveaux. Rez de chaussée : Séjour, Cuisine équipée, lingerie. 1° étage : 2 grandes chambres avec placards penderies, douche à l'italienne et vasque, WC séparés, Parquet au sol. Excellente isolation, fenêtres double vitrage avec volets bois. clim réversible dans toutes les pièces. Place de parking dans la cour devant la maison. Pour louer ce bien vos revenus devront être égaux ou supérieurs à 2500 euro, Justificatifs et 1 mois de caution demandés.$$, 3, null, null, 2, false, 1, $$individual$$, $$electric$$, null, 1, null, null),
-(1288, $$Appartement 40m² meublé (électricité et eau comprise)$$, $$Casteljaloux 47700$$, true, 40, $$d$$, $$2025-10-31T23:00:00.000Z$$, 635, $$Appartment$$, $$c$$, $$T2 Meublé avec Jardin Privatif & Garage – Charges Tout Inclus !
+Prenez contact pour organiser une visite.', '4', 'Romans-sur-Isère 26100 Centre-ville', '2', 'false', '2', null, '1', 'individual', 'gas', null, '3', null, '158.2012'), ('1287', 'T3 7 km Narbonne', 'false', '92', 'd', '2025-11-30T23:00:00.000Z', '835', 'Appartment', 'b', 'Centre Cuxac d'Aude vaste appartement traversant sur 2 niveaux. Rez de chaussée : Séjour, Cuisine équipée, lingerie. 1° étage : 2 grandes chambres avec placards penderies, douche à l'italienne et vasque, WC séparés, Parquet au sol. Excellente isolation, fenêtres double vitrage avec volets bois. clim réversible dans toutes les pièces. Place de parking dans la cour devant la maison. Pour louer ce bien vos revenus devront être égaux ou supérieurs à 2500 euro, Justificatifs et 1 mois de caution demandés.', '3', 'Cuxac-d'Aude 11590', '2', 'false', null, null, '1', 'individual', 'electric', null, '1', null, '374.5392'), ('1288', 'Appartement 40m² meublé (électricité et eau comprise)', 'true', '40', 'd', '2025-10-31T23:00:00.000Z', '635', 'Appartment', 'c', 'T2 Meublé avec Jardin Privatif & Garage – Charges Tout Inclus !
 Proche Centre-Ville de Casteljaloux, au premier étage d'un bâtiment de 2 appartements
 
 Les Atouts  :
@@ -7791,8 +7321,7 @@ Disponibilité : À partir du 1er Novembre.
 
 Garanties : Dossier complet exigé (CDI, justificatifs de revenus, garant si nécessaire).
 
-Pour toute demande de visite, merci de répondre à l'annonce en vous présentant brièvement (situation professionnelle, nombre d'occupants, date d'emménagement souhaitée).$$, 2, 1, null, 1, false, 1, $$individual$$, $$electric$$, 1970, 1, null, null),
-(1289, $$Appartement de centre ville$$, $$Dole 39100 Vieille ville - Petite Venise$$, true, 53, $$d$$, $$2025-09-30T22:00:00.000Z$$, 620, $$Appartment$$, $$a$$, $$À louer – Appartement T2 meublé de 53 m² à Dole
+Pour toute demande de visite, merci de répondre à l'annonce en vous présentant brièvement (situation professionnelle, nombre d'occupants, date d'emménagement souhaitée).', '2', 'Casteljaloux 47700', '1', 'false', '1', null, '1', 'individual', 'electric', '1970', '1', null, '173.6112'), ('1289', 'Appartement de centre ville', 'true', '53', 'd', '2025-09-30T22:00:00.000Z', '620', 'Appartment', 'a', 'À louer – Appartement T2 meublé de 53 m² à Dole
 
 Disponible dès le premier octobre – visites possibles dès maintenant.
 
@@ -7823,8 +7352,7 @@ Commerces de quartier à quelques pas
 Loyer : 600 € + 20 € de charges (total 620 € / mois)
 (Eau et électricité non comprises dans les charges)
 
-Visites possibles dès à présent$$, 2, 3, null, 1, false, 1, $$individual$$, $$electric$$, null, 3, null, null),
-(1290, $$Cosy T2 Orléans centre parking$$, $$Orléans 45000 Carmes-Bannier$$, true, 67, $$d$$, $$2025-10-31T23:00:00.000Z$$, 950, $$Appartment$$, $$b$$, $$Idéal jeune couple ou célibataire recherchant calme et soleil. Disponible à partir du 01/11/2025
+Visites possibles dès à présent', '2', 'Dole 39100 Vieille ville - Petite Venise', '1', 'false', '3', null, '1', 'individual', 'electric', null, '3', null, '223.8432'), ('1290', 'Cosy T2 Orléans centre parking', 'true', '67', 'd', '2025-10-31T23:00:00.000Z', '950', 'Appartment', 'b', 'Idéal jeune couple ou célibataire recherchant calme et soleil. Disponible à partir du 01/11/2025
 
 Rue Porte madeleine, en face de l’hôpital, au 2e étages sur 3 d’un immeuble d'époque. Porte sécurité à badge. 1 place de parking sécurisé en sous sol. Orientation SUD
 
@@ -7837,8 +7365,7 @@ Dépôt de garantie : 1 580 €
 Montant des charges : 160€ / mois
 Pas de frais d’Agence
 
-N’hésitez pas à me contacter$$, 2, 2, null, 1, false, null, $$individual$$, $$electric$$, null, 3, null, null),
-(1291, $$A loué T2 meublé 39m2 Orléans Fleury les Aubrais$$, $$Fleury-les-Aubrais 45400 Blossières-Murlins$$, true, 39, null, $$2025-11-30T23:00:00.000Z$$, 630, $$Appartment$$, null, $$Appartement T2 meublé .
+N’hésitez pas à me contacter', '2', 'Orléans 45000 Carmes-Bannier', '1', 'false', '2', null, null, 'individual', 'electric', null, '3', null, '277.9392'), ('1291', 'A loué T2 meublé 39m2 Orléans Fleury les Aubrais', 'true', '39', null, '2025-11-30T23:00:00.000Z', '630', 'Appartment', null, 'Appartement T2 meublé .
 Situé au premier étage d'une petite copropriété, cet appartement est gorgé de lumières et fonctionnel.
 
 A l'intérieur, une pièce de vie avec cuisine ouverte aménagée et entièrement équipée (four, plaque induction, hotte, micro-ondres, réfrigérateur, vaisselle, ustensiles...)
@@ -7852,14 +7379,12 @@ Proche commerces.
 Loyer 600 euros + 30 euros de charges, avec régularisation annuelle. ( Comprenant l'eau et les charges de copropriété.)
 
 Surface 39m2
-Salon cuisine chambre salle de bain WC$$, 3, 1, null, 1, false, 1, $$individual$$, $$electric$$, null, 2, null, null),
-(1292, $$Studio meublé La Roche sur Foron$$, $$La Roche-sur-Foron 74800$$, true, 23, $$d$$, $$2025-10-31T23:00:00.000Z$$, 630, $$Appartment$$, $$e$$, $$loue studio meublé au centre de La Roche sur Foron, 2eme étage sans ascenceur, entièrement meublé, surface loi carrez 23m2, surface au sol 46 m2.  
+Salon cuisine chambre salle de bain WC', '3', 'Fleury-les-Aubrais 45400 Blossières-Murlins', '1', 'false', '1', null, '1', 'individual', 'electric', null, '2', null, '235.2672'), ('1292', 'Studio meublé La Roche sur Foron', 'true', '23', 'd', '2025-10-31T23:00:00.000Z', '630', 'Appartment', 'e', 'loue studio meublé au centre de La Roche sur Foron, 2eme étage sans ascenceur, entièrement meublé, surface loi carrez 23m2, surface au sol 46 m2.  
 pièce à vivre avec cuisine équipée (frigo, plaque cuisson, machine à laver), coin couchage en mezzanine, salle d'eau avec douche et WC, une grande cave au RDC. 
 chauffage au gaz  
 loyer : 525€+ 105€ charges tout compris (eau – gaz - électricité ). 
 disponible :  novembre
-1er contact par mail avec infos concernant votre situation professionnelle, revenus, garants physiques (non Visal), etc...$$, 1, 2, null, 1, false, 1, $$individual$$, $$gas$$, null, 2, null, null),
-(1293, $$T3 Anatole France – Libre 24/11/25$$, $$Rennes 35000 Centre$$, true, 58, $$d$$, $$2025-10-31T23:00:00.000Z$$, 980, $$Appartment$$, $$c$$, $$Appartement meublé de type 3 RDC avec entrée indépendante  situé rue Legraverend dans une petite copropriété calme. Exposé plein sud avec proximité immédiate métro Anatole France, CHU, Rennes 2, centre ville, école architecture. 
+1er contact par mail avec infos concernant votre situation professionnelle, revenus, garants physiques (non Visal), etc...', '1', 'La Roche-sur-Foron 74800', '1', 'false', '2', null, '1', 'individual', 'gas', null, '2', null, '67.5428666666667'), ('1293', 'T3 Anatole France – Libre 24/11/25', 'true', '58', 'd', '2025-10-31T23:00:00.000Z', '980', 'Appartment', 'c', 'Appartement meublé de type 3 RDC avec entrée indépendante  situé rue Legraverend dans une petite copropriété calme. Exposé plein sud avec proximité immédiate métro Anatole France, CHU, Rennes 2, centre ville, école architecture. 
 L’appartement se compose :
 - Cuisine équipée avec plaque vitrocéramique, four pyrolyse, hotte, frigo, nombreux rangements et ustensiles de cuisine.
 - Salon (canapé, table basse)
@@ -7868,8 +7393,7 @@ L’appartement se compose :
 Chauffage individuel électrique
 Annexe indépendante pour ranger vélo (...)
 Loyer 980E CC (eau et électricité à votre charge)
-Libre le 24 Novembre$$, 3, null, null, 2, false, 1, $$individual$$, $$electric$$, 1950, 2, null, null),
-(1294, $$Appartement 2 pièces 42 m²$$, $$Rouen 76100 Joffre - Mutualité$$, false, 42, $$c$$, null, 575, $$Appartment$$, $$c$$, $$Appartement 2 pièces 42 m²
+Libre le 24 Novembre', '3', 'Rennes 35000 Centre', '2', 'false', null, null, '1', 'individual', 'electric', '1950', '2', null, '243.1632'), ('1294', 'Appartement 2 pièces 42 m²', 'false', '42', 'c', null, '575', 'Appartment', 'c', 'Appartement 2 pièces 42 m²
 
 Appartement 2 pièces de 42.15m² situé au 2ème étage d'une résidence sécurisée avec ascenseur, secteur Joffre Mutualité à Rouen, comprenant : 
 Une entrée, un séjour avec cuisine ouverte, une chambre avec placard, une salle de douche et WC.
@@ -7888,8 +7412,7 @@ Date de réalisation du diagnostic énergétique : 17/09/2024
 Consommation énergie primaire : 92 kWh/m²/an
 Consommation énergie finale : 81 kWh/m²/an
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 430 € et 630 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 2, null, 1, true, null, $$individual$$, $$gas$$, null, 5, null, null),
-(1295, $$T2 a louer a l'isle sur la sorgue$$, $$L'Isle-sur-la-Sorgue 84800 Route du Thor - Route de Gaumont$$, false, 38, $$b$$, null, 586, $$Appartment$$, $$c$$, $$Résidence LE PARC SAINT VERAN   364 cours Emile ZOLA
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 430 € et 630 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Rouen 76100 Joffre - Mutualité', '1', 'true', '2', null, null, 'individual', 'gas', null, '5', null, '76.8012'), ('1295', 'T2 a louer a l'isle sur la sorgue', 'false', '38', 'b', null, '586', 'Appartment', 'c', 'Résidence LE PARC SAINT VERAN   364 cours Emile ZOLA
 
 DESCRIPTION  
 L'enceinte de ia copropriété est accessible par un portail avec Digicode.
@@ -7904,8 +7427,7 @@ Il est composé de :
 1 chambre  avec placard penderie mural
 1 salle de bains avec lavabo et baignoire (avec douchette.)
 1 balcon 
- 1 WC séparé$$, 2, 2, null, 1, true, 1, $$individual$$, $$gas$$, null, 4, null, null),
-(1296, $$Très beau 2 pièces en RDC à louer$$, $$Onnaing 59264$$, false, 38, $$d$$, $$2025-09-30T22:00:00.000Z$$, 575, $$Appartment$$, $$d$$, $$Très bel appartement T2 non meublé de 38 m2, lumineux et moderne, dans un environnement calme à 12 min en bus de la gare de Valenciennes.
+ 1 WC séparé', '2', 'L'Isle-sur-la-Sorgue 84800 Route du Thor - Route de Gaumont', '1', 'true', '2', null, '1', 'individual', 'gas', null, '4', null, '50.4012'), ('1296', 'Très beau 2 pièces en RDC à louer', 'false', '38', 'd', '2025-09-30T22:00:00.000Z', '575', 'Appartment', 'd', 'Très bel appartement T2 non meublé de 38 m2, lumineux et moderne, dans un environnement calme à 12 min en bus de la gare de Valenciennes.
 Pièce de vie avec cuisine ouverte, chambre confortable, salle d’eau avec douche à l’italienne, et place de stationnement devant le logement.
 Commerces à proximité. 
 
@@ -7924,30 +7446,25 @@ Conditions :
 • Attestation employeur et contrat de travail
 
 📍Transports, commerces et axes routiers à proximité.
-📩 Plus d’infos ou photos sur demande – Nelly$$, 2, null, null, 1, false, 1, $$individual$$, $$electric$$, 1970, 1, null, null),
-(1297, $$T2 de 35.20 m² en centre-ville$$, $$Gap 05000 Centre-ville$$, false, 35, $$e$$, $$2025-09-30T22:00:00.000Z$$, 510, $$Appartment$$, $$b$$, $$En plein cœur de Gap, découvrez ce charmant T2 de 35,20 m² situé à proximité immédiate des commerces, transports et commodités.
+📩 Plus d’infos ou photos sur demande – Nelly', '2', 'Onnaing 59264', '1', 'false', null, null, '1', 'individual', 'electric', '1970', '1', null, '165.8832'), ('1297', 'T2 de 35.20 m² en centre-ville', 'false', '35', 'e', '2025-09-30T22:00:00.000Z', '510', 'Appartment', 'b', 'En plein cœur de Gap, découvrez ce charmant T2 de 35,20 m² situé à proximité immédiate des commerces, transports et commodités.
 Il se compose d'un séjour lumineux avec cuisine ouverte, d'une chambre avec un placard intégré, d'une salle de bain et de WC séparés. Chauffage électrique individuel.
 Fonctionnel et lumineux.
 A VOIR !
 
 Dépôt de garantie : 480 Euros.
 Honoraires locataire pour ce bien : 228.80 Euros TTC dont 158.40 Euros en constitution et rédaction de bail et 70.40 Euros en état des lieux d'entrée.
-Mandat n°172 - Référence : CAT-172$$, 2, 2, null, 1, false, 1, $$individual$$, $$electric$$, null, null, null, null),
-(1298, $$Appartement 4 chambre$$, $$La Chartre-sur-le-Loir 72340$$, false, null, null, null, 700, $$Appartment$$, null, $$🏠À louer grand appartement en duplex de 95m2 située au 2 eme étage d'un petit immeuble à l'entrée de la Chartre sur le loir.
+Mandat n°172 - Référence : CAT-172', '2', 'Gap 05000 Centre-ville', '1', 'false', '2', null, '1', 'individual', 'electric', null, null, null, '213.0912'), ('1298', 'Appartement 4 chambre', 'false', null, null, null, '700', 'Appartment', null, '🏠À louer grand appartement en duplex de 95m2 située au 2 eme étage d'un petit immeuble à l'entrée de la Chartre sur le loir.
 ➡️Au rez de chaussée grande pièce de vie avec cuisine ouverte très lumineuse,une grande salle de bain avec baignoire et deux chambres spacieuse.
 ➡️A l'étage une mezzanine qui peut servir de bureau ainsi que 2 autres chambres.L'immeuble dispose d'une cour commune clôt avec portail idéal avec des enfants et un abri à vélo.
 Pour plus d'informations n'hésitez pas à me contacter. 
-🔑 Cdi obligatoire + garant$$, 4, null, null, null, false, null, null, null, null, null, null, null),
-(1299, $$Appartement T3 meublé Brest centre ville 4ème étage ascenseur$$, $$Brest 29200 Centre-ville - Triangle d'Or$$, true, 66, $$d$$, $$2025-10-31T23:00:00.000Z$$, 900, $$Appartment$$, $$d$$, $$A louer joli appartement de 66 m2, confortable, traversant, meublé et équipé, situé rue Amiral Courbet à Brest à 5 min de la gare et à 3 min de Jaurès.
+🔑 Cdi obligatoire + garant', '4', 'La Chartre-sur-le-Loir 72340', null, 'false', null, null, null, null, null, null, null, null, '19.0512'), ('1299', 'Appartement T3 meublé Brest centre ville 4ème étage ascenseur', 'true', '66', 'd', '2025-10-31T23:00:00.000Z', '900', 'Appartment', 'd', 'A louer joli appartement de 66 m2, confortable, traversant, meublé et équipé, situé rue Amiral Courbet à Brest à 5 min de la gare et à 3 min de Jaurès.
 Construction année 60. 4ème étage avec ascenseur à mi-étage. Balconnet orienté Ouest.
 2 chambres orientées Est joliment décorées. Salle de bain avec baignoire. Très nombreux rangements.
 Séjour avec salon attenant pouvant servir de chambre d'amis. Toilettes séparées. Cuisine avec lave-vaisselle, four MO + minifour, lave linge petit capacité (3 kg). Cave. 
 Charges mensuelles 101€ (dont eau, chauffage via réseau de chaleur urbain, TOM). La cage d'escalier sera refaite sous peu. Stationnement sur voirie pour 20€ par mois (Brestpark).
 Une colocation via un bail solidaire peut être envisagée.
 
-Il sera demander de présenter : pièce d'identité en cours de validité - justificatif de domicile - 3 derniers bulletins de salaire - avis d'imposition - garantie Visale si éligible$$, 3, 4, null, 2, false, 1, $$communal$$, $$gas$$, 1965, 8, null, null),
-(1300, $$3P sur le Grand Parc de Saint-Ouen$$, $$Saint-Ouen-sur-Seine 93400 Saint-Ouen$$, true, 64, $$b$$, null, 1, $$Appartment$$, $$a$$, $$Grand Paris, face au parc des docks de Saint-Ouen, métro 13 et 14 Mairie de Saint-Ouen et bus 85 et 66 au pied de l’immeuble, 3 pièces meublé design de 64 m2 dans immeuble récent de standing comprenant deux chambres, séjour avec cuisine équipée, salle de bains et toilettes séparées. Balcon sur le parc. Garage à vélo au rez-de-chaussée de la résidence. Quartier convivial avec commerces et restaurants. A deux pas d’une salle d’escalade. Bail meublé un an reconductible.$$, 3, 1, null, 2, true, 1, $$communal$$, $$other$$, 2020, 9, null, null),
-(1301, $$Type 2 43 m²$$, $$Reims 51100 Clairmarais - Charles Arnould$$, false, 43, $$c$$, $$2025-09-30T22:00:00.000Z$$, 600, $$Appartment$$, $$d$$, $$À louer – F2 rénové de 43 m² (RDC, cour intérieure)
+Il sera demander de présenter : pièce d'identité en cours de validité - justificatif de domicile - 3 derniers bulletins de salaire - avis d'imposition - garantie Visale si éligible', '3', 'Brest 29200 Centre-ville - Triangle d'Or', '2', 'false', '4', null, '1', 'communal', 'gas', '1965', '8', null, '19.0512'), ('1300', '3P sur le Grand Parc de Saint-Ouen', 'true', '64', 'b', null, '1', 'Appartment', 'a', 'Grand Paris, face au parc des docks de Saint-Ouen, métro 13 et 14 Mairie de Saint-Ouen et bus 85 et 66 au pied de l’immeuble, 3 pièces meublé design de 64 m2 dans immeuble récent de standing comprenant deux chambres, séjour avec cuisine équipée, salle de bains et toilettes séparées. Balcon sur le parc. Garage à vélo au rez-de-chaussée de la résidence. Quartier convivial avec commerces et restaurants. A deux pas d’une salle d’escalade. Bail meublé un an reconductible.', '3', 'Saint-Ouen-sur-Seine 93400 Saint-Ouen', '2', 'true', '1', null, '1', 'communal', 'other', '2020', '9', null, '19.0512'), ('1301', 'Type 2 43 m²', 'false', '43', 'c', '2025-09-30T22:00:00.000Z', '600', 'Appartment', 'd', 'À louer – F2 rénové de 43 m² (RDC, cour intérieure)
 
 Appartement F2 d’environ 43 m², situé en rez-de-chaussée dans une cour calme et sécurisée.
 Loyer : 550 € + 50 € de charges.
@@ -7958,8 +7475,7 @@ L’appartement a été entièrement rénové il y a 3 ans : isolation complète
 Pas de place de parking.
 Immeuble sécurisé avec accès par cour intérieure.
 
-Idéal pour une personne seule ou un couple.$$, 2, null, null, 1, false, 1, $$individual$$, $$electric$$, 1980, 1, null, null),
-(1302, $$Hyper centre noyon apt t2 35m2 en duplex avec balcon$$, $$Noyon 60400 Centre-ville$$, false, 35, $$e$$, $$2025-09-30T22:00:00.000Z$$, 550, $$Appartment$$, $$b$$, $$Noyon en hyper centre-ville, proche de tous les commerces, appartement de type T3 de 35M2 en duplex rénové en 2022 au 2éme étage d’une résidence sécurisée au calme et très lumineux avec interphone, comprenant : entrée sur pièce de vie principale avec rangements et placards, une salle de bain avec douche et WC, une cuisine américaine avec meuble bas et meuble haut, un salon avec un grand balcon sans vis-à-vis et à l’étage 1 grande chambre avec coin bureau possible. 
+Idéal pour une personne seule ou un couple.', '2', 'Reims 51100 Clairmarais - Charles Arnould', '1', 'false', null, null, '1', 'individual', 'electric', '1980', '1', null, '127.4112'), ('1302', 'Hyper centre noyon apt t2 35m2 en duplex avec balcon', 'false', '35', 'e', '2025-09-30T22:00:00.000Z', '550', 'Appartment', 'b', 'Noyon en hyper centre-ville, proche de tous les commerces, appartement de type T3 de 35M2 en duplex rénové en 2022 au 2éme étage d’une résidence sécurisée au calme et très lumineux avec interphone, comprenant : entrée sur pièce de vie principale avec rangements et placards, une salle de bain avec douche et WC, une cuisine américaine avec meuble bas et meuble haut, un salon avec un grand balcon sans vis-à-vis et à l’étage 1 grande chambre avec coin bureau possible. 
 Parking avec nombreuses places disponibles au pied de la résidence.
 A 10 minutes à pied de la gare.
 Loyer mensuel : 610 €. Charges 20 €. A voir absolument !!!
@@ -7968,21 +7484,16 @@ Compteur individuel EDF.
 Compteur individuel eau.
 Pas de frais d’agence.
 Tous les profils sont étudiés avec le certificat VISALE 
-Adresse : 5 Rue de la brasserie à NOYON$$, 2, 2, null, 1, false, 1, $$individual$$, $$electric$$, null, 2, null, null),
-(1303, $$Location appartement 2 pièces – 40 m² – Terrasse – Charges incluses Electricité wifi et eau$$, $$Villeneuve-Loubet 06270 Bouches du Loup$$, true, 40, $$c$$, $$2025-10-31T23:00:00.000Z$$, 1, $$Appartment$$, $$c$$, $$Disponible du 1er novembre 2025 au 30 avril 2026, ce charmant appartement 2 pièces de 40 m², situé au 2ᵉ étage d’une résidence calme et bien entretenue, offre tout le confort nécessaire pour un séjour de moyenne durée.
+Adresse : 5 Rue de la brasserie à NOYON', '2', 'Noyon 60400 Centre-ville', '1', 'false', '2', null, '1', 'individual', 'electric', null, '2', null, '213.0912'), ('1303', 'Location appartement 2 pièces – 40 m² – Terrasse – Charges incluses Electricité wifi et eau', 'true', '40', 'c', '2025-10-31T23:00:00.000Z', '1', 'Appartment', 'c', 'Disponible du 1er novembre 2025 au 30 avril 2026, ce charmant appartement 2 pièces de 40 m², situé au 2ᵉ étage d’une résidence calme et bien entretenue, offre tout le confort nécessaire pour un séjour de moyenne durée.
 L’appartement comprend une chambre lumineuse, une salle de bain moderne, un toilette séparé, ainsi qu’une cuisine haut de gamme entièrement équipée.
 Tout le mobilier — literie, canapé, meubles et électroménager — est haut de gamme, garantissant un excellent confort.
 Vous profiterez également d’une terrasse agréable, d’une climatisation réversible, et d’une place de parking sécurisée à l’intérieur de la résidence.
 Loyer toutes charges comprises : 1 500 € / mois, incluant électricité, eau et WIFI.
 En raison de travaux de ravalement de façade prévus pendant la période de location, une réduction exceptionnelle de 300 € par mois est appliquée, ramenant le loyer à 1 200 € charges incluses.
-Un appartement confortable, moderne et parfaitement équipé, idéal pour un séjour serein dans un cadre agréable.$$, 2, 2, null, 1, true, 1, $$individual$$, $$electric$$, 2000, 3, null, null),
-(1304, $$À louer appartement à Strasbourg Montagne-Verte, Roethig$$, $$Strasbourg 67200 Montagne Verte$$, false, null, $$d$$, null, 700, $$Appartment$$, null, $$Strasbourg Roethig. Appart atypique mansardé 3 pces, séjour lumineux, cuisine équipée, sdb, wc séparé. 40m2 ( loi Carrez ) 76m2 au sol, 2e ét.  mansardé. Parking privé. Cave. Local vélos. Chauff ind électrique 
-Loyer 670€ + 30€ ch$$, 3, 3, null, 2, false, 1, $$individual$$, $$electric$$, 1930, 3, null, null),
-(1305, $$Alouer studio amiens centre$$, $$Amiens 80000 Sainte-Anne-Fbg. Noyon$$, false, 30, $$d$$, null, 480, $$Appartment$$, $$d$$, $$A LOUER AMIENS CENTRE GARE TRES BEAU STUDIO AVEC AVEC PLACE PARKING ENTREE SEJOUR CUISINE EQUIPEE SDB TOILETTES ET TRES CALME ET TRES CLAIR.$$, 1, 2, null, 1, false, 1, $$individual$$, $$electric$$, 1980, 2, null, null),
-(1306, $$Appartement t2 42 m2$$, $$Roanne 42300 Centre-ville - Varenne$$, false, 42, $$c$$, $$2025-10-31T23:00:00.000Z$$, 450, $$Appartment$$, $$a$$, $$Appartement t2 de 42.24 m2, situé a 2 pas de la place de l’hôtel de ville. il est au troisième et dernier étage d'un immeuble. il est composé d’une chambre, d'une salle de bains et d'une pièce à vivre avec une cuisine incorporée entièrement équipée (four plaque de cuisson hotte frigo lave-vaisselle)
+Un appartement confortable, moderne et parfaitement équipé, idéal pour un séjour serein dans un cadre agréable.', '2', 'Villeneuve-Loubet 06270 Bouches du Loup', '1', 'true', '2', null, '1', 'individual', 'electric', '2000', '3', null, '119.8512'), ('1304', 'À louer appartement à Strasbourg Montagne-Verte, Roethig', 'false', null, 'd', null, '700', 'Appartment', null, 'Strasbourg Roethig. Appart atypique mansardé 3 pces, séjour lumineux, cuisine équipée, sdb, wc séparé. 40m2 ( loi Carrez ) 76m2 au sol, 2e ét.  mansardé. Parking privé. Cave. Local vélos. Chauff ind électrique 
+Loyer 670€ + 30€ ch', '3', 'Strasbourg 67200 Montagne Verte', '2', 'false', '3', null, '1', 'individual', 'electric', '1930', '3', null, '19.0512'), ('1305', 'Alouer studio amiens centre', 'false', '30', 'd', null, '480', 'Appartment', 'd', 'A LOUER AMIENS CENTRE GARE TRES BEAU STUDIO AVEC AVEC PLACE PARKING ENTREE SEJOUR CUISINE EQUIPEE SDB TOILETTES ET TRES CALME ET TRES CLAIR.', '1', 'Amiens 80000 Sainte-Anne-Fbg. Noyon', '1', 'false', '2', null, '1', 'individual', 'electric', '1980', '2', null, '134.9712'), ('1306', 'Appartement t2 42 m2', 'false', '42', 'c', '2025-10-31T23:00:00.000Z', '450', 'Appartment', 'a', 'Appartement t2 de 42.24 m2, situé a 2 pas de la place de l’hôtel de ville. il est au troisième et dernier étage d'un immeuble. il est composé d’une chambre, d'une salle de bains et d'une pièce à vivre avec une cuisine incorporée entièrement équipée (four plaque de cuisson hotte frigo lave-vaisselle)
 Libre de suite
-AGENCE S’ABSTENIR$$, 2, 3, null, 1, false, 1, $$individual$$, $$electric$$, 1950, 3, null, null),
-(1307, $$Appartement 4 pièces 91 m²$$, $$Avignon 84000 Les Sources$$, false, 91, $$e$$, null, 750, $$Appartment$$, $$b$$, $$Appartement 4 pièces 91 m²
+AGENCE S’ABSTENIR', '2', 'Roanne 42300 Centre-ville - Varenne', '1', 'false', '3', null, '1', 'individual', 'electric', '1950', '3', null, '124.8912'), ('1307', 'Appartement 4 pièces 91 m²', 'false', '91', 'e', null, '750', 'Appartment', 'b', 'Appartement 4 pièces 91 m²
 
 Découvrez cette superbe maison de ville d'environ 90.87 m²  situé secteur Arrousaire, environnement calme et proche remparts à Avignon. Cette maison est composée, de 3 chambres avec rangements, de deux salles d'eau dont une avec WC, d'un deuxième WC séparé , d'une vaste salle à manger - cuisine aménagée et équipée, d'un salon ainsi qu'une cour d'environ 16 m² véritable atout pour le secteur. L'appartement est entièrement rénové et bénéficie de la climatisation. 
 Loyer charges comprises: 750 euros 
@@ -8000,8 +7511,7 @@ Consommation énergie finale : Non communiqué
 
 Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 800 € et 2 480 € sur les années 2021, 2022 et 2023 (abonnements compris).
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr$$, 4, null, null, 3, false, null, $$individual$$, $$other$$, 1949, 1, null, null),
-(1308, $$NOGNA - T5 - 112 m²$$, $$Nogna 39570$$, false, 112, $$c$$, $$2025-11-30T23:00:00.000Z$$, 750, $$Appartment$$, $$a$$, $$Sur la commune de Nogna (39570) venez découvrir cet appartement T5 de 112 m² situé au 1er étage et comprenant : une entrée, une cuisine aménagée, un séjour , un cellier, 4 chambres, une salle d'eau avec douche, un WC. Le logement bénéficie d'une terrasse au rez-de-chaussée et d'un carport (+ 51 € / mois). Chauffage collectif granulés
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr', '4', 'Avignon 84000 Les Sources', '3', 'false', null, null, null, 'individual', 'other', '1949', '1', null, '294.3262'), ('1308', 'NOGNA - T5 - 112 m²', 'false', '112', 'c', '2025-11-30T23:00:00.000Z', '750', 'Appartment', 'a', 'Sur la commune de Nogna (39570) venez découvrir cet appartement T5 de 112 m² situé au 1er étage et comprenant : une entrée, une cuisine aménagée, un séjour , un cellier, 4 chambres, une salle d'eau avec douche, un WC. Le logement bénéficie d'une terrasse au rez-de-chaussée et d'un carport (+ 51 € / mois). Chauffage collectif granulés
 
 Disponible le 26 novembre 2025.
 
@@ -8015,8 +7525,7 @@ Frais d’agence : 315 € (dont 100 € d’honoraires d’état des lieux)
 
 Montant estimé des dépenses annuelles d’énergie pour un usage standard : entre 590 € et 840 € DPE CLASSE C / GES CLASSE A
 
-Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr.$$, 5, null, null, 4, false, 1, $$communal$$, $$other$$, null, null, null, null),
-(1309, $$Appartement 2 pièces 33 m²$$, $$Cahors 46000$$, false, 33, $$c$$, null, 470, $$Appartment$$, $$c$$, $$Appartement T2 en centre ville
+Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.georisques.gouv.fr.', '5', 'Nogna 39570', '4', 'false', null, null, '1', 'communal', 'other', null, null, null, '19.0512'), ('1309', 'Appartement 2 pièces 33 m²', 'false', '33', 'c', null, '470', 'Appartment', 'c', 'Appartement T2 en centre ville
 
 IMMO46 vous propose à la location ce charmant appartement T2 de 33m² situé au 1er étage d'une copropriété en centre ville de CAHORS.
 Il comprend une cuisine aménagée et équipée ouverte sur un séjour, une chambre, une salle d'eau et un wc.
@@ -8028,12 +7537,10 @@ Référence annonce : T2-ALB-BOEUBI
 Date de réalisation du diagnostic : 04/09/2025
 Honoraires à la charge du locataire : 363 € TTC dont 99 € pour l’état des lieux
 Dépôt de garantie : 410 €
-Montant des charges : 30 € / mois$$, 2, 1, null, 1, false, null, null, null, 1950, 3, null, null),
-(1310, $$F3 à louer$$, $$Unieux 42240$$, true, 73, $$b$$, $$2025-09-30T22:00:00.000Z$$, 610, $$Appartment$$, $$a$$, $$Appartement de 73 m marsarde refait à neuf 2 chambres Isolation intérieur fenêtre avec double vitrage Volet Roulant Velux clim réversible ballon thermodynamique.
+Montant des charges : 30 € / mois', '2', 'Cahors 46000', '1', 'false', '1', null, null, null, null, '1950', '3', null, '64.4262'), ('1310', 'F3 à louer', 'true', '73', 'b', '2025-09-30T22:00:00.000Z', '610', 'Appartment', 'a', 'Appartement de 73 m marsarde refait à neuf 2 chambres Isolation intérieur fenêtre avec double vitrage Volet Roulant Velux clim réversible ballon thermodynamique.
 Place de parking
 L'appartement se situe à la Croix de Marlet.
-Pour plus de renseignements merci de me contacter.$$, 3, 2, null, 2, false, 1, $$individual$$, $$electric$$, 1950, 2, null, null),
-(1311, $$Appartement 3 pièces 69 m²$$, $$Toulouse 31400 Saint-Michel$$, false, 69, $$d$$, $$2025-09-30T22:00:00.000Z$$, 1, $$Appartment$$, $$b$$, $$Appartement 3 pièces 69 m²
+Pour plus de renseignements merci de me contacter.', '3', 'Unieux 42240', '2', 'false', '2', null, '1', 'individual', 'electric', '1950', '2', null, '129.4272'), ('1311', 'Appartement 3 pièces 69 m²', 'false', '69', 'd', '2025-09-30T22:00:00.000Z', '1', 'Appartment', 'b', 'Appartement 3 pièces 69 m²
 
 APPARTEMENT T3 + PLACE DE PARKING SAINT MICHEL - A proximité immédiate de la rue Achille Viadieu, face au Lycée Marcelin Berthelot, nous avons le plaisir de vous présenter ce très joli appartement T3, spacieux et lumineux, dans une copropriété sécurisée avec ascenseur.
 
@@ -8052,8 +7559,7 @@ Date de réalisation du diagnostic énergétique : 21/10/2024
 Consommation énergie primaire : 242 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 324 € et 1 792 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 3, 1, null, 2, true, 1, $$individual$$, null, null, null, null, null),
-(1312, $$Charmant T2 meublé plein sud – calme & parking privé – Annecy centre à 5 min$$, $$Annecy 74000 Parc des Sports - Fier$$, true, 35, $$d$$, $$2025-10-31T23:00:00.000Z$$, 890, $$Appartment$$, $$b$$, $$Charmant T2 entièrement meublé de 35 m², situé rue des Alpins, au 1er étage d’une petite copropriété récente et bien entretenue, à deux pas du centre-ville d’Annecy et des commerces.
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 324 € et 1 792 € sur les années 2021, 2022 et 2023 (abonnements compris).', '3', 'Toulouse 31400 Saint-Michel', '2', 'true', '1', null, '1', 'individual', null, null, null, null, '164.5262'), ('1312', 'Charmant T2 meublé plein sud – calme & parking privé – Annecy centre à 5 min', 'true', '35', 'd', '2025-10-31T23:00:00.000Z', '890', 'Appartment', 'b', 'Charmant T2 entièrement meublé de 35 m², situé rue des Alpins, au 1er étage d’une petite copropriété récente et bien entretenue, à deux pas du centre-ville d’Annecy et des commerces.
 Exposition plein sud : très lumineux toute la journée 🌤️
 👉 Localisation idéale :
 • Quartier calme, proche des bus et commerces
@@ -8072,8 +7578,7 @@ Exposition plein sud : très lumineux toute la journée 🌤️
 📄 Caution exigée et CDI obligatoire
 📅 Disponible à partir du 3 novembre 2025
 Merci d’envoyer votre dossier complet par mail (pièce d’identité, contrat CDI, 3 derniers bulletins de salaire, dernier avis d’imposition et 3 dernières quittances de loyer) et de compléter votre profil locataire pour un contact rapide.
-________________________________________$$, 2, 1, null, 1, false, 1, $$individual$$, $$electric$$, null, 2, null, null),
-(1313, $$Appartement à louer CAEN$$, $$Caen 14000 Chemin Vert$$, false, null, null, null, 434, $$Appartment$$, null, $$À louer : 
+________________________________________', '2', 'Annecy 74000 Parc des Sports - Fier', '1', 'false', '1', null, '1', 'individual', 'electric', null, '2', null, '154.2912'), ('1313', 'Appartement à louer CAEN', 'false', null, null, null, '434', 'Appartment', null, 'À louer : 
 Studio situé au RDC d'une résidence sécurisée, quartier chemin Vert Caen. 
 Résidence les Hauts de Saint Paul
 
@@ -8085,8 +7590,7 @@ Libre au 1er janvier 2026
 Se compose d'une pièce principale,d'une cuisine équipée et d'une salle de bain.
 
 Loyer 404€+ 30€ de charges communes.
-Chauffage individuel électrique.$$, null, null, null, null, false, null, null, null, 2019, null, null, null),
-(1314, $$Appartement 2 pièces 46 m²$$, $$Pignan 34570$$, false, 46, $$b$$, null, 717, $$Appartment$$, $$b$$, $$Appartement 2 pièces 46 m²
+Chauffage individuel électrique.', null, 'Caen 14000 Chemin Vert', null, 'false', null, null, null, null, null, '2019', null, null, '19.0512'), ('1314', 'Appartement 2 pièces 46 m²', 'false', '46', 'b', null, '717', 'Appartment', 'b', 'Appartement 2 pièces 46 m²
 
 Pignan, à 10 kms à l'ouest de Montpellier, dans petite copropriété de standing, cet appartement de type T2, de 46 m² habitables, saura satisfaire toutes vos attentes. En 2éme étage avec ascenseur, vous serez accueillis par une pièce de vie de 23 m² ouvert sur une belle terrasse, une grande chambre de plus de 15 m², une salle d'eau avec wc.
 La construction du bâtiment de 2022 répond à toutes les normes d'isolation phonique et énergétique.
@@ -8108,8 +7612,7 @@ Date de réalisation du diagnostic énergétique : 22/04/2022
 Consommation énergie primaire : 63 kWh/m²/an
 Consommation énergie finale : Non communiqué
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 260 € et 420 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)$$, 2, 2, null, null, true, null, null, $$gas$$, 2022, 3, null, null),
-(1315, $$Appartement 1 pièce 17 m²$$, $$Loos 59120$$, true, 17, $$c$$, null, 550, $$Appartment$$, $$c$$, $$🏢 Nouvelle résidence étudiante à Loos 🏢
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 260 € et 420 € par an. Prix moyens des énergies indexés sur l'année 2021 (abonnements compris)', '2', 'Pignan 34570', null, 'true', '2', null, null, null, 'gas', '2022', '3', null, '57.0012'), ('1315', 'Appartement 1 pièce 17 m²', 'true', '17', 'c', null, '550', 'Appartment', 'c', '🏢 Nouvelle résidence étudiante à Loos 🏢
 
 Nouvelle résidence étudiante à Loos
 
@@ -8145,8 +7648,7 @@ Notre équipe est à votre disposition pour vous accompagner à chaque étape de
 photographie non contractuelle
 Référence annonce : le-scope_C231
 Consommation énergétique : 96 kWh/m²/an
-Emission de gaz à effet de serre : 17 CO2/m²/an$$, 1, null, null, null, true, null, null, null, 2025, null, null, null),
-(1316, $$Appartement 1 pièce 17 m²$$, $$Villeneuve-d'Ascq 59650 Cité Scientifique - Haute Borne - Ascq$$, true, 17, $$c$$, null, 575, $$Appartment$$, $$c$$, $$🏢 Nouvelle résidence étudiante à Villeneuve d’Ascq 🏢
+Emission de gaz à effet de serre : 17 CO2/m²/an', '1', 'Loos 59120', null, 'true', null, null, null, null, null, '2025', null, null, '42.4262'), ('1316', 'Appartement 1 pièce 17 m²', 'true', '17', 'c', null, '575', 'Appartment', 'c', '🏢 Nouvelle résidence étudiante à Villeneuve d’Ascq 🏢
 
 Chèr(e)s étudiant(e)s, alternant(e)s,
 Nous sommes heureux de vous présenter la toute nouvelle résidence Les Passerelles, idéalement située à Villeneuve d'Ascq, au cœur d'un pôle étudiant dynamique et verdoyant.
@@ -8180,8 +7682,7 @@ Notre équipe est à votre écoute pour répondre à toutes vos questions et vou
 photographie non contractuelle
 Référence annonce : les-passerelles_C232
 Consommation énergétique : 100 kWh/m²/an
-Emission de gaz à effet de serre : 19 CO2/m²/an$$, 1, null, null, null, true, null, null, null, 2025, null, null, null),
-(1317, $$Appartement 1 pièce 17 m²$$, $$Loos 59120 Ennequin - Epi de Soil$$, true, 17, $$v$$, null, 515, $$Appartment$$, $$v$$, $$🏢 Nouvelle résidence étudiante à Loos  🏢 coloc
+Emission de gaz à effet de serre : 19 CO2/m²/an', '1', 'Villeneuve-d'Ascq 59650 Cité Scientifique - Haute Borne - Ascq', null, 'true', null, null, null, null, null, '2025', null, null, '42.4262'), ('1317', 'Appartement 1 pièce 17 m²', 'true', '17', 'v', null, '515', 'Appartment', 'v', '🏢 Nouvelle résidence étudiante à Loos  🏢 coloc
 
 Nouvelle résidence étudiante à Loos
 
@@ -8219,8 +7720,7 @@ Côté pratique :
 Notre équipe est là pour répondre à toutes vos questions et vous aider à trouver le logement étudiant qui vous ressemble.
 
 photographie non contractuelle
-Référence annonce : le-scope_C235$$, 1, null, null, null, true, null, null, null, 2025, null, null, null),
-(1318, $$Studio 1 pièce 18 m²$$, $$Toulouse 31300 Patte d'Oie$$, true, 18, $$c$$, null, 566, $$Appartment$$, $$c$$, $$Studio meublé et équipé - proche métro et écoles
+Référence annonce : le-scope_C235', '1', 'Loos 59120 Ennequin - Epi de Soil', null, 'true', null, null, null, null, null, '2025', null, null, '70.4762'), ('1318', 'Studio 1 pièce 18 m²', 'true', '18', 'c', null, '566', 'Appartment', 'c', 'Studio meublé et équipé - proche métro et écoles
 
 A LOUER, Studio de 18,12 m²  entièrement meublé et équipé. Prestations de qualité et nombreux services adaptés à la vie étudiante: accès internet fibre gratuit et illimité (une box par logement), accès à la laverie 24/24 - 7J/7 (payant), salle de vie commune, local à vélos, salle fitness, distribution de courrier, présence rassurante et sécurisante d'un responsable de résidence.
 
@@ -8234,8 +7734,7 @@ Frais de dossier : 399  €
 2 mois de caution
 Référence annonce : campus-barriere_C19
 Consommation énergétique : 112 kWh/m²/an
-Emission de gaz à effet de serre : 13 CO2/m²/an$$, 1, null, null, null, true, null, null, null, 2019, null, null, null),
-(1319, $$Studio 1 pièce 18 m²$$, $$Clermont-Ferrand 63000 Chanteranne - La Glacière$$, true, 18, $$c$$, null, 455, $$Appartment$$, $$d$$, $$🎓 Studios étudiants à louer – Résidence Campus Verde – Clermont-Ferrand 🌿
+Emission de gaz à effet de serre : 13 CO2/m²/an', '1', 'Toulouse 31300 Patte d'Oie', null, 'true', null, null, null, null, null, '2019', null, null, '43.8012'), ('1319', 'Studio 1 pièce 18 m²', 'true', '18', 'c', null, '455', 'Appartment', 'd', '🎓 Studios étudiants à louer – Résidence Campus Verde – Clermont-Ferrand 🌿
 
 Studios étudiants à louer – Résidence Campus Verde – Clermont-Ferrand
 --Nouvelle résidence-- Ouverture Prévue le 1er Aout--
@@ -8270,8 +7769,7 @@ Tu recherches un studio moderne, bien placé et prêt à vivre pour la rentrée 
 Un cadre moderne, une vraie vie étudiante, et zéro stress pour l'installation. Fais vite, les places partent rapidement !
 Référence annonce : campus-verde_C242
 Consommation énergétique : 135 kWh/m²/an
-Emission de gaz à effet de serre : 28 CO2/m²/an$$, 1, null, null, null, true, null, null, null, 2025, null, null, null),
-(1320, $$Appartement 2 pièces 43 m²$$, $$Orléans 45000 Cathédrale - Jeanne d'Arc$$, true, 43, $$d$$, null, 776, $$Appartment$$, $$b$$, $$T2 meublé et équipé - hyper centre orléans
+Emission de gaz à effet de serre : 28 CO2/m²/an', '1', 'Clermont-Ferrand 63000 Chanteranne - La Glacière', null, 'true', null, null, null, null, null, '2025', null, null, '43.8012'), ('1320', 'Appartement 2 pièces 43 m²', 'true', '43', 'd', null, '776', 'Appartment', 'b', 'T2 meublé et équipé - hyper centre orléans
 
 À Louer : T2 meublé - Résidence étudiante Carré Céleste, Orléans
 
@@ -8306,8 +7804,7 @@ Carré Céleste, la résidence qui allie confort, modernité et proximité pour 
 Photo Non Contractuelle
 Référence annonce : carre-celeste-o_C227
 Consommation énergétique : 190 kWh/m²/an
-Emission de gaz à effet de serre : 6 CO2/m²/an$$, 2, null, null, 1, true, null, null, null, 2014, null, null, null),
-(1321, $$Studio 1 pièce 18 m²$$, $$Angers 49100 Les Hauts de Saint-Aubin$$, true, 18, $$d$$, null, 479, $$Appartment$$, $$b$$, $$Studio meublé et équipé - proche tram et école ESEO
+Emission de gaz à effet de serre : 6 CO2/m²/an', '2', 'Orléans 45000 Cathédrale - Jeanne d'Arc', '1', 'true', null, null, null, null, null, '2014', null, null, '109.709533333333'), ('1321', 'Studio 1 pièce 18 m²', 'true', '18', 'd', null, '479', 'Appartment', 'b', 'Studio meublé et équipé - proche tram et école ESEO
 
 Résidence étudiante CAP AVENIR - Angers
 
@@ -8342,8 +7839,7 @@ Les studios disponibles sont limités. Contactez-nous dès aujourd'hui pour plan
 CAP AVENIR : La résidence qui combine proximité, confort et convivialité pour une vie étudiante épanouie.
 Référence annonce : cap-avenir-ange_C35
 Consommation énergétique : 208 kWh/m²/an
-Emission de gaz à effet de serre : 6 CO2/m²/an$$, 1, null, null, null, true, null, null, null, 2012, null, null, null),
-(1322, $$Appartement 1 pièce 10 m²$$, $$Amiens 80000$$, true, 10, $$c$$, null, 403, $$Appartment$$, $$a$$, $$Chambre Colocation
+Emission de gaz à effet de serre : 6 CO2/m²/an', '1', 'Angers 49100 Les Hauts de Saint-Aubin', null, 'true', null, null, null, null, null, '2012', null, null, '57.0012'), ('1322', 'Appartement 1 pièce 10 m²', 'true', '10', 'c', null, '403', 'Appartment', 'a', 'Chambre Colocation
 
 Bienvenue chez Vitam'in, votre nouvelle maison à Amiens !
 
@@ -8364,8 +7860,7 @@ Proximité des transports en commun, des commerces et des universités
 Frais de dossier : 150€
 Référence annonce : vitam-in_C170
 Consommation énergétique : 101 kWh/m²/an
-Emission de gaz à effet de serre : 5 CO2/m²/an$$, 1, null, null, null, true, null, null, null, 2023, null, null, null),
-(1323, $$Studio 1 pièce 17 m²$$, $$Roubaix 59100 Fresnoy - Mackellerie$$, true, 17, $$b$$, null, 459, $$Appartment$$, $$a$$, $$Studio meublé et équipé - proche métro et écoles
+Emission de gaz à effet de serre : 5 CO2/m²/an', '1', 'Amiens 80000', null, 'true', null, null, null, null, null, '2023', null, null, '32.8012'), ('1323', 'Studio 1 pièce 17 m²', 'true', '17', 'b', null, '459', 'Appartment', 'a', 'Studio meublé et équipé - proche métro et écoles
 
 À Louer : Studio étudiant meublé - Résidence Campus Cléon, Roubaix
 
@@ -8406,21 +7901,18 @@ Idéal pour les étudiants ! Découvrez ce studio moderne et optimisé de 17,30 
  Disponible dès maintenant : Contactez-nous pour visiter ce studio et réservez votre logement étudiant à la résidence Campus Cléon. Ne tardez pas, les places sont limitées !
 Référence annonce : campus-cleon_C12
 Consommation énergétique : 80 kWh/m²/an
-Emission de gaz à effet de serre : 3 CO2/m²/an$$, 1, null, null, null, true, null, null, null, 2020, null, null, null),
-(1324, $$Appartement T3, parking, espace vert$$, $$Jonzac 17500$$, false, 42, $$c$$, $$2025-10-31T23:00:00.000Z$$, 585, $$Appartment$$, $$a$$, $$Appartement T3 - 42m², au 1er et dernier étage
+Emission de gaz à effet de serre : 3 CO2/m²/an', '1', 'Roubaix 59100 Fresnoy - Mackellerie', null, 'true', null, null, null, null, null, '2020', null, null, '33.0762'), ('1324', 'Appartement T3, parking, espace vert', 'false', '42', 'c', '2025-10-31T23:00:00.000Z', '585', 'Appartment', 'a', 'Appartement T3 - 42m², au 1er et dernier étage
 Pièce de vie avec cuisine ouverte toute équipée, 2 chambres avec placard, salle de douche, WC
 Place de parking et jardin privatif à la résidence
 Entièrement rénové en 2021
 Situé dans une copropriété de 3 appartements, Jonzac – La Meslerie
 Libre à partir du 3 novembre 2025
 
-Charges mensuelles : 40 € (assurance immeuble / entretien espaces verts / géothermie - chauffage / eau froide)$$, 3, 1, null, 2, false, 1, null, null, null, 1, null, null),
-(1325, $$Cède bail$$, $$Épinal 88000 Ouest$$, false, 44, $$c$$, $$2025-10-31T23:00:00.000Z$$, 538, $$Appartment$$, $$d$$, $$APPARTEMENT
+Charges mensuelles : 40 € (assurance immeuble / entretien espaces verts / géothermie - chauffage / eau froide)', '3', 'Jonzac 17500', '2', 'false', '1', null, '1', null, null, null, '1', null, '76.8012'), ('1325', 'Cède bail', 'false', '44', 'c', '2025-10-31T23:00:00.000Z', '538', 'Appartment', 'd', 'APPARTEMENT
 A découvrir rapidement, bel appartement dans une résidence sécurisé ! Dans un quartier pavillonnaire et verdoyant, proche du centre ville, résidence avec piscine et gardien. Deux pièces ,un coin cuisine équipée ouvert sur le séjour, alcove, salle de bain, wc, balcon et parking extérieur.
 Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : www.
 georisques. gouv. fr
-Nb: frais d’agence et frais d’état des lieux à payer$$, 2, 2, null, 1, true, 1, $$individual$$, $$gas$$, 2008, 3, null, null),
-(1326, $$Charmant appartement$$, $$Nice 06000 Rimiez$$, true, 30, null, $$2025-09-30T22:00:00.000Z$$, 1, $$Appartment$$, null, $$À louer : Charmant studio avec bail meublé refait à neuf ,dans une résidence très calme ,fermée et sécurisée à NICE ,quartier de Cimiez . Proche du Monoprix 
+Nb: frais d’agence et frais d’état des lieux à payer', '2', 'Épinal 88000 Ouest', '1', 'true', '2', null, '1', 'individual', 'gas', '2008', '3', null, '79.5512'), ('1326', 'Charmant appartement', 'true', '30', null, '2025-09-30T22:00:00.000Z', '1', 'Appartment', null, 'À louer : Charmant studio avec bail meublé refait à neuf ,dans une résidence très calme ,fermée et sécurisée à NICE ,quartier de Cimiez . Proche du Monoprix 
 
 -Ce studio de 25m² en rez de jardin ,dispose en plus d’un jardin de 19m², mais avec véranda fermée,et chauffée pour l’hiver,et pour profiter du plein air en été ,la véranda s’ouvre électriquement .
 Cette véranda accueille la grande table de salle à manger et 6 chaises 
@@ -8451,8 +7943,7 @@ Pour organiser une visite ou obtenir plus d'informations, veuillez me contacter 
 Ou par message sur ce site 
 * Vos garanties sérieuses sont essentielles pour assurer une location en toute confiance.
 * Une garantie logement sera exigée 
-* Tous les documents seront soumis à une double vérification$$, 1, null, null, null, false, 1, $$communal$$, $$fuel$$, 1980, null, null, null),
-(1327, $$Appartement 2 pièces 40 m²$$, $$Saint-Martin-d'Hères 38400$$, false, 40, $$c$$, $$2025-11-06T23:00:00.000Z$$, 666, $$Appartment$$, $$b$$, $$T2 + Garage - SAINT MARTIN D'HERES
+* Tous les documents seront soumis à une double vérification', '1', 'Nice 06000 Rimiez', null, 'false', null, null, '1', 'communal', 'fuel', '1980', null, null, '19.0512'), ('1327', 'Appartement 2 pièces 40 m²', 'false', '40', 'c', '2025-11-06T23:00:00.000Z', '666', 'Appartment', 'b', 'T2 + Garage - SAINT MARTIN D'HERES
 
 Au 46 rue Louise Bourgeois à Saint Martin d'Hères, appartement de type 2 pièces, comprenant un hall, une pièce de vie avec cuisine meublée et équipée (plaque de cuisson, four en cours de pose), donnant accès à un grand balcon, une chambre, une salle d'eau et un WC séparé. Au sous-sol, un garage est également compris dans la location. Copropriété récente de 2021, chauffage et eau chaude collectifs, double vitrage, volet PVC.
 Loyer hors charge : 586,00 € + provision pour charges 80,00 € (régularisation annuelle des charges), soit un loyer mensuel de 666,00 € charges comprises.
@@ -8467,8 +7958,7 @@ Dépôt de garantie : 584 €
 Montant des charges : 80 € / mois
 Modalité de récupération des charges locatives : provision avec régularisation annuelle
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 410 € et 610 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 1, null, 1, true, null, $$communal$$, $$gas$$, 2021, null, null, null),
-(1328, $$Appartement 2 pièces 47 m²$$, $$Grenoble 38000 Parc Paul Mistral - Clémenceau$$, false, 47, $$e$$, null, 650, $$Appartment$$, $$b$$, $$Beau T2 - Stade des Alpes
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 410 € et 610 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Saint-Martin-d'Hères 38400', '1', 'true', '1', null, null, 'communal', 'gas', '2021', null, null, '19.0512'), ('1328', 'Appartement 2 pièces 47 m²', 'false', '47', 'e', null, '650', 'Appartment', 'b', 'Beau T2 - Stade des Alpes
 
 GRENOBLE - 3 avenue Jeanne d'Arc : Un T2 situé au 6ème étage d'un immeuble en copropriété, idéalement situé. Il se compose d'un hall d'entrée, d'une cuisine semi-ouverte et équipée avec balcon, d'une chambre, d'une salle d'eau, d'un WC séparé et d'un séjour avec balcon et vue dégagée. Une cave au sous-sol complète également ce bien. L'immeuble dispose d'un local vélo. Chauffage individuel électrique. Eau froide individuelle.
 Référence annonce : LA5829-BONJOUR2_lbc
@@ -8481,9 +7971,7 @@ Modalité de récupération des charges locatives : provision avec régularisati
 A propos de la copropriété :
 Pas de procédure en cours
 
-Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 116 € et 1 510 € sur les années 2021, 2022 et 2023 (abonnements compris).$$, 2, 6, null, 1, true, null, $$individual$$, $$electric$$, null, null, null, null),
-(1329, $$Appa rtement$$, $$Saint-Cloud 92210 Fouilleuse - Val d'Or$$, false, 72, $$e$$, $$2025-10-31T23:00:00.000Z$$, 1, $$Appartment$$, $$e$$, $$SAINT CLOUD PRES GARE VAL D OR -APPARTEMENT TYPE F4 -DOUBLE SEJOUR + 2 CHAMBRES GRANDE CUISINE EN PARTIE EQUIPEE-SALLE DE BAINS -TOILETTES SEPAREES -RANGEMENT -BALCON CHAUFFAGE COLLECTIF -GARDIEN -INTERPHONE -CAVE-PARKING POSSIBLE$$, 4, 2, null, 2, true, 1, $$communal$$, $$gas$$, 1964, 8, null, null),
-(1330, $$Magnifique F2 meublé à louer$$, $$Remiremont 88200$$, true, 35, $$c$$, $$2025-10-31T23:00:00.000Z$$, 550, $$Appartment$$, $$b$$, $$F2 meublé – 35 m² – Centre-ville de REMIREMONT
+Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1 116 € et 1 510 € sur les années 2021, 2022 et 2023 (abonnements compris).', '2', 'Grenoble 38000 Parc Paul Mistral - Clémenceau', '1', 'true', '6', null, null, 'individual', 'electric', null, null, null, '279.6192'), ('1329', 'Appa rtement', 'false', '72', 'e', '2025-10-31T23:00:00.000Z', '1', 'Appartment', 'e', 'SAINT CLOUD PRES GARE VAL D OR -APPARTEMENT TYPE F4 -DOUBLE SEJOUR + 2 CHAMBRES GRANDE CUISINE EN PARTIE EQUIPEE-SALLE DE BAINS -TOILETTES SEPAREES -RANGEMENT -BALCON CHAUFFAGE COLLECTIF -GARDIEN -INTERPHONE -CAVE-PARKING POSSIBLE', '4', 'Saint-Cloud 92210 Fouilleuse - Val d'Or', '2', 'true', '2', null, '1', 'communal', 'gas', '1964', '8', null, '19.0512'), ('1330', 'Magnifique F2 meublé à louer', 'true', '35', 'c', '2025-10-31T23:00:00.000Z', '550', 'Appartment', 'b', 'F2 meublé – 35 m² – Centre-ville de REMIREMONT
 
 Situé en plein cœur de Remiremont, à seulement 200 mètres de la gare et de l’hôpital, cet appartement meublé de 35 m² est idéal pour un(e) étudiant(e), un(e) jeune actif(ve) ou un(e) professionnel(le) en mission.
 
@@ -8515,4 +8003,4 @@ N’hésitez pas à me contacter pour plus d’informations ou pour organiser un
 🔌 DPE :
 Montant estimé des dépenses annuelles d’énergie pour un usage standard : entre 659 € et 897 € (prix moyens des énergies indexés sur l’année 2022, abonnements compris).
 ℹ️ Les informations sur les risques auxquels ce bien est exposé sont disponibles sur :
-👉 www.georisques.gouv.fr$$, 2, 2, null, 1, false, null, $$individual$$, null, null, 3, null, null);
+👉 www.georisques.gouv.fr', '2', 'Remiremont 88200', '1', 'false', '2', null, null, 'individual', null, null, '3', null, '67.1762');
